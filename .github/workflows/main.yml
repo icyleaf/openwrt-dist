@@ -53,7 +53,7 @@ jobs:
         git clone -b master https://github.com/vernesong/OpenClash package/openclash
         # My own packages
         git clone --depth=1 https://github.com/icyleaf/openwrt-packages package/icyleaf
-        pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
+        # Update and install feeds
         ./scripts/feeds update -a
         ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6
     - name: Compile
@@ -64,11 +64,14 @@ jobs:
         make defconfig
         # Edit config
         make V=s
+        mkdir public
+        mv bin/packages/*/base/*.ipk public/
+        mv bin/packages/*/icyleaf/*.ipk public/
     - name: Upload
       uses: peaceiris/actions-gh-pages@v3
       if: steps.compile.outcome == 'success'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./sdk/bin/packages/*/{base,icyleaf}
+        publish_dir: ./public
         publish_branch: ${{ env.sdk_branch }}
         enable_jekyll: true
