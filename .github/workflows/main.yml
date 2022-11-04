@@ -68,11 +68,10 @@ jobs:
       run: |
         echo "sdk_branch=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
         make defconfig
-        # Edit config
-        make V=s
+        make -j$(nproc) || make -j1 || make -j1 V=s
+        # post-compile
         mkdir public
         mv bin/packages/*/base/*.ipk public/
-        mv bin/packages/*/icyleaf/*.ipk public/
     - name: Upload
       uses: peaceiris/actions-gh-pages@v3
       if: steps.compile.outcome == 'success'
