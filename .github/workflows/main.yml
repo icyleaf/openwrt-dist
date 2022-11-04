@@ -51,11 +51,17 @@ jobs:
       run: |
         # Clash
         git clone -b master https://github.com/vernesong/OpenClash package/openclash
+        # mosdns
+        git clone --depth=1 https://github.com/sbwml/luci-app-mosdns.git package/luci-app-mosdns
+        git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+        rm -rf package/luci-app-mosdns/mosdns
         # My own packages
         git clone --depth=1 https://github.com/icyleaf/openwrt-packages package/icyleaf
         # Update and install feeds
         ./scripts/feeds update -a
         ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6
+        # Remove old version packages (custom packages)
+        rm -rf package/feed/packages/tailscale
     - name: Compile
       id: compile
       working-directory: sdk
