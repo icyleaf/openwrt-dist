@@ -38,6 +38,7 @@ jobs:
     - name: Install requirements
       run: sudo apt install -y wget curl libev-dev libc-ares-dev libudns-dev libncurses-dev
     - name: Download Openwrt SDK
+      id: download_sdk
       run: |
         SDK_NAME=$(basename ${{ matrix.url }})
         SDK_HOME=$(head -c -8 <<< $SDK_NAME)
@@ -45,52 +46,29 @@ jobs:
         mv $SDK_HOME sdk/
         cp key-build sdk/
     - name: Download Packages
+      id: install_feeds
       working-directory: sdk
       run: |
-        # Shadowsocks
-        git clone -b master https://github.com/shadowsocks/luci-app-shadowsocks package/luci-app-shadowsocks
-        git clone -b master https://github.com/shadowsocks/openwrt-shadowsocks package/shadowsocks-libev
-        git clone -b master https://github.com/aa65535/openwrt-simple-obfs package/simple-obfs
-        # Misc
-        git clone -b master https://github.com/aa65535/openwrt-chinadns package/chinadns
-        git clone -b master https://github.com/aa65535/openwrt-dns-forwarder package/dns-forwarder
-        git clone -b master https://github.com/aa65535/openwrt-dist-luci package/openwrt-dist-luci
-        # Vlmcsd
-        git clone -b master https://github.com/mchome/openwrt-vlmcsd package/vlmcsd
-        git clone -b master https://github.com/mchome/luci-app-vlmcsd package/luci-app-vlmcsd
         # Clash
         git clone -b master https://github.com/vernesong/OpenClash package/openclash
-        # Smartdns
-        git clone -b master https://github.com/pymumu/openwrt-smartdns package/smartdns
-        git clone -b master https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
-        sed -i 's|../../luci.mk|$(TOPDIR)/feeds/luci/luci.mk|g; 7iPKG_NAME:=luci-app-smartdns' package/luci-app-smartdns/Makefile
-        # Dependency
-        #git clone -b master https://github.com/shadowsocks/openwrt-feeds package/custom
+        # My own packages
+        git clone --depth=1 https://github.com/icyleaf/openwrt-packages package/icyleaf
         pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
         ./scripts/feeds update -a
         ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6
     - name: Compile
+      id: compile
       working-directory: sdk
       run: |
+        echo "sdk_branch=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
         make defconfig
         # Edit config
         make V=s
-        echo "sdk_branch=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
-
     - name: Upload
       uses: peaceiris/actions-gh-pages@v3
+      if: steps.compile.outcome == 'success'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./sdk/bin/packages/*/base
+        publish_dir: ./sdk/bin/packages/*/{base,icyleaf}
         publish_branch: ${{ env.sdk_branch }}
-
-      # run: |
-      #   TAG=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})
-      #   # Upload base only
-      #   cd ~/sdk/bin/packages/*/base
-      #   git init
-      #   git config user.name "bot"
-      #   git config user.email "bot@github.com"
-      #   git add .
-      #   git commit -m "$TAG$(TZ='Asia/Shanghai' date +@%Y%m%d)"
-      #   git push --force --quiet "https://$GITHUB_TOKEN@github.com/simonsmh/openwrt-dist.git" HEAD:$TAG
+        enable_jekyll: true
