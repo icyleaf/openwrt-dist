@@ -62,19 +62,28 @@ jobs:
         ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6
         # Remove old version packages (custom packages)
         rm -rf package/feed/packages/tailscale
-    - name: Compile
-      id: compile
+    - name: Generate config
       working-directory: sdk
       run: |
         echo "sdk_branch=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
         make defconfig
-        make -j$(nproc) || make -j1 || make -j1 V=s
+        cat .config
+    - name: Compile
+      id: compile
+      working-directory: sdk
+      run: |
+        make -j$(nproc) || make -j1 V=sc
         # post-compile
+    - name: Organize packages
+      id: organize
+      working-directory: sdk
+      if: steps.compile.outcome == 'success'
+      run: |
         mkdir public
         mv bin/packages/*/base/*.ipk public/
     - name: Upload
       uses: peaceiris/actions-gh-pages@v3
-      if: steps.compile.outcome == 'success'
+      if: steps.organize.outcome == 'success'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
