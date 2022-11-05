@@ -37,13 +37,21 @@ jobs:
     - uses: actions/checkout@master
     - name: Install requirements
       run: sudo apt install -y wget curl libev-dev libc-ares-dev libudns-dev libncurses-dev
-    - name: Download Openwrt SDK
-      id: download_sdk
+    - name: Prepare enviroment
       run: |
-        SDK_NAME=$(basename ${{ matrix.url }})
-        SDK_HOME=$(head -c -8 <<< $SDK_NAME)
+        echo "sdk_name=$(echo $(basename ${{ matrix.url }}) | head -c -8)" >> $GITHUB_ENV
+        echo "sdk_branch=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
+    - name: Cache SDK
+      id: cache-sdk
+      uses: actions/cache@v3
+      with:
+        path: sdk
+        key: ${{ runner.os }}-${{ env.sdk_name }}
+    - name: Download Openwrt SDK
+      if: steps.cache-sdk.outputs.cache-hit != 'true'
+      run: |
         curl ${{ matrix.url }} | tar -xJ
-        mv $SDK_HOME sdk/
+        mv ${{ env.sdk_name }} sdk/
         cp key-build sdk/
     - name: Download Packages
       id: install_feeds
@@ -65,7 +73,6 @@ jobs:
     - name: Generate config
       working-directory: sdk
       run: |
-        echo "sdk_branch=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
         make defconfig
         cat .config
     - name: Compile
