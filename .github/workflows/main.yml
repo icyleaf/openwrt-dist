@@ -41,14 +41,15 @@ jobs:
       run: |
         echo "sdk_name=$(echo $(basename ${{ matrix.url }}) | head -c -8)" >> $GITHUB_ENV
         echo "sdk_branch=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
-    - name: Cache SDK
-      id: cache-sdk
-      uses: actions/cache@v3
-      with:
-        path: sdk
-        key: ${{ runner.os }}-${{ env.sdk_name }}
+    # NOTE: Unarchived file size over 10G can not cache by github action.
+    # - name: Cache SDK
+    #   id: cache-sdk
+    #   uses: actions/cache@v3
+    #   with:
+    #     path: sdk
+    #     key: ${{ runner.os }}-${{ env.sdk_name }}
     - name: Download Openwrt SDK
-      if: steps.cache-sdk.outputs.cache-hit != 'true'
+      # if: steps.cache-sdk.outputs.cache-hit != 'true'
       run: |
         curl ${{ matrix.url }} | tar -xJ
         mv ${{ env.sdk_name }} sdk/
@@ -57,24 +58,24 @@ jobs:
       id: install_feeds
       working-directory: sdk
       run: |
-        # My own packages
-        git clone --depth=1 https://github.com/icyleaf/openwrt-packages package/icyleaf
         # Update and install feeds
         ./scripts/feeds update -a
-        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre ca-bundle
+        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre ca-bundle luci-base
+        # My own packages
+        git clone --depth=1 https://github.com/icyleaf/openwrt-packages package/icyleaf
         # Clash
         git clone -b master https://github.com/vernesong/OpenClash package/openclash
         # mosdns
         git clone --depth=1 https://github.com/sbwml/luci-app-mosdns.git package/luci-app-mosdns
         git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
         rm -rf package/luci-app-mosdns/mosdns
-        # po2lmo
-        git clone -b master https://github.com/aa65535/openwrt-dist-luci package/openwrt-dist-luci
-        pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
+        # # po2lmo
+        # git clone -b master https://github.com/aa65535/openwrt-dist-luci package/openwrt-dist-luci
+        # pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
         # Remove old version packages (custom packages)
         rm -rf package/feed/packages/tailscale
         rm -rf package/icyleaf/network/tailscale
-    - name: Generate tailscale
+    - name: Generate .config
       working-directory: sdk
       run: |
         make defconfig
@@ -92,20 +93,20 @@ jobs:
       run: |
         mkdir public
         mv bin/packages/*/base/*.ipk public/
-    - name: Upload
+    - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: steps.organize.outcome == 'success'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        publish_dir: ./sdk/public
         publish_branch: ${{ env.sdk_branch }}
         enable_jekyll: true
-    - name: Post-Upload
-      if: steps.cache-sdk.outputs.cache-hit == 'true'
-      working-directory: sdk
-      run: |
-        # Remove dirty resource to cache
-        ./scripts/feeds clean
-        make clean
-        rm -f .config
+    # - name: Post-Upload
+    #   if: steps.compile.outcome == 'true'
+    #   working-directory: sdk
+    #   run: |
+    #     # Remove dirty resource to cache
+    #     ./scripts/feeds clean
+    #     make clean
+    #     rm -f .config
 
