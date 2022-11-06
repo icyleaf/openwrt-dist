@@ -3,8 +3,8 @@ on:
   push:
     branches:
     - master
-  schedule:
-  - cron: 0 0 * * *
+  # schedule:
+  # - cron: 0 0 * * *
   workflow_dispatch:
     # inputs:
     #   version:
@@ -68,6 +68,9 @@ jobs:
         git clone --depth=1 https://github.com/sbwml/luci-app-mosdns.git package/luci-app-mosdns
         git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
         rm -rf package/luci-app-mosdns/mosdns
+        # po2lmo
+        git clone -b master https://github.com/aa65535/openwrt-dist-luci package/openwrt-dist-luci
+        pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
         # Remove old version packages (custom packages)
         rm -rf package/feed/packages/tailscale
         rm -rf package/icyleaf/network/tailscale
