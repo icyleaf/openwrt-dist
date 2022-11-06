@@ -53,30 +53,25 @@ jobs:
         curl ${{ matrix.url }} | tar -xJ
         mv ${{ env.sdk_name }} sdk/
         cp key-build sdk/
-    - name: Clean old config
-      if: steps.cache-sdk.outputs.cache-hit == 'true'
-      working-directory: sdk
-      run: |
-        rm -f .config
     - name: Download Packages
       id: install_feeds
       working-directory: sdk
       run: |
+        # My own packages
+        git clone --depth=1 https://github.com/icyleaf/openwrt-packages package/icyleaf
+        # Update and install feeds
+        ./scripts/feeds update -a
+        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre ca-bundle
         # Clash
         git clone -b master https://github.com/vernesong/OpenClash package/openclash
         # mosdns
         git clone --depth=1 https://github.com/sbwml/luci-app-mosdns.git package/luci-app-mosdns
         git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
         rm -rf package/luci-app-mosdns/mosdns
-        # My own packages
-        git clone --depth=1 https://github.com/icyleaf/openwrt-packages package/icyleaf
-        # Update and install feeds
-        ./scripts/feeds update -a
-        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre ca-bundle
         # Remove old version packages (custom packages)
         rm -rf package/feed/packages/tailscale
-        rm -rf package/icyleaf/tailscale
-    - name: Generate config
+        rm -rf package/icyleaf/network/tailscale
+    - name: Generate tailscale
       working-directory: sdk
       run: |
         make defconfig
@@ -102,3 +97,12 @@ jobs:
         publish_dir: ./public
         publish_branch: ${{ env.sdk_branch }}
         enable_jekyll: true
+    - name: Post-Upload
+      if: steps.cache-sdk.outputs.cache-hit == 'true'
+      working-directory: sdk
+      run: |
+        # Remove dirty resource to cache
+        ./scripts/feeds clean
+        make clean
+        rm -f .config
+
