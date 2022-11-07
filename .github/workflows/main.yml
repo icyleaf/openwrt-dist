@@ -93,7 +93,7 @@ jobs:
       if: steps.compile.outcome == 'success'
       run: |
         mkdir public
-        mv bin/packages/*/base/*.ipk public/
+        mv bin/packages/*/base/* public/
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: steps.organize.outcome == 'success'
