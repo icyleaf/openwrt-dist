@@ -3,8 +3,8 @@ on:
   push:
     branches:
     - master
-  # schedule:
-  # - cron: 0 0 * * *
+  schedule:
+  - cron: 0 0 * * *
   workflow_dispatch:
     # inputs:
     #   version:
@@ -42,6 +42,7 @@ jobs:
       run: |
         echo "sdk_name=$(echo $(basename ${{ matrix.url }}) | head -c -8)" >> $GITHUB_ENV
         echo "sdk_branch=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
+
     # NOTE: Unarchived file size over 10G can not cache by github action.
     # - name: Cache SDK
     #   id: cache-sdk
@@ -98,7 +99,7 @@ jobs:
       uses: jayanta525/github-pages-directory-listing@v2.0.0
       if: steps.compile.outcome == 'success'
       with:
-        FOLDER: public
+        FOLDER: ./sdk/public
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: steps.organize.outcome == 'success'

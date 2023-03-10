@@ -1,5 +1,6 @@
 # OpenWRT dist
-[![](https://github.com/icyleaf/openwrt-dist/workflows/Openwrt%20Build%20Bot/badge.svg)](https://github.com/simonsmh/openwrt-dist/actions)
+
+[![Openwrt Build Bot](https://github.com/icyleaf/openwrt-dist/actions/workflows/main.yml/badge.svg)](https://github.com/icyleaf/openwrt-dist/actions/workflows/main.yml)
 
 Build with GitHub Action Workflow daily.
 
@@ -10,6 +11,7 @@ This project is only for OpenWRT routers. Currently it's based on 2203.
 ## Openwrt Package Builder
 
 ### Usage
+
 #### Step 1
 First, Add the public key [simonsmh-dist.pub](./simonsmh-dist.pub) which is paired with private key [key-build](./key-build) for building.
 
