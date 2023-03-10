@@ -31,8 +31,8 @@ jobs:
         # - https://downloads.openwrt.org/releases/22.03.0/targets/ath79/generic/openwrt-sdk-22.03.0-ath79-generic_gcc-11.2.0_musl.Linux-x86_64.tar.xz
         # - https://downloads.openwrt.org/releases/22.03.0/targets/ath79/nand/openwrt-sdk-22.03.0-ath79-nand_gcc-11.2.0_musl.Linux-x86_64.tar.xz
         # - https://downloads.openwrt.org/releases/22.03.2/targets/x86/64/openwrt-sdk-22.03.2-x86-64_gcc-11.2.0_musl.Linux-x86_64.tar.xz
-        - https://downloads.immortalwrt.org/snapshots/targets/armvirt/64/immortalwrt-sdk-armvirt-64_gcc-11.3.0_musl.Linux-x86_64.tar.xz
-        - https://downloads.immortalwrt.org/snapshots/targets/x86/64/immortalwrt-sdk-x86-64_gcc-11.3.0_musl.Linux-x86_64.tar.xz
+        - https://downloads.immortalwrt.org/snapshots/targets/armvirt/64/immortalwrt-sdk-armvirt-64_gcc-12.2.0_musl.Linux-x86_64.tar.xz
+        - https://downloads.immortalwrt.org/snapshots/targets/x86/64/immortalwrt-sdk-x86-64_gcc-12.2.0_musl.Linux-x86_64.tar.xz
         # - https://downloads.openwrt.org/releases/22.03.0/targets/rockchip/armv8/openwrt-sdk-22.03.0-rockchip-armv8_gcc-11.2.0_musl.Linux-x86_64.tar.xz
     steps:
     - uses: actions/checkout@master
