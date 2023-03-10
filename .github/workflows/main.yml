@@ -92,7 +92,7 @@ jobs:
       working-directory: sdk
       if: steps.compile.outcome == 'success'
       run: |
-        mkdir public/${{ env.sdk_branch }}
+        mkdir -p public/${{ env.sdk_branch }}
         mv bin/packages/*/base/* public/${{ env.sdk_branch }}
     - name: Generate Directory Listings
       uses: jayanta525/github-pages-directory-listing@v2.0.0
