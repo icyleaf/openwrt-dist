@@ -92,16 +92,21 @@ jobs:
       working-directory: sdk
       if: steps.compile.outcome == 'success'
       run: |
-        mkdir public
-        mv bin/packages/*/base/* public/
+        mkdir public/${{ env.sdk_branch }}
+        mv bin/packages/*/base/* public/${{ env.sdk_branch }}
+    - name: Generate Directory Listings
+      uses: jayanta525/github-pages-directory-listing@v2.0.0
+      if: steps.compile.outcome == 'success'
+      with:
+        FOLDER: public
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: steps.organize.outcome == 'success'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./sdk/public
-        publish_branch: ${{ env.sdk_branch }}
         enable_jekyll: true
+        keep_files: true
     # - name: Post-Upload
     #   if: steps.compile.outcome == 'true'
     #   working-directory: sdk
