@@ -1,0 +1,124 @@
+How to check signature with OPKG in Linux embedded devices?
+
+You can verify OPKG signature check functionality using cryptography library packages either gpgme or openssl.
+
+Below are the details for packages required, how to create self-signed certificate, how to create signature file and how to verify signature on device.
+
+#############################################################################################
++++++++++++++++++++++++++++++++++++++++++
+OPKG and GPGME:
++++++++++++++++++++++++++++++++++++++++++
+Step1: Compile following packages:
+		1) OPKG - v0.2.4 with gpgme option enabled (specify configure option "--enable-gpg" in OPKG makefile/menuconfig)
+		2) gnupg2 - v2.0.22
+			. This package depends on "zlib libgpg-error libgcrypt pth libksba libassuan")
+			. OPKG - v0.2.4 uses gpg2 application to verify signature file.
+		3) gnupg - v1.4.16
+			. This package depends on "zlib readline"
+			. OPKG-0.2.4 uses gpg application to create /etc/opkg/trusted.gpg
+			. This is required only to create static file trusted.gpg
+
+		Note:
+			Signature works with opkg v0.2.4 onwards.
+
+Step2: Create GPG-key, Public key and Packages.sig file in your PC using either gpg or gpg2.
+		1) Generate a Key Pair
+			gpg2 --gen-key
+
+			. Select the default value when asked for the type, the size, and the time of validity for the key -or- enter your requirements.
+			. For More Info refer - http://zacharyvoase.com/2009/08/20/openpgp/
+
+		2) Export a public key (required on device to add on to his key ring list, refer below)
+			gpg --output public.key --export --armor
+
+			Note:
+				. If you have only one key in your list ($HOME/.gnupg) then use above command otherwise specify key ID or user ID to export public key.
+				. For more info refer - https://www.gnupg.org/gph/en/manual/x56.html
+
+		3) Sign a File
+			gpg2 --output Packages.sig -ab Packages
+
+			Note:
+			. Packages.sig -> output signature file
+			. Packages -> input file to create signature
+			. Signature works only on uncompressed file and doesn't work with compressed file and so you have to create signature on Package file (not on Packages.gz).
+			. OPKG - v0.2.4 source hard-coded packages signature file name with Packages.sig and so make sure you are creating file name in same format.
+
+		4) Keep all Debian packages, Packages.gz and Packages.sig together, where device configured to download images.
+
+Step3: Create trusted.gpg key ring file on device using OPKG.
+		1) command to create trustdb.gpg
+			opkg-key list
+
+			Above opkg list command creates two files in opkg configuration directory.
+			(/etc/opkg/secring.gpg  & /etc/opkg/trustdb.gpg)
+
+Step4: Update device with Public key
+		1) Download public.key on to device
+			Use either scp or any method to download file to device temp/any location (say /tmp/public.key)
+
+		2) command to update opkg key ring list /etc/opkg/trustdb.gpg
+			opkg-key add <Path-To-PublicKey> -or- opkg-key add /tmp/public.key
+
+Step5: Enable signature check in opkg.conf file
+		Add below line to opkg.conf file.
+		option check_signature 1
+
+setp6: Verify signature with opkg update command
+		opkg-cl -V 4 -f <path-to-opkg.conf>	-d ram update
+		-or-
+		opkg update
+		-or-
+		whatever format or option you use with opkg to update
+
+		This command should output with Signature check passed.
+#############################################################################################
+
++++++++++++++++++++++++++++++++++++++++++
+OPKG and OPENSSL:
++++++++++++++++++++++++++++++++++++++++++
+This method is very easier than GPGME method.
+
+Step1: Compile following packages:
+		1) OPKG - v0.1.8 with gpgme option disabled and enable open ssl(specify configure option "--disable-gpg --enable-openssl" in OPKG makefile/menuconfig)
+		2) openssl - 1.0.1g
+
+		Note:
+			Signature works with opkg v0.1.8 onwards.
+
+Step2: Create self-signed certificate and Packages.sig file
+		Below are the sequence of commands to create RSA-key pair, self-signed certificate and Packages.sig.
+		1) create private key and self-signed crt
+			openssl req -x509 -newkey rsa:2048 -out server.crt -keyout server.key
+
+		2) create public pem from CA
+			openssl x509 -inform PEM -in server.crt -out public.pem
+
+		3) create .sig file using openssl
+			openssl smime -sign -in Packages -inkey server.key -signer server.crt -binary -outform PEM -out Packages.sig
+
+			Note:
+			. Packages.sig -> output signature file
+			. Packages -> input file to create signature
+			. Signature works only on uncompressed file and doesn't work with compressed file and so you have to create signature on Package file (not on Packages.gz).
+			. OPKG - v0.1.8 source hard-coded packages signature file name with Packages.sig and so make sure you are creating file name in same format.
+
+		4) Keep all Debian packages, Packages.gz and Packages.sig together, where device configured to download images.
+
+Step3: Download public pem file to device temp/any location (say /tmp/public.key)(created in setp2:)
+
+
+Step4: Enable signature check and configure signature_ca_file in opkg.conf file
+		Add below lines to opkg.conf file.
+		option check_signature 1
+		option signature_ca_file <path-to-public-pem-download-location>/public.pem
+
+setp5: Verify signature with opkg update command
+		opkg-cl -V 4 -f <path-to-opkg.conf>	-d ram update
+		-or-
+		opkg update
+		-or-
+		whatever format or option you use with opkg to update
+
+		This command should output with Signature check passed.
+#############################################################################################
