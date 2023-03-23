@@ -82,7 +82,6 @@ jobs:
 
         # Remove old version packages (custom packages)
         rm -rf package/feed/packages/tailscale
-        rm -rf package/icyleaf/network/tailscale
     - name: Generate .config
       working-directory: sdk
       run: |
