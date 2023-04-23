@@ -36,8 +36,15 @@ jobs:
         # - https://downloads.openwrt.org/releases/22.03.0/targets/rockchip/armv8/openwrt-sdk-22.03.0-rockchip-armv8_gcc-11.2.0_musl.Linux-x86_64.tar.xz
     steps:
     - uses: actions/checkout@master
-    - name: Install requirements
-      run: sudo apt install -y build-essential clang flex g++ gawk gcc-multilib gettext git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev libev-dev libc-ares-dev libudns-dev libncurses-dev
+    - name: Initialization environment
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
+        sudo -E apt-get -qq update
+        sudo -E apt-get -qq install build-essential clang flex g++ gawk gcc-multilib gettext git libncurses5-dev libssl-dev python3-distutils rsync unzip zlib1g-dev libev-dev libc-ares-dev libudns-dev libncurses-dev
+        sudo -E apt-get -qq autoremove --purge
+        sudo -E apt-get -qq clean
     - name: Prepare enviroment
       run: |
         echo "sdk_name=$(echo $(basename ${{ matrix.url }}) | head -c -8)" >> $GITHUB_ENV
@@ -56,6 +63,7 @@ jobs:
         curl ${{ matrix.url }} | tar -xJ
         mv ${{ env.sdk_name }} sdk/
         cp key-build sdk/
+
     - name: Download Packages
       id: install_feeds
       working-directory: sdk
@@ -87,12 +95,17 @@ jobs:
       run: |
         make defconfig
         cat .config
+
+    - name: Check space usage
+      if: (!cancelled())
+      run: df -hT
+
     - name: Compile
       id: compile
       working-directory: sdk
       run: |
         make -j$(nproc) || make -j1 V=sc
-        # post-compile
+
     - name: Organize packages
       id: organize
       working-directory: sdk
@@ -100,11 +113,13 @@ jobs:
       run: |
         mkdir -p public/${{ env.sdk_branch }}
         mv bin/packages/*/base/* public/${{ env.sdk_branch }}
+
     - name: Generate Directory Listings
       uses: jayanta525/github-pages-directory-listing@v2.0.0
       if: steps.compile.outcome == 'success'
       with:
         FOLDER: ./sdk/public
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: steps.organize.outcome == 'success'
@@ -113,6 +128,7 @@ jobs:
         publish_dir: ./sdk/public
         enable_jekyll: true
         keep_files: true
+
     # - name: Post-Upload
     #   if: steps.compile.outcome == 'true'
     #   working-directory: sdk
