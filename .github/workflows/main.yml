@@ -25,7 +25,7 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        - https://downloads.immortalwrt.org/releases/21.02.6/targets/x86/64/immortalwrt-sdk-21.02.6-x86-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
+        # - https://downloads.immortalwrt.org/releases/21.02.6/targets/x86/64/immortalwrt-sdk-21.02.6-x86-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/snapshots/targets/x86/64/immortalwrt-sdk-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/releases/23.05.0-rc3/targets/x86/64/immortalwrt-sdk-23.05.0-rc3-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
     steps:
@@ -51,6 +51,7 @@ jobs:
     #   with:
     #     path: sdk
     #     key: ${{ runner.os }}-${{ env.sdk_name }}
+
     - name: Download Openwrt SDK
       # if: steps.cache-sdk.outputs.cache-hit != 'true'
       run: |
@@ -74,7 +75,7 @@ jobs:
         # mosdns
 
         rm -rf packages/net/v2ray-geodata
-        git clone --depth=1 https://github.com/sbwml/luci-app-mosdns.git package/luci-app-mosdns
+        git clone --depth=1 https://github.com/sbwml/luci-app-mosdns.git -b v5 package/luci-app-mosdns
         git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
         rm -rf package/luci-app-mosdns/mosdns
 
@@ -84,6 +85,7 @@ jobs:
 
         # Remove old version packages (custom packages)
         rm -rf package/feed/packages/tailscale
+
     - name: Generate .config
       working-directory: sdk
       run: |
