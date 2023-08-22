@@ -6,16 +6,6 @@ on:
   schedule:
   - cron: 0 0 * * */7
   workflow_dispatch:
-    # inputs:
-    #   version:
-    #     description: Which version of SDK
-    #     required: true
-    #     default: 'snapshots'
-    #     type: choice
-    #     options:
-    #       - snapshots
-    #       - 22.03.2
-    #       - 21.02.05
 
 jobs:
   dist:
@@ -25,7 +15,6 @@ jobs:
       fail-fast: false
       matrix:
         url:
-        # - https://downloads.immortalwrt.org/releases/21.02.6/targets/x86/64/immortalwrt-sdk-21.02.6-x86-64_gcc-8.4.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/snapshots/targets/x86/64/immortalwrt-sdk-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/immortalwrt-sdk-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/releases/23.05.0-rc3/targets/x86/64/immortalwrt-sdk-23.05.0-rc3-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
@@ -42,7 +31,12 @@ jobs:
     - name: Prepare enviroment
       run: |
         echo "sdk_name=$(echo $(basename ${{ matrix.url }}) | head -c -8)" >> $GITHUB_ENV
-        echo "sdk_branch=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
+        echo "sdk_branch=$(sed -n 's/.*\/\(\w*\)\/targets\/\(\w*\)\/\(\w*\)\/.*/\1\/packages\/\2\/\3/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
+
+    - name: Debug variables
+      run: |
+        echo sdk_name: ${{ env.sdk_name }}
+        echo sdk_branch: ${{ env.sdk_branch }}
 
     # NOTE: Unarchived file size over 10G can not cache by github action.
     # - name: Cache SDK
@@ -72,8 +66,8 @@ jobs:
 
         # Clash
         git clone --depth=1 -b master https://github.com/vernesong/OpenClash package/openclash
-        # mosdns
 
+        # mosdns
         rm -rf packages/net/v2ray-geodata
         git clone --depth=1 https://github.com/sbwml/luci-app-mosdns.git -b v5 package/luci-app-mosdns
         git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
@@ -91,10 +85,6 @@ jobs:
       run: |
         make defconfig
         cat .config
-
-    - name: Check space usage
-      if: (!cancelled())
-      run: df -hT
 
     - name: Compile
       id: compile
