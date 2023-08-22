@@ -31,7 +31,7 @@ jobs:
     - name: Prepare enviroment
       run: |
         echo "sdk_name=$(echo $(basename ${{ matrix.url }}) | head -c -8)" >> $GITHUB_ENV
-        echo "sdk_branch=$(sed -n 's/.*\/\(\w*\)\/targets\/\(\w*\)\/\(\w*\)\/.*/\1\/packages\/\2\/\3/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
+        echo "sdk_branch=$(sed -n 's/.*\/\(\S*\)\/targets\/\(\w*\)\/\(\w*\)\/.*/\1\/packages\/\2\/\3/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
 
     - name: Debug variables
       run: |
