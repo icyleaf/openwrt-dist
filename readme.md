@@ -2,7 +2,7 @@
 
 [![Openwrt Build Bot](https://github.com/icyleaf/openwrt-dist/actions/workflows/main.yml/badge.svg)](https://github.com/icyleaf/openwrt-dist/actions/workflows/main.yml)
 
-Build with GitHub Action Workflow daily.
+Build with GitHub Action Workflow weekly.
 
 This project is only for OpenWRT routers. Currently it's based on snapshot and 23.05.0-rc3.
 
@@ -16,7 +16,7 @@ This project is only for OpenWRT routers. Currently it's based on snapshot and 2
 
 First, Add the public key [key-build.pub](./key-build.pub) which is paired with private key [key-build](./key-build) for building.
 
-```
+```bash
 wget http://cdn.jsdelivr.net/gh/icyleaf/openwrt-dist@master/key-build.pub
 opkg-key add key-build.pub
 ```
@@ -26,13 +26,13 @@ opkg-key add key-build.pub
 Fetch you arch of openwrt and update the link below:
 
 ```
-src/gz icyleaf https://icyleaf-openwrt-repo.vercel.app/packages/{{arch}}
+src/gz icyleaf https://icyleaf-openwrt-repo.vercel.app/{{target}}/packages/{{arch}}
 ```
 
-For example, if you want to use `x86_64` packages and you got the branch name as `packages/x86/64`, You could use this line after the previous step.
+For example, if you want to use `snapshot` target with `x86_64` arch packages and you got the branch name as `snapshot/packages/x86/64`, You could use this line after the previous step.
 
-```
-src/gz icyleaf https://icyleaf-openwrt-repo.vercel.app/packages/x86/64
+```bash
+echo "src/gz icyleaf https://icyleaf-openwrt-repo.vercel.app/snapshot/packages/x86/64" >> /etc/opkg/customfeeds.conf
 ```
 
 Then install whatever you want.
