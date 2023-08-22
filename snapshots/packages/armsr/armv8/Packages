@@ -1,0 +1,780 @@
+Package: ca-bundle
+Version: 20230311-1
+Depends: libc
+Provides: ca-certs
+Section: base
+Architecture: all
+Installed-Size: 123483
+Filename: ca-bundle_20230311-1_all.ipk
+Size: 124297
+SHA256sum: 4991dd7c587457da05ec24339833c8cd4d95507ad11cafd8d27827ad234f9866
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20230311-1
+Depends: libc
+Provides: ca-certs
+Section: base
+Architecture: all
+Installed-Size: 133827
+Filename: ca-certificates_20230311-1_all.ipk
+Size: 134587
+SHA256sum: 024cf9f1913fa0441f731f449dddf31e4e223f7153d7df77d6c6dbdd12bed172
+Description:  System CA certificates
+
+Package: iwinfo
+Version: 2023-07-01-ca79f641-1
+Depends: libc, libiwinfo20230701
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 7481
+Filename: iwinfo_2023-07-01-ca79f641-1_aarch64_generic.ipk
+Size: 8208
+SHA256sum: 4e18817d2290c8ac3fca9eb33aad2e90a6a5b8349a621c51b73613276b34e54e
+Description:  Command line frontend for the wireless information library.
+
+Package: jshn
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libjson-c5, libubox20230523, libblobmsg-json20230523
+License: ISC
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 7137
+Filename: jshn_2023-05-23-75a3b870-1_aarch64_generic.ipk
+Size: 7763
+SHA256sum: 2b721fe2c45154b7903b2c4c12f86ed42af01d58e4472842831f33a47092c2b9
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: libblobmsg-json20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libjson-c5, libubox20230523
+Provides: libblobmsg-json
+License: ISC
+Section: libs
+ABIVersion: 20230523
+Architecture: aarch64_generic
+Installed-Size: 4397
+Filename: libblobmsg-json20230523_2023-05-23-75a3b870-1_aarch64_generic.ipk
+Size: 5032
+SHA256sum: 032a0d62cac7adb9bb36a603e5b3a7d22036d4628aed1a34c99c8dd47c9d351e
+Description:  blobmsg <-> json conversion library
+
+Package: libiwinfo-data
+Version: 2023-07-01-ca79f641-1
+Depends: libc
+License: GPL-2.0
+Section: opt
+Architecture: aarch64_generic
+Installed-Size: 3061
+Filename: libiwinfo-data_2023-07-01-ca79f641-1_aarch64_generic.ipk
+Size: 3798
+SHA256sum: 448156d5861650721e5a98794916047b6af4dd618d378d0ff4b88b683fa3e934
+Description:  libiwinfo Lua binding
+
+Package: libiwinfo-lua
+Version: 2023-07-01-ca79f641-1
+Depends: libc, libiwinfo20230701, liblua5.1.5
+License: GPL-2.0
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 6672
+Filename: libiwinfo-lua_2023-07-01-ca79f641-1_aarch64_generic.ipk
+Size: 7480
+SHA256sum: a69226c56fa88bc859cb5d493182200c73ffb734dc3f17a8a351a853620f85dd
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo20230701
+Version: 2023-07-01-ca79f641-1
+Depends: libc, libnl-tiny1, libuci20130104, libubus20230605, libiwinfo-data
+Provides: libiwinfo
+License: GPL-2.0
+Section: libs
+ABIVersion: 20230701
+Architecture: aarch64_generic
+Installed-Size: 28178
+Filename: libiwinfo20230701_2023-07-01-ca79f641-1_aarch64_generic.ipk
+Size: 29062
+SHA256sum: fc0f32df01dfbd4c470428bb5e38c111e804afa2cbf37c7cc79e8736c4100fe9
+Description:  Wireless information library with simplified API for nl80211
+ and wext driver interfaces.
+
+Package: libjson-c5
+Version: 0.16-3
+Depends: libc
+Provides: libjson-c
+License: MIT
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:json-c_project:json-c
+Architecture: aarch64_generic
+Installed-Size: 28916
+Filename: libjson-c5_0.16-3_aarch64_generic.ipk
+Size: 29719
+SHA256sum: a946770821cfa29b2f7a98992d2dc4a57462ca08ce34b0b4fc5637fec03d0f8a
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libubox20230523
+Provides: libjson-script
+License: ISC
+Section: utils
+ABIVersion: 20230523
+Architecture: aarch64_generic
+Installed-Size: 5685
+Filename: libjson-script20230523_2023-05-23-75a3b870-1_aarch64_generic.ipk
+Size: 6317
+SHA256sum: 834a5cd569976d8e73df11347afd5cae9344717b8fd5ce4d1d126417825e6016
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua5.1.5
+Version: 5.1.5-10
+Depends: libc
+Provides: liblua
+License: MIT
+Section: libs
+ABIVersion: 5.1.5
+Architecture: aarch64_generic
+Installed-Size: 78280
+Filename: liblua5.1.5_5.1.5-10_aarch64_generic.ipk
+Size: 79112
+SHA256sum: 031c0f84353040f5fffed5ae85583cee2a97f831d8b809870c6b935dd6c9540f
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls12
+Version: 2.28.4-1
+Depends: libc
+Provides: libmbedtls
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_generic
+Installed-Size: 251390
+Filename: libmbedtls12_2.28.4-1_aarch64_generic.ipk
+Size: 251837
+SHA256sum: 51e84e8ac198d88f79e34dab5b9955f481d2810e0fc30b483e025b273ae9b001
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libnl-tiny1
+Version: 2023-07-27-bc92a280-1
+Depends: libc
+Provides: libnl-tiny
+License: LGPL-2.1
+Section: libs
+ABIVersion: 1
+Architecture: aarch64_generic
+Installed-Size: 17121
+Filename: libnl-tiny1_2023-07-27-bc92a280-1_aarch64_generic.ipk
+Size: 17802
+SHA256sum: 293a00c22d7c97a6b2aff8ea015c146fe4a4e7502a07065b6766b17022f5ba1f
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl-conf
+Version: 3.0.10-1
+Depends: libc, libopenssl3
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:openssl:openssl
+Architecture: aarch64_generic
+Installed-Size: 6271
+Filename: libopenssl-conf_3.0.10-1_aarch64_generic.ipk
+Size: 7483
+SHA256sum: c057f90dd9c1cb9a345e2568fcb37a3b591d43360f128a170f5bb7a188b0a79a
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
+
+Package: libopenssl-legacy
+Version: 3.0.10-1
+Depends: libc, libopenssl3, libopenssl-conf
+License: Apache-2.0
+Section: libs
+CPE-ID: cpe:/a:openssl:openssl
+Architecture: aarch64_generic
+Installed-Size: 35634
+Filename: libopenssl-legacy_3.0.10-1_aarch64_generic.ipk
+Size: 36613
+SHA256sum: 7251856636e1e8f3b5264f535d9ff54f78cf0555ea9b98b484e4124cd674a75d
+Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
+ have been deemed legacy. Such algorithms have commonly fallen out of use, have
+ been deemed insecure by the cryptography community, or something similar.  See
+ https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
+
+Package: libopenssl3
+Version: 3.0.10-1
+Depends: libc, kmod-crypto-user, kmod-cryptodev
+Provides: libopenssl
+License: Apache-2.0
+Section: libs
+ABIVersion: 3
+CPE-ID: cpe:/a:openssl:openssl
+Architecture: aarch64_generic
+Installed-Size: 2027595
+Filename: libopenssl3_3.0.10-1_aarch64_generic.ipk
+Size: 2016453
+SHA256sum: 5fdb955ceb1aaca3c985091f5a1ae518f2afb9c1fe98ee0fb4ad2ecd794f7c12
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libubox-lua
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libubox20230523, liblua5.1.5
+License: ISC
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 4559
+Filename: libubox-lua_2023-05-23-75a3b870-1_aarch64_generic.ipk
+Size: 5173
+SHA256sum: 358d25790f0c8068d0f255b63bba9711284f81d4dc00c61141bfce47f07f5969
+Description:  Lua binding for the OpenWrt Basic utility library
+
+Package: libubox20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc
+Provides: libubox
+License: ISC
+Section: libs
+ABIVersion: 20230523
+Architecture: aarch64_generic
+Installed-Size: 24517
+Filename: libubox20230523_2023-05-23-75a3b870-1_aarch64_generic.ipk
+Size: 25190
+SHA256sum: 1c1c9c7abc0847390e5256a3ad239ad2b2939f91877f8234a0872c75e7d79bea
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubus20230605, liblua5.1.5
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 7400
+Filename: libubus-lua_2023-06-05-f787c97b-1_aarch64_generic.ipk
+Size: 8147
+SHA256sum: f51d86bd71b49f544d7d5df8ef6b8b1f14b9d1c4f366d8b2eb181fee966174f8
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus20230605
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubox20230523
+Provides: libubus
+License: LGPL-2.1
+Section: libs
+ABIVersion: 20230605
+Architecture: aarch64_generic
+Installed-Size: 11597
+Filename: libubus20230605_2023-06-05-f787c97b-1_aarch64_generic.ipk
+Size: 12259
+SHA256sum: 82228d73f937edace4e82793191bac9e0976aeb2858c7a8eb6908b2e92eb3d62
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2023-08-10-5781664d-1
+Depends: libc, libuci20130104, liblua5.1.5
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_generic
+Installed-Size: 7531
+Filename: libuci-lua_2023-08-10-5781664d-1_aarch64_generic.ipk
+Size: 8227
+SHA256sum: 882a16344d2926997c1bdb6dc8ca3c4be3c430796195fc356b3f260240ccf789
+Description:  Lua plugin for UCI
+
+Package: libuci20130104
+Version: 2023-08-10-5781664d-1
+Depends: libc, libubox20230523
+Provides: libuci
+License: LGPL-2.1
+Section: libs
+ABIVersion: 20130104
+Architecture: aarch64_generic
+Installed-Size: 18326
+Filename: libuci20130104_2023-08-10-5781664d-1_aarch64_generic.ipk
+Size: 19019
+SHA256sum: f696b6f3aec75ae0bb93c741d91c5e348f45a466b0a669c2d63f1fef3d88c46b
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libucode20220812
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, libjson-c5
+Provides: libucode
+License: ISC
+Section: libs
+ABIVersion: 20220812
+Architecture: aarch64_generic
+Installed-Size: 76091
+Filename: libucode20220812_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 76756
+SHA256sum: a2bdca3b083ee2eb2b19a49b0b225f55806619fd6e919235d32ba6ccd1d3c1c9
+Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
+Package: lua-examples
+Version: 5.1.5-10
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 5297
+Filename: lua-examples_5.1.5-10_aarch64_generic.ipk
+Size: 6186
+SHA256sum: a4f56d9fa41c383f50346a1a463843ecf5eba36476d60ee58b6493f14c250dda
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains Lua language examples.
+
+Package: lua
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+License: MIT
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 5182
+Filename: lua_5.1.5-10_aarch64_generic.ipk
+Size: 5890
+SHA256sum: a6b9e4ba6816545604ec9820897aad87abe6220cab23c9f8ed05611e2ef8dd25
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luac
+Version: 5.1.5-10
+Depends: libc, liblua5.1.5
+License: MIT
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 5665
+Filename: luac_5.1.5-10_aarch64_generic.ipk
+Size: 6490
+SHA256sum: 030d1361dfc3df6a36951b0faf27ee7d47fd12b80b159a5954510470d9f42d49
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language compiler.
+
+Package: luci-app-mosdns
+Version: 1.5.6
+Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 13316
+Filename: luci-app-mosdns_1.5.6_all.ipk
+Size: 14188
+SHA256sum: 16e05c1b562ea4d18fe01431d913c47d94843120b038509f90295041222954cc
+Description:  LuCI Support for mosdns
+
+Package: luci-app-openclash
+Version: 0.45.141-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Section: opt
+Architecture: all
+Installed-Size: 4365240
+Filename: luci-app-openclash_0.45.141-beta_all.ipk
+Size: 4349573
+SHA256sum: 553c29715eb75a01b20996b32e472950688ae80089eadfc83655c1d0daa80302
+Description:  A LuCI support for clash
+
+Package: luci-i18n-mosdns-zh-cn
+Version: git-23.232.80015-b69cee9
+Depends: libc, luci-app-mosdns
+Section: luci
+Architecture: all
+Installed-Size: 3229
+Filename: luci-i18n-mosdns-zh-cn_git-23.232.80015-b69cee9_all.ipk
+Size: 4049
+SHA256sum: 652635627650d25946c5c0e909396de7952fcf5b8abf2396b647bcc750b78f3c
+Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
+
+Package: mbedtls-util
+Version: 2.28.4-1
+Depends: libc, libmbedtls12
+License: GPL-2.0-or-later
+Section: utils
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_generic
+Installed-Size: 33430
+Filename: mbedtls-util_2.28.4-1_aarch64_generic.ipk
+Size: 33983
+SHA256sum: 8f0850e5260352612e6e4a67576d1d383d4bbbf4d41c74cefd9c36d489f203be
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains mbedtls helper programs for private key and
+ CSR generation (gen_key, cert_req)
+
+Package: neofetch
+Version: 20211210-master-1
+Depends: libc
+License: MIT
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 96217
+Filename: neofetch_20211210-master-1_aarch64_generic.ipk
+Size: 97080
+SHA256sum: 5213183747aa5b19f831ddbdebaf721338ed576604d4fc3447c7e55c8ffd16fe
+Description:  A system information frontend, with an (unhealthy) emphasis on performance.
+
+Package: openssl-util
+Version: 3.0.10-1
+Depends: libc, libopenssl3, libopenssl-conf
+License: Apache-2.0
+Section: utils
+CPE-ID: cpe:/a:openssl:openssl
+Architecture: aarch64_generic
+Installed-Size: 341786
+Filename: openssl-util_3.0.10-1_aarch64_generic.ipk
+Size: 341406
+SHA256sum: af7f566d986d594284def9c1a5fb5feed8533453ff7f1246ace080addd3dbe8f
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: rpcd-mod-file
+Version: 2023-07-01-c07ab2f9-1
+Depends: libc, libubus20230605, libubox20230523, rpcd
+License: ISC
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 7649
+Filename: rpcd-mod-file_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
+Size: 8425
+SHA256sum: 08657823603c8aaedfed727cd12836d7e1e4c1e643861d83e96cf9dac3c8d3bd
+Description:  Provides ubus calls for file and directory operations.
+
+Package: rpcd-mod-iwinfo
+Version: 2023-07-01-c07ab2f9-1
+Depends: libiwinfo (>= 2023-01-21), libc, libubus20230605, libubox20230523, rpcd, libiwinfo20230701
+License: ISC
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 8045
+Filename: rpcd-mod-iwinfo_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
+Size: 8852
+SHA256sum: 5ec2f42a438e0eb3df477328bbb7a602d5d3c5ec5fad07ffe48c948ce6b852fe
+Description:  Provides ubus calls for accessing iwinfo data.
+
+Package: rpcd-mod-rpcsys
+Version: 2023-07-01-c07ab2f9-1
+Depends: libc, libubus20230605, libubox20230523, rpcd
+License: ISC
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 4144
+Filename: rpcd-mod-rpcsys_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
+Size: 4853
+SHA256sum: 4d198c8ad69a852d178a81f349309edf002ba9de6b671a6f78a1878350f2ee80
+Description:  Provides ubus calls for sysupgrade and password changing.
+
+Package: rpcd-mod-ucode
+Version: 2023-07-01-c07ab2f9-1
+Depends: libc, libubus20230605, libubox20230523, rpcd, libucode20220812
+License: ISC
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 8277
+Filename: rpcd-mod-ucode_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
+Size: 9064
+SHA256sum: c67162bde897e1ffdd6513f8501c01b407fbf5d58369ef82e7cc69b9a8df3622
+Description:  Allows implementing plugins using ucode scripts.
+
+Package: rpcd
+Version: 2023-07-01-c07ab2f9-1
+Depends: libc, libubus20230605, libubox20230523, libuci20130104, libblobmsg-json20230523, libjson-c5
+License: ISC
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 27405
+Filename: rpcd_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
+Size: 28279
+SHA256sum: eaaf64c690ae275b3885e3b04fad8900645e3cd1a9c8cb9140f8773d51ab470d
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: tailscale
+Version: 1.46.1-1
+Depends: libc, tailscaled
+License: MIT
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 4518924
+Filename: tailscale_1.46.1-1_aarch64_generic.ipk
+Size: 4506454
+SHA256sum: 1ac1680b51bf41cc67cad38fce7ebb8640f5ce4a3e2d00316db5555de913eb1a
+Description:  It creates a secure network between your servers, computers,
+ and cloud instances. Even when separated by firewalls or subnets.
+
+Package: tailscaled
+Version: 1.46.1-1
+Depends: libc, ca-bundle, kmod-tun
+License: MIT
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 7126036
+Filename: tailscaled_1.46.1-1_aarch64_generic.ipk
+Size: 7107265
+SHA256sum: b19b20c3327d3abc81977a0fe7ea92744dcbe50e10545f286e95162d242da8ba
+Description:  It creates a secure network between your servers, computers,
+ and cloud instances. Even when separated by firewalls or subnets.
+
+Package: traefik
+Version: 2.10.4-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 31849082
+Filename: traefik_2.10.4-1_aarch64_generic.ipk
+Size: 31493655
+SHA256sum: aa57a358f4101db6cdd488deffa06ddd8c369001e4bbb1715b8942086bdfbcc8
+Description:  Traefik, The Cloud Native Application Proxy
+
+Package: ubus
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubus20230605, libblobmsg-json20230523, ubusd
+License: LGPL-2.1
+Section: base
+Architecture: aarch64_generic
+Installed-Size: 6809
+Filename: ubus_2023-06-05-f787c97b-1_aarch64_generic.ipk
+Size: 7583
+SHA256sum: d43939e7543b07d24e48bc2e55a3a0aacd207ea7742879dc79e537403248df55
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubox20230523, libblobmsg-json20230523
+License: LGPL-2.1
+Section: base
+Architecture: aarch64_generic
+Installed-Size: 13476
+Filename: ubusd_2023-06-05-f787c97b-1_aarch64_generic.ipk
+Size: 14119
+SHA256sum: 018a9bc737c601b7cfe62cbec60443e5ecd96efa6d90839d01c68d173e1f49cf
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2023-08-10-5781664d-1
+Depends: libc, libuci20130104
+License: LGPL-2.1
+Section: base
+Architecture: aarch64_generic
+Installed-Size: 7324
+Filename: uci_2023-08-10-5781664d-1_aarch64_generic.ipk
+Size: 8014
+SHA256sum: 1bb066cc3bdf7d4e66e5f7986dd8203eb1eefc6126fba7a3b0607369ab4e1862
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: ucode-mod-fs
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 10424
+Filename: ucode-mod-fs_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 11109
+SHA256sum: 6583700a3bd9e8625b85437c139251e84c2fcfa0a9f4a1322123b35f9e745d97
+Description:  The filesystem plugin module allows interaction with the local file system.
+
+Package: ucode-mod-math
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 2789
+Filename: ucode-mod-math_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 3457
+SHA256sum: 33b6e4e9015fce6f62480d5b2a217914756a83e0b31cda6e31cf2b231d49187f
+Description:  The math plugin provides access to various <math.h> procedures.
+
+Package: ucode-mod-nl80211
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode, libnl-tiny1, libubox20230523
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 21984
+Filename: ucode-mod-nl80211_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 22367
+SHA256sum: 7a3034d3e8277e79b3363cb684343de0e7f460f92da84f54d13990224ff4efc8
+Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
+
+Package: ucode-mod-resolv
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 8240
+Filename: ucode-mod-resolv_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 8937
+SHA256sum: 608838a40c68d6a38e139f6a9368741bcd1014ce36a2188194e49bd6fcd2e509
+Description:  The resolv plugin implements simple DNS resolving.
+
+Package: ucode-mod-rtnl
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode, libnl-tiny1, libubox20230523
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 28158
+Filename: ucode-mod-rtnl_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 28643
+SHA256sum: ea3171c00acfed7bd7afcdc844e4ee024cbb3c63738206eb0bcac9975ac3ab1b
+Description:  The rtnl plugin provides access to the Linux routing netlink API.
+
+Package: ucode-mod-struct
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 9614
+Filename: ucode-mod-struct_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 10303
+SHA256sum: 034a888b7c312ba6a586dd200918c8ddd6e90a28c5e2628888250c07c1b99c8c
+Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
+
+Package: ucode-mod-ubus
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode, libubus20230605, libblobmsg-json20230523
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 14915
+Filename: ucode-mod-ubus_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 15603
+SHA256sum: a8543114ef67f30d4a4f67bf5f71483f97b96604f8cc60275946c861dcad1fa4
+Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus
+ procedures.
+
+Package: ucode-mod-uci
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode, libuci20130104
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 7600
+Filename: ucode-mod-uci_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 8318
+SHA256sum: 944599bed1cb8de42a2c3ad71b5ad13f1432fcacde3f3494f25422a8554db7f9
+Description:  The uci module allows templates to read and modify uci configuration.
+
+Package: ucode-mod-uloop
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode, libubox20230523
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 8406
+Filename: ucode-mod-uloop_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 9149
+SHA256sum: 9169104a6ef5b38926a4c2176afa7459a83f009a0c6ddc31bd9f4be6e31d29c7
+Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event
+ loop implementation.
+
+Package: ucode
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, libucode20220812
+License: ISC
+Section: lang
+Architecture: aarch64_generic
+Installed-Size: 6769
+Filename: ucode_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 7515
+SHA256sum: fed57faffb5c1e6ee2c1a3f96e5eebdfc6344ff8d527a54e6fd184f48e0c19fc
+Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
+ script language and Jinja-inspired templating.
+
+Package: v2dat
+Version: 2022-12-15-47b8ee51-1
+Depends: libc
+License: GPL-3.0
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 2607163
+Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
+Size: 2599824
+SHA256sum: 016b21e190f344cbe255074e011cd7324b47a2b102e175bdbb0063cc6775c4bf
+Description:  V2ray geo/ip data unpack tools
+
+Package: v2ray-geoip
+Version: 202308221616-1
+Depends: libc
+License: CC-BY-SA-4.0
+Section: net
+Architecture: all
+Installed-Size: 37090
+Filename: v2ray-geoip_202308221616-1_all.ipk
+Size: 34810
+SHA256sum: c06f3b99924536c0f2229a742991b47cde174d50f3fe60e9eb642ca77e367766
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 202308221616-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: all
+Installed-Size: 1328188
+Filename: v2ray-geosite_202308221616-1_all.ipk
+Size: 1328691
+SHA256sum: 4a914df82cceb59965ea56ad0e7a5a3a7476e6b383b9a6ba8b4807e2b360e421
+Description:  Geosite List for V2Ray
+
+Package: vector
+Version: 0.31.0-1
+Depends: libc
+License: MIT
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 39978028
+Filename: vector_0.31.0-1_aarch64_generic.ipk
+Size: 39654732
+SHA256sum: 8b70c2675f4cca59513a24ae04769eafeb08843d9312290f2f0e0d055ccc6266
+Description:  A high-performance observability data pipeline.
+
+Package: zlib-dev
+Version: 1.2.13-1
+Depends: libc, zlib
+License: Zlib
+Section: devel
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: aarch64_generic
+Installed-Size: 82258
+Filename: zlib-dev_1.2.13-1_aarch64_generic.ipk
+Size: 83019
+SHA256sum: 70a4ef78ab05f2920963079d675c10862e5d6be1aa19aece56040c105aede3d3
+Description:  zlib is a lossless data-compression library.
+ This package includes the development support files.
+
+Package: zlib
+Version: 1.2.13-1
+Depends: libc
+License: Zlib
+Section: libs
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: aarch64_generic
+Installed-Size: 45096
+Filename: zlib_1.2.13-1_aarch64_generic.ipk
+Size: 45597
+SHA256sum: 03bfe4ceb7053e10f52583e594c10105dde53e8cb303ddf3180f5e43d96d15dd
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
