@@ -2,9 +2,11 @@ name: Openwrt Build Bot
 on:
   push:
     branches:
-    - master
+      - master
+    paths-ignore:
+      - '**.md'
   schedule:
-  - cron: 0 0 * * */7
+    - cron: 0 0 * * */7
   workflow_dispatch:
 
 jobs:
