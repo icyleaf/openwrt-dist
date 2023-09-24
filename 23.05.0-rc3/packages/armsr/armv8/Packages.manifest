@@ -38,10 +38,10 @@ Section: utils
 SourceDateEpoch: 1691751213
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 7482
+Installed-Size: 7480
 Filename: iwinfo_2023-07-01-ca79f641-1_aarch64_generic.ipk
-Size: 8206
-SHA256sum: 7ce880dec7c4c5c8885986e8adada37fc910ab22367631ba198c9f8585a13741
+Size: 8214
+SHA256sum: 01b3b71c4d53d1d85ebc6bf65d7fcd7105bdbcbe9738f4c6e142f17c6a81e05f
 Description:  Command line frontend for the wireless information library.
 
 Package: jshn
@@ -104,16 +104,16 @@ Section: lang
 SourceDateEpoch: 1691751213
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 6679
+Installed-Size: 6677
 Filename: libiwinfo-lua_2023-07-01-ca79f641-1_aarch64_generic.ipk
-Size: 7489
-SHA256sum: 8d854e70fdf97f70f0820169881cf062cf27d073d1f63b57e6bd19727a4129c4
+Size: 7485
+SHA256sum: ea3714575e1d420776602876a65606fa6ad34aa3174d1803cc4f5ac1eb289c8a
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
 Package: libiwinfo20230701
 Version: 2023-07-01-ca79f641-1
-Depends: libc, libnl-tiny1, libuci20130104, libubus20220615, libiwinfo-data
+Depends: libc, libnl-tiny1, libuci20130104, libubus20230605, libiwinfo-data
 Provides: libiwinfo
 Source: feeds/base/package/network/utils/iwinfo
 SourceName: libiwinfo
@@ -123,10 +123,10 @@ SourceDateEpoch: 1691751213
 ABIVersion: 20230701
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 28178
+Installed-Size: 28177
 Filename: libiwinfo20230701_2023-07-01-ca79f641-1_aarch64_generic.ipk
-Size: 29059
-SHA256sum: 63f1f4c9aaeb8f21bf4575867c3956f05271e2c452c9bd08307748e73f4da621
+Size: 29052
+SHA256sum: 0c0f486f92211e15402b202562a4e315cdf4403cb106a884fdb1158c2b26ee5e
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -331,37 +331,37 @@ SHA256sum: 6e91a19e4333a40df3a51e350c8d3dec015aff77e742b5f117cc1c76a8ff137a
 Description:  Basic utility library
 
 Package: libubus-lua
-Version: 2022-06-15-9913aa61-1
-Depends: libc, libubus20220615, liblua5.1.5
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubus20230605, liblua5.1.5
 Source: feeds/base/package/system/ubus
 SourceName: libubus-lua
 License: LGPL-2.1
 Section: libs
-SourceDateEpoch: 1679419702
+SourceDateEpoch: 1695039918
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 7400
-Filename: libubus-lua_2022-06-15-9913aa61-1_aarch64_generic.ipk
-Size: 8145
-SHA256sum: 58549d869114b9d4fef573fd4c45c3eb0d3cde404716518781cc83a1cd2a3cee
+Installed-Size: 7397
+Filename: libubus-lua_2023-06-05-f787c97b-1_aarch64_generic.ipk
+Size: 8142
+SHA256sum: f4a3a22b9aad250aa5f1b474dbb7e83c12712c8d45c863ce9fd10ca34f5ec421
 Description:  Lua binding for the OpenWrt RPC client
 
-Package: libubus20220615
-Version: 2022-06-15-9913aa61-1
+Package: libubus20230605
+Version: 2023-06-05-f787c97b-1
 Depends: libc, libubox20230523
 Provides: libubus
 Source: feeds/base/package/system/ubus
 SourceName: libubus
 License: LGPL-2.1
 Section: libs
-SourceDateEpoch: 1679419702
-ABIVersion: 20220615
+SourceDateEpoch: 1695039918
+ABIVersion: 20230605
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 11605
-Filename: libubus20220615_2022-06-15-9913aa61-1_aarch64_generic.ipk
-Size: 12275
-SHA256sum: 66ddea521d3888967fb53b6b76049cc91a58842b478f13f195fe8ccf4411f486
+Installed-Size: 11597
+Filename: libubus20230605_2023-06-05-f787c97b-1_aarch64_generic.ipk
+Size: 12262
+SHA256sum: a071d1d90227ba5c707855ceaaa3167773e81cb5fb1fa454268e29a77cb911d5
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -399,21 +399,21 @@ SHA256sum: 1e4b2f3ee1191d7104737993c71b642d2fe34f4488a7243e3a20534c11dd86d9
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libucode20220812
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, libjson-c5
 Provides: libucode
 Source: feeds/base/package/utils/ucode
 SourceName: libucode
 License: ISC
 Section: libs
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 ABIVersion: 20220812
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 76090
-Filename: libucode20220812_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 76763
-SHA256sum: 545067681e2e9e227e342d0d1d606edd3c7c37c21b9db26ddc046eebc60f51c5
+Installed-Size: 76087
+Filename: libucode20220812_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 76738
+SHA256sum: 75670136a96e8e5711c9d702b4e8416d1e95f899155e0696ca966aeb05eabd13
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: lua-examples
@@ -477,18 +477,18 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.7
+Version: 1.5.10
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1693331800
+SourceDateEpoch: 1695484189
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 13493
-Filename: luci-app-mosdns_1.5.7_all.ipk
-Size: 14371
-SHA256sum: f272205709c2d17b14fd202b6210eb32bef1f23b1dce57b642fc4441a240334b
+Installed-Size: 76083
+Filename: luci-app-mosdns_1.5.10_all.ipk
+Size: 77067
+SHA256sum: 88e5c351fe5282e59564527fcb8d1bd061071730d0bb6bc3a2c8babde357e400
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -507,17 +507,17 @@ SHA256sum: 2698787a4e042c4f8699df7bfdf675bc9f8758f8181bdd83ea6dae7db40209da
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-23.241.64600-e255e8f
+Version: git-23.266.56989-ada5663
 Depends: libc, luci-app-mosdns
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-i18n-mosdns-zh-cn
 Section: luci
-SourceDateEpoch: 1693331800
+SourceDateEpoch: 1695484189
 Architecture: all
-Installed-Size: 3263
-Filename: luci-i18n-mosdns-zh-cn_git-23.241.64600-e255e8f_all.ipk
-Size: 4088
-SHA256sum: dec3c47974bab309e9581c02fc6e9f7076694a7bb46ed39a1b25352e6913389a
+Installed-Size: 3404
+Filename: luci-i18n-mosdns-zh-cn_git-23.266.56989-ada5663_all.ipk
+Size: 4228
+SHA256sum: 578dca81f3d3388fafc23f42022614308f24310fe66376623f918f5dbb6b565e
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -580,7 +580,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
 
 Package: rpcd-mod-file
 Version: 2023-07-01-c07ab2f9-1
-Depends: libc, libubus20220615, libubox20230523, rpcd
+Depends: libc, libubus20230605, libubox20230523, rpcd
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd-mod-file
 License: ISC
@@ -588,15 +588,15 @@ Section: utils
 SourceDateEpoch: 1691751213
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 7651
+Installed-Size: 7649
 Filename: rpcd-mod-file_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
-Size: 8423
-SHA256sum: cd27fa41307b5a8db9455f3ed0746f2a2be95276d7a96a9841a53f2ac52ed3f4
+Size: 8425
+SHA256sum: 651ac5ecb0ad8de79cfedc008e07b6d88427cbc5def47291dcd20a04cda475af
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
 Version: 2023-07-01-c07ab2f9-1
-Depends: libiwinfo (>= 2023-01-21), libc, libubus20220615, libubox20230523, rpcd, libiwinfo20230701
+Depends: libiwinfo (>= 2023-01-21), libc, libubus20230605, libubox20230523, rpcd, libiwinfo20230701
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd-mod-iwinfo
 License: ISC
@@ -604,15 +604,15 @@ Section: utils
 SourceDateEpoch: 1691751213
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 8045
+Installed-Size: 8043
 Filename: rpcd-mod-iwinfo_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
-Size: 8858
-SHA256sum: d8b211f9fe350f4070e9668e7e56f458274c664fef0fb987b7b989bd3d2b6c3b
+Size: 8851
+SHA256sum: 0d05556aa0ea318160537f22057f43998e6da9fb4498ddbe2618c0a0658050bd
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-rpcsys
 Version: 2023-07-01-c07ab2f9-1
-Depends: libc, libubus20220615, libubox20230523, rpcd
+Depends: libc, libubus20230605, libubox20230523, rpcd
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd-mod-rpcsys
 License: ISC
@@ -620,15 +620,15 @@ Section: utils
 SourceDateEpoch: 1691751213
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 4142
+Installed-Size: 4140
 Filename: rpcd-mod-rpcsys_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
-Size: 4847
-SHA256sum: 06c2bf35142b2d231defe196782f81f490a3c90af9299a442e9de984e7c2e912
+Size: 4848
+SHA256sum: beaf1edd194e24b9692b4cc006bffcd3ecadfe1ecc827dca27e3fd2b75ef3412
 Description:  Provides ubus calls for sysupgrade and password changing.
 
 Package: rpcd-mod-ucode
 Version: 2023-07-01-c07ab2f9-1
-Depends: libc, libubus20220615, libubox20230523, rpcd, libucode20220812
+Depends: libc, libubus20230605, libubox20230523, rpcd, libucode20220812
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd-mod-ucode
 License: ISC
@@ -638,13 +638,13 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 8273
 Filename: rpcd-mod-ucode_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
-Size: 9060
-SHA256sum: 3eab184303665f55a13f5cbd21c3deee0500747a1f5aebfddd9f67aeb5650903
+Size: 9055
+SHA256sum: 7663c359f90e786bd635280a8d7f47c64fd14f9a9494ca52c5be1fa85edb1d66
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
 Version: 2023-07-01-c07ab2f9-1
-Depends: libc, libubus20220615, libubox20230523, libuci20130104, libblobmsg-json20230523, libjson-c5
+Depends: libc, libubus20230605, libubox20230523, libuci20130104, libblobmsg-json20230523, libjson-c5
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
@@ -652,10 +652,10 @@ Section: utils
 SourceDateEpoch: 1691751213
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 27401
+Installed-Size: 27400
 Filename: rpcd_2023-07-01-c07ab2f9-1_aarch64_generic.ipk
-Size: 28271
-SHA256sum: 2ecafe7116fc4fdf4e4aa98db0024d5ed71b11fec746c2161091a9151cdd342f
+Size: 28267
+SHA256sum: cb8fd4698827b9d9ce27a598cca5b4d9137b9d5eb87189181e2316e0e93f90aa
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -710,36 +710,36 @@ SHA256sum: d41d011a7a1dab6eb3ff3153ba9116bda443ae093f0ba8b1f1ca1003432fed03
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
-Version: 2022-06-15-9913aa61-1
-Depends: libc, libubus20220615, libblobmsg-json20230523, ubusd
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubus20230605, libblobmsg-json20230523, ubusd
 Source: feeds/base/package/system/ubus
 SourceName: ubus
 License: LGPL-2.1
 Section: base
-SourceDateEpoch: 1679419702
+SourceDateEpoch: 1695039918
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 6810
-Filename: ubus_2022-06-15-9913aa61-1_aarch64_generic.ipk
-Size: 7582
-SHA256sum: 10c11b2fb83b33a667ddc03a82dcafc398726977b4743139d7c3d54728ad3506
+Installed-Size: 6809
+Filename: ubus_2023-06-05-f787c97b-1_aarch64_generic.ipk
+Size: 7579
+SHA256sum: 0045383232e9e76bfb6749cb6d0a106c5449ed6fce02c2bb92934e3add3475e3
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
-Version: 2022-06-15-9913aa61-1
+Version: 2023-06-05-f787c97b-1
 Depends: libc, libubox20230523, libblobmsg-json20230523
 Source: feeds/base/package/system/ubus
 SourceName: ubusd
 License: LGPL-2.1
 Section: base
 Require-User: ubus=81:ubus=81
-SourceDateEpoch: 1679419702
+SourceDateEpoch: 1695039918
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 13479
-Filename: ubusd_2022-06-15-9913aa61-1_aarch64_generic.ipk
-Size: 14121
-SHA256sum: d79df68987e7c495fae16c6a31cfe5dbbd1b013c78914bc78b622fc08f719262
+Filename: ubusd_2023-06-05-f787c97b-1_aarch64_generic.ipk
+Size: 14122
+SHA256sum: d6ff7fd8650371adc4179db5473f90df90b95e63b5ad11eca1fb349cb72ebd63
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -759,165 +759,165 @@ SHA256sum: 84b8ebcec52c885848edda2ec6204d5ef2a34daef53fd7b5f4f023cb00e36a9d
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: ucode-mod-fs
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-fs
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 10422
-Filename: ucode-mod-fs_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 11110
-SHA256sum: bd4233dc093e484ae5afa8cdaf14a192f1afb6efe808c4db6cf7901104cba671
+Installed-Size: 10420
+Filename: ucode-mod-fs_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 11103
+SHA256sum: 69d05c098d994e11ab352149973f4d056833b5464caa58d9a9941274f17794d0
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-math
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-math
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 2786
-Filename: ucode-mod-math_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 3453
-SHA256sum: c818840c6ea560bebfac084d01b37b9a522aedf0cabab0ec2870b685690999d6
+Installed-Size: 2785
+Filename: ucode-mod-math_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 3456
+SHA256sum: df5bde6869d78e55ff2bffcc868642870cf15801c0a535ea99fef3d0399c4281
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, ucode, libnl-tiny1, libubox20230523
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-nl80211
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 21979
-Filename: ucode-mod-nl80211_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 22381
-SHA256sum: bb39aa3a3ede713fd7b8777b38d8122a18cebe4fe1c8e19d95d7617e3ee72e96
+Installed-Size: 21977
+Filename: ucode-mod-nl80211_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 22357
+SHA256sum: 77114b3fafab525ce2a5442e21bbda15a63c1853384949bb8ea2d8a6f5306935
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-resolv
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-resolv
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 8236
-Filename: ucode-mod-resolv_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 8943
-SHA256sum: 2b0e29b4c8eebd2747311002ab4ee79f1e9a6ab1985fd75ced3e2c760f8441f6
+Installed-Size: 8234
+Filename: ucode-mod-resolv_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 8930
+SHA256sum: e86bcce0207049e0430e76c6f7db9fa6ff8ad053f065a46e94f1ead4f94e9634
 Description:  The resolv plugin implements simple DNS resolving.
 
 Package: ucode-mod-rtnl
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, ucode, libnl-tiny1, libubox20230523
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-rtnl
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 28154
-Filename: ucode-mod-rtnl_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 28651
-SHA256sum: 262bcfc49aedcae8850c523bd2b1e7a322ddfa289d2d8e4e00a5491f8fed4b46
+Installed-Size: 28153
+Filename: ucode-mod-rtnl_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 28639
+SHA256sum: bd658161446fbf1eebc439fc83bffae69f9dec81765832b538069b3dfbbd183f
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-struct
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-struct
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 9610
-Filename: ucode-mod-struct_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 10304
-SHA256sum: 8d550d1672db268f2cb2bab178d5c847bebcdb7a283278b2fc48882c69fd48bb
+Filename: ucode-mod-struct_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 10303
+SHA256sum: 99668fcb7e6999dd98b8533e387f8f54638253036315481c5fe994e908901a31
 Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
 
 Package: ucode-mod-ubus
-Version: 2023-06-23-c7d84aae-1
-Depends: libc, ucode, libubus20220615, libblobmsg-json20230523
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode, libubus20230605, libblobmsg-json20230523
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-ubus
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 14914
-Filename: ucode-mod-ubus_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 15590
-SHA256sum: c9f22190238fd5a5dd53990887b7935b1829d6c53c243ac6525529eb96e26781
+Installed-Size: 14912
+Filename: ucode-mod-ubus_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 15592
+SHA256sum: 795ac6d0e9c73dca800381b1df3278ffbad6205f29d7c552b5705a9ba11aa29f
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus
  procedures.
 
 Package: ucode-mod-uci
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, ucode, libuci20130104
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-uci
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 7595
-Filename: ucode-mod-uci_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 8318
-SHA256sum: 18d2c252cd31d2b4a893473a52847caabbc850f02ee74a157096724f17dc7ca6
+Installed-Size: 7596
+Filename: ucode-mod-uci_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 8325
+SHA256sum: c2fc01786b75cbe23a92a044e0724c0d900e932c19340f844997446114cba75a
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, ucode, libubox20230523
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-uloop
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 8402
-Filename: ucode-mod-uloop_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 9142
-SHA256sum: af11ff80bec09442e627208af1fbdabb1158867a8688a7dd082a3f7948cd6bf9
+Filename: ucode-mod-uloop_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 9148
+SHA256sum: cf74e114676cabe4631fffb92899b7b0172a269d8e2375e4af227ae6fc335a02
 Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event
  loop implementation.
 
 Package: ucode
-Version: 2023-06-23-c7d84aae-1
+Version: 2023-06-06-c7d84aae-1
 Depends: libc, libucode20220812
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1686221560
+SourceDateEpoch: 1695039918
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 6764
-Filename: ucode_2023-06-23-c7d84aae-1_aarch64_generic.ipk
-Size: 7510
-SHA256sum: 14d937874cfc18a74ece686096eefaff4747097eb0bf7d9592c023faca72048a
+Installed-Size: 6768
+Filename: ucode_2023-06-06-c7d84aae-1_aarch64_generic.ipk
+Size: 7517
+SHA256sum: 418b9c0cd6f27fa5344553d30ebc092880c23a8d58664a96aa324b7156d77b9a
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -928,17 +928,17 @@ Source: package/luci-app-mosdns/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1693331800
+SourceDateEpoch: 1695484189
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 2607179
+Installed-Size: 2605757
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2599793
-SHA256sum: 273584c0114b68ce6e5b06422757b77b4f8d4abca3810ed67f96ec668d773297
+Size: 2598718
+SHA256sum: 31652625b03eaf0954f77f00c6dea48c8fc1d74df2f2cbdbe4c5338d09deffd9
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-09-17
+Version: 2023-09-24
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -948,14 +948,14 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 36362
-Filename: v2ray-geoip_2023-09-17_all.ipk
-Size: 34394
-SHA256sum: 002cb81c6f1bc79c2b07f7b48d3e55e49e458182e1cb1055a7b668041c3c5a24
+Installed-Size: 36215
+Filename: v2ray-geoip_2023-09-24_all.ipk
+Size: 34250
+SHA256sum: 29b2d8c9440051ac4636aeb3106838a81e4f614e90558c2a8a4817a0d0ec87da
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-09-17
+Version: 2023-09-24
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -965,10 +965,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1344179
-Filename: v2ray-geosite_2023-09-17_all.ipk
-Size: 1344645
-SHA256sum: 12e9469312723b6c160574d9eb10d7ddbe1a41e7038d57e0d2d90ed639cf06dc
+Installed-Size: 1342077
+Filename: v2ray-geosite_2023-09-24_all.ipk
+Size: 1342701
+SHA256sum: f44591b8c174ff8524b01e48a240722cf5625687ee38b9cad057b414f8ebb0b4
 Description:  Geosite List for V2Ray
 
 Package: vector
