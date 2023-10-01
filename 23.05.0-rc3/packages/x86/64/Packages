@@ -136,11 +136,12 @@ Provides: liblua
 License: MIT
 Section: libs
 ABIVersion: 5.1.5
+CPE-ID: cpe:/a:lua:lua
 Architecture: x86_64
-Installed-Size: 73650
+Installed-Size: 73647
 Filename: liblua5.1.5_5.1.5-10_x86_64.ipk
-Size: 74572
-SHA256sum: 63df0751a545d5d827873ae89a768c32eba26d224180feb400fead707db3303c
+Size: 74582
+SHA256sum: a1f462efb3be260901221fcb3427d36e01990f64469096232e7d33fb204b65c9
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -178,16 +179,16 @@ SHA256sum: 1d8b3aac73b1fa9df6d1711ee6e01df9a09d753f06741ec261bf754f229eb111
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.10-1
+Version: 3.0.11-1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 6271
-Filename: libopenssl-conf_3.0.10-1_x86_64.ipk
-Size: 7479
-SHA256sum: b7f3477653c17767cba3871a768e993ab68dbd87858dca79537896700fbcf4f2
+Installed-Size: 6272
+Filename: libopenssl-conf_3.0.11-1_x86_64.ipk
+Size: 7475
+SHA256sum: b99440e3c3b6ce00b633ebe5c0afa7fdd85b9d542cd751d5f5f268378898312a
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -195,23 +196,23 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.10-1
+Version: 3.0.11-1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 37161
-Filename: libopenssl-legacy_3.0.10-1_x86_64.ipk
-Size: 38169
-SHA256sum: fc85f4deb98f190502bb1d1f3945a933da3c5b9e6ca0c2af0a07974a15b3f544
+Installed-Size: 37162
+Filename: libopenssl-legacy_3.0.11-1_x86_64.ipk
+Size: 38176
+SHA256sum: af77fc60d34ee2992f4abaf5c9c22e7af5734bf481646af0473cd5e7ae157c53
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.10-1
+Version: 3.0.11-1
 Depends: libc, kmod-crypto-user, kmod-cryptodev
 Provides: libopenssl
 License: Apache-2.0
@@ -219,10 +220,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 2109826
-Filename: libopenssl3_3.0.10-1_x86_64.ipk
-Size: 2100111
-SHA256sum: ed314ec2f51050dd0ff0273c4b2fc8f774ab5ee52d5f4a4f4f10142cd003695f
+Installed-Size: 2110595
+Filename: libopenssl3_3.0.11-1_x86_64.ipk
+Size: 2100957
+SHA256sum: 15c69dba3f5c8ae1a02dce1df8e5c809bf6a770d15192ca38cf301ab24fab950
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -326,11 +327,12 @@ Version: 5.1.5-10
 Depends: libc, lua
 License: MIT
 Section: lang
+CPE-ID: cpe:/a:lua:lua
 Architecture: x86_64
-Installed-Size: 5296
+Installed-Size: 5291
 Filename: lua-examples_5.1.5-10_x86_64.ipk
-Size: 6175
-SHA256sum: ffdaeda1f95a02b9e441100a2ae210fef49b33c96654e9f9e48202612b204edb
+Size: 6186
+SHA256sum: 62d04f87b54bd13cdc30b24914c6034ac9685e4ce6342a5870718c18bf1e2280
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -341,11 +343,12 @@ Version: 5.1.5-10
 Depends: libc, liblua5.1.5
 License: MIT
 Section: lang
+CPE-ID: cpe:/a:lua:lua
 Architecture: x86_64
-Installed-Size: 4556
+Installed-Size: 4551
 Filename: lua_5.1.5-10_x86_64.ipk
-Size: 5437
-SHA256sum: c5f396bcc25cf4a37e63acef31728fa4b30ef23c508ed8ee7a6834bcb1988191
+Size: 5447
+SHA256sum: 7f21903d415d992bbb1c486027bbee61bdb067858331a29e7b8a97fbb00bbbb3
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -356,25 +359,26 @@ Version: 5.1.5-10
 Depends: libc, liblua5.1.5
 License: MIT
 Section: lang
+CPE-ID: cpe:/a:lua:lua
 Architecture: x86_64
-Installed-Size: 5183
+Installed-Size: 5177
 Filename: luac_5.1.5-10_x86_64.ipk
-Size: 6079
-SHA256sum: 554fab5087227a1bcce1d4cabdf356985ac7c680b32e872a805d1b3ee6da8d1c
+Size: 6082
+SHA256sum: 962b5d2054a537508f5dd746be0fbd389089568227345b94a524a0040f410d41
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.10
+Version: 1.5.12
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 76083
-Filename: luci-app-mosdns_1.5.10_all.ipk
-Size: 77067
-SHA256sum: 88e5c351fe5282e59564527fcb8d1bd061071730d0bb6bc3a2c8babde357e400
+Installed-Size: 76033
+Filename: luci-app-mosdns_1.5.12_all.ipk
+Size: 77038
+SHA256sum: 7f3fbbb4b30584494627ed0340911055aef8e619b42bca577d6c878ae7f56e1f
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -389,14 +393,14 @@ SHA256sum: 2698787a4e042c4f8699df7bfdf675bc9f8758f8181bdd83ea6dae7db40209da
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-23.266.56989-ada5663
+Version: git-23.272.59723-8be3afe
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
-Installed-Size: 3404
-Filename: luci-i18n-mosdns-zh-cn_git-23.266.56989-ada5663_all.ipk
-Size: 4228
-SHA256sum: 578dca81f3d3388fafc23f42022614308f24310fe66376623f918f5dbb6b565e
+Installed-Size: 3814
+Filename: luci-i18n-mosdns-zh-cn_git-23.272.59723-8be3afe_all.ipk
+Size: 4640
+SHA256sum: ef29569e25c6b748a8f43b233c6da79f32351f6b146446e39715f531318bbc4b
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -428,16 +432,16 @@ SHA256sum: 9e8b79fc257fff8d8003a1bab7859c7380a6bc8770cd80238e8d80181febe826
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
-Version: 3.0.10-1
+Version: 3.0.11-1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 340838
-Filename: openssl-util_3.0.10-1_x86_64.ipk
-Size: 339922
-SHA256sum: cb052327c91abf25a871ee3d244a77a8221dc7818d3863a2a0fcfe40d84e1dac
+Installed-Size: 340827
+Filename: openssl-util_3.0.11-1_x86_64.ipk
+Size: 339511
+SHA256sum: 69f1492fd40ad03e868a38a9930a032566911416ffa7a8967436ba53738389df
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -708,34 +712,34 @@ Depends: libc
 License: GPL-3.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 2879353
+Installed-Size: 2879354
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2873682
-SHA256sum: f5e20ce6b00438ffe53fb9afa9d3ad1d6063e2560929ba9517649c4679dec94b
+Size: 2873641
+SHA256sum: cc938e0c555806545c302047653da8ed870ad6ade6841bc8395a0c7a3f5349eb
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-09-24
+Version: 2023-10-01
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 36215
-Filename: v2ray-geoip_2023-09-24_all.ipk
-Size: 34250
-SHA256sum: 29b2d8c9440051ac4636aeb3106838a81e4f614e90558c2a8a4817a0d0ec87da
+Installed-Size: 36261
+Filename: v2ray-geoip_2023-10-01_all.ipk
+Size: 34239
+SHA256sum: 9318611c82f9feda61a85a8fd7a6038e4408a3fb294f479aebcf1c2ad51498c0
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-09-24
+Version: 2023-10-01
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1342077
-Filename: v2ray-geosite_2023-09-24_all.ipk
-Size: 1342701
-SHA256sum: f44591b8c174ff8524b01e48a240722cf5625687ee38b9cad057b414f8ebb0b4
+Installed-Size: 1292207
+Filename: v2ray-geosite_2023-10-01_all.ipk
+Size: 1292772
+SHA256sum: d6dfcbec5058b46bb2e87f1a02b0e9af96638b93f506efa07930d4f5b85d9c76
 Description:  Geosite List for V2Ray
 
 Package: vector
