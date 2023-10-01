@@ -177,14 +177,15 @@ SourceName: liblua
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: libs
-SourceDateEpoch: 1691751213
+SourceDateEpoch: 1695847021
 ABIVersion: 5.1.5
+CPE-ID: cpe:/a:lua:lua
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 78280
+Installed-Size: 78275
 Filename: liblua5.1.5_5.1.5-10_aarch64_generic.ipk
-Size: 79113
-SHA256sum: 149cbde73af1bf35ba43a586bd1b37e1b24a2329426e34db771b047b995f94e5
+Size: 79115
+SHA256sum: ebb76b44311017f2312f998945ab3c7c6b1eeb061fb984cf274aa8e217b71476
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -230,21 +231,21 @@ SHA256sum: a7b62b359a771cbd474b3c8ceac0a8d151c70e29066932b27b45fae466c93d17
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.10-1
+Version: 3.0.11-1
 Depends: libc, libopenssl3
 Source: feeds/base/package/libs/openssl
 SourceName: libopenssl-conf
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1691894324
+SourceDateEpoch: 1695653205
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 6271
-Filename: libopenssl-conf_3.0.10-1_aarch64_generic.ipk
-Size: 7478
-SHA256sum: 2d4372e9db0d5ea8feeafcec1cb1b64fb327c07390b68907388fbb8cbf26ff78
+Installed-Size: 6272
+Filename: libopenssl-conf_3.0.11-1_aarch64_generic.ipk
+Size: 7475
+SHA256sum: f6d5bae768c74e2171497a4a22c77a0fb70c2e39700d9d5c9f8e9c532f26bca5
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -252,28 +253,28 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.10-1
+Version: 3.0.11-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: libopenssl-legacy
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1691894324
+SourceDateEpoch: 1695653205
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 35633
-Filename: libopenssl-legacy_3.0.10-1_aarch64_generic.ipk
-Size: 36621
-SHA256sum: 121708212888ddc070f16ad77229b29563ae294e202918babcfc2d38b443e3cb
+Filename: libopenssl-legacy_3.0.11-1_aarch64_generic.ipk
+Size: 36613
+SHA256sum: cc5a7743dfb149c87d57cddf3b90f94918b7e1dc15232ea7e8eb5a9a8bbb3397
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.10-1
+Version: 3.0.11-1
 Depends: libc, kmod-crypto-user, kmod-cryptodev
 Provides: libopenssl
 Source: feeds/base/package/libs/openssl
@@ -281,15 +282,15 @@ SourceName: libopenssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1691894324
+SourceDateEpoch: 1695653205
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 2027689
-Filename: libopenssl3_3.0.10-1_aarch64_generic.ipk
-Size: 2016515
-SHA256sum: 40f5ed62ae667f1dac1c8e585a940f30ad5ecccf32b0e95feab51cdad28fb667
+Installed-Size: 2029004
+Filename: libopenssl3_3.0.11-1_aarch64_generic.ipk
+Size: 2017806
+SHA256sum: 5b1c8a908805e57062b9558eefc16270fee9a02c86dac4b498790c2a2b5ee8a8
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -424,13 +425,14 @@ SourceName: lua-examples
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: lang
-SourceDateEpoch: 1691751213
+SourceDateEpoch: 1695847021
+CPE-ID: cpe:/a:lua:lua
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 5296
+Installed-Size: 5291
 Filename: lua-examples_5.1.5-10_aarch64_generic.ipk
-Size: 6177
-SHA256sum: 55b60defa5fb8e97547dc20b58a6b03446ff30c331538b970949b266751af25c
+Size: 6191
+SHA256sum: 2e10c9aa89ce63941195a502bcd0d89e4bc2d26e0e3e9f1417a7251610d4a44b
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -444,13 +446,14 @@ SourceName: lua
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: lang
-SourceDateEpoch: 1691751213
+SourceDateEpoch: 1695847021
+CPE-ID: cpe:/a:lua:lua
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 5183
+Installed-Size: 5177
 Filename: lua_5.1.5-10_aarch64_generic.ipk
-Size: 5894
-SHA256sum: b6396f73945a159e4c177d257d30121d8dc6697265cab9e58038f6f24d0dad0a
+Size: 5895
+SHA256sum: e71f64d7328b0785d8b1607e0b3a62e82b74e45a30b7fbdc3985768be89128a8
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -464,31 +467,32 @@ SourceName: luac
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: lang
-SourceDateEpoch: 1691751213
+SourceDateEpoch: 1695847021
+CPE-ID: cpe:/a:lua:lua
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
-Installed-Size: 5664
+Installed-Size: 5657
 Filename: luac_5.1.5-10_aarch64_generic.ipk
-Size: 6489
-SHA256sum: edae15aeaa619d41bd28aaac31b9b1d203453c028d3b4a7beb4c903c5e6c1e95
+Size: 6483
+SHA256sum: 46345aeb7d62120d649039d105622d9de19d1e9af535fd8e3e1a3929972c8847
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.10
+Version: 1.5.12
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1695484189
+SourceDateEpoch: 1696005323
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 76083
-Filename: luci-app-mosdns_1.5.10_all.ipk
-Size: 77067
-SHA256sum: 88e5c351fe5282e59564527fcb8d1bd061071730d0bb6bc3a2c8babde357e400
+Installed-Size: 76033
+Filename: luci-app-mosdns_1.5.12_all.ipk
+Size: 77038
+SHA256sum: 7f3fbbb4b30584494627ed0340911055aef8e619b42bca577d6c878ae7f56e1f
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -507,17 +511,17 @@ SHA256sum: 2698787a4e042c4f8699df7bfdf675bc9f8758f8181bdd83ea6dae7db40209da
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-23.266.56989-ada5663
+Version: git-23.272.59723-8be3afe
 Depends: libc, luci-app-mosdns
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-i18n-mosdns-zh-cn
 Section: luci
-SourceDateEpoch: 1695484189
+SourceDateEpoch: 1696005323
 Architecture: all
-Installed-Size: 3404
-Filename: luci-i18n-mosdns-zh-cn_git-23.266.56989-ada5663_all.ipk
-Size: 4228
-SHA256sum: 578dca81f3d3388fafc23f42022614308f24310fe66376623f918f5dbb6b565e
+Installed-Size: 3814
+Filename: luci-i18n-mosdns-zh-cn_git-23.272.59723-8be3afe_all.ipk
+Size: 4640
+SHA256sum: ef29569e25c6b748a8f43b233c6da79f32351f6b146446e39715f531318bbc4b
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -557,21 +561,21 @@ SHA256sum: a08d6aa365c63c027e9689a36624b96652213a4e5f1543891fa6ded6ae6b46a7
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
-Version: 3.0.10-1
+Version: 3.0.11-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl-util
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1691894324
+SourceDateEpoch: 1695653205
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 341786
-Filename: openssl-util_3.0.10-1_aarch64_generic.ipk
-Size: 341438
-SHA256sum: 543c9457cc1f3fb21cb5c248740f86d36f841451015f8d335de343d762253f68
+Installed-Size: 341728
+Filename: openssl-util_3.0.11-1_aarch64_generic.ipk
+Size: 341376
+SHA256sum: d3be923d2b4602346d241ce117b469e93d086f778cce52f294e8e88ddeda3bac
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -928,17 +932,17 @@ Source: package/luci-app-mosdns/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1695484189
+SourceDateEpoch: 1696005323
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 2605757
+Installed-Size: 2605756
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2598718
-SHA256sum: 31652625b03eaf0954f77f00c6dea48c8fc1d74df2f2cbdbe4c5338d09deffd9
+Size: 2598651
+SHA256sum: b84a8d9afb4a439d445bfbdf64621c5331ca656fee69f58221cdf4639177373d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-09-24
+Version: 2023-10-01
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -948,14 +952,14 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 36215
-Filename: v2ray-geoip_2023-09-24_all.ipk
-Size: 34250
-SHA256sum: 29b2d8c9440051ac4636aeb3106838a81e4f614e90558c2a8a4817a0d0ec87da
+Installed-Size: 36261
+Filename: v2ray-geoip_2023-10-01_all.ipk
+Size: 34239
+SHA256sum: 9318611c82f9feda61a85a8fd7a6038e4408a3fb294f479aebcf1c2ad51498c0
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-09-24
+Version: 2023-10-01
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -965,10 +969,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1342077
-Filename: v2ray-geosite_2023-09-24_all.ipk
-Size: 1342701
-SHA256sum: f44591b8c174ff8524b01e48a240722cf5625687ee38b9cad057b414f8ebb0b4
+Installed-Size: 1292207
+Filename: v2ray-geosite_2023-10-01_all.ipk
+Size: 1292772
+SHA256sum: d6dfcbec5058b46bb2e87f1a02b0e9af96638b93f506efa07930d4f5b85d9c76
 Description:  Geosite List for V2Ray
 
 Package: vector
