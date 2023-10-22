@@ -192,7 +192,7 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls12
-Version: 2.28.4-1
+Version: 2.28.5-1
 Depends: libc
 Provides: libmbedtls
 Source: feeds/base/package/libs/mbedtls
@@ -200,14 +200,14 @@ SourceName: libmbedtls
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: libs
-SourceDateEpoch: 1691894324
+SourceDateEpoch: 1697635509
 ABIVersion: 12
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
-Installed-Size: 239950
-Filename: libmbedtls12_2.28.4-1_x86_64.ipk
-Size: 240800
-SHA256sum: 5d434972056bee51378f5884e24d640f8fcfbb82147d0ba06de90ea9614245ce
+Installed-Size: 240373
+Filename: libmbedtls12_2.28.5-1_x86_64.ipk
+Size: 241205
+SHA256sum: 30601d56675253875e4ac34e515c3c3d988838844a9083ada85e963e9faf1a99
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -481,18 +481,18 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.12
+Version: 1.5.13
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1697224588
+SourceDateEpoch: 1697661298
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 76026
-Filename: luci-app-mosdns_1.5.12_all.ipk
-Size: 77025
-SHA256sum: bd4336d045ff9481344cfde5004c0d201915055e561b48d872d8c5424e1e041a
+Installed-Size: 75951
+Filename: luci-app-mosdns_1.5.13_all.ipk
+Size: 76952
+SHA256sum: 9e239873c4b3b61ef3c03d13cf5a89d3dbfa91abe29c75a7225f4618b2cabd30
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -511,34 +511,34 @@ SHA256sum: 2698787a4e042c4f8699df7bfdf675bc9f8758f8181bdd83ea6dae7db40209da
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-23.286.69388-476d0bf
+Version: git-23.291.74098-b9972ea
 Depends: libc, luci-app-mosdns
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-i18n-mosdns-zh-cn
 Section: luci
-SourceDateEpoch: 1697224588
+SourceDateEpoch: 1697661298
 Architecture: all
-Installed-Size: 3810
-Filename: luci-i18n-mosdns-zh-cn_git-23.286.69388-476d0bf_all.ipk
-Size: 4643
-SHA256sum: f07cadecbb9bb81ba8b17dbff7d11e1d75185a23fd57d2927ef6baac0bb02bfa
+Installed-Size: 3808
+Filename: luci-i18n-mosdns-zh-cn_git-23.291.74098-b9972ea_all.ipk
+Size: 4633
+SHA256sum: aa57f707ebdef8d103ab6039eba7d190d1c74717719e02ab29ad74f4feec8819
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
-Version: 2.28.4-1
+Version: 2.28.5-1
 Depends: libc, libmbedtls12
 Source: feeds/base/package/libs/mbedtls
 SourceName: mbedtls-util
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: utils
-SourceDateEpoch: 1691894324
+SourceDateEpoch: 1697635509
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
-Installed-Size: 31528
-Filename: mbedtls-util_2.28.4-1_x86_64.ipk
-Size: 32429
-SHA256sum: 1ba7b7001e2b41f3beed63a4a80583f56709bccdfaeb9c0d9c05a24990d73490
+Installed-Size: 31508
+Filename: mbedtls-util_2.28.5-1_x86_64.ipk
+Size: 32404
+SHA256sum: 5ddc77a0a9b9aec25a97a819d92f20d7899831369b0905a2174968a40502ea51
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -932,17 +932,17 @@ Source: package/luci-app-mosdns/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1697224588
+SourceDateEpoch: 1697661298
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
-Installed-Size: 2879353
+Installed-Size: 2879354
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2873596
-SHA256sum: e1beb7aeff6284acd669d23c6016d2a5e755b008fb634ac7748aa7bd7b7078ec
+Size: 2873647
+SHA256sum: ff25fdb81d439e84b0b8ba059c9e494f31fa6de1d27a9d3ba28c5df48a735321
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-10-15
+Version: 2023-10-22
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -952,14 +952,14 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 32852
-Filename: v2ray-geoip_2023-10-15_all.ipk
-Size: 32650
-SHA256sum: 35b9b8ba913202262d579bf054387641e651ff2a591abe0170d3c7a7141dab9a
+Installed-Size: 32767
+Filename: v2ray-geoip_2023-10-22_all.ipk
+Size: 32591
+SHA256sum: 93f64b5747b416757428424197c2822e7166e94e0cad73abe496114528a2c50f
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-10-15
+Version: 2023-10-22
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -969,10 +969,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1347740
-Filename: v2ray-geosite_2023-10-15_all.ipk
-Size: 1348236
-SHA256sum: 9f05f7502b652dbf43b81f34ceea8b6ec7d285a22524e9ad9c70be191807ed3a
+Installed-Size: 1351811
+Filename: v2ray-geosite_2023-10-22_all.ipk
+Size: 1352418
+SHA256sum: cd64856af4aad07c5eb805efa66ab8b9f263262d2abe6e418c5f811517197be8
 Description:  Geosite List for V2Ray
 
 Package: vector
