@@ -192,7 +192,7 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls12
-Version: 2.28.5-1
+Version: 2.28.5-2
 Depends: libc
 Provides: libmbedtls
 Source: feeds/base/package/libs/mbedtls
@@ -200,14 +200,14 @@ SourceName: libmbedtls
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: libs
-SourceDateEpoch: 1697635509
+SourceDateEpoch: 1699592652
 ABIVersion: 12
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
-Installed-Size: 240373
-Filename: libmbedtls12_2.28.5-1_x86_64.ipk
-Size: 241205
-SHA256sum: 30601d56675253875e4ac34e515c3c3d988838844a9083ada85e963e9faf1a99
+Installed-Size: 240946
+Filename: libmbedtls12_2.28.5-2_x86_64.ipk
+Size: 241744
+SHA256sum: 65870a89d50ef93c5ab8ed82164b81b45f0538eb4b5825b6f43ccc5fe78cecd6
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -400,21 +400,21 @@ SHA256sum: 66dcfbd78c6fd34c46b4e7ec35d0a5b43c0772a88f414b8e14c04b8f06ee2764
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libucode20230711
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, libjson-c5
 Provides: libucode
 Source: feeds/base/package/utils/ucode
 SourceName: libucode
 License: ISC
 Section: libs
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 ABIVersion: 20230711
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 75142
-Filename: libucode20230711_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 75976
-SHA256sum: 9157907c2dace20f3cb1a2ad56be5f2c63ea05838060b9c5f9c2f1fdbf08d044
+Installed-Size: 75368
+Filename: libucode20230711_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 76193
+SHA256sum: 9d99c82dc2a7da5dbd97aa9f7a779e28d67e0f0c6fe90f205f4f499d79e86670
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: lua-examples
@@ -481,18 +481,18 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.16
+Version: 1.5.17
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1699186111
+SourceDateEpoch: 1699341833
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 75777
-Filename: luci-app-mosdns_1.5.16_all.ipk
-Size: 76750
-SHA256sum: 6b0097e2da1e80fa2e8dc78f2b78b448c5e04080463d9c54130b78ad83b35aaa
+Installed-Size: 75888
+Filename: luci-app-mosdns_1.5.17_all.ipk
+Size: 76884
+SHA256sum: 03ccc384400e86d95ef1b37512d03f20241c21ceb4392340e2c82c8dbcc5f1d3
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -511,34 +511,34 @@ SHA256sum: 2698787a4e042c4f8699df7bfdf675bc9f8758f8181bdd83ea6dae7db40209da
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-23.309.43711-74d15c2
+Version: git-23.311.26633-3ba579c
 Depends: libc, luci-app-mosdns
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-i18n-mosdns-zh-cn
 Section: luci
-SourceDateEpoch: 1699186111
+SourceDateEpoch: 1699341833
 Architecture: all
-Installed-Size: 3795
-Filename: luci-i18n-mosdns-zh-cn_git-23.309.43711-74d15c2_all.ipk
-Size: 4617
-SHA256sum: c4daab329304ce3330411b5f34889e0e4bf0f625c859a8b3c2e965b398770447
+Installed-Size: 3866
+Filename: luci-i18n-mosdns-zh-cn_git-23.311.26633-3ba579c_all.ipk
+Size: 4689
+SHA256sum: 625705f8dfe9351e1d30786c60722dcda84641a738bd4a080a071a5d6ba2a56c
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
-Version: 2.28.5-1
+Version: 2.28.5-2
 Depends: libc, libmbedtls12
 Source: feeds/base/package/libs/mbedtls
 SourceName: mbedtls-util
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: utils
-SourceDateEpoch: 1697635509
+SourceDateEpoch: 1699592652
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
-Installed-Size: 31508
-Filename: mbedtls-util_2.28.5-1_x86_64.ipk
-Size: 32404
-SHA256sum: 5ddc77a0a9b9aec25a97a819d92f20d7899831369b0905a2174968a40502ea51
+Installed-Size: 31510
+Filename: mbedtls-util_2.28.5-2_x86_64.ipk
+Size: 32409
+SHA256sum: 5a0b7ef9ea2dd96a18ce57735efcec8fc139c036b5cc9a7bc2161a45897635e0
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -763,195 +763,195 @@ SHA256sum: f87716dca8f90fe36ec1122953e66ebb2036742f3078b12c2ba749d2e7d7cf32
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: ucode-mod-debug
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libubox20230523, libucode20230711
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-debug
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 8248
-Filename: ucode-mod-debug_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 9080
-SHA256sum: 6e20e49f05b9035d172dae77f4e42c01586d1c1dd7695204c09e7e491fe1853c
+Installed-Size: 8249
+Filename: ucode-mod-debug_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 9084
+SHA256sum: e724e49c400908694428d2ce673bec3bb0f198910eef45b6f892a18a5d62cf77
 Description:  The debug plugin module provides runtime debugging and introspection facilities.
 
 Package: ucode-mod-fs
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-fs
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 9990
-Filename: ucode-mod-fs_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 10774
-SHA256sum: 615a1faba269e213255b38ffdf8e8f8e1a15f6fb883cb4a3b2076b95e1148060
+Installed-Size: 9987
+Filename: ucode-mod-fs_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 10764
+SHA256sum: 0df6c1982322a382cd94c53526819e493ce93580518904218fc7e6c7f70084ac
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-log
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libubox20230523
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-log
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 4400
-Filename: ucode-mod-log_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 5185
-SHA256sum: cda47bf6babff99b2f14767d8e97b57dd6ced83fe3e3310493b80b2d5fc3ecd3
+Installed-Size: 4397
+Filename: ucode-mod-log_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 5187
+SHA256sum: 5f0fd165379c794d73bb4d3a30469efb24233cfe4aa358b35283f73adba374e3
 Description:  The log plugin module provides access to the syslog and libubox ulog APIs.
 
 Package: ucode-mod-math
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-math
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 2518
-Filename: ucode-mod-math_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 3295
-SHA256sum: 813f18868896386abf1ffed0a5399a1620ed83d538745f0d3d9a8f1fd2ee927c
+Installed-Size: 2515
+Filename: ucode-mod-math_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 3291
+SHA256sum: fa31418bfa1682b0bdfe97c9e5f29da2528bfc0d67a255828ae0e457f0a687eb
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libnl-tiny1, libubox20230523
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-nl80211
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 21441
-Filename: ucode-mod-nl80211_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 22187
-SHA256sum: 858a3537e126d412d4f8587fa2376233e21a1112ade233b78fc92652e0208055
+Installed-Size: 21439
+Filename: ucode-mod-nl80211_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 22193
+SHA256sum: bdac925ef760948e939254ed0a6d85bbfd53553d6d891e5107f17cfea11326a4
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-resolv
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-resolv
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 7636
-Filename: ucode-mod-resolv_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 8428
-SHA256sum: b25a43aca98de2fb93b8c8c27486c29c286c3a609b22ace5b182e2d07f9e9f19
+Installed-Size: 7633
+Filename: ucode-mod-resolv_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 8429
+SHA256sum: 776e71acbf04a5f9628b21099b12a03e87dc5735115fa7b84f91ac90b806dac8
 Description:  The resolv plugin implements simple DNS resolving.
 
 Package: ucode-mod-rtnl
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libnl-tiny1, libubox20230523
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-rtnl
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 28679
-Filename: ucode-mod-rtnl_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 29350
-SHA256sum: 9aad6ae0782d48a8bc2917c11049d1d6f26c76032524faf128a3ac280e1fb8a0
+Installed-Size: 28678
+Filename: ucode-mod-rtnl_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 29381
+SHA256sum: 3635a0b553e40d2f54a6b6aee6faf29965c15ab50038b893b310274ee41da81f
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-struct
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-struct
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 9804
-Filename: ucode-mod-struct_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 10581
-SHA256sum: 616181f3763934ece1e6a3523b9087a52700b20937b4855ca0a64e797032f3cf
+Installed-Size: 9801
+Filename: ucode-mod-struct_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 10588
+SHA256sum: d0ebe110418e4f88c7b5a5fb93e08fce5ee2e1273fe98e3cb3f9a521e1f36302
 Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
 
 Package: ucode-mod-ubus
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libubus20230605, libblobmsg-json20230523
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-ubus
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 14289
-Filename: ucode-mod-ubus_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 15051
-SHA256sum: 8d4aff25e2e37eb48d2b8ed9a51a3ff9f53ac3a3ce4a64b651f78b964fd0a62c
+Installed-Size: 14284
+Filename: ucode-mod-ubus_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 15036
+SHA256sum: 3f7685ffae13c9be164e165a0970bd9b744aecba475569587f31ea747587c9cf
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
 
 Package: ucode-mod-uci
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libuci20130104
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-uci
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 7035
-Filename: ucode-mod-uci_2023-11-02-cfb24ea4-1_x86_64.ipk
+Installed-Size: 7029
+Filename: ucode-mod-uci_2023-11-07-a6e75e02-1_x86_64.ipk
 Size: 7850
-SHA256sum: 6be77d414014deda9018e83d015b81b7e101f320f2cbbe97d42e9461ded2b3a9
+SHA256sum: 68a3c6650cc309708e5604c4f0446742ed3d78f3ff552cd03d6619bde4c73644
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libubox20230523
 Source: feeds/base/package/utils/ucode
 SourceName: ucode-mod-uloop
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 7922
-Filename: ucode-mod-uloop_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 8749
-SHA256sum: ff43591e6261115e688e9727235ccbf10a0cda5a3ebd031b251385788cddacc3
+Installed-Size: 7919
+Filename: ucode-mod-uloop_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 8753
+SHA256sum: 8b3f0575be08fb7e4ed01f760ece614ea16267c0922aa8d75daeaafdf8ff38c8
 Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
 
 Package: ucode
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, libucode20230711
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1698917928
+SourceDateEpoch: 1699544282
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 6197
-Filename: ucode_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 7030
-SHA256sum: 6d220dbf8103061586a13baf1d9d8d23e0f07ae20399809a8ba1d9833d03ef81
+Installed-Size: 6199
+Filename: ucode_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 7039
+SHA256sum: 4550c8dbec658ce734fb5557a32627aaae25dce9d021e53a9cb1a75bb00f97da
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -962,17 +962,17 @@ Source: package/luci-app-mosdns/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1699186111
+SourceDateEpoch: 1699341833
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
-Installed-Size: 2859284
+Installed-Size: 2859290
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2853936
-SHA256sum: 02bb70343f9f40852e7cf20b04a3be80d9de9e9abb41e8248fca421e711a5f96
+Size: 2853969
+SHA256sum: c9ae33fdf17001c4870c714a2abf22883f4e036011f7ea916cdc45c4a314de31
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-11-06
+Version: 2023-11-12
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -982,14 +982,14 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 34352
-Filename: v2ray-geoip_2023-11-06_all.ipk
-Size: 34106
-SHA256sum: e227962e54432738e104a7c4a20110b8d45446150617918397524287912abd62
+Installed-Size: 34343
+Filename: v2ray-geoip_2023-11-12_all.ipk
+Size: 34170
+SHA256sum: 55aa1b9c7643a5a32c756dd22a52ba514d0325d56e341b4523d9a0346bbd6b87
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-11-06
+Version: 2023-11-12
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -999,10 +999,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1673277
-Filename: v2ray-geosite_2023-11-06_all.ipk
-Size: 1673967
-SHA256sum: b78c6371fb94c8253a594e415bda139456da92d0f4c4ff50beaea1afa66ef7ba
+Installed-Size: 1678294
+Filename: v2ray-geosite_2023-11-12_all.ipk
+Size: 1679020
+SHA256sum: 9107029ce865f566a6eef19acc6907e6d514ac683d11df12d31ee0e267abf570
 Description:  Geosite List for V2Ray
 
 Package: vector
