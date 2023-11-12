@@ -148,7 +148,7 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls12
-Version: 2.28.5-1
+Version: 2.28.5-2
 Depends: libc
 Provides: libmbedtls
 License: GPL-2.0-or-later
@@ -156,10 +156,10 @@ Section: libs
 ABIVersion: 12
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
-Installed-Size: 240361
-Filename: libmbedtls12_2.28.5-1_x86_64.ipk
-Size: 241128
-SHA256sum: 5a289f2ba9243cd7fa00b50961c5107ba5e35750479a631f3af7f59a2913a6a3
+Installed-Size: 240928
+Filename: libmbedtls12_2.28.5-2_x86_64.ipk
+Size: 241684
+SHA256sum: 6051ea046c183a67c616871a5a56074c1d4a9e1df25de20056901d6ad637d76b
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -309,17 +309,17 @@ SHA256sum: cbdfd7046a461c60295f224b1c4cf898c454aff74052ff578a68c48b6f596a1c
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libucode20230711
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, libjson-c5
 Provides: libucode
 License: ISC
 Section: libs
 ABIVersion: 20230711
 Architecture: x86_64
-Installed-Size: 75134
-Filename: libucode20230711_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 75948
-SHA256sum: 29dc8d85b5a3f4fa7e29742fb889c4a8c1a5f0d970d87c3f2754aa92a1906d66
+Installed-Size: 75364
+Filename: libucode20230711_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 76151
+SHA256sum: 3eaeb9d586cf3e228fb04394e94da8448675c71e5bba4dbed7dd00b7756e363d
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: lua-examples
@@ -371,14 +371,14 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.16
+Version: 1.5.17
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 75778
-Filename: luci-app-mosdns_1.5.16_all.ipk
-Size: 76742
-SHA256sum: e1ce70ecd9c29db2791600ef495662e58cc8c3d2d7c791dd01830ec4c8c745a6
+Installed-Size: 75886
+Filename: luci-app-mosdns_1.5.17_all.ipk
+Size: 76847
+SHA256sum: 401f201e79b2b9e64cd9c6314936181040f26ec5d3050295b184e604b88ce764
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -393,27 +393,27 @@ SHA256sum: 1d1e050b4b62d0874f9ba7d7fc34638727fd6371de1255bae477c3e5d21201e0
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-23.309.43711-74d15c2
+Version: git-23.311.26633-3ba579c
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
-Installed-Size: 3792
-Filename: luci-i18n-mosdns-zh-cn_git-23.309.43711-74d15c2_all.ipk
-Size: 4595
-SHA256sum: 9a0e2cc20f94d61bc2bb52229683706b17326bfde756d7197a2174b86d6fe368
+Installed-Size: 3860
+Filename: luci-i18n-mosdns-zh-cn_git-23.311.26633-3ba579c_all.ipk
+Size: 4667
+SHA256sum: d0d7ee35ec718891fde30e22183486ef10f5bb73288c5b73c4ad6e7870897842
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
-Version: 2.28.5-1
+Version: 2.28.5-2
 Depends: libc, libmbedtls12
 License: GPL-2.0-or-later
 Section: utils
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
-Installed-Size: 31499
-Filename: mbedtls-util_2.28.5-1_x86_64.ipk
-Size: 32388
-SHA256sum: 6b1bdb5e8b344ce8f47f2ce1e5e9242fb0b7f5fc0f744f7fccdb9c34ccc6cea6
+Installed-Size: 31496
+Filename: mbedtls-util_2.28.5-2_x86_64.ipk
+Size: 32379
+SHA256sum: 46e1c7df7e306df90038ab34e7ede3cbf3ea8dcd061b99fde12f35180b9e0e61
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -584,147 +584,147 @@ SHA256sum: f18a2e8de1a9bd7cf0764d245970d88a9aa99a842ec84fbc47776dc640b031e6
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: ucode-mod-debug
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libubox20230523, libucode20230711
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 8243
-Filename: ucode-mod-debug_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 9055
-SHA256sum: 0848ed895c04b1f999a1b838f28609b02e0d6d141fa8278a3e94acfad2af3dfd
+Installed-Size: 8244
+Filename: ucode-mod-debug_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 9059
+SHA256sum: c9a285238ad7129b62850d917725bf37ce40184a6390e037089977d971ebbdc5
 Description:  The debug plugin module provides runtime debugging and introspection facilities.
 
 Package: ucode-mod-fs
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 9984
-Filename: ucode-mod-fs_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 10748
-SHA256sum: 73a42eb7d84e70fda52967f2e2963ca5b83d20927057bdde957f643fd238ac4e
+Installed-Size: 9983
+Filename: ucode-mod-fs_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 10749
+SHA256sum: 12699317488ac3500099d02b89176d7907647e97725bb68e99806a369ffa6fff
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-log
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libubox20230523
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 4393
-Filename: ucode-mod-log_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 5174
-SHA256sum: 2736ca783f13a551f67496df55777ba462deb62c9ecdd2c8e26acde1b9986f45
+Installed-Size: 4392
+Filename: ucode-mod-log_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 5170
+SHA256sum: c71a3e118e9d267f0b297f36fe552529813e03f36b72832e988eb106a4d2d27b
 Description:  The log plugin module provides access to the syslog and libubox ulog APIs.
 
 Package: ucode-mod-math
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 2509
-Filename: ucode-mod-math_2023-11-02-cfb24ea4-1_x86_64.ipk
+Installed-Size: 2510
+Filename: ucode-mod-math_2023-11-07-a6e75e02-1_x86_64.ipk
 Size: 3280
-SHA256sum: 40f924ea364b1b3fccc496e586f5e0aa69b55bf961e5814fcaed6f88a4fc54c8
+SHA256sum: bd9fa91ebb862b5c6a3a76ecf880df4118455aeeab86f0f0d69e638b36068765
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libnl-tiny1, libubox20230523
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 21434
-Filename: ucode-mod-nl80211_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 22170
-SHA256sum: f1c17c756fbf1ab55131e453d64399e5e478c86905757678167a4a62031f463d
+Installed-Size: 21433
+Filename: ucode-mod-nl80211_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 22172
+SHA256sum: 09e170b5d95a57fa69711a99dca02071db090ce315f50b8845fd367cca66e8da
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-resolv
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 7629
-Filename: ucode-mod-resolv_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 8410
-SHA256sum: 2ce3468dc4f2a74c249232bae7333c24f7ad1b58f3c9d6dcb34d3f340160114d
+Installed-Size: 7628
+Filename: ucode-mod-resolv_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 8411
+SHA256sum: 0836adc923a01549d83140c58f7c006489a808238cd0f6af6139bba22ff57fcc
 Description:  The resolv plugin implements simple DNS resolving.
 
 Package: ucode-mod-rtnl
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libnl-tiny1, libubox20230523
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 28673
-Filename: ucode-mod-rtnl_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 29361
-SHA256sum: 2c78b044735d46c63cd11dab537f56e3a8891692f666ab97a5cffc1d40171681
+Installed-Size: 28672
+Filename: ucode-mod-rtnl_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 29351
+SHA256sum: 680aad22d97c1f1346ab6ff5c5e0784837f5d90f3c90974f7a78553be0cb7046
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-struct
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 9798
-Filename: ucode-mod-struct_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 10579
-SHA256sum: 950d3776e177cc6d35488630976bf8c1ed1c53de485f173ad88f08c11d4939d8
+Installed-Size: 9797
+Filename: ucode-mod-struct_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 10568
+SHA256sum: a2c960fd4b673c577a03b5e913d6b368e6d33f6e4695c05b457b83de79140dd3
 Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
 
 Package: ucode-mod-ubus
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libubus20230605, libblobmsg-json20230523
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 14279
-Filename: ucode-mod-ubus_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 15034
-SHA256sum: c05878add4f0c39fbe2c3e4b589fb969b3926ccc8966677bafb47f1de61f66d3
+Installed-Size: 14227
+Filename: ucode-mod-ubus_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 15003
+SHA256sum: e5310767769a12c055956e692434b6960326be4aa8f2efb736c39c15b30b1ab4
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
 
 Package: ucode-mod-uci
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libuci20130104
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 7030
-Filename: ucode-mod-uci_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 7830
-SHA256sum: 17901b8ef65ea011a028f8d6b403aef6f297978333e6ed92057e127174e248e1
+Installed-Size: 7028
+Filename: ucode-mod-uci_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 7834
+SHA256sum: b2265e2dd1542a50b572c5f9a45c42bda496282ba5cfe6c003203a7f8dac0861
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, ucode, libubox20230523
 License: ISC
 Section: lang
 Architecture: x86_64
 Installed-Size: 7915
-Filename: ucode-mod-uloop_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 8731
-SHA256sum: cdcdf6400c28b27152f1b3a9c312c01d5a1e9eb9c23dc7d9d141ef0a8ca2b754
+Filename: ucode-mod-uloop_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 8730
+SHA256sum: 888e2a586c3c957617ac515d19858dbf83e9ce8003be1d6da515a0ad603dc152
 Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
 
 Package: ucode
-Version: 2023-11-02-cfb24ea4-1
+Version: 2023-11-07-a6e75e02-1
 Depends: libc, libucode20230711
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 6195
-Filename: ucode_2023-11-02-cfb24ea4-1_x86_64.ipk
-Size: 7011
-SHA256sum: 2ed34e7978fcbc82af1b2a571a99e37098c0b5e118e487239c458f026fd232e1
+Installed-Size: 6194
+Filename: ucode_2023-11-07-a6e75e02-1_x86_64.ipk
+Size: 7012
+SHA256sum: c105dda7c54d1bb3b0b21edcf60926218c39eeb8ea8a7f10f1022d03c0c618f1
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -734,34 +734,34 @@ Depends: libc
 License: GPL-3.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 2859798
+Installed-Size: 2859767
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2854411
-SHA256sum: eaec3bdf7720243213f1ad3f394270aad0cd3a8867e7274482a2d7565d760642
+Size: 2854335
+SHA256sum: af72e597507a1b1c9c724077b7372e6e407646a5822b2de5a549bd55e9f4aa4a
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-11-06
+Version: 2023-11-12
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 34349
-Filename: v2ray-geoip_2023-11-06_all.ipk
-Size: 34123
-SHA256sum: ccd4e6ce644cc7f431ad278cf46e8e94353fdd278ab1fc8c8ad9e594af138c7b
+Installed-Size: 34340
+Filename: v2ray-geoip_2023-11-12_all.ipk
+Size: 34165
+SHA256sum: b5d9599696358da13f82694ef2a8ac0b0aae18ee6123e6082d0c0506dcfbc17f
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-11-06
+Version: 2023-11-12
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1673275
-Filename: v2ray-geosite_2023-11-06_all.ipk
-Size: 1673933
-SHA256sum: 60b2c68261a29697c4674f35ba3e17f66e079d1842c9960c7a1bdaf97b4e1641
+Installed-Size: 1678270
+Filename: v2ray-geosite_2023-11-12_all.ipk
+Size: 1678960
+SHA256sum: 43e668f11e01b6c1bf390e347d06988cdb40a2f444f0a764beaf1f46d7286ae6
 Description:  Geosite List for V2Ray
 
 Package: vector
