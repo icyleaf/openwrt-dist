@@ -220,10 +220,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 2111768
+Installed-Size: 2111769
 Filename: libopenssl3_3.0.12-1_x86_64.ipk
-Size: 2101812
-SHA256sum: 3f5940d859c6b2363ee84d73b0a3c160d4a7e9c34e7654c70e80155edc7795e0
+Size: 2101827
+SHA256sum: ec8afa67ba8a811cb7e01ecedb99789f202b86fe3fa0c708423cec1ac4ce1156
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -375,10 +375,10 @@ Version: 1.5.17
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 75886
+Installed-Size: 75892
 Filename: luci-app-mosdns_1.5.17_all.ipk
-Size: 76847
-SHA256sum: 401f201e79b2b9e64cd9c6314936181040f26ec5d3050295b184e604b88ce764
+Size: 76850
+SHA256sum: 0352fc03f57ba570c7c6c76875bfcdfa0ea55d5651b453872724cc8d4c9217c2
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -393,14 +393,14 @@ SHA256sum: 1d1e050b4b62d0874f9ba7d7fc34638727fd6371de1255bae477c3e5d21201e0
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-23.311.26633-3ba579c
+Version: git-23.319.54516-ed09f89
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
-Installed-Size: 3860
-Filename: luci-i18n-mosdns-zh-cn_git-23.311.26633-3ba579c_all.ipk
-Size: 4667
-SHA256sum: d0d7ee35ec718891fde30e22183486ef10f5bb73288c5b73c4ad6e7870897842
+Installed-Size: 3859
+Filename: luci-i18n-mosdns-zh-cn_git-23.319.54516-ed09f89_all.ipk
+Size: 4661
+SHA256sum: 7df8bd1642853e7938fd7dae09fa0b955e12884a944aace5ac6d7b6ed13ae8d9
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -515,10 +515,10 @@ Depends: libc, tailscaled
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 4682507
+Installed-Size: 4676153
 Filename: tailscale_1.52.1-1_x86_64.ipk
-Size: 4674510
-SHA256sum: 8111e61d7cd6aa76e0f66ce43bd3fe733f702f5e0c069612bf9dac45b5723843
+Size: 4668005
+SHA256sum: 8150c17ad54e0bda3b6f4e742841c816c998bf47519fe5983c54656191dd239b
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -528,10 +528,10 @@ Depends: libc, ca-bundle, kmod-tun
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 8121231
+Installed-Size: 8107473
 Filename: tailscaled_1.52.1-1_x86_64.ipk
-Size: 8104386
-SHA256sum: fbb77387ddf3a0119f400b29cc6943f8948258bce993bf00842e1acb7919fb91
+Size: 8090309
+SHA256sum: 91e344406d5c18d56a15bc4b29de81f98a4732f9df8a3bab1b0cdf8910044578
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -541,10 +541,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 35997636
+Installed-Size: 35973753
 Filename: traefik_2.10.5-1_x86_64.ipk
-Size: 35607833
-SHA256sum: 506423c2f59be8c21168f76bdff458efd907b8a9504f872f7e0d6f50df49fde6
+Size: 35581189
+SHA256sum: 7d098361749cfd23c1374d1784a0cd530407dff3b4df7f404222837165969ddf
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -734,34 +734,34 @@ Depends: libc
 License: GPL-3.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 2859767
+Installed-Size: 2858548
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2854335
-SHA256sum: af72e597507a1b1c9c724077b7372e6e407646a5822b2de5a549bd55e9f4aa4a
+Size: 2853095
+SHA256sum: 8b02422d3dd550333031909c863c10b09c7430dd2970ae803cb8619296844feb
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-11-12
+Version: 2023-11-19
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 34340
-Filename: v2ray-geoip_2023-11-12_all.ipk
-Size: 34165
-SHA256sum: b5d9599696358da13f82694ef2a8ac0b0aae18ee6123e6082d0c0506dcfbc17f
+Installed-Size: 34290
+Filename: v2ray-geoip_2023-11-19_all.ipk
+Size: 34098
+SHA256sum: 96ba168f357e52b7859b175711c4f463733d2abf49e41beb651fab2672cff380
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-11-12
+Version: 2023-11-19
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1678270
-Filename: v2ray-geosite_2023-11-12_all.ipk
-Size: 1678960
-SHA256sum: 43e668f11e01b6c1bf390e347d06988cdb40a2f444f0a764beaf1f46d7286ae6
+Installed-Size: 1678675
+Filename: v2ray-geosite_2023-11-19_all.ipk
+Size: 1679123
+SHA256sum: 176dcf4448392c9b2bc5af95d7c8a1059bf3f3c7f0d4b6ee304897cb68fdd6ec
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -783,10 +783,10 @@ License: Zlib
 Section: devel
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
-Installed-Size: 79917
+Installed-Size: 79916
 Filename: zlib-dev_1.3-1_x86_64.ipk
-Size: 80801
-SHA256sum: 348c5f9d1bfe2a17a8899b59f20a6eb7e5bf53a5c9b1e0f464f640adef425f5f
+Size: 80799
+SHA256sum: f54cd3409890738cfbb3e3b78cf094061e4045794349feef635a26b0c961469f
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
