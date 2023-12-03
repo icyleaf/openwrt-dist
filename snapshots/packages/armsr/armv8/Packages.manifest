@@ -287,10 +287,10 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 2028793
+Installed-Size: 2028790
 Filename: libopenssl3_3.0.12-1_aarch64_generic.ipk
-Size: 2017229
-SHA256sum: f270244ad9caa8b5ff61e661540607b8cd20777b2189ee7179b28a54a3420e04
+Size: 2017362
+SHA256sum: 51f2d33c9611619369ad6e379e995f9219105cd907744cbcf61d30e8f6954803
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -673,10 +673,10 @@ Section: net
 SourceDateEpoch: 1699236894
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 4272612
+Installed-Size: 4272450
 Filename: tailscale_1.52.1-1_aarch64_generic.ipk
-Size: 4262013
-SHA256sum: ca93748d31d9c593c52576ba2ce3610d5405c2bab063550a8c3d548a47256d47
+Size: 4261958
+SHA256sum: 143c2def78df000f50d8f2fcfe14c3dc61e2f9f40229d08ef5f59853676e98dc
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -690,10 +690,10 @@ Section: net
 SourceDateEpoch: 1699236894
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 7488217
+Installed-Size: 7488299
 Filename: tailscaled_1.52.1-1_aarch64_generic.ipk
-Size: 7469404
-SHA256sum: c12657f3e9aea7ca815649a3dc2b12e765b80f555f903f570db5cfb47b394010
+Size: 7469518
+SHA256sum: 7d6eb69432b94ebc4870b0f4393469d7f172a31689c7bb8d86bd75f376165498
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -707,10 +707,10 @@ Section: net
 SourceDateEpoch: 1699236894
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 32853247
+Installed-Size: 32853719
 Filename: traefik_2.10.5-1_aarch64_generic.ipk
-Size: 32484560
-SHA256sum: bba95e4b851f9fe7cb0e24f1068371eaeb7d3998db942181f9f8cb4c8cafcc5e
+Size: 32484103
+SHA256sum: 270a66031a2fdd67f959353145a2d4b2770872ce1216c433a6b158c81487d18b
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -965,10 +965,10 @@ Section: utils
 SourceDateEpoch: 1700380672
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 2621198
+Installed-Size: 2621203
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2613939
-SHA256sum: 636ab0c84a67be94a33078606cac3e68895b9941257f77d65508e5573bcca052
+Size: 2613901
+SHA256sum: 04eb37d9b49c2d0e8dd2a650860d31c22c496becdca5cbc4772b40fb0d298393
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
@@ -1034,8 +1034,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: aarch64_generic
 Installed-Size: 82303
 Filename: zlib-dev_1.3-1_aarch64_generic.ipk
-Size: 83027
-SHA256sum: 8cf8b1e7b88ad768c347963b72c9d77b1f741269e3c9dee0c4608af7f8d3d7cf
+Size: 83039
+SHA256sum: 47b1728f8d525d4af819f072768e4cb0fc89618d4248c6938db1b9891fd9b213
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
