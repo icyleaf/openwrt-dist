@@ -220,10 +220,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
-Installed-Size: 2028793
+Installed-Size: 2028708
 Filename: libopenssl3_3.0.12-1_aarch64_generic.ipk
-Size: 2017274
-SHA256sum: f8588ab55ff02aa2015842f8e47e85e57b7d3c242de898a6f64a897d0c3f1f1a
+Size: 2017199
+SHA256sum: bdb278b60a2f3b8ed9538267af421bd4d31c5b8016c63085f9f1247ca6355c77
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -375,10 +375,10 @@ Version: 1.5.17
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 75861
+Installed-Size: 75876
 Filename: luci-app-mosdns_1.5.17_all.ipk
-Size: 76815
-SHA256sum: 0cbc28f3c3a34e50d7a86a91ec27c88b9f59e1c55510361626972bfa262510fc
+Size: 76831
+SHA256sum: 124532fc8a026e6bee48ac97f5dd7697a48b18501a186758ac618c2c3b89195b
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -393,14 +393,14 @@ SHA256sum: 51f4e6f21a39054bea36c45defd05de47e914edfc8ae467accfe45d8c4aa6395
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-23.323.28672-5836557
+Version: git-23.350.38064-a073a03
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
-Installed-Size: 3858
-Filename: luci-i18n-mosdns-zh-cn_git-23.323.28672-5836557_all.ipk
-Size: 4663
-SHA256sum: 5c54fe956c5f7158b9f4a5d81c7ac5920443edf4d7d6641080b203fa88f56370
+Installed-Size: 3860
+Filename: luci-i18n-mosdns-zh-cn_git-23.350.38064-a073a03_all.ipk
+Size: 4662
+SHA256sum: e82577b24356ce336ed548766dea2bb34697b65905147df1bfdca663f07aa81e
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -515,10 +515,10 @@ Depends: libc, tailscaled
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 4272451
+Installed-Size: 4272854
 Filename: tailscale_1.52.1-1_aarch64_generic.ipk
-Size: 4261954
-SHA256sum: 4b7c26313f74e37c1771fa0fb0f42e7ead24ace66741f2a45faaf6c7afffdc56
+Size: 4262210
+SHA256sum: a3f6da5bb3f56022703ce05710a40f10e973b2dd43661708f81faabc78346965
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -528,10 +528,10 @@ Depends: libc, ca-bundle, kmod-tun
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 7488298
+Installed-Size: 7486547
 Filename: tailscaled_1.52.1-1_aarch64_generic.ipk
-Size: 7469482
-SHA256sum: bb4d788b625e91bae341bae27d5370a337f8c9163ef680557ba035fb26e451cf
+Size: 7467960
+SHA256sum: 39b522035eaab72beca0ab9808818f507a999bad12a18cfc65030a081322c33b
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -541,10 +541,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 32853720
+Installed-Size: 32856194
 Filename: traefik_2.10.5-1_aarch64_generic.ipk
-Size: 32483850
-SHA256sum: eeb0cbf76de47b5ef49f66f53ffa05a30ef6012d78868032e207cfe48df0875d
+Size: 32488674
+SHA256sum: bc477ccc5cc93fcd0439858a6614bcfeeb753584ef930fd6c6b9e289721bf600
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -734,34 +734,34 @@ Depends: libc
 License: GPL-3.0
 Section: utils
 Architecture: aarch64_generic
-Installed-Size: 2621204
+Installed-Size: 2621006
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2613875
-SHA256sum: 785c61ec2be185d411c00cb1610ee37d112ced0733e605fb406fc030cd97be44
+Size: 2613556
+SHA256sum: 18edec0316617dfe84b38444d8e6e56f35d6240576358e12f4f1ebeebce10f57
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-12-10
+Version: 2023-12-17
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 35638
-Filename: v2ray-geoip_2023-12-10_all.ipk
-Size: 34914
-SHA256sum: 47e783d7acb11ac0ea98683464d2745283137f7e004f1c0c78d26ef058d25d37
+Installed-Size: 35516
+Filename: v2ray-geoip_2023-12-17_all.ipk
+Size: 34706
+SHA256sum: 9929d9d93cac5e0e704719b5c012907bd894b8c2d262bc4cd4a1aa48ebe72c3d
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-12-10
+Version: 2023-12-17
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1673809
-Filename: v2ray-geosite_2023-12-10_all.ipk
-Size: 1674344
-SHA256sum: 6d71a5749ccc01b2e82a8e3f9eb1ee4674b1f74106f8ae379eff0d29e172d4ce
+Installed-Size: 1681621
+Filename: v2ray-geosite_2023-12-17_all.ipk
+Size: 1681843
+SHA256sum: 92062f52ac2ab9b3b12ce17747e631a15efdf2d4a8773a9d8e0a7a3d18b70adf
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -783,10 +783,10 @@ License: Zlib
 Section: devel
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: aarch64_generic
-Installed-Size: 82303
+Installed-Size: 82305
 Filename: zlib-dev_1.3-1_aarch64_generic.ipk
-Size: 83023
-SHA256sum: 906996b053925e46899321a9c190f72a52b4c9a4e594f92f5c53d2c062b3f294
+Size: 83032
+SHA256sum: 8be59811c6b3085b162dba01bf603e5d0136aace96de65b848bf52474e9d09f2
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
