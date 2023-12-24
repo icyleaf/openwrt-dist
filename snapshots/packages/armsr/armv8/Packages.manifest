@@ -287,10 +287,10 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 2028708
+Installed-Size: 2028786
 Filename: libopenssl3_3.0.12-1_aarch64_generic.ipk
-Size: 2017199
-SHA256sum: bdb278b60a2f3b8ed9538267af421bd4d31c5b8016c63085f9f1247ca6355c77
+Size: 2017252
+SHA256sum: 9c72aa3cf0c47f8afe7bb6bc1971b496d4f13107a556cc1830456c120e98b5de
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -675,8 +675,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 4272854
 Filename: tailscale_1.52.1-1_aarch64_generic.ipk
-Size: 4262210
-SHA256sum: a3f6da5bb3f56022703ce05710a40f10e973b2dd43661708f81faabc78346965
+Size: 4262160
+SHA256sum: 0df31519276f1fbdfd7502e7b061afa38d4d16b42eaf65dfe4e52ea76ed3d58e
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -690,10 +690,10 @@ Section: net
 SourceDateEpoch: 1699236894
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 7486547
+Installed-Size: 7486524
 Filename: tailscaled_1.52.1-1_aarch64_generic.ipk
-Size: 7467960
-SHA256sum: 39b522035eaab72beca0ab9808818f507a999bad12a18cfc65030a081322c33b
+Size: 7467931
+SHA256sum: 58940e7b142efe53823bcfdbfbb800bb710ea98f6eedd1a4e2056da16402d9f3
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -709,8 +709,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 32856194
 Filename: traefik_2.10.5-1_aarch64_generic.ipk
-Size: 32488674
-SHA256sum: bc477ccc5cc93fcd0439858a6614bcfeeb753584ef930fd6c6b9e289721bf600
+Size: 32488690
+SHA256sum: 904c6b9af82f874f74245c7974079c94e2c301504769c632495cf43081f43917
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -965,14 +965,14 @@ Section: utils
 SourceDateEpoch: 1702722864
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 2621006
+Installed-Size: 2621007
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2613556
-SHA256sum: 18edec0316617dfe84b38444d8e6e56f35d6240576358e12f4f1ebeebce10f57
+Size: 2613474
+SHA256sum: 1377f056addf18fbe3397fa67b392b030dd6bec44bc6e634a5dd6b36f89f7eab
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-12-17
+Version: 2023-12-24
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geodata
@@ -982,14 +982,14 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 35516
-Filename: v2ray-geoip_2023-12-17_all.ipk
-Size: 34706
-SHA256sum: 9929d9d93cac5e0e704719b5c012907bd894b8c2d262bc4cd4a1aa48ebe72c3d
+Installed-Size: 35545
+Filename: v2ray-geoip_2023-12-24_all.ipk
+Size: 34791
+SHA256sum: c1ae659fdc26344c7f1755bd35b4a64651b60d5fb58e44bd7356c5b600df273a
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-12-17
+Version: 2023-12-24
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geodata
@@ -999,10 +999,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1681621
-Filename: v2ray-geosite_2023-12-17_all.ipk
-Size: 1681843
-SHA256sum: 92062f52ac2ab9b3b12ce17747e631a15efdf2d4a8773a9d8e0a7a3d18b70adf
+Installed-Size: 1691831
+Filename: v2ray-geosite_2023-12-24_all.ipk
+Size: 1691837
+SHA256sum: b98c6294355b34db8445960ebd2ceae4c46237c8ced20bb107aa77d8c213c299
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1032,10 +1032,10 @@ Section: devel
 SourceDateEpoch: 1697533508
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: aarch64_generic
-Installed-Size: 82305
+Installed-Size: 82303
 Filename: zlib-dev_1.3-1_aarch64_generic.ipk
 Size: 83032
-SHA256sum: 8be59811c6b3085b162dba01bf603e5d0136aace96de65b848bf52474e9d09f2
+SHA256sum: 7f65ce56935dc7e4e3e33a4eb559041666736494027e6fbe802f22a644a8161a
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
