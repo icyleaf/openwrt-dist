@@ -220,10 +220,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 2111763
+Installed-Size: 2111768
 Filename: libopenssl3_3.0.12-1_x86_64.ipk
-Size: 2101930
-SHA256sum: cd650e1ec968b5930c16059ad95551852f85bef1fd805f115808f60d95da8c95
+Size: 2101858
+SHA256sum: 42017e95823038cf5c2a25cffc77788159b16b1147b05da81a23e966a5a91f53
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -515,10 +515,10 @@ Depends: libc, tailscaled
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 4675539
+Installed-Size: 4675494
 Filename: tailscale_1.52.1-1_x86_64.ipk
-Size: 4667037
-SHA256sum: 8955474c32bef57f6351caeed5515a9cad664a83c8e7ee2ec4cea23e5f9f86af
+Size: 4666982
+SHA256sum: 8e8dc61ec42e2c06dc3e731ae90db3d1ae53a672e42b28f12508d266aa79869b
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -528,10 +528,10 @@ Depends: libc, ca-bundle, kmod-tun
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 8106578
+Installed-Size: 8106601
 Filename: tailscaled_1.52.1-1_x86_64.ipk
-Size: 8089544
-SHA256sum: 9ea46b0c4f91a35458c9c1603b5be656e3820319abf8ca96106fd714bda74bbc
+Size: 8089618
+SHA256sum: 7943e9549691a96b0ec58d095fa7c2b6cfda5347831f4b35de5de877fb868dde
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -541,10 +541,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 35969986
+Installed-Size: 35970025
 Filename: traefik_2.10.5-1_x86_64.ipk
-Size: 35580511
-SHA256sum: 67dd419d4ac4a5011a51718e64d8c710dc3b068630ee06f832bf14f204ca1823
+Size: 35580304
+SHA256sum: 57a57b41571b4feb567948a3036aa8499d561c1dac4214ae28a98bf1f7de550b
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -734,34 +734,34 @@ Depends: libc
 License: GPL-3.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 2856936
+Installed-Size: 2856931
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2851296
-SHA256sum: e60d7141acde778f5feae4efd1b531daff7c4954a02398d0cb3c8051e51961cd
+Size: 2851307
+SHA256sum: dd0006afbe53d52d0389272facd76d497d274e41a69f7ed68d23eafab85e2372
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-12-24
+Version: 2023-12-31
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 35545
-Filename: v2ray-geoip_2023-12-24_all.ipk
-Size: 34791
-SHA256sum: c1ae659fdc26344c7f1755bd35b4a64651b60d5fb58e44bd7356c5b600df273a
+Installed-Size: 35558
+Filename: v2ray-geoip_2023-12-31_all.ipk
+Size: 34804
+SHA256sum: 621c3f0b062ddfb9c27dea00cd55a2925c8ccbf2293c2f9ded96adc57301a2e7
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-12-24
+Version: 2023-12-31
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1691831
-Filename: v2ray-geosite_2023-12-24_all.ipk
-Size: 1691837
-SHA256sum: b98c6294355b34db8445960ebd2ceae4c46237c8ced20bb107aa77d8c213c299
+Installed-Size: 1697756
+Filename: v2ray-geosite_2023-12-31_all.ipk
+Size: 1698548
+SHA256sum: d7ab54c9afb8b959ff210d05986d0c9c133bc2b79159510d05c4301148649546
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -785,8 +785,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 79918
 Filename: zlib-dev_1.3-1_x86_64.ipk
-Size: 80796
-SHA256sum: a58c2d16f7ffda34147729d62762c658a91bf685e69b7d92644b3ceab9b9b32f
+Size: 80790
+SHA256sum: 65fb760e1934dce50704a1be3328b21a0311148020a423773fa9c7d5c7f50100
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
