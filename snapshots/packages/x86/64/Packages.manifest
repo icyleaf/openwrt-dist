@@ -501,13 +501,13 @@ Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certific
 Source: package/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1701497820
+SourceDateEpoch: 1704322437
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 5618028
+Installed-Size: 5617988
 Filename: luci-app-openclash_0.45.157-beta_all.ipk
-Size: 5595343
-SHA256sum: 51f4e6f21a39054bea36c45defd05de47e914edfc8ae467accfe45d8c4aa6395
+Size: 5595271
+SHA256sum: 9ed8cc05eed23dfb1445c947b946c28e1cd78801b65677b0ac0b5aa79b9d1723
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -972,7 +972,7 @@ SHA256sum: dd0006afbe53d52d0389272facd76d497d274e41a69f7ed68d23eafab85e2372
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-12-31
+Version: 2024-01-07
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geodata
@@ -982,14 +982,14 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 35558
-Filename: v2ray-geoip_2023-12-31_all.ipk
-Size: 34804
-SHA256sum: 621c3f0b062ddfb9c27dea00cd55a2925c8ccbf2293c2f9ded96adc57301a2e7
+Installed-Size: 36618
+Filename: v2ray-geoip_2024-01-07_all.ipk
+Size: 35272
+SHA256sum: bb3f50e5365d5dee262fdb44cfe2584f34044b405a8729a0ca176f51271fd8c6
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-12-31
+Version: 2024-01-07
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geodata
@@ -999,10 +999,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1697756
-Filename: v2ray-geosite_2023-12-31_all.ipk
-Size: 1698548
-SHA256sum: d7ab54c9afb8b959ff210d05986d0c9c133bc2b79159510d05c4301148649546
+Installed-Size: 1685281
+Filename: v2ray-geosite_2024-01-07_all.ipk
+Size: 1685647
+SHA256sum: 55de3aa9d40df45bb7c6384b925cc27a9378a2ed666a36c19db873e881f48df8
 Description:  Geosite List for V2Ray
 
 Package: vector
