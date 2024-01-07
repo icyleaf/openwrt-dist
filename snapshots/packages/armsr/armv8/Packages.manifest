@@ -287,10 +287,10 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 2028708
+Installed-Size: 2028787
 Filename: libopenssl3_3.0.12-1_aarch64_generic.ipk
-Size: 2017197
-SHA256sum: 0caa1973a777adea61a4b12d351208576ad748959bbce4dc6aa72fbad563acb1
+Size: 2017338
+SHA256sum: 9c92d9af470317a414a402a4d56576776f903ed79d607d76e0b22445ca515e8e
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -501,13 +501,13 @@ Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certific
 Source: package/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1701497820
+SourceDateEpoch: 1704322437
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 5618028
+Installed-Size: 5617988
 Filename: luci-app-openclash_0.45.157-beta_all.ipk
-Size: 5595343
-SHA256sum: 51f4e6f21a39054bea36c45defd05de47e914edfc8ae467accfe45d8c4aa6395
+Size: 5595271
+SHA256sum: 9ed8cc05eed23dfb1445c947b946c28e1cd78801b65677b0ac0b5aa79b9d1723
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -673,10 +673,10 @@ Section: net
 SourceDateEpoch: 1699236894
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 4272852
+Installed-Size: 4272853
 Filename: tailscale_1.52.1-1_aarch64_generic.ipk
-Size: 4262075
-SHA256sum: 4fa4fcd4afcdf4ab39c49ca939575163dc927c650c4e0745bf2513835aba0d28
+Size: 4262145
+SHA256sum: e73cb8158d84e7cf10abc0c631db0c39e3e6b5025ea38ab50f6fbd8135367f6f
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -692,8 +692,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 7486546
 Filename: tailscaled_1.52.1-1_aarch64_generic.ipk
-Size: 7467845
-SHA256sum: 1f408d789aa899087ba1a0a6b8d547a9bc4c74da792020f34a4ba35b10ba4e84
+Size: 7467879
+SHA256sum: 8691412a79f726a38faafd7ca75447c7e62e187b6c8d5c16d6c7b667931c7d7f
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -707,10 +707,10 @@ Section: net
 SourceDateEpoch: 1699236894
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 32856161
+Installed-Size: 32856163
 Filename: traefik_2.10.5-1_aarch64_generic.ipk
-Size: 32489702
-SHA256sum: 24c29a9a38f1f7833871b60e8d3886cb191b553028ebff1a05a6af685e15fde2
+Size: 32489351
+SHA256sum: b9d63649c8a5b99392ce41cab7fe049bec2e3aabc001956e4e8d6125377a88d9
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -967,12 +967,12 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 2621005
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2613480
-SHA256sum: deece7e1ab0b7a3dd277320b1a1dfd9256ddbec1aeb72c8e00bc304ef72846d4
+Size: 2613554
+SHA256sum: ff5d1b94dbeff5570781c9350b096203bb7a0c0554eb83330039793372f2dc7b
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2023-12-31
+Version: 2024-01-07
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geodata
@@ -982,14 +982,14 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 35558
-Filename: v2ray-geoip_2023-12-31_all.ipk
-Size: 34804
-SHA256sum: 621c3f0b062ddfb9c27dea00cd55a2925c8ccbf2293c2f9ded96adc57301a2e7
+Installed-Size: 36618
+Filename: v2ray-geoip_2024-01-07_all.ipk
+Size: 35272
+SHA256sum: bb3f50e5365d5dee262fdb44cfe2584f34044b405a8729a0ca176f51271fd8c6
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2023-12-31
+Version: 2024-01-07
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geodata
@@ -999,10 +999,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1697756
-Filename: v2ray-geosite_2023-12-31_all.ipk
-Size: 1698548
-SHA256sum: d7ab54c9afb8b959ff210d05986d0c9c133bc2b79159510d05c4301148649546
+Installed-Size: 1685281
+Filename: v2ray-geosite_2024-01-07_all.ipk
+Size: 1685647
+SHA256sum: 55de3aa9d40df45bb7c6384b925cc27a9378a2ed666a36c19db873e881f48df8
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1032,10 +1032,10 @@ Section: devel
 SourceDateEpoch: 1697533508
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: aarch64_generic
-Installed-Size: 82303
+Installed-Size: 82304
 Filename: zlib-dev_1.3-1_aarch64_generic.ipk
-Size: 83033
-SHA256sum: 455f094405cbeb562593bc0640d194b9103560e8bffc9a4e8189ff2ceb2f1468
+Size: 83030
+SHA256sum: 8fd92f814decfd4ffb714f20a74d887cc3eebe7bd0caa97da68a5e938d5b266f
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
