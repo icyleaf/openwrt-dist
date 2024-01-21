@@ -228,8 +228,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
 Installed-Size: 5273600
 Filename: libopenssl3_3.0.12-1_aarch64_generic.ipk
-Size: 2017194
-SHA256sum: fd5844191b010b6e4901eed111ba1c227c5d959b9c996b132ea0e8743987bac0
+Size: 2017285
+SHA256sum: b1f5477ef44fb0b31cbe17b07bb31b3ac25dd9c743657cba3a185751c24ee559
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -387,8 +387,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 296960
 Filename: luci-app-mosdns_1.5.17_all.ipk
-Size: 76853
-SHA256sum: be6be44c98e569662ece911dffd9af5c3607dd753129919844f1bc8811ba396e
+Size: 76862
+SHA256sum: e87f0cbe6a4aaf96649bf202c3cb6830b198ddb8e485fa06ee177a912a21f5fd
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -403,14 +403,14 @@ SHA256sum: 48e2775fda77fef4eb6c61c28da5c198727bb13b97087611aeef7b0bcc0ca3f6
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-23.350.38064-a073a03
+Version: git-24.017.38855-169ae05
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_git-23.350.38064-a073a03_all.ipk
+Filename: luci-i18n-mosdns-zh-cn_git-24.017.38855-169ae05_all.ipk
 Size: 4665
-SHA256sum: 5c328fe34ecc13728b97ba1d15c4156642cfb83b164a9360f5babb5738556405
+SHA256sum: e8b9794708518124d4e8500a60915fa382bee1d00d57da4340acd270c352e26d
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -531,8 +531,8 @@ URL: https://tailscale.com
 Architecture: aarch64_generic
 Installed-Size: 10864640
 Filename: tailscale_1.52.1-1_aarch64_generic.ipk
-Size: 4262228
-SHA256sum: 00132fe0ed7b9e458d847ec583576ca45b358049e6426d517dcc11bab940b4ec
+Size: 4262133
+SHA256sum: 53d56fd6d0637498a7ed6b77572fbda3570c9131482b619f4944098513d5a683
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -545,8 +545,8 @@ URL: https://tailscale.com
 Architecture: aarch64_generic
 Installed-Size: 19712000
 Filename: tailscaled_1.52.1-1_aarch64_generic.ipk
-Size: 7467983
-SHA256sum: f4cc6d3d83045046cd1bde0eec1d736e95c3ffc23af78c68796d2a3e622c99c3
+Size: 7467797
+SHA256sum: cbc54e17265c76c06a056331f1b5c11a4c92dd809048f0e97420420ad14fcbe2
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -559,8 +559,8 @@ URL: https://github.com/traefik/traefik/
 Architecture: aarch64_generic
 Installed-Size: 133488640
 Filename: traefik_2.10.5-1_aarch64_generic.ipk
-Size: 32488956
-SHA256sum: 72c5f5e8207ab76dfbcdd935c01390f82a7dea40df708c88e2f115ef59158f13
+Size: 32489725
+SHA256sum: 0d4e5f838a0f05453083d68f6a9c8b7e2261668096fdee29587ffe2289d1be50
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -753,34 +753,34 @@ URL: https://github.com/urlesistiana/v2dat
 Architecture: aarch64_generic
 Installed-Size: 6912000
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2613567
-SHA256sum: f87527cc660b349e260a6f23f2db935e1ededb81eabc4396750fadccd943e241
+Size: 2613438
+SHA256sum: d10020f43a395806c61b8424a54a24c1a549020aa830f2a1a5c20aa419ed0303
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-01-14
+Version: 2024-01-21
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 163840
-Filename: v2ray-geoip_2024-01-14_all.ipk
-Size: 34976
-SHA256sum: d2cb58dd017cbb5dfdda93a39cb4ca031bd162c2fe56fa2a6c2071453c1c5006
+Filename: v2ray-geoip_2024-01-21_all.ipk
+Size: 35151
+SHA256sum: 378616ad1e3ddd415d81ed0ff175eece2a1e23230de45a6e0a63a7c97df182b1
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-01-14
+Version: 2024-01-21
 Depends: libc
 License: MIT
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 5376000
-Filename: v2ray-geosite_2024-01-14_all.ipk
-Size: 1719445
-SHA256sum: e297c5eb9d0b3401b49d2db6e06a834ccdf157e1c32b7f2b90e670b6dbbb2911
+Installed-Size: 5396480
+Filename: v2ray-geosite_2024-01-21_all.ipk
+Size: 1729461
+SHA256sum: 8271e97a31b7eee7e4bb106fa3c22d36aedf482af71bfef4c7198ea7ab8395a9
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -805,8 +805,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: aarch64_generic
 Installed-Size: 245760
 Filename: zlib-dev_1.3-1_aarch64_generic.ipk
-Size: 83049
-SHA256sum: f9d0a0cdae9b36b1a377bbf2db3c665b652a5c2cf5ab8e12f1edef4e58365037
+Size: 83047
+SHA256sum: a5895999ead63c68f1fa511fce2adbe9b387b0661b041499b1331ff7acd484dc
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
