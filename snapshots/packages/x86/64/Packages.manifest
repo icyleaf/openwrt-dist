@@ -29,104 +29,104 @@ SHA256sum: aed2ddfe5b4af6c352aed8a7496a201ac54d3dc6194d93ecc3cbf01a86b02b60
 Description:  System CA certificates
 
 Package: iwinfo
-Version: 2023-07-01-ca79f641-1
+Version: 2023-11-19-a34977c0-1
 Depends: libc, libiwinfo20230701
 Source: feeds/base/package/network/utils/iwinfo
 SourceName: libiwinfo
 License: GPL-2.0
 Section: utils
-SourceDateEpoch: 1698604952
+SourceDateEpoch: 1706290194
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: iwinfo_2023-07-01-ca79f641-1_x86_64.ipk
-Size: 7577
-SHA256sum: 9606dd19e2dba03eba8a659dfc0ca20c05234f9878814cda14b7bf2a8eb785ac
+Filename: iwinfo_2023-11-19-a34977c0-1_x86_64.ipk
+Size: 7574
+SHA256sum: ca2251bd7373679dad865476e3d64eed3aaa93535fb427e59d2b59ed49bd0019
 Description:  Command line frontend for the wireless information library.
 
 Package: jshn
-Version: 2023-12-04.1-ca3f6d0c-1
-Depends: libc, libjson-c5, libubox202312041, libblobmsg-json202312041
+Version: 2024-01-26-c1be5057-1
+Depends: libc, libjson-c5, libubox20240126, libblobmsg-json20240126
 Source: feeds/base/package/libs/libubox
 SourceName: libubox
 License: ISC
 Section: utils
-SourceDateEpoch: 1704794784
+SourceDateEpoch: 1706299687
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: jshn_2023-12-04.1-ca3f6d0c-1_x86_64.ipk
-Size: 7307
-SHA256sum: db4aeebe4e24e5c79fa4d3913290da9f934ce6097aa912bc3ba6cb2afcd1a4e5
+Filename: jshn_2024-01-26-c1be5057-1_x86_64.ipk
+Size: 7191
+SHA256sum: 45f1fd8d1f5b01efebc61dab522eb1a4b106438cb9bcca1654a7ef80bb52ff20
 Description:  Library for parsing and generating JSON from shell scripts
 
-Package: libblobmsg-json202312041
-Version: 2023-12-04.1-ca3f6d0c-1
-Depends: libc, libjson-c5, libubox202312041
+Package: libblobmsg-json20240126
+Version: 2024-01-26-c1be5057-1
+Depends: libc, libjson-c5, libubox20240126
 Provides: libblobmsg-json
 Source: feeds/base/package/libs/libubox
 SourceName: libubox
 License: ISC
 Section: libs
-SourceDateEpoch: 1704794784
-ABIVersion: 202312041
+SourceDateEpoch: 1706299687
+ABIVersion: 20240126
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 20480
-Filename: libblobmsg-json202312041_2023-12-04.1-ca3f6d0c-1_x86_64.ipk
-Size: 4526
-SHA256sum: b5350f057fa2666288a95e6d5ff1a8a5c8b83ef82e901c3245140d50558c7787
+Filename: libblobmsg-json20240126_2024-01-26-c1be5057-1_x86_64.ipk
+Size: 4514
+SHA256sum: 0c14caef8680f0675978c316ef37ec50df8870254d9e1467624e27c872e5c9e8
 Description:  blobmsg <-> json conversion library
 
 Package: libiwinfo-data
-Version: 2023-07-01-ca79f641-1
+Version: 2023-11-19-a34977c0-1
 Depends: libc
 Source: feeds/base/package/network/utils/iwinfo
 SourceName: libiwinfo
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1698604952
+SourceDateEpoch: 1706290194
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libiwinfo-data_2023-07-01-ca79f641-1_x86_64.ipk
-Size: 3772
-SHA256sum: 5c0763fb5b388fc0e410df86cfe10f97fae1638cf7bfb1f9fb18d5788c953626
+Filename: libiwinfo-data_2023-11-19-a34977c0-1_x86_64.ipk
+Size: 3790
+SHA256sum: e0378d14ce10af91af85c2b8292a29e91799941e2bca3b1105881a979f7d50fb
 Description:  libiwinfo Lua binding
 
 Package: libiwinfo-lua
-Version: 2023-07-01-ca79f641-1
+Version: 2023-11-19-a34977c0-1
 Depends: libc, libiwinfo20230701, liblua5.1.5
 Source: feeds/base/package/network/utils/iwinfo
 SourceName: libiwinfo
 License: GPL-2.0
 Section: lang
-SourceDateEpoch: 1698604952
+SourceDateEpoch: 1706290194
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libiwinfo-lua_2023-07-01-ca79f641-1_x86_64.ipk
+Filename: libiwinfo-lua_2023-11-19-a34977c0-1_x86_64.ipk
 Size: 7360
-SHA256sum: e978e3d9f506e81e79b56e900f1de514ab885c31790e5d68d28b696aed2ad308
+SHA256sum: 869ef6af1988f24fdb48f653d55cc1b89bf3b735545046d78d3267039574dca2
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
 Package: libiwinfo20230701
-Version: 2023-07-01-ca79f641-1
+Version: 2023-11-19-a34977c0-1
 Depends: libc, libnl-tiny1, libuci20130104, libubus20231128, libiwinfo-data
 Provides: libiwinfo
 Source: feeds/base/package/network/utils/iwinfo
 SourceName: libiwinfo
 License: GPL-2.0
 Section: libs
-SourceDateEpoch: 1698604952
+SourceDateEpoch: 1706290194
 ABIVersion: 20230701
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 71680
-Filename: libiwinfo20230701_2023-07-01-ca79f641-1_x86_64.ipk
-Size: 26618
-SHA256sum: cb8560e0fb0682494fd2f8dde626331bca517910a4d7769c54faea16633ef797
+Filename: libiwinfo20230701_2023-11-19-a34977c0-1_x86_64.ipk
+Size: 26622
+SHA256sum: dce3a321623d7019716190fd1cbe5eb74f2f9fc48f0e1dfcd0854abe719dfdb7
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -151,22 +151,22 @@ Size: 30274
 SHA256sum: bf08cb9df7e245c63978c2e92dfd5524d539d9b6c16e505a5d3ded58735eaf8e
 Description:  This package contains a library for javascript object notation backends.
 
-Package: libjson-script202312041
-Version: 2023-12-04.1-ca3f6d0c-1
-Depends: libc, libubox202312041
+Package: libjson-script20240126
+Version: 2024-01-26-c1be5057-1
+Depends: libc, libubox20240126
 Provides: libjson-script
 Source: feeds/base/package/libs/libubox
 SourceName: libubox
 License: ISC
 Section: utils
-SourceDateEpoch: 1704794784
-ABIVersion: 202312041
+SourceDateEpoch: 1706299687
+ABIVersion: 20240126
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 20480
-Filename: libjson-script202312041_2023-12-04.1-ca3f6d0c-1_x86_64.ipk
-Size: 5957
-SHA256sum: 17ec4db971c98292bc0a218401aa771079902117c115d6517063c07bbe50f575
+Filename: libjson-script20240126_2024-01-26-c1be5057-1_x86_64.ipk
+Size: 5954
+SHA256sum: e3d1ffdebfb75acfc46e3670f9f8cc80f8809f5b4b4e6c56a0f11e67717dfab2
 Description:  Minimalistic JSON based scripting engine
 
 Package: liblua5.1.5
@@ -194,7 +194,7 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls12
-Version: 2.28.5-2
+Version: 2.28.7-2
 Depends: libc
 Provides: libmbedtls
 Source: feeds/base/package/libs/mbedtls
@@ -202,15 +202,15 @@ SourceName: mbedtls
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: libs
-SourceDateEpoch: 1699320629
+SourceDateEpoch: 1706590226
 URL: https://tls.mbed.org
 ABIVersion: 12
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 552960
-Filename: libmbedtls12_2.28.5-2_x86_64.ipk
-Size: 241714
-SHA256sum: 0757fb0db44d6af7d8e6a9bbe80d8980f73c954ab5142734e6ef2467b5ccc5eb
+Filename: libmbedtls12_2.28.7-2_x86_64.ipk
+Size: 242040
+SHA256sum: c0396be0958df3a406740440bdd9ccd1fbc79dca2f436ec8a69d49cb3d2fd3c0
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -234,22 +234,22 @@ SHA256sum: 8b1703c6afc74b5fd757a9b3babeddde2ca9c71298e326f0ffb2bf1a92eacc3e
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.12-1
+Version: 3.0.13-1
 Depends: libc, libopenssl3
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1698402012
+SourceDateEpoch: 1706960388
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libopenssl-conf_3.0.12-1_x86_64.ipk
-Size: 7474
-SHA256sum: 32794fcb4c21a046a6cf5da74eaab084fbde24e1dd3cac2bf2dc3961b457a8ea
+Filename: libopenssl-conf_3.0.13-1_x86_64.ipk
+Size: 7472
+SHA256sum: e602cb45c6b60c22829907f26c26d92671fc839df10d252a5afa74cea37b989e
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -257,29 +257,29 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.12-1
+Version: 3.0.13-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1698402012
+SourceDateEpoch: 1706960388
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
-Installed-Size: 133120
-Filename: libopenssl-legacy_3.0.12-1_x86_64.ipk
-Size: 38154
-SHA256sum: 3d53c8767647b2971394ea891946faa5d54ab4e3245285a9d004ad533251bbf3
+Installed-Size: 143360
+Filename: libopenssl-legacy_3.0.13-1_x86_64.ipk
+Size: 38537
+SHA256sum: 2b68c896a46e8adf3d51f1f7df92a127d52b00f6e530e031a7287ebab2c3dda3
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.12-1
+Version: 3.0.13-1
 Depends: libc, kmod-crypto-user, kmod-cryptodev
 Provides: libopenssl
 Source: feeds/base/package/libs/openssl
@@ -287,16 +287,16 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1698402012
+SourceDateEpoch: 1706960388
 URL: http://www.openssl.org/
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 5109760
-Filename: libopenssl3_3.0.12-1_x86_64.ipk
-Size: 2101872
-SHA256sum: 4beff8441d9eec6b0a38fa86b37ddfb83a60994fb3829f65a6959910cdf392b3
+Filename: libopenssl3_3.0.13-1_x86_64.ipk
+Size: 2105176
+SHA256sum: 83cfb656476283a425c9392668639b17b53d1fc36502de6b4d700eb8e5511e55
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -304,37 +304,37 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package contains the OpenSSL shared libraries, needed by other programs.
 
 Package: libubox-lua
-Version: 2023-12-04.1-ca3f6d0c-1
-Depends: libc, libubox202312041, liblua5.1.5
+Version: 2024-01-26-c1be5057-1
+Depends: libc, libubox20240126, liblua5.1.5
 Source: feeds/base/package/libs/libubox
 SourceName: libubox
 License: ISC
 Section: libs
-SourceDateEpoch: 1704794784
+SourceDateEpoch: 1706299687
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libubox-lua_2023-12-04.1-ca3f6d0c-1_x86_64.ipk
-Size: 6384
-SHA256sum: 8d42e53d4282e898849f0d846844ff1bf688f5646cfda824f260e784764f097b
+Filename: libubox-lua_2024-01-26-c1be5057-1_x86_64.ipk
+Size: 6386
+SHA256sum: de9d9a6cbbe580ca1a6113d3483704ffe241c882bd4f88c06b1988e2dbb2445c
 Description:  Lua binding for the OpenWrt Basic utility library
 
-Package: libubox202312041
-Version: 2023-12-04.1-ca3f6d0c-1
+Package: libubox20240126
+Version: 2024-01-26-c1be5057-1
 Depends: libc
 Provides: libubox
 Source: feeds/base/package/libs/libubox
 SourceName: libubox
 License: ISC
 Section: libs
-SourceDateEpoch: 1704794784
-ABIVersion: 202312041
+SourceDateEpoch: 1706299687
+ABIVersion: 20240126
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 61440
-Filename: libubox202312041_2023-12-04.1-ca3f6d0c-1_x86_64.ipk
-Size: 29087
-SHA256sum: cbdc95d9e52cbcf03606996bf925df5700c1c184f365d4d32b014c62d29e6aab
+Filename: libubox20240126_2024-01-26-c1be5057-1_x86_64.ipk
+Size: 29106
+SHA256sum: 45706b9d0c04898861f292e9201a3321ebe20d9952d9f594265a474c87f78e1b
 Description:  Basic utility library
 
 Package: libubus-lua
@@ -349,13 +349,13 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: libubus-lua_2023-11-28-f84eb599-1_x86_64.ipk
-Size: 7906
-SHA256sum: 292691bdb4dfdaa14e003147f02a32b2c1d050d7df64761a0f7539daac7e751c
+Size: 7904
+SHA256sum: 340f2531ddb0fee153d8834bdc58499fe2c3dea91a8fddd3a7f069aede5e2752
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus20231128
 Version: 2023-11-28-f84eb599-1
-Depends: libc, libubox202312041
+Depends: libc, libubox20240126
 Provides: libubus
 Source: feeds/base/package/system/ubus
 SourceName: ubus
@@ -367,8 +367,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: libubus20231128_2023-11-28-f84eb599-1_x86_64.ipk
-Size: 11885
-SHA256sum: a969689c8ea37196c25d21d5f91949eb805e76c6081a5ba84510eb3386f46beb
+Size: 11891
+SHA256sum: 4d051676a5330a97610d5f1754fc7ed5168aaf6bc1cab98faa90d8af739acdd8
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -383,13 +383,13 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: libuci-lua_2023-08-10-5781664d-1_x86_64.ipk
-Size: 7672
-SHA256sum: e86a0a2723c27f7994b20dcd64a88426d3952c5d3e55ecb1e7184dfa8182cba4
+Size: 7670
+SHA256sum: fcb0c2af58fa0e9cd7d77645273f342294ab08374f019cbdacd58987cc550110
 Description:  Lua plugin for UCI
 
 Package: libuci20130104
 Version: 2023-08-10-5781664d-1
-Depends: libc, libubox202312041
+Depends: libc, libubox20240126
 Provides: libuci
 Source: feeds/base/package/system/uci
 SourceName: uci
@@ -401,8 +401,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 51200
 Filename: libuci20130104_2023-08-10-5781664d-1_x86_64.ipk
-Size: 18194
-SHA256sum: 74e40f43c9b7d5b27fb9121e79f9f105b99cf322ba3370ebfc980176a7ebadac
+Size: 18197
+SHA256sum: bba3f6ced9fc9ccda8bfb345dbee33695faba4de4c733d325269fdb0814649d4
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libucode20230711
@@ -413,14 +413,14 @@ Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: libs
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 ABIVersion: 20230711
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 174080
 Filename: libucode20230711_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 76146
-SHA256sum: b1d6ea94594c728d42f68c9054312caa8b145126b735899af800ea6d748093ad
+Size: 76158
+SHA256sum: 87bf0d157089d49f8ca292c9db8a1d67f25766e4db607f551f0f067ae91cfd15
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: lua-examples
@@ -535,21 +535,21 @@ SHA256sum: e8b9794708518124d4e8500a60915fa382bee1d00d57da4340acd270c352e26d
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
-Version: 2.28.5-2
+Version: 2.28.7-2
 Depends: libc, libmbedtls12
 Source: feeds/base/package/libs/mbedtls
 SourceName: mbedtls
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: utils
-SourceDateEpoch: 1699320629
+SourceDateEpoch: 1706590226
 URL: https://tls.mbed.org
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 92160
-Filename: mbedtls-util_2.28.5-2_x86_64.ipk
-Size: 32399
-SHA256sum: 2a2082d24848238f1559a1211125e5744e95e38873feb99d9fcdeb2cdd32283f
+Filename: mbedtls-util_2.28.7-2_x86_64.ipk
+Size: 32376
+SHA256sum: 1dac098f5ef052a3feca484d3b9f2bd7d933d61c544b3dec8cb11d93dfa622d5
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -573,22 +573,22 @@ SHA256sum: 72a30e3fb40b57eac7717fe3c6525149fdc09dd3458729c4a2595d58fdc1ba73
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
-Version: 3.0.12-1
+Version: 3.0.13-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1698402012
+SourceDateEpoch: 1706960388
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 839680
-Filename: openssl-util_3.0.12-1_x86_64.ipk
-Size: 340021
-SHA256sum: d14ca96bc6eea2a6fe06532e573cf2e5ea352ed30b78abd380f3fb6d4be1b534
+Filename: openssl-util_3.0.13-1_x86_64.ipk
+Size: 340083
+SHA256sum: 4093b7b5b7aa4e92100448fb3b4fe3ae9dc79ac9b80a21dc2a169694efa5ff26
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -597,7 +597,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
 
 Package: rpcd-mod-file
 Version: 2023-07-01-c07ab2f9-1
-Depends: libc, libubus20231128, libubox202312041, rpcd
+Depends: libc, libubus20231128, libubox20240126, rpcd
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
@@ -607,13 +607,13 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: rpcd-mod-file_2023-07-01-c07ab2f9-1_x86_64.ipk
-Size: 7931
-SHA256sum: be1245188b49b5d5aed53db5ecf0eac4b0a5391898e32369bcd59d20d476cf7c
+Size: 7933
+SHA256sum: 38f3e71071cdd02493737b23cf9fbb9eb8c0e884910d97277e91a90cb027c389
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
 Version: 2023-07-01-c07ab2f9-1
-Depends: libiwinfo (>= 2023-01-21), libc, libubus20231128, libubox202312041, rpcd, libiwinfo20230701
+Depends: libiwinfo (>= 2023-01-21), libc, libubus20231128, libubox20240126, rpcd, libiwinfo20230701
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
@@ -623,13 +623,13 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: rpcd-mod-iwinfo_2023-07-01-c07ab2f9-1_x86_64.ipk
-Size: 8204
-SHA256sum: 3804a215cb0f61b575a503aa05136bc500c2f892c79051e3df13fcdcfd74e1c3
+Size: 8209
+SHA256sum: 9742252a519090f56947655f4aff43b320ca3805b3eb74715985c79a24399e39
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-rpcsys
 Version: 2023-07-01-c07ab2f9-1
-Depends: libc, libubus20231128, libubox202312041, rpcd
+Depends: libc, libubus20231128, libubox20240126, rpcd
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
@@ -639,13 +639,13 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 20480
 Filename: rpcd-mod-rpcsys_2023-07-01-c07ab2f9-1_x86_64.ipk
-Size: 4558
-SHA256sum: f8868042815584849d19c694253dc8fb90e067b4b14969f3f460cffccb79d0a3
+Size: 4569
+SHA256sum: 187bbc3a019a646b641ea1aff217ca8f0ae25a63844eb080ad271c17341428f9
 Description:  Provides ubus calls for sysupgrade and password changing.
 
 Package: rpcd-mod-ucode
 Version: 2023-07-01-c07ab2f9-1
-Depends: libc, libubus20231128, libubox202312041, rpcd, libucode20230711
+Depends: libc, libubus20231128, libubox20240126, rpcd, libucode20230711
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
@@ -655,13 +655,13 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: rpcd-mod-ucode_2023-07-01-c07ab2f9-1_x86_64.ipk
-Size: 8553
-SHA256sum: 54b28d5e680fe2900377cb2917578b01a4f4b1af81b896efa9e241aba6faa68e
+Size: 8551
+SHA256sum: ef47da257193a577383038eeced44ca2ea466a983d7fe2bd359bd9ed61c4b883
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
 Version: 2023-07-01-c07ab2f9-1
-Depends: libc, libubus20231128, libubox202312041, libuci20130104, libblobmsg-json202312041, libjson-c5
+Depends: libc, libubus20231128, libubox20240126, libuci20130104, libblobmsg-json20240126, libjson-c5
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
@@ -671,8 +671,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 81920
 Filename: rpcd_2023-07-01-c07ab2f9-1_x86_64.ipk
-Size: 26058
-SHA256sum: ad5e561bc94f071905e02b2a4ad1564a07e8f24ca7147c63513ef00f5cdaa723
+Size: 26063
+SHA256sum: 24b8c8ba9b1278b778a125b7122a95af360e99d7ab8f40ea09492b70eb1fe7f2
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -731,7 +731,7 @@ Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
 Version: 2023-11-28-f84eb599-1
-Depends: libc, libubus20231128, libblobmsg-json202312041, ubusd
+Depends: libc, libubus20231128, libblobmsg-json20240126, ubusd
 Source: feeds/base/package/system/ubus
 SourceName: ubus
 License: LGPL-2.1
@@ -741,13 +741,13 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: ubus_2023-11-28-f84eb599-1_x86_64.ipk
-Size: 6965
-SHA256sum: b53223e9146d19aeaf6e5a42cad8ffb757567b3cc9814af8d48ed5d7ebdcffb5
+Size: 6967
+SHA256sum: 93a972ecaa0bba5a68cd2f07a41fbbff4a770803693b589afbefc856a5dff364
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
 Version: 2023-11-28-f84eb599-1
-Depends: libc, libubox202312041, libblobmsg-json202312041
+Depends: libc, libubox20240126, libblobmsg-json20240126
 Source: feeds/base/package/system/ubus
 SourceName: ubus
 License: LGPL-2.1
@@ -758,8 +758,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: ubusd_2023-11-28-f84eb599-1_x86_64.ipk
-Size: 13329
-SHA256sum: 1c09b6ffc903429f5d50bce603882339816a4a21c089daee499dc69ba44ea125
+Size: 13332
+SHA256sum: 7c8e14a293c5756b18545a981bf168e07f27c1c85cb930bd1adeb8ab53b286fd
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -774,24 +774,24 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: uci_2023-08-10-5781664d-1_x86_64.ipk
-Size: 7797
-SHA256sum: 4db0aa625cec3434ca48ce600f92f309fddec84387aa409304b5d1a24657b09c
+Size: 7790
+SHA256sum: 6fa31dc8170d47ea5f15c9e69eb18aadea2fe8c7d9ac2833064d759ecb41774e
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: ucode-mod-debug
 Version: 2023-11-30-6e89b89e-1
-Depends: libc, ucode, libubox202312041, libucode20230711
+Depends: libc, ucode, libubox20240126, libucode20230711
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: ucode-mod-debug_2023-11-30-6e89b89e-1_x86_64.ipk
 Size: 9054
-SHA256sum: aa79d41a5954eb9e7d6333b92ef35ebe0b31e73a3672118a1a38f4318967a250
+SHA256sum: 7aa6051f9f855b0245e4ad6a6b83e34c88a4f69535ca46a5d7136fd8c58d6d6b
 Description:  The debug plugin module provides runtime debugging and introspection facilities.
 
 Package: ucode-mod-fs
@@ -801,29 +801,29 @@ Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: ucode-mod-fs_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 10747
-SHA256sum: 8a3e0ec9c6f85476298c6d7cfbadb2823a5c3edfd11cdc73fe4eb0109cd3b911
+Size: 10750
+SHA256sum: b387fe0a3fb923eb7ceee33dbafa44630eab13fc4621fc7011e03a927fdee319
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-log
 Version: 2023-11-30-6e89b89e-1
-Depends: libc, ucode, libubox202312041
+Depends: libc, ucode, libubox20240126
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 20480
 Filename: ucode-mod-log_2023-11-30-6e89b89e-1_x86_64.ipk
 Size: 5174
-SHA256sum: d64a7c2488319d6afcb8e07aba7bc35f1900b82b71454a0c48d01b87afdcc181
+SHA256sum: a1da63be36916a80e05713eb286738fb347086cde1ab5d746a024f469dc3a948
 Description:  The log plugin module provides access to the syslog and libubox ulog APIs.
 
 Package: ucode-mod-math
@@ -833,29 +833,29 @@ Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 20480
 Filename: ucode-mod-math_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 3280
-SHA256sum: 1e23273787acdc914fdb40defa3b0c5885a83dac476e47dd7d797941dba88e98
+Size: 3272
+SHA256sum: f865392deb5fd7e1c55006d7b4dfe24d36a3679b1937023b89e222918505f20d
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
 Version: 2023-11-30-6e89b89e-1
-Depends: libc, ucode, libnl-tiny1, libubox202312041
+Depends: libc, ucode, libnl-tiny1, libubox20240126
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 71680
 Filename: ucode-mod-nl80211_2023-11-30-6e89b89e-1_x86_64.ipk
 Size: 22179
-SHA256sum: 4a287e9ef22b4ae34102ce6199e203cd3a760cced2e8d1ed4fd2f62b45274043
+SHA256sum: d204e7c85b3dfe7c76eebc3cad4690020f67a10f854764e26bfc47900d226a56
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-resolv
@@ -865,29 +865,29 @@ Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: ucode-mod-resolv_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 8410
-SHA256sum: 00b9e4f5ddec12363424df23e718fddb9b039bea4f70d1a1815c9de27656ccb3
+Size: 8407
+SHA256sum: 148aa92a2440c7fba4e3c0552afdf280f4e631771c6007017042b1915c661c42
 Description:  The resolv plugin implements simple DNS resolving.
 
 Package: ucode-mod-rtnl
 Version: 2023-11-30-6e89b89e-1
-Depends: libc, ucode, libnl-tiny1, libubox202312041
+Depends: libc, ucode, libnl-tiny1, libubox20240126
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 102400
 Filename: ucode-mod-rtnl_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 29349
-SHA256sum: 0f86e73039ddc818d271df3b0495251ede7d86952f065d59a9486e9e362640fa
+Size: 29327
+SHA256sum: b65f29b27499b6b1b7787be7c568686a84019a947d6490e635aba8cb9c63e752
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-struct
@@ -897,29 +897,29 @@ Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: ucode-mod-struct_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 10570
-SHA256sum: ea676dd926b9343a2da207d71303b281056a02c2b779d4b688eb5514d99b2bb2
+Size: 10575
+SHA256sum: fab32a1d07d01df3e4710a2b3b73dbfdbfca2523852b47835bc2e6edd75e7993
 Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
 
 Package: ucode-mod-ubus
 Version: 2023-11-30-6e89b89e-1
-Depends: libc, ucode, libubus20231128, libblobmsg-json202312041
+Depends: libc, ucode, libubus20231128, libblobmsg-json20240126
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 51200
 Filename: ucode-mod-ubus_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 15020
-SHA256sum: 981b42c90f97742fe11c47d2a69a1a9eb712e81fbbf19477d215d5360ff5f962
+Size: 15042
+SHA256sum: ff2b3605a8388feea8a609c27ed6a36e26bed0bfbe5b315de0a888fdbc721022
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
 
 Package: ucode-mod-uci
@@ -929,29 +929,29 @@ Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: ucode-mod-uci_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 7831
-SHA256sum: 8bb8e19cb4d2e5f005386574a44c5c4fb971238da4dc49adfbbc166a8923fd9a
+Size: 7834
+SHA256sum: bcad0f0a18cf17c24b7f165c1d5f1746cef2808e52a7431b8066a74885d4baf7
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
 Version: 2023-11-30-6e89b89e-1
-Depends: libc, ucode, libubox202312041
+Depends: libc, ucode, libubox20240126
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: ucode-mod-uloop_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 9712
-SHA256sum: 74dfc6b98e29807ef74b7c5a8b3490820ba1324fe66e364bd8b04688e1304245
+Size: 9717
+SHA256sum: 5ff7f8c7086064ac5f7dfb6d4cd24f69d7a8014993bc7e2852fbd9c79179ca61
 Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
 
 Package: ucode
@@ -961,13 +961,13 @@ Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701990491
+SourceDateEpoch: 1706800931
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: ucode_2023-11-30-6e89b89e-1_x86_64.ipk
-Size: 7011
-SHA256sum: 99782f1976599bf0e8fee5e60a3285fa0c770117abf3ca68d528b4a30ee75bfa
+Size: 7005
+SHA256sum: ab4b6d184a88df9f9e0bb67af00ea0245657dc81d5b412367c005da7d900c06c
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -989,7 +989,7 @@ SHA256sum: 4032d1983361605480b0de5e00bd97e6bc9e2b70b6cad072d6a1b552c55d5725
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-01-28
+Version: 2024-02-04
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1000,14 +1000,14 @@ SourceDateEpoch: 1692929426
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 153600
-Filename: v2ray-geoip_2024-01-28_all.ipk
-Size: 34428
-SHA256sum: aaf943f770c6cd9f51d806e02a9850ee7a636b8e56ed6128488ddaff438db059
+Installed-Size: 163840
+Filename: v2ray-geoip_2024-02-04_all.ipk
+Size: 34956
+SHA256sum: 961a863b31866ceae56dd4504a003e7d0b98f227140a359ed6e7b5b8caa38d5f
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-01-28
+Version: 2024-02-04
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1018,10 +1018,10 @@ SourceDateEpoch: 1692929426
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 5427200
-Filename: v2ray-geosite_2024-01-28_all.ipk
-Size: 1739492
-SHA256sum: 60ff094b53ef5e1c5a5b4417921e9dced3ec6f4d2bf575a272fa7aef4186a3fe
+Installed-Size: 5396480
+Filename: v2ray-geosite_2024-02-04_all.ipk
+Size: 1729495
+SHA256sum: 8b611c6794460ec293fa31a9b7254ea42548c6c88c41b0f3a9b3a89b94572509
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1042,39 +1042,39 @@ SHA256sum: 6baec7dacc1dcc3143ea5ed7d71e2b0d17f81584f446d71d962140fab9b2b59c
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
-Version: 1.3-1
+Version: 1.3.1-1
 Depends: libc, zlib
 Source: feeds/base/package/libs/zlib
 SourceName: zlib
 License: Zlib
 LicenseFiles: README
 Section: devel
-SourceDateEpoch: 1697533508
+SourceDateEpoch: 1706891189
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 235520
-Filename: zlib-dev_1.3-1_x86_64.ipk
-Size: 80792
-SHA256sum: 3d2d40329d1231c45b9e6a47a4bf1f1808cede9d863bf9963494ae10ddad13ee
+Filename: zlib-dev_1.3.1-1_x86_64.ipk
+Size: 80806
+SHA256sum: 5e8381042efaa46732c65352bfa4e005c45367a36b07e4e42e20fcfef64b027e
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
 Package: zlib
-Version: 1.3-1
+Version: 1.3.1-1
 Depends: libc
 Source: feeds/base/package/libs/zlib
 SourceName: zlib
 License: Zlib
 LicenseFiles: README
 Section: libs
-SourceDateEpoch: 1697533508
+SourceDateEpoch: 1706891189
 URL: http://www.zlib.net/
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 92160
-Filename: zlib_1.3-1_x86_64.ipk
-Size: 44279
-SHA256sum: 8ce878589b06902ac9c98f689b751034d2ed72affb421bc8e8dbd32b9fe032ca
+Filename: zlib_1.3.1-1_x86_64.ipk
+Size: 44307
+SHA256sum: e228dd57e67bc74e523bb574b561629e36c242e3a12fb7058ffbb8cfbb0961eb
 Description:  zlib is a lossless data-compression library.
  This package includes the shared library.
 
