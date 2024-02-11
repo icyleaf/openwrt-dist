@@ -179,16 +179,16 @@ SHA256sum: a85dedaadc00ee9b32f9434589db5e145faaa07646946ddb1164bfa7f862243e
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.12-1
+Version: 3.0.13-1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 6267
-Filename: libopenssl-conf_3.0.12-1_x86_64.ipk
-Size: 7459
-SHA256sum: bff52ffcce25b6a24b49c2e969bcc83c66f7710dd5106acc1d0abb18c529ff2c
+Filename: libopenssl-conf_3.0.13-1_x86_64.ipk
+Size: 7458
+SHA256sum: b12f2c8a86b2fc52fdd83cb6685c97d80fdecd3fe91ffb9ffcbe0b9558edfbe3
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -196,23 +196,23 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.12-1
+Version: 3.0.13-1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 37161
-Filename: libopenssl-legacy_3.0.12-1_x86_64.ipk
-Size: 38140
-SHA256sum: f9cfa8bd0ca432045dba3fd48ade798cdc970ccd248b32168be1319687a21c1f
+Installed-Size: 37606
+Filename: libopenssl-legacy_3.0.13-1_x86_64.ipk
+Size: 38505
+SHA256sum: 5703a099f15c4d1d11f3a7853831965dd51ee3c13191c4e5b090c1e4350a2db8
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.12-1
+Version: 3.0.13-1
 Depends: libc, kmod-crypto-user, kmod-cryptodev
 Provides: libopenssl
 License: Apache-2.0
@@ -220,10 +220,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 2112459
-Filename: libopenssl3_3.0.12-1_x86_64.ipk
-Size: 2102504
-SHA256sum: dc3f7ae8c9bd8f9edf6baaecc022334e61d5676bd412e5adce9fe0cf6d112ac1
+Installed-Size: 2114965
+Filename: libopenssl3_3.0.13-1_x86_64.ipk
+Size: 2105342
+SHA256sum: 3ac7a063108a7740e756709bde767e20d5352d9801acd1f31efb75db56ed1b85
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -316,10 +316,10 @@ License: ISC
 Section: libs
 ABIVersion: 20230711
 Architecture: x86_64
-Installed-Size: 75367
+Installed-Size: 75366
 Filename: libucode20230711_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 76152
-SHA256sum: 5fc92b62644e669c5e5c442a9b829f4fa6580d3549d65ca24d859a711744791e
+Size: 76151
+SHA256sum: 40ca293ed9c46b24c0fbd61634b0d4c5bffef5d49ca455c55548b46ee45381ae
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: lua-examples
@@ -382,14 +382,14 @@ SHA256sum: ed7ffa3c2e3f5fce94847886f39d3d5bbb4da8ef2d505cfb756e005e10ac56bf
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.45.157-beta
+Version: 0.46.001-beta
 Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 5617988
-Filename: luci-app-openclash_0.45.157-beta_all.ipk
-Size: 5595271
-SHA256sum: 9ed8cc05eed23dfb1445c947b946c28e1cd78801b65677b0ac0b5aa79b9d1723
+Installed-Size: 5652621
+Filename: luci-app-openclash_0.46.001-beta_all.ipk
+Size: 5629805
+SHA256sum: e2a82117657600c2bb1cdaafe2c1cd10e25f490469cc0561b0a01e743ba9d2bc
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -432,16 +432,16 @@ SHA256sum: f254d92c27b83377358f3d613442c11f3222fbb705f9b1948b894f538e817fd2
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
-Version: 3.0.12-1
+Version: 3.0.13-1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 340751
-Filename: openssl-util_3.0.12-1_x86_64.ipk
-Size: 340011
-SHA256sum: 584d63d3af427f38face4d4d80dc27d4995e997e908d897dc1d3dce01cbf1adb
+Installed-Size: 341046
+Filename: openssl-util_3.0.13-1_x86_64.ipk
+Size: 340056
+SHA256sum: 460fc67a88dd36305be65aafa1f4416e1e7063bd253a9b7a3a931c2ca5c6a3ca
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -591,8 +591,8 @@ Section: lang
 Architecture: x86_64
 Installed-Size: 8244
 Filename: ucode-mod-debug_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 9058
-SHA256sum: 02679064b06b7390222eab031145300ad6ace90618b67285cca42848cc3f21b1
+Size: 9055
+SHA256sum: 0443c004f831f7f3b38bdb71818020ad56d9a9f4ad1ad954c66691be7ab4baf5
 Description:  The debug plugin module provides runtime debugging and introspection facilities.
 
 Package: ucode-mod-fs
@@ -601,10 +601,10 @@ Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 9983
+Installed-Size: 9984
 Filename: ucode-mod-fs_2023-11-07-a6e75e02-1_x86_64.ipk
 Size: 10742
-SHA256sum: 5befa4fb3b7db85acc5251222dacf3a502f0d170a8bbc8c06904e24aa4d016d9
+SHA256sum: dca2474ff436ea0c0683bde1c3059e7e13005eab75351063b15f5ffb0391b586
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-log
@@ -613,10 +613,10 @@ Depends: libc, ucode, libubox20230523
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 4393
+Installed-Size: 4392
 Filename: ucode-mod-log_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 5172
-SHA256sum: ad184f433ea3589b25aa92c2c68a4395df3528aa1836af0d3662b50cf2d280a9
+Size: 5174
+SHA256sum: a24b7761a989eef9606785a853be450c459eb9ec7c62d520475d7d38b4bc4f82
 Description:  The log plugin module provides access to the syslog and libubox ulog APIs.
 
 Package: ucode-mod-math
@@ -627,8 +627,8 @@ Section: lang
 Architecture: x86_64
 Installed-Size: 2510
 Filename: ucode-mod-math_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 3279
-SHA256sum: ced16b9ccc8ffb411b348f12b3c6072a21a7b739e1fe2a3a2de1ed9bbb8cc39a
+Size: 3273
+SHA256sum: f84b5c9b6cb77bfdc3954927dae83199b5894d7692cae646c8d9db77820d7a7a
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
@@ -637,10 +637,10 @@ Depends: libc, ucode, libnl-tiny1, libubox20230523
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 21433
+Installed-Size: 21434
 Filename: ucode-mod-nl80211_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 22180
-SHA256sum: 6ac2d8c9145ca3a1e31b4f24b76c99e555aff358872cec61a61c396f51a33669
+Size: 22175
+SHA256sum: 8fbed16c04d18a027c9fa40a75c41bcdbce2ed124d7b94c2063384f97566aedd
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-resolv
@@ -651,8 +651,8 @@ Section: lang
 Architecture: x86_64
 Installed-Size: 7628
 Filename: ucode-mod-resolv_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 8409
-SHA256sum: c7b7409f3dfd807094147f66af0c417b8c127547df759631b2f20045b3781676
+Size: 8411
+SHA256sum: cbf24b86edca21576def57714cd26f4fd172fb16ced4e58fbf3cb66a4be01587
 Description:  The resolv plugin implements simple DNS resolving.
 
 Package: ucode-mod-rtnl
@@ -661,10 +661,10 @@ Depends: libc, ucode, libnl-tiny1, libubox20230523
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 28673
+Installed-Size: 28674
 Filename: ucode-mod-rtnl_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 29347
-SHA256sum: 546badd007af62da356fc42b172f5e8a7d70f0a8100d2fa90e6dbc676b6cde8c
+Size: 29341
+SHA256sum: 6b37d5ea59a6995d587026d5e4da305861c6ca28918c0629d5d04c4bdd14a899
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-struct
@@ -673,10 +673,10 @@ Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 9797
+Installed-Size: 9796
 Filename: ucode-mod-struct_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 10564
-SHA256sum: d8dba23631ca902a2d0823526b8d69fcd61b54248a9a15bf8b9483adacae5d43
+Size: 10561
+SHA256sum: 3a7c9ca2c22e37d3bd74583c1e9cb4c06c0b5ca3b532d93ab0f66c310e3d0a0d
 Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
 
 Package: ucode-mod-ubus
@@ -685,10 +685,10 @@ Depends: libc, ucode, libubus20230605, libblobmsg-json20230523
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 14279
+Installed-Size: 14280
 Filename: ucode-mod-ubus_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 15025
-SHA256sum: 5712ceb9e4ecc9b078d9288f684423428c49091f20057dc59aa2a31b6282471b
+Size: 15028
+SHA256sum: 980d403f11f7a752602e775ac997705c0c3fb131ed43972b3949caa96e423617
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
 
 Package: ucode-mod-uci
@@ -697,10 +697,10 @@ Depends: libc, ucode, libuci20130104
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 7028
+Installed-Size: 7029
 Filename: ucode-mod-uci_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 7823
-SHA256sum: d9170b7acce63e237d561cf1b405d88d30f4691071c6091c10e5ad11fd401c6b
+Size: 7832
+SHA256sum: 5176c2e42e1011788678d62751c83dc00387c7c247473af8fa03ea43a0e1a0ec
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
@@ -709,10 +709,10 @@ Depends: libc, ucode, libubox20230523
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 7913
+Installed-Size: 7914
 Filename: ucode-mod-uloop_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 8723
-SHA256sum: 49c7ae48160ca591662753a4fc6a3fe80a7045e476da23babdf1cbd9d18e9df6
+Size: 8724
+SHA256sum: 0cf5fc5fccfb28e22e379c2983cb7b1a7c858ea5cb602b91cff891dbaa0c488e
 Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
 
 Package: ucode
@@ -721,10 +721,10 @@ Depends: libc, libucode20230711
 License: ISC
 Section: lang
 Architecture: x86_64
-Installed-Size: 6194
+Installed-Size: 6195
 Filename: ucode_2023-11-07-a6e75e02-1_x86_64.ipk
-Size: 7013
-SHA256sum: e571bf0837e6bfa2bca501972791d4ff5234589d77ffe0e151c034fc85b80c9c
+Size: 7009
+SHA256sum: 2cc81e4e599796c65e809460bf16f0094e66b934081c41da1cf8cddfbceec35b
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -741,27 +741,27 @@ SHA256sum: 8446bc8d90771b6b60ce7ef977e8d99b8ab0171e2c58a2caa385085e05f5b700
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-02-04
+Version: 2024-02-11
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 35075
-Filename: v2ray-geoip_2024-02-04_all.ipk
-Size: 34935
-SHA256sum: d7ac3411e76fce689ecd35ca0739743dba9604498b132cfca5961c93ddc7a403
+Installed-Size: 34905
+Filename: v2ray-geoip_2024-02-11_all.ipk
+Size: 34834
+SHA256sum: 5036c8461bfd256f4d5036288757afc8fa80cf7ccee695a897e4515918a3f6db
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-02-04
+Version: 2024-02-11
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1728947
-Filename: v2ray-geosite_2024-02-04_all.ipk
-Size: 1729469
-SHA256sum: 2772c76688058b5fceaec385c41269aee6814f7298d6c469213eee0374324cd9
+Installed-Size: 1738195
+Filename: v2ray-geosite_2024-02-11_all.ipk
+Size: 1738866
+SHA256sum: 67436802389aaa2a7433818cb7e2fc83e0e0df161c32314938f999f85df7a3fb
 Description:  Geosite List for V2Ray
 
 Package: vector
