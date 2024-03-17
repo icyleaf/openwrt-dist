@@ -371,36 +371,36 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.17
+Version: 1.5.18
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 75871
-Filename: luci-app-mosdns_1.5.17_all.ipk
-Size: 76840
-SHA256sum: ed7ffa3c2e3f5fce94847886f39d3d5bbb4da8ef2d505cfb756e005e10ac56bf
+Installed-Size: 75934
+Filename: luci-app-mosdns_1.5.18_all.ipk
+Size: 76897
+SHA256sum: 47db20df6255e8bef60cf5d6ae4bbb9769cd3b5b172d0249acf43824b845dc84
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.001-beta
+Version: 0.46.003-beta
 Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 5652621
-Filename: luci-app-openclash_0.46.001-beta_all.ipk
-Size: 5629805
-SHA256sum: e2a82117657600c2bb1cdaafe2c1cd10e25f490469cc0561b0a01e743ba9d2bc
+Installed-Size: 5653114
+Filename: luci-app-openclash_0.46.003-beta_all.ipk
+Size: 5630660
+SHA256sum: aba53da3fd0e008aacc84b3be344182129c37228bff63d8b71f357ee0dbb99b2
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-24.017.38855-169ae05
+Version: git-24.063.73080-83853f6
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
-Installed-Size: 3861
-Filename: luci-i18n-mosdns-zh-cn_git-24.017.38855-169ae05_all.ipk
-Size: 4666
-SHA256sum: ad9a59c4abc0d3ec69b7011f3ac89048a8d1b49b074fba8928bb4b5ea28681c6
+Installed-Size: 3864
+Filename: luci-i18n-mosdns-zh-cn_git-24.063.73080-83853f6_all.ipk
+Size: 4671
+SHA256sum: b884d5bcbec54eb580726812cadc97a5db456bf625fb5463efe098438de52f1e
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -425,10 +425,10 @@ Depends: libc
 License: MIT
 Section: utils
 Architecture: x86_64
-Installed-Size: 96210
+Installed-Size: 96212
 Filename: neofetch_20211210-master-1_x86_64.ipk
-Size: 97046
-SHA256sum: f254d92c27b83377358f3d613442c11f3222fbb705f9b1948b894f538e817fd2
+Size: 97051
+SHA256sum: 1b904f3cd828d7d3fe3f4fe38a40dc242d7e03b2f9b4a2bde05184283c87a0ce
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
@@ -510,41 +510,29 @@ Description:  This package provides the UBUS RPC backend server to expose variou
  functionality to frontend programs via JSON-RPC.
 
 Package: tailscale
-Version: 1.52.1-1
-Depends: libc, tailscaled
-License: MIT
-Section: net
-Architecture: x86_64
-Installed-Size: 4676304
-Filename: tailscale_1.52.1-1_x86_64.ipk
-Size: 4668195
-SHA256sum: f410ab7f92a92e1389e9b1fb6a61d838be906264eb25cb7ad82722994192f87d
-Description:  It creates a secure network between your servers, computers,
- and cloud instances. Even when separated by firewalls or subnets.
-
-Package: tailscaled
-Version: 1.52.1-1
+Version: 1.58.2-1
 Depends: libc, ca-bundle, kmod-tun
-License: MIT
+Provides: tailscaled
+License: BSD-3-Clause
 Section: net
 Architecture: x86_64
-Installed-Size: 8107753
-Filename: tailscaled_1.52.1-1_x86_64.ipk
-Size: 8090701
-SHA256sum: 29ae2df64562c332f738063ac949bc27879aa38f78a6c3e9d6362246ce76671c
+Installed-Size: 9078282
+Filename: tailscale_1.58.2-1_x86_64.ipk
+Size: 9060843
+SHA256sum: 013965c51673e86df434a36f611b0b373bf68fc009d358d4601d3d459b694337
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
 Package: traefik
-Version: 2.10.5-1
+Version: 2.10.7-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 35973645
-Filename: traefik_2.10.5-1_x86_64.ipk
-Size: 35581991
-SHA256sum: a92a34b4cb6150799bfcb87d3bdf99571f1764b9b61cf99f89c6fddd2ae20a4c
+Installed-Size: 36092823
+Filename: traefik_2.10.7-1_x86_64.ipk
+Size: 35704065
+SHA256sum: 2b5bcd601c64514f034e528604e967b50ee81ebb85765cefe66db25a235364d8
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -734,46 +722,46 @@ Depends: libc
 License: GPL-3.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 2858558
+Installed-Size: 2877916
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2853016
-SHA256sum: 8446bc8d90771b6b60ce7ef977e8d99b8ab0171e2c58a2caa385085e05f5b700
+Size: 2872512
+SHA256sum: c657b56eb46b5c93fadb0def27861c21b6140c90ccfec396a13873241d44fa92
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-02-25
+Version: 2024-03-17
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 36776
-Filename: v2ray-geoip_2024-02-25_all.ipk
-Size: 35442
-SHA256sum: 2574de645d5d26b48cc9fbc1ac3672e10e67dc2d50f87f8ada0d326cccdc89fe
+Installed-Size: 36721
+Filename: v2ray-geoip_2024-03-17_all.ipk
+Size: 35417
+SHA256sum: a3bf6f1bb3ed455b5969243759007d458fa200af1e7b86097ac11f51a60d3c10
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-02-25
+Version: 2024-03-17
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1853475
-Filename: v2ray-geosite_2024-02-25_all.ipk
-Size: 1854142
-SHA256sum: 705f07c0f9cb5e3b0c343954c8da1c944326bc019fc42f9b04304b3ee7a51497
+Installed-Size: 1874507
+Filename: v2ray-geosite_2024-03-17_all.ipk
+Size: 1875207
+SHA256sum: b904bcf9a2342950892c41683395b7353b6ab48ba994c7122ef72bfb6d567f5b
 Description:  Geosite List for V2Ray
 
 Package: vector
-Version: 0.33.1-1
+Version: 0.36.0-1
 Depends: libc
 License: MIT
 Section: utils
 Architecture: x86_64
-Installed-Size: 42623012
-Filename: vector_0.33.1-1_x86_64.ipk
-Size: 42372642
-SHA256sum: 6a3cf6b5dcd286036642d35bd2d01741c914e158fdf3bd79abbabe87bd12b362
+Installed-Size: 46315044
+Filename: vector_0.36.0-1_x86_64.ipk
+Size: 46060232
+SHA256sum: d2813c2befdd8c3adf13c4e5f1d617d512367bdcb09ca4bdf8e039968f015a73
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
