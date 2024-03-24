@@ -2,24 +2,26 @@ Package: ca-bundle
 Version: 20240203-1
 Depends: libc
 Provides: ca-certs
+License: GPL-2.0-or-later MPL-2.0
 Section: base
 Architecture: all
 Installed-Size: 225280
 Filename: ca-bundle_20240203-1_all.ipk
-Size: 128132
-SHA256sum: 1a3fded20dce3e3295dc284122b1c3da362b29401e5b3ab6da404dde684ef163
+Size: 128169
+SHA256sum: 936cf6ed3b4e0b691b7d01dcec8378c467106d723287aa42bef840613ed9805f
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
 Version: 20240203-1
 Depends: libc
 Provides: ca-certs
+License: GPL-2.0-or-later MPL-2.0
 Section: base
 Architecture: all
 Installed-Size: 409600
 Filename: ca-certificates_20240203-1_all.ipk
-Size: 139118
-SHA256sum: 201d719df8fe38cd33f646c13e098f58c851d978861b3f6b95583a52e42fca8a
+Size: 139158
+SHA256sum: 74f3f7a7a4a1dc0e9c78e4f2b2ce1afb7d412f8411fb91ba0cb8cb05ea8bf16e
 Description:  System CA certificates
 
 Package: iwinfo
@@ -228,8 +230,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
 Installed-Size: 5345280
 Filename: libopenssl3_3.0.13-1_aarch64_generic.ipk
-Size: 2019408
-SHA256sum: ee05f158dad28bec5e679b8ce5ac5b0238a6498338b7d6614b0ba487246479a4
+Size: 2019448
+SHA256sum: 0edae0c9e80b9c14556dc277f1ea759596319aec8aa049a62082d44bbad36684
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -296,8 +298,8 @@ Section: libs
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: libuci-lua_2023-08-10-5781664d-1_aarch64_generic.ipk
-Size: 8214
-SHA256sum: 3e53e8b068483b900dd23736af17e67bb60a4c62c83d3207fa12125e4cf55560
+Size: 8208
+SHA256sum: 1c23e1e043dfa5c4206dba6e4e5adacaac2058c825fc3165fc8a88c466351425
 Description:  Lua plugin for UCI
 
 Package: libuci20130104
@@ -310,8 +312,8 @@ ABIVersion: 20130104
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: libuci20130104_2023-08-10-5781664d-1_aarch64_generic.ipk
-Size: 18999
-SHA256sum: cb76a6515b2cc57777d6204ce20c3d65e5abdc0832a452a852ace154ea9edd85
+Size: 19003
+SHA256sum: af7bcf7aa394f4147c20292f9c65d05cd70d796f0155baa2316cbeaee5bfb437
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libucode20230711
@@ -530,10 +532,10 @@ License: BSD-3-Clause
 Section: net
 URL: https://tailscale.com
 Architecture: aarch64_generic
-Installed-Size: 21790720
+Installed-Size: 22159360
 Filename: tailscale_1.58.2-1_aarch64_generic.ipk
-Size: 8365496
-SHA256sum: fcfcd3ce43b49e8945add9f8b707f79b60702270af247a32d9c9c15eb62071fd
+Size: 8498079
+SHA256sum: 80debcc6197063b42385d429bb21cf652da3689aed3bc45a8c354ebd048eae99
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -544,10 +546,10 @@ License: MIT
 Section: net
 URL: https://github.com/traefik/traefik/
 Architecture: aarch64_generic
-Installed-Size: 134737920
+Installed-Size: 137277440
 Filename: traefik_2.10.7-1_aarch64_generic.ipk
-Size: 32602554
-SHA256sum: 01e294229dc75da91bbf9b930ec3fe13cd01684099578ce2ae82ca4fb36ebfaf
+Size: 32932231
+SHA256sum: 21009590843d70ff6f05820b3c44fd05ea7d2ebf69852ca97120f6a29e76ed07
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -582,8 +584,8 @@ Section: base
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: uci_2023-08-10-5781664d-1_aarch64_generic.ipk
-Size: 7986
-SHA256sum: 4eb329794d852dbd06c3f117f5871af53be9998085c2fb1b3de3a8130bef13bb
+Size: 8010
+SHA256sum: 4dca03cd7b624067d33e9f3a4ca2609f8bd9271d55823f398240b5723e0cf9a6
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: ucode-mod-debug
@@ -738,36 +740,36 @@ License: GPL-3.0
 Section: utils
 URL: https://github.com/urlesistiana/v2dat
 Architecture: aarch64_generic
-Installed-Size: 6912000
+Installed-Size: 7116800
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2631951
-SHA256sum: 8ec3f28f81b44b72aaff89bbffbe7f95813ff142382a30c8bb5279a40696fd6a
+Size: 2693902
+SHA256sum: 01365ed4d8d9b5e92597b3cffb882edbee02114178ba6938bdab07b788f85fe6
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-03-17
+Version: 2024-03-24
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 174080
-Filename: v2ray-geoip_2024-03-17_all.ipk
-Size: 35444
-SHA256sum: 0e9878f7ef249d109f8c01ad571b7792ab534711e8c2ba11326381fc96c89491
+Filename: v2ray-geoip_2024-03-24_all.ipk
+Size: 35429
+SHA256sum: b7546cff40a94cf83c1e6f8e235d33bbbd18401d9281dc7a5ff6f46aa7fc6738
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-03-17
+Version: 2024-03-24
 Depends: libc
 License: MIT
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 5877760
-Filename: v2ray-geosite_2024-03-17_all.ipk
-Size: 1875236
-SHA256sum: 375217d0ef3c5724fc05087b2c1539f545898d01461235223bea09b3fbb07a77
+Installed-Size: 5898240
+Filename: v2ray-geosite_2024-03-24_all.ipk
+Size: 1876077
+SHA256sum: cda15dee1da2837778ace353e8915e02a36a00a6f86383bb248235ab846dbcf4
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -792,8 +794,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: aarch64_generic
 Installed-Size: 245760
 Filename: zlib-dev_1.3.1-1_aarch64_generic.ipk
-Size: 83082
-SHA256sum: e3dc50ac8bbd57897500adf55bd25b3997df82968940355aac9325e25d4f6e46
+Size: 83069
+SHA256sum: ac6842d2cc54feb6f754d24ce84a1f57b5569efda6840db9e46719b2991daa95
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
