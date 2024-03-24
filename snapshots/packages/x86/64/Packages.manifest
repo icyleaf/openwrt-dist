@@ -4,13 +4,15 @@ Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
 SourceName: ca-certificates
+License: GPL-2.0-or-later MPL-2.0
+LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1708253344
+SourceDateEpoch: 1711053893
 Architecture: all
 Installed-Size: 225280
 Filename: ca-bundle_20240203-1_all.ipk
-Size: 128132
-SHA256sum: 1a3fded20dce3e3295dc284122b1c3da362b29401e5b3ab6da404dde684ef163
+Size: 128169
+SHA256sum: 936cf6ed3b4e0b691b7d01dcec8378c467106d723287aa42bef840613ed9805f
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
@@ -19,13 +21,15 @@ Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
 SourceName: ca-certificates
+License: GPL-2.0-or-later MPL-2.0
+LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1708253344
+SourceDateEpoch: 1711053893
 Architecture: all
 Installed-Size: 409600
 Filename: ca-certificates_20240203-1_all.ipk
-Size: 139118
-SHA256sum: 201d719df8fe38cd33f646c13e098f58c851d978861b3f6b95583a52e42fca8a
+Size: 139158
+SHA256sum: 74f3f7a7a4a1dc0e9c78e4f2b2ce1afb7d412f8411fb91ba0cb8cb05ea8bf16e
 Description:  System CA certificates
 
 Package: iwinfo
@@ -295,8 +299,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 5109760
 Filename: libopenssl3_3.0.13-1_x86_64.ipk
-Size: 2105179
-SHA256sum: 73af48d8f17b45850d552a716e1e2f1e48fb09e156650db2ee89c95732e54078
+Size: 2105222
+SHA256sum: df48a0bf09c57f9473ac055e552fb5ec373b2f408bedc828728dd29e0d20a1be
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -378,13 +382,13 @@ Source: feeds/base/package/system/uci
 SourceName: uci
 License: LGPL-2.1
 Section: libs
-SourceDateEpoch: 1696191482
+SourceDateEpoch: 1710696244
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: libuci-lua_2023-08-10-5781664d-1_x86_64.ipk
-Size: 7670
-SHA256sum: fcb0c2af58fa0e9cd7d77645273f342294ab08374f019cbdacd58987cc550110
+Size: 7672
+SHA256sum: 5156721549d0fe97ca6b167aa0b438f1228bdb3a395ddb85b387eae453151a0b
 Description:  Lua plugin for UCI
 
 Package: libuci20130104
@@ -395,14 +399,14 @@ Source: feeds/base/package/system/uci
 SourceName: uci
 License: LGPL-2.1
 Section: libs
-SourceDateEpoch: 1696191482
+SourceDateEpoch: 1710696244
 ABIVersion: 20130104
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 51200
 Filename: libuci20130104_2023-08-10-5781664d-1_x86_64.ipk
-Size: 18197
-SHA256sum: bba3f6ced9fc9ccda8bfb345dbee33695faba4de4c733d325269fdb0814649d4
+Size: 18188
+SHA256sum: 0026258ec7bf789dbc7cbc236f4cd8a6ac29befdd1a5350bd37ab637a24a76c3
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libucode20230711
@@ -689,10 +693,10 @@ SourceDateEpoch: 1710307146
 URL: https://tailscale.com
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
-Installed-Size: 22814720
+Installed-Size: 23173120
 Filename: tailscale_1.58.2-1_x86_64.ipk
-Size: 9059027
-SHA256sum: 38067c7a881325d043e25a59e1d72dc5b95f361b83ce012987eb4d06a1bfeac6
+Size: 9202634
+SHA256sum: 9022e3f8b3a6e42d3a5a46fea30208106095376d56ffa8530cca38c291ea176d
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -707,10 +711,10 @@ SourceDateEpoch: 1710307146
 URL: https://github.com/traefik/traefik/
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
-Installed-Size: 138936320
+Installed-Size: 141250560
 Filename: traefik_2.10.7-1_x86_64.ipk
-Size: 35705532
-SHA256sum: e3f32bef5ece7c2afd0991f3a454ef402de609b9329f852b84248dbdc6760fb0
+Size: 36039204
+SHA256sum: 37f225ed708f2efc0a259c51ca40b7b51ceb8102064516236f764a52a0cd184d
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -753,13 +757,13 @@ Source: feeds/base/package/system/uci
 SourceName: uci
 License: LGPL-2.1
 Section: base
-SourceDateEpoch: 1696191482
+SourceDateEpoch: 1710696244
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: uci_2023-08-10-5781664d-1_x86_64.ipk
-Size: 7790
-SHA256sum: 6fa31dc8170d47ea5f15c9e69eb18aadea2fe8c7d9ac2833064d759ecb41774e
+Size: 7801
+SHA256sum: e8d9dea1dd6be189f4c4ce571a3ea77369053282cb56a326c5838688b688f39a
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: ucode-mod-debug
@@ -966,14 +970,14 @@ SourceDateEpoch: 1709497080
 URL: https://github.com/urlesistiana/v2dat
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
-Installed-Size: 7208960
+Installed-Size: 7413760
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2872376
-SHA256sum: d4c44802409b838aee9d34e88644f6d032d4f303d3eb5966704c8330021412e8
+Size: 2941833
+SHA256sum: 309490c3d28a2434ec54098a660b8260130386a81ba40ec36241f2f0c94de4f0
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-03-17
+Version: 2024-03-24
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -985,13 +989,13 @@ URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 174080
-Filename: v2ray-geoip_2024-03-17_all.ipk
-Size: 35444
-SHA256sum: 0e9878f7ef249d109f8c01ad571b7792ab534711e8c2ba11326381fc96c89491
+Filename: v2ray-geoip_2024-03-24_all.ipk
+Size: 35429
+SHA256sum: b7546cff40a94cf83c1e6f8e235d33bbbd18401d9281dc7a5ff6f46aa7fc6738
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-03-17
+Version: 2024-03-24
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1002,10 +1006,10 @@ SourceDateEpoch: 1692929426
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 5877760
-Filename: v2ray-geosite_2024-03-17_all.ipk
-Size: 1875236
-SHA256sum: 375217d0ef3c5724fc05087b2c1539f545898d01461235223bea09b3fbb07a77
+Installed-Size: 5898240
+Filename: v2ray-geosite_2024-03-24_all.ipk
+Size: 1876077
+SHA256sum: cda15dee1da2837778ace353e8915e02a36a00a6f86383bb248235ab846dbcf4
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1038,8 +1042,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 235520
 Filename: zlib-dev_1.3.1-1_x86_64.ipk
-Size: 80808
-SHA256sum: 497b6707bf14c0af32078d2a869bdbf95a506c37f162828510eb17bb075d3a67
+Size: 80811
+SHA256sum: 1130dda4dcbbf124a48c06ccd5c128327704c4e268635a7559c57cae463f9373
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
