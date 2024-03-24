@@ -1,31 +1,31 @@
 Package: ca-bundle
-Version: 20230311-1
+Version: 20240203-1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
 SourceName: ca-bundle
 Section: base
-SourceDateEpoch: 1685257704
+SourceDateEpoch: 1711171339
 Architecture: all
-Installed-Size: 123477
-Filename: ca-bundle_20230311-1_all.ipk
-Size: 124264
-SHA256sum: 56c7fb90f1f0379c20df802fe91bee98e69b0523c61db69e16ca0f6d5db90c86
+Installed-Size: 127330
+Filename: ca-bundle_20240203-1_all.ipk
+Size: 128134
+SHA256sum: b951a208f6df777544326ef4b012f2219913118267ba0ac3c957d9cd16ba5eea
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
-Version: 20230311-1
+Version: 20240203-1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
 SourceName: ca-certificates
 Section: base
-SourceDateEpoch: 1685257704
+SourceDateEpoch: 1711171339
 Architecture: all
-Installed-Size: 133839
-Filename: ca-certificates_20230311-1_all.ipk
-Size: 134557
-SHA256sum: bf949404f32264e430f0a4daeddd412281bde02ab779087accaa8dc2f353bddb
+Installed-Size: 138419
+Filename: ca-certificates_20240203-1_all.ipk
+Size: 139132
+SHA256sum: b701a98ed1d3d360cd972570daa93356efca9ffd9cd1fe235ce85958caa27376
 Description:  System CA certificates
 
 Package: iwinfo
@@ -957,7 +957,7 @@ SHA256sum: c657b56eb46b5c93fadb0def27861c21b6140c90ccfec396a13873241d44fa92
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-03-17
+Version: 2024-03-24
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -967,14 +967,14 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 36721
-Filename: v2ray-geoip_2024-03-17_all.ipk
-Size: 35417
-SHA256sum: a3bf6f1bb3ed455b5969243759007d458fa200af1e7b86097ac11f51a60d3c10
+Installed-Size: 36696
+Filename: v2ray-geoip_2024-03-24_all.ipk
+Size: 35398
+SHA256sum: f62f72c649594265c4cd624dfc7ab2d61e665861b40ab3f50d599457c32e2b90
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-03-17
+Version: 2024-03-24
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -984,10 +984,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1874507
-Filename: v2ray-geosite_2024-03-17_all.ipk
-Size: 1875207
-SHA256sum: b904bcf9a2342950892c41683395b7353b6ab48ba994c7122ef72bfb6d567f5b
+Installed-Size: 1875540
+Filename: v2ray-geosite_2024-03-24_all.ipk
+Size: 1876048
+SHA256sum: 78a6f019e6c8556f21e7d7be540acf0da0697b5fcf29b592674a455ce899d9ca
 Description:  Geosite List for V2Ray
 
 Package: vector
