@@ -18,8 +18,8 @@ jobs:
       max-parallel: 1
       matrix:
         url:
-        - https://downloads.immortalwrt.org/snapshots/targets/x86/64/immortalwrt-sdk-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
-        - https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/immortalwrt-sdk-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+        - https://downloads.immortalwrt.org/snapshots/targets/x86/64/immortalwrt-sdk-x86-64_gcc-13.2.0_musl.Linux-x86_64.tar.xz
+        - https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/immortalwrt-sdk-armsr-armv8_gcc-13.2.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/releases/23.05.2/targets/x86/64/immortalwrt-sdk-23.05.2-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/releases/23.05.2/targets/armsr/armv8/immortalwrt-sdk-23.05.2-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
     steps:
