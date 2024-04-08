@@ -957,7 +957,7 @@ SHA256sum: bd7e4cace2315debed048fb685a66e20c96724483beb934fccecfa77fee8be0e
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-04-07
+Version: 2024-04-08
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -968,13 +968,13 @@ SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 36779
-Filename: v2ray-geoip_2024-04-07_all.ipk
-Size: 35477
-SHA256sum: 948e8d7d1f95143c583008c824bad2a8e32bb0f756924237061816b7a491b97c
+Filename: v2ray-geoip_2024-04-08_all.ipk
+Size: 35478
+SHA256sum: c955a240418138a26d69dc3a0fd89d571d89c0c175e49affee9893b8f3edc517
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-04-07
+Version: 2024-04-08
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -984,10 +984,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1897527
-Filename: v2ray-geosite_2024-04-07_all.ipk
-Size: 1898217
-SHA256sum: 395e3bc8ad7fec8397b19885f7f76cd00bd8dc9c22c18fb835704db036d844f9
+Installed-Size: 1896562
+Filename: v2ray-geosite_2024-04-08_all.ipk
+Size: 1897256
+SHA256sum: a69ee9da5a3e8373950a0aa2410011d222634d4270ed3da05b2b22252c65d292
 Description:  Geosite List for V2Ray
 
 Package: vector
