@@ -103,12 +103,6 @@ jobs:
         mkdir -p public/${{ env.sdk_branch }}
         mv bin/packages/*/base/* public/${{ env.sdk_branch }}
 
-    - name: Generate Directory Listings
-      uses: jayanta525/github-pages-directory-listing@v4.0.0
-      if: steps.compile.outcome == 'success'
-      with:
-        FOLDER: ./sdk/public
-
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: steps.organize.outcome == 'success'
@@ -118,3 +112,21 @@ jobs:
         enable_jekyll: true
         keep_files: true
 
+  directory:
+    name: Generating directory index
+    needs: dist
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        ref: gh-pages
+    - name: Generate Directory Listings
+      uses: jayanta525/github-pages-directory-listing@v4.0.0
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: steps.organize.outcome == 'success'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: '.'
+        enable_jekyll: true
+        keep_files: true
