@@ -18,8 +18,8 @@ jobs:
       max-parallel: 1
       matrix:
         url:
-        - https://downloads.immortalwrt.org/snapshots/targets/x86/64/immortalwrt-sdk-x86-64_gcc-13.2.0_musl.Linux-x86_64.tar.xz
-        - https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/immortalwrt-sdk-armsr-armv8_gcc-13.2.0_musl.Linux-x86_64.tar.xz
+        - https://downloads.immortalwrt.org/snapshots/targets/x86/64/immortalwrt-sdk-x86-64_gcc-13.2.0_musl.Linux-x86_64.tar.zst
+        - https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/immortalwrt-sdk-armsr-armv8_gcc-13.2.0_musl.Linux-x86_64.tar.zst
         - https://downloads.immortalwrt.org/releases/23.05.2/targets/x86/64/immortalwrt-sdk-23.05.2-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/releases/23.05.2/targets/armsr/armv8/immortalwrt-sdk-23.05.2-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
     steps:
@@ -33,7 +33,11 @@ jobs:
       run: sudo apt update && sudo apt install -y libev-dev libc-ares-dev libudns-dev libncurses-dev
     - name: Prepare enviroment
       run: |
-        echo "sdk_name=$(echo $(basename ${{ matrix.url }}) | head -c -8)" >> $GITHUB_ENV
+        if [[ "${{ matrix.url }}" =~ ".tar.zst" ]]; then
+          echo "sdk_name=$(echo $(basename ${{ matrix.url }}) | head -c -9)" >> $GITHUB_ENV
+        else
+          echo "sdk_name=$(echo $(basename ${{ matrix.url }}) | head -c -8)" >> $GITHUB_ENV
+        fi
         echo "sdk_branch=$(sed -n 's/.*\/\(\S*\)\/targets\/\(\w*\)\/\(\w*\)\/.*/\1\/packages\/\2\/\3/p' <<< ${{ matrix.url }})" >> $GITHUB_ENV
 
     - name: Debug variables
@@ -52,7 +56,11 @@ jobs:
     - name: Download Openwrt SDK
       # if: steps.cache-sdk.outputs.cache-hit != 'true'
       run: |
-        curl ${{ matrix.url }} | tar -xJ
+        if [[ "${{ matrix.url }}" =~ ".tar.zst" ]]; then
+          curl ${{ matrix.url }} | tar --zstd -x
+        else
+          curl ${{ matrix.url }} | tar -xJ
+        fi
         mv ${{ env.sdk_name }} sdk/
         cp key-build sdk/
 
