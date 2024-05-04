@@ -169,7 +169,7 @@ SHA256sum: 95a52fe336fadc952ce2f9d6921cff655258abb07fb623a19259363fc3fec763
 Description:  Minimalistic JSON based scripting engine
 
 Package: liblua5.1.5
-Version: 5.1.5-10
+Version: 5.1.5-11
 Depends: libc
 Provides: liblua
 Source: feeds/base/package/utils/lua
@@ -177,15 +177,15 @@ SourceName: liblua
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: libs
-SourceDateEpoch: 1698709443
+SourceDateEpoch: 1714513571
 ABIVersion: 5.1.5
 CPE-ID: cpe:/a:lua:lua
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 73646
-Filename: liblua5.1.5_5.1.5-10_x86_64.ipk
-Size: 74548
-SHA256sum: 84789ca6d1a713915cd79b40e3812d2fbba6442e246eecebe4d6fa9f8fefed94
+Installed-Size: 73660
+Filename: liblua5.1.5_5.1.5-11_x86_64.ipk
+Size: 74571
+SHA256sum: c877a1e82995671ad4c45b638a86ce39e32b4cc1116cc5bef6c6aa7bdf37a78a
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -418,81 +418,81 @@ SHA256sum: 40ca293ed9c46b24c0fbd61634b0d4c5bffef5d49ca455c55548b46ee45381ae
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: lua-examples
-Version: 5.1.5-10
+Version: 5.1.5-11
 Depends: libc, lua
 Source: feeds/base/package/utils/lua
 SourceName: lua-examples
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: lang
-SourceDateEpoch: 1698709443
+SourceDateEpoch: 1714513571
 CPE-ID: cpe:/a:lua:lua
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 5290
-Filename: lua-examples_5.1.5-10_x86_64.ipk
-Size: 6177
-SHA256sum: ccd136611dcb88fc55ac5bb01fcf315ee685937cd33ba8c90874e6ec1a3f5a5b
+Filename: lua-examples_5.1.5-11_x86_64.ipk
+Size: 6172
+SHA256sum: f0fb9a92545ba4e3e7ee38b19d9eab1513a9ea28101a668556eda58d3648e42b
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains Lua language examples.
 
 Package: lua
-Version: 5.1.5-10
+Version: 5.1.5-11
 Depends: libc, liblua5.1.5
 Source: feeds/base/package/utils/lua
 SourceName: lua
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: lang
-SourceDateEpoch: 1698709443
+SourceDateEpoch: 1714513571
 CPE-ID: cpe:/a:lua:lua
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 4551
-Filename: lua_5.1.5-10_x86_64.ipk
-Size: 5438
-SHA256sum: d5fce1c1711a94d6784c2c58907772402a2712d3415aa2558ce58f485550b63c
+Installed-Size: 4553
+Filename: lua_5.1.5-11_x86_64.ipk
+Size: 5442
+SHA256sum: 9b6c3893ea730262600b5d3e3673fd5a9faae0dc6835d130d964fa349b086314
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua language interpreter.
 
 Package: luac
-Version: 5.1.5-10
+Version: 5.1.5-11
 Depends: libc, liblua5.1.5
 Source: feeds/base/package/utils/lua
 SourceName: luac
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: lang
-SourceDateEpoch: 1698709443
+SourceDateEpoch: 1714513571
 CPE-ID: cpe:/a:lua:lua
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 5178
-Filename: luac_5.1.5-10_x86_64.ipk
-Size: 6077
-SHA256sum: 1d2c8ca35cd8a81fa9cd259f3b083c4e327aa17fb19497914aab351d78500b20
+Installed-Size: 5176
+Filename: luac_5.1.5-11_x86_64.ipk
+Size: 6076
+SHA256sum: f6a1499728808796c98dfa7aa634614f40278050885c0a00c2e87a4cd6284aea
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.19
+Version: 1.5.20
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1711803616
+SourceDateEpoch: 1713168227
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 75515
-Filename: luci-app-mosdns_1.5.19_all.ipk
-Size: 76523
-SHA256sum: f9c732f389bbebb8b63761b93c398007a3d3332d5f186f2de52bce4fe102737c
+Installed-Size: 75527
+Filename: luci-app-mosdns_1.5.20_all.ipk
+Size: 76550
+SHA256sum: 3e9f68d4c30a59c4b909d9c3c0ce2209adcb47690f9209f409c2b857c82e5077
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -511,17 +511,17 @@ SHA256sum: aba53da3fd0e008aacc84b3be344182129c37228bff63d8b71f357ee0dbb99b2
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-24.090.46816-49051db
+Version: git-24.106.29027-97867ea
 Depends: libc, luci-app-mosdns
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-i18n-mosdns-zh-cn
 Section: luci
-SourceDateEpoch: 1711803616
+SourceDateEpoch: 1713168227
 Architecture: all
-Installed-Size: 3860
-Filename: luci-i18n-mosdns-zh-cn_git-24.090.46816-49051db_all.ipk
-Size: 4667
-SHA256sum: 3f4fd26aa2b09471c19f0b27a2915dec085857e059a4d036e3c84e6f9794da11
+Installed-Size: 3859
+Filename: luci-i18n-mosdns-zh-cn_git-24.106.29027-97867ea_all.ipk
+Size: 4668
+SHA256sum: 44fa25fd3a35853ec6596e27a9d90bcb8811974ba0dd5faff39f916e46581a13
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -947,17 +947,17 @@ Source: package/luci-app-mosdns/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1711803616
+SourceDateEpoch: 1713168227
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
-Installed-Size: 2877303
+Installed-Size: 2877322
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2872180
-SHA256sum: bd7e4cace2315debed048fb685a66e20c96724483beb934fccecfa77fee8be0e
+Size: 2872295
+SHA256sum: 5ef9986bff689ec33d0a34e71bfae6096604997fd7b63e65b779122034ba587e
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-04-14
+Version: 2024-05-04
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -967,14 +967,14 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 36741
-Filename: v2ray-geoip_2024-04-14_all.ipk
-Size: 35640
-SHA256sum: 75c4dcf9554e5ba86b7ebfd9e2d2d203bb1295f9c7f48e7f78fea7fe40a74958
+Installed-Size: 36809
+Filename: v2ray-geoip_2024-05-04_all.ipk
+Size: 35527
+SHA256sum: 29169dbf21394fe79150529f41abdd60ff211d19597e49fc2208423545831ddd
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-04-14
+Version: 2024-05-04
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -984,10 +984,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1904065
-Filename: v2ray-geosite_2024-04-14_all.ipk
-Size: 1904374
-SHA256sum: 5a20c6eb7656d60b11bc850176b02b11b9ec56fe75e3a9c07d77b4bc74ad39ad
+Installed-Size: 1923438
+Filename: v2ray-geosite_2024-05-04_all.ipk
+Size: 1923893
+SHA256sum: 387e9026f3ac62c221237b7f92986d2f3d94fcf2bacb4558f5939c10e8101074
 Description:  Geosite List for V2Ray
 
 Package: vector
