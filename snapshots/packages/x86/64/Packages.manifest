@@ -299,8 +299,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 5109760
 Filename: libopenssl3_3.0.13-r1_x86_64.ipk
-Size: 2106410
-SHA256sum: bd138a344b80a9183575912274ff161feb4a1f3b00286f7d25d7c1bf641eecc1
+Size: 2106439
+SHA256sum: 292bff2084d41113c470e4e4e9d332c071cc16022df2b7145c4265867129ba46
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -606,29 +606,29 @@ Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1712395458
+SourceDateEpoch: 1715972151
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: rpcd-mod-file_2024.02.22~8ef4c258-r1_x86_64.ipk
-Size: 7931
-SHA256sum: 56f42a48aa11e341c51532232edb5895b088f93a6b2340485862738fb803ff25
+Size: 7936
+SHA256sum: 636ac7b46ba5a5434865c08812297b60cddb8246df5c6d47e167e54c2898a7c6
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
 Version: 2024.02.22~8ef4c258-r1
-Depends: libiwinfo (>= 2023-01-21), libc, libubus20231128, libubox20240329, rpcd, libiwinfo20230701
+Depends: libiwinfo (>=2023.01.21), libc, libubus20231128, libubox20240329, rpcd, libiwinfo20230701
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1712395458
+SourceDateEpoch: 1715972151
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: rpcd-mod-iwinfo_2024.02.22~8ef4c258-r1_x86_64.ipk
-Size: 8169
-SHA256sum: 0a2a7e3c2bc2f76caa6e41355755333ee11733497a7f0330ae1080ed42201ad5
+Size: 8168
+SHA256sum: c4f123651a61fcb66a418330f5f080f37dd5f1a512ae21ec59e28f9b250cfdd5
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-rpcsys
@@ -638,13 +638,13 @@ Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1712395458
+SourceDateEpoch: 1715972151
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 20480
 Filename: rpcd-mod-rpcsys_2024.02.22~8ef4c258-r1_x86_64.ipk
 Size: 4682
-SHA256sum: f0dca04cbb700e9a5798c45dec7cb291e8223f36cb9d195f3079485f90f4ff96
+SHA256sum: d59fc7a0d8adc74df3bee4aedfaf569964e5f980a403e28c3bf5ed6ee3817547
 Description:  Provides ubus calls for sysupgrade and password changing.
 
 Package: rpcd-mod-ucode
@@ -654,13 +654,13 @@ Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1712395458
+SourceDateEpoch: 1715972151
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
 Filename: rpcd-mod-ucode_2024.02.22~8ef4c258-r1_x86_64.ipk
-Size: 8475
-SHA256sum: 26aa12b15d80ef4301b4683ae65fb38214077d56063225ba7d189850c67c6ee7
+Size: 8476
+SHA256sum: 7f51e0fff2b39de50be459e2982261653558ea52da34ddb17aa8caa9b4c5eade
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
@@ -670,13 +670,13 @@ Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1712395458
+SourceDateEpoch: 1715972151
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 81920
 Filename: rpcd_2024.02.22~8ef4c258-r1_x86_64.ipk
-Size: 25980
-SHA256sum: f09c32740424078797338a5b78bdd27a8b994bdfd06ea6fbeb7181681cdee638
+Size: 25986
+SHA256sum: 734d36812465949e1397e3cf45e25b8ec82006f3f73db40c7a7c881be3a4d7eb
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -695,8 +695,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 23173120
 Filename: tailscale_1.58.2-r1_x86_64.ipk
-Size: 9203129
-SHA256sum: 977508fa6999cd0237c151f4faa4b39a65d6a3fba2f10f23ad78688d10f08496
+Size: 9203253
+SHA256sum: 7b66f1901bfa672d063a2a717aeb052588abcbe8d109d70d3ca85dc5244f79ec
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -713,8 +713,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 141250560
 Filename: traefik_2.10.7-r1_x86_64.ipk
-Size: 36042490
-SHA256sum: e43c32d9be67f8270a10133c2b34d91115a991bc66c4bd0e117ead2542addf0e
+Size: 36042838
+SHA256sum: 004703e6ee833af16557e5bc627666293870dd142311c21f59640eab5e86bc11
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -988,12 +988,12 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 7413760
 Filename: v2dat_2022.12.15~47b8ee51-r1_x86_64.ipk
-Size: 2941063
-SHA256sum: 37964bec272904f571ee464aa7401c78764e251dfe7a90b92b87ee21a39d18fa
+Size: 2941031
+SHA256sum: 2f437d50bd70101a9d5d2b1ce01c0e1a593f070a8d8b0f38e7e639b326522b9e
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-05-19
+Version: 2024-05-26
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1005,13 +1005,13 @@ URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 163840
-Filename: v2ray-geoip_2024-05-19_all.ipk
-Size: 35018
-SHA256sum: d80ef1b797b1f5a5de096bb310bc71c5128cea70373d9ce89e8322f447803237
+Filename: v2ray-geoip_2024-05-26_all.ipk
+Size: 35065
+SHA256sum: 6bb22eaa3c18677b53266d08af4c635b5617fabbcf14c722ec43f886c13026ef
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-05-19
+Version: 2024-05-26
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1022,10 +1022,10 @@ SourceDateEpoch: 1692929426
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 6072320
-Filename: v2ray-geosite_2024-05-19_all.ipk
-Size: 1940729
-SHA256sum: 176c7153b129b98692216a0bf5776fb41d4d84ebd4170f0d8d2cabe0f76398c7
+Installed-Size: 6092800
+Filename: v2ray-geosite_2024-05-26_all.ipk
+Size: 1947669
+SHA256sum: 3cdac1e6ca313c72bf0d13f7a8e58532a30f7afd46d1fb934c1266305496cd52
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1058,8 +1058,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 235520
 Filename: zlib-dev_1.3.1-r1_x86_64.ipk
-Size: 80533
-SHA256sum: 8b316cbb23950f8aba000638e1335d52bae8d4b966ea6d0b02ec5dbe4f2d9f24
+Size: 80527
+SHA256sum: d23e9b3065952ca62f44eab243fa046dc0d2e011e966bd71ff95a387c516797b
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
