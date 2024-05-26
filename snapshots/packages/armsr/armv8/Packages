@@ -471,20 +471,20 @@ Section: utils
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: rpcd-mod-file_2024.02.22~8ef4c258-r1_aarch64_generic.ipk
-Size: 8409
-SHA256sum: b844f943ca7f8799d3e292f3ded4d5b31a0e44a3567d3c09c7013ad484f5c0c2
+Size: 8403
+SHA256sum: 00218ae44ef20a6f1ab8ede42058135578c6d28620d7eeb01927139d8fe1f674
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
 Version: 2024.02.22~8ef4c258-r1
-Depends: libiwinfo (>= 2023-01-21), libc, libubus20231128, libubox20240329, rpcd, libiwinfo20230701
+Depends: libiwinfo (>=2023.01.21), libc, libubus20231128, libubox20240329, rpcd, libiwinfo20230701
 License: ISC
 Section: utils
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: rpcd-mod-iwinfo_2024.02.22~8ef4c258-r1_aarch64_generic.ipk
-Size: 8833
-SHA256sum: fac3dd313237bc1d4670ce84f0981efeee4db7556bcd197c0610041be3cbf837
+Size: 8823
+SHA256sum: e11e805abc1b3b249a6c97102b70b8a0cc37f046e400ba2f75ad5fe16aead41b
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-rpcsys
@@ -495,8 +495,8 @@ Section: utils
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: rpcd-mod-rpcsys_2024.02.22~8ef4c258-r1_aarch64_generic.ipk
-Size: 4942
-SHA256sum: 58ddeaaa736d51c50340dfc2d3893b816d5901ae41a1ebd2fa596dae6816fcc3
+Size: 4933
+SHA256sum: 8d33466e34e59083ea994ea4633c3921fab0d0c93442232998a44dae0567e85a
 Description:  Provides ubus calls for sysupgrade and password changing.
 
 Package: rpcd-mod-ucode
@@ -507,8 +507,8 @@ Section: utils
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: rpcd-mod-ucode_2024.02.22~8ef4c258-r1_aarch64_generic.ipk
-Size: 9002
-SHA256sum: c4021ef9b01d4492e45338ab90bda80e53670845aa762258107a56061ff3c3ce
+Size: 9006
+SHA256sum: 7e10514ff92c4eca0228e5fb4165c66db130c8e0a25f9cc92478569612299745
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
@@ -519,8 +519,8 @@ Section: utils
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: rpcd_2024.02.22~8ef4c258-r1_aarch64_generic.ipk
-Size: 28164
-SHA256sum: b78c80d01e4f3451143d622cb67f859e8d94af4bceadd314174f3949b341faa1
+Size: 28171
+SHA256sum: 81df54caf5b5513521d1db06a7d08d5e6586060d6b0d79a595167534e38ba8a8
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -759,29 +759,29 @@ SHA256sum: 9cba1e11716a17372a9ae81aa28a94216858df562c40a266bae998ca78b863a9
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-05-19
+Version: 2024-05-26
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 163840
-Filename: v2ray-geoip_2024-05-19_all.ipk
-Size: 35018
-SHA256sum: d80ef1b797b1f5a5de096bb310bc71c5128cea70373d9ce89e8322f447803237
+Filename: v2ray-geoip_2024-05-26_all.ipk
+Size: 35065
+SHA256sum: 6bb22eaa3c18677b53266d08af4c635b5617fabbcf14c722ec43f886c13026ef
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-05-19
+Version: 2024-05-26
 Depends: libc
 License: MIT
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 6072320
-Filename: v2ray-geosite_2024-05-19_all.ipk
-Size: 1940729
-SHA256sum: 176c7153b129b98692216a0bf5776fb41d4d84ebd4170f0d8d2cabe0f76398c7
+Installed-Size: 6092800
+Filename: v2ray-geosite_2024-05-26_all.ipk
+Size: 1947669
+SHA256sum: 3cdac1e6ca313c72bf0d13f7a8e58532a30f7afd46d1fb934c1266305496cd52
 Description:  Geosite List for V2Ray
 
 Package: vector
