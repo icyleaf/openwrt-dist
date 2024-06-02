@@ -206,15 +206,15 @@ SourceName: mbedtls
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: libs
-SourceDateEpoch: 1715240996
+SourceDateEpoch: 1717158898
 URL: https://tls.mbed.org
 ABIVersion: 21
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_generic
 Installed-Size: 860160
 Filename: libmbedtls21_3.6.0-r1_aarch64_generic.ipk
-Size: 329213
-SHA256sum: 118e547077ab63db18dd3f19e99deb4691805efacc7864505153b2e66f2b01a7
+Size: 329181
+SHA256sum: e21267c3b00337311524f21832b010ba9e1ec6bc3c194481935e2404737768f5
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -546,14 +546,14 @@ SourceName: mbedtls
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: utils
-SourceDateEpoch: 1715240996
+SourceDateEpoch: 1717158898
 URL: https://tls.mbed.org
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: mbedtls-util_3.6.0-r1_aarch64_generic.ipk
-Size: 10246
-SHA256sum: dda3c7e3d76206190fdada1ed309349acb9e88cc763807a7fdf91a12d35d938b
+Size: 10257
+SHA256sum: fec3657de1d37934bf840936f27986040d759b52d8491a38b4bd6aa4ff311126
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -993,7 +993,7 @@ SHA256sum: 9cba1e11716a17372a9ae81aa28a94216858df562c40a266bae998ca78b863a9
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-05-26
+Version: 2024-06-02
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1004,14 +1004,14 @@ SourceDateEpoch: 1692929426
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 163840
-Filename: v2ray-geoip_2024-05-26_all.ipk
-Size: 35065
-SHA256sum: 6bb22eaa3c18677b53266d08af4c635b5617fabbcf14c722ec43f886c13026ef
+Installed-Size: 174080
+Filename: v2ray-geoip_2024-06-02_all.ipk
+Size: 36053
+SHA256sum: 8d27ef227c1715542a467646adadfd23ff359a20f9512082dc0af2480fbdda8a
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-05-26
+Version: 2024-06-02
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1022,10 +1022,10 @@ SourceDateEpoch: 1692929426
 URL: https://www.v2fly.org
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 6092800
-Filename: v2ray-geosite_2024-05-26_all.ipk
-Size: 1947669
-SHA256sum: 3cdac1e6ca313c72bf0d13f7a8e58532a30f7afd46d1fb934c1266305496cd52
+Installed-Size: 6113280
+Filename: v2ray-geosite_2024-06-02_all.ipk
+Size: 1952202
+SHA256sum: a461ee8bd60a36751ee06ee5bdf24e0433da61fe20c249009a279fa2fa26f4e8
 Description:  Geosite List for V2Ray
 
 Package: vector
