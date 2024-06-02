@@ -163,8 +163,8 @@ CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 696320
 Filename: libmbedtls21_3.6.0-r1_x86_64.ipk
-Size: 312868
-SHA256sum: 68eeeed3735990d85cdd8f698fa5fcd9e44efeb31eee96a317087872e478503e
+Size: 312872
+SHA256sum: 08f03ce79f90eba05f36b6a24529a68b397099a7e15ca51c89e5eeed040c8e92
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -425,8 +425,8 @@ CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 40960
 Filename: mbedtls-util_3.6.0-r1_x86_64.ipk
-Size: 9080
-SHA256sum: f396f98e4fae025641fa2bdf83050bfb1e277adcaea35cf6f7a0bb2ea988a94d
+Size: 9079
+SHA256sum: 0f42ae033ba525438366e2540f04673b138f51d03dd35f1ac5d0b8e85586ecaa
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -759,29 +759,29 @@ SHA256sum: 2f437d50bd70101a9d5d2b1ce01c0e1a593f070a8d8b0f38e7e639b326522b9e
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-05-26
+Version: 2024-06-02
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 163840
-Filename: v2ray-geoip_2024-05-26_all.ipk
-Size: 35065
-SHA256sum: 6bb22eaa3c18677b53266d08af4c635b5617fabbcf14c722ec43f886c13026ef
+Installed-Size: 174080
+Filename: v2ray-geoip_2024-06-02_all.ipk
+Size: 36053
+SHA256sum: 8d27ef227c1715542a467646adadfd23ff359a20f9512082dc0af2480fbdda8a
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-05-26
+Version: 2024-06-02
 Depends: libc
 License: MIT
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 6092800
-Filename: v2ray-geosite_2024-05-26_all.ipk
-Size: 1947669
-SHA256sum: 3cdac1e6ca313c72bf0d13f7a8e58532a30f7afd46d1fb934c1266305496cd52
+Installed-Size: 6113280
+Filename: v2ray-geosite_2024-06-02_all.ipk
+Size: 1952202
+SHA256sum: a461ee8bd60a36751ee06ee5bdf24e0433da61fe20c249009a279fa2fa26f4e8
 Description:  Geosite List for V2Ray
 
 Package: vector
