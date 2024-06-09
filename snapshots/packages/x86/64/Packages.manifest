@@ -190,8 +190,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 174080
 Filename: liblua5.1.5_5.1.5-r11_x86_64.ipk
-Size: 74396
-SHA256sum: b02680f40adadcf5e3225262bb5a39c33fec29a06d9f4f7e04245ea4688042d9
+Size: 74330
+SHA256sum: 53875655f43c24dc00fe3f94a1a9e15294be48b80ee32d9fd5d6cddc65b01a70
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -213,8 +213,8 @@ CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 696320
 Filename: libmbedtls21_3.6.0-r1_x86_64.ipk
-Size: 312872
-SHA256sum: 08f03ce79f90eba05f36b6a24529a68b397099a7e15ca51c89e5eeed040c8e92
+Size: 312825
+SHA256sum: de2a3c1904fe1cbfd74e79bbe647d97ad8d65a13f0b699b81a149ea23deba2f2
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -233,27 +233,27 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: libnl-tiny1_2023.12.05~965c4bf4-r1_x86_64.ipk
-Size: 16260
-SHA256sum: f600014310269925c21fe5ef828b1aa3e6a62f4f66da03918da4e04f24fa0535
+Size: 16264
+SHA256sum: eddea8a36174ab54ef4c0aa655a47fd5b61983b37be8136bab49c9c897f5b1a0
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.13-r1
+Version: 3.0.14-r1
 Depends: libc, libopenssl3
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1714809479
+SourceDateEpoch: 1717922440
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libopenssl-conf_3.0.13-r1_x86_64.ipk
-Size: 7474
-SHA256sum: 5f5069534f53ff2c2e0cddd7d23b6ceb12cf3754230d728c19fe7e315d360a3e
+Filename: libopenssl-conf_3.0.14-r1_x86_64.ipk
+Size: 7472
+SHA256sum: f57a6642564551c9a21b045c76f25b59f12945966019a3a31b2517eb13ebfea1
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -261,29 +261,29 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.13-r1
+Version: 3.0.14-r1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1714809479
+SourceDateEpoch: 1717922440
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 133120
-Filename: libopenssl-legacy_3.0.13-r1_x86_64.ipk
-Size: 38517
-SHA256sum: 9d517d74df180784b377292fdd1e2e48a4311d5a323043d707ab7908c32335ae
+Filename: libopenssl-legacy_3.0.14-r1_x86_64.ipk
+Size: 38524
+SHA256sum: adda1f7182936394b994cf76d2f4ac4b4c49a006011defa5a44fd5523b99181f
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.13-r1
+Version: 3.0.14-r1
 Depends: libc, kmod-crypto-user, kmod-cryptodev
 Provides: libopenssl
 Source: feeds/base/package/libs/openssl
@@ -291,16 +291,16 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1714809479
+SourceDateEpoch: 1717922440
 URL: http://www.openssl.org/
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
-Installed-Size: 5109760
-Filename: libopenssl3_3.0.13-r1_x86_64.ipk
-Size: 2106439
-SHA256sum: 292bff2084d41113c470e4e4e9d332c071cc16022df2b7145c4265867129ba46
+Installed-Size: 5120000
+Filename: libopenssl3_3.0.14-r1_x86_64.ipk
+Size: 2108683
+SHA256sum: caa5947d6a1d1e892a9e6f4e2ed412c0b15cf741dbb6101e99034f3956eedbcb
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -371,8 +371,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 40960
 Filename: libubus20231128_2023.11.28~f84eb599-r1_x86_64.ipk
-Size: 11891
-SHA256sum: 94cc76f21d7a21e8f63b38f2548839ddea54fc3d362ce86f69cd4d90067bcfed
+Size: 11899
+SHA256sum: 832025d749f30fee5eec9471d0fad113ef9d385c9309690b6529ee800809172c
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -423,8 +423,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 174080
 Filename: libucode20230711_2024.05.09~0d823e70-r1_x86_64.ipk
-Size: 76196
-SHA256sum: aa19fd43676fb4b21f2c94757d2976c7469b21748aee6462f13ba4a72fca4ea1
+Size: 76213
+SHA256sum: b3be42ac5748c0ec4a5c78d3b9f46d322e8c6a6097571acd5fe34c88c7582770
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: lua-examples
@@ -494,19 +494,19 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.20-1
+Version: 1.5.22-1
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Source: feeds/base/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1713168227
+SourceDateEpoch: 1717456219
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 296960
-Filename: luci-app-mosdns_1.5.20-1_all.ipk
-Size: 76583
-SHA256sum: 01db4d7180b83315d500b48d3f07e8c12604c7a11b9c0ddb541db1169e3a9caf
+Installed-Size: 307200
+Filename: luci-app-mosdns_1.5.22-1_all.ipk
+Size: 77002
+SHA256sum: a5ae31401079dfba5d65199a9c2545b1e8cee9b3a226c1bd5d8de110d35628a4
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -525,17 +525,17 @@ SHA256sum: 5c9ff199347bd2a6d7f0002153b75ad6cf76d8f115ad3c72295db8c089371fe4
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 24.106.29027~97867ea
+Version: 24.155.83419~7bdd303
 Depends: libc, luci-app-mosdns
 Source: feeds/base/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1713168227
+SourceDateEpoch: 1717456219
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_24.106.29027~97867ea_all.ipk
-Size: 4593
-SHA256sum: 3433f96bc9c4aa7bb7f7343f4c13738cbd652810aba6bd94326c1af4b4b4d929
+Filename: luci-i18n-mosdns-zh-cn_24.155.83419~7bdd303_all.ipk
+Size: 4749
+SHA256sum: 5fdd1e4f0478fed1dc1a88222e85a7315140d1828a91ea1bd19fbdf22252033a
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -577,22 +577,22 @@ SHA256sum: f4ca5dedc8f0fc5d8b36f4c2f578ab36b37fdfa56bed5aa12d30a2edb0742af0
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
-Version: 3.0.13-r1
+Version: 3.0.14-r1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1714809479
+SourceDateEpoch: 1717922440
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 839680
-Filename: openssl-util_3.0.13-r1_x86_64.ipk
-Size: 341402
-SHA256sum: 530984d02039141dd840f34d777ff8c3bf0c47ad5e0053a7f52c84630fa91716
+Filename: openssl-util_3.0.14-r1_x86_64.ipk
+Size: 341206
+SHA256sum: 3fafc6fb5b62624244d37239916e02b4507e1355a5cebe5fb05e1e3167496483
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -676,7 +676,7 @@ Architecture: x86_64
 Installed-Size: 81920
 Filename: rpcd_2024.02.22~8ef4c258-r1_x86_64.ipk
 Size: 25986
-SHA256sum: 734d36812465949e1397e3cf45e25b8ec82006f3f73db40c7a7c881be3a4d7eb
+SHA256sum: b57f958f6371732bed2de76e84c4e69428b34deb821bfabc9e33bd9882eb8fdb
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -695,8 +695,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 23173120
 Filename: tailscale_1.58.2-r1_x86_64.ipk
-Size: 9203253
-SHA256sum: 7b66f1901bfa672d063a2a717aeb052588abcbe8d109d70d3ca85dc5244f79ec
+Size: 9203208
+SHA256sum: b9241a5a5e28615055d7671bd90816029d63552ae01b0e1efab0cd88e671b5f1
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -713,8 +713,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 141250560
 Filename: traefik_2.10.7-r1_x86_64.ipk
-Size: 36042838
-SHA256sum: 004703e6ee833af16557e5bc627666293870dd142311c21f59640eab5e86bc11
+Size: 36041916
+SHA256sum: 8100e051880ab2fa75faae3b3e046c91495a7785e8efce984298317685f04ae3
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -842,8 +842,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 71680
 Filename: ucode-mod-nl80211_2024.05.09~0d823e70-r1_x86_64.ipk
-Size: 22175
-SHA256sum: 996dbacea0caaf481f7f378652073406b271bbec4941234a406a6c85ceb076f3
+Size: 22178
+SHA256sum: 0ed83403a4d075f99a94c24e5ccae88430ff8fb8347d152be6cf2b316dac7aa9
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-resolv
@@ -874,8 +874,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 102400
 Filename: ucode-mod-rtnl_2024.05.09~0d823e70-r1_x86_64.ipk
-Size: 29349
-SHA256sum: e46e4c6a7a14172433a73450d885785b6b980142873bfd00563566fe579faeff
+Size: 29368
+SHA256sum: 8c4f426000a57b69d406b199556a0189df18c3b937fe3e38a3bda864e0db2c4d
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-socket
@@ -982,50 +982,50 @@ Source: feeds/base/luci-app-mosdns/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1713168227
+SourceDateEpoch: 1717456219
 URL: https://github.com/urlesistiana/v2dat
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 7413760
 Filename: v2dat_2022.12.15~47b8ee51-r1_x86_64.ipk
-Size: 2941031
-SHA256sum: 2f437d50bd70101a9d5d2b1ce01c0e1a593f070a8d8b0f38e7e639b326522b9e
+Size: 2941093
+SHA256sum: 6734e985a0825f1834e10ad0ce1019142295869c018708b5b4b40e07531b9d73
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-06-02
+Version: 20240609141303-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1692929426
+SourceDateEpoch: 1717423378
 URL: https://www.v2fly.org
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 174080
-Filename: v2ray-geoip_2024-06-02_all.ipk
-Size: 36053
-SHA256sum: 8d27ef227c1715542a467646adadfd23ff359a20f9512082dc0af2480fbdda8a
+Filename: v2ray-geoip_20240609141303-r1_all.ipk
+Size: 35725
+SHA256sum: 765b7584d966d3b14504ea8e6766bf9d529bb78bfe94d88a17bfef4726d47503
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-06-02
+Version: 20240609141303-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
-License: MIT
+License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1692929426
+SourceDateEpoch: 1717423378
 URL: https://www.v2fly.org
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 6113280
-Filename: v2ray-geosite_2024-06-02_all.ipk
-Size: 1952202
-SHA256sum: a461ee8bd60a36751ee06ee5bdf24e0433da61fe20c249009a279fa2fa26f4e8
+Installed-Size: 6092800
+Filename: v2ray-geosite_20240609141303-r1_all.ipk
+Size: 1945435
+SHA256sum: 9fe9554c322d598d068b7066ab2844e58f95bc7a1de6f890a50257aac7876151
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1059,7 +1059,7 @@ Architecture: x86_64
 Installed-Size: 235520
 Filename: zlib-dev_1.3.1-r1_x86_64.ipk
 Size: 80527
-SHA256sum: d23e9b3065952ca62f44eab243fa046dc0d2e011e966bd71ff95a387c516797b
+SHA256sum: 0db4cd96a56f9c15518354b5f769fd5c0675f993df0e7e02641f6251b81e0412
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
