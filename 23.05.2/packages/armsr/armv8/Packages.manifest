@@ -481,18 +481,18 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.5.20
+Version: 1.5.22
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1713168227
+SourceDateEpoch: 1717456219
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 75527
-Filename: luci-app-mosdns_1.5.20_all.ipk
-Size: 76550
-SHA256sum: 3e9f68d4c30a59c4b909d9c3c0ce2209adcb47690f9209f409c2b857c82e5077
+Installed-Size: 75974
+Filename: luci-app-mosdns_1.5.22_all.ipk
+Size: 76967
+SHA256sum: 416bad28283d78b1fa29f4ec02ff2e107223b33b211793d6d76b5763348c5c88
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -511,17 +511,17 @@ SHA256sum: 1c0f8e5fb87a0023735ac820bb20f2c7d55d842a3565152d4550ad198e12799b
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-24.106.29027-97867ea
+Version: git-24.155.83419-7bdd303
 Depends: libc, luci-app-mosdns
 Source: package/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-i18n-mosdns-zh-cn
 Section: luci
-SourceDateEpoch: 1713168227
+SourceDateEpoch: 1717456219
 Architecture: all
-Installed-Size: 3859
-Filename: luci-i18n-mosdns-zh-cn_git-24.106.29027-97867ea_all.ipk
-Size: 4668
-SHA256sum: 44fa25fd3a35853ec6596e27a9d90bcb8811974ba0dd5faff39f916e46581a13
+Installed-Size: 4015
+Filename: luci-i18n-mosdns-zh-cn_git-24.155.83419-7bdd303_all.ipk
+Size: 4825
+SHA256sum: d850eb273c57b682b7a5496feb3c28651c4ecde0f6f27f849217942104f34fec
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -947,47 +947,47 @@ Source: package/luci-app-mosdns/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1713168227
+SourceDateEpoch: 1717456219
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
-Installed-Size: 2638634
+Installed-Size: 2638638
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2632027
-SHA256sum: b4227afcb924f2eabd2b3881e212e5b34ac7b89a68b48b65eb502fe7cd25ef21
+Size: 2631970
+SHA256sum: d205923704e9129d3ff01064a92ef7b283913b9487836550c5c3b2fcb34a34d8
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-06-02
+Version: 20240609003813-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1692929426
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+SourceDateEpoch: 1717423378
+Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 37009
-Filename: v2ray-geoip_2024-06-02_all.ipk
-Size: 36027
-SHA256sum: 6153e81b81d48877df3bd372264f96903689586f04cded1de44b8f12ad4033eb
+Installed-Size: 36993
+Filename: v2ray-geoip_20240609003813-1_all.ipk
+Size: 35691
+SHA256sum: 4b6696bb6bf106e0052200121105887b214385f3316b86614d81950e0fc0952b
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-06-02
+Version: 20240609003813-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
-License: MIT
+License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1692929426
-Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+SourceDateEpoch: 1717423378
+Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 1951554
-Filename: v2ray-geosite_2024-06-02_all.ipk
-Size: 1952173
-SHA256sum: f8cae42eeb828871d5a2b06d9cb3de8e6b2cfe09ff2c9185fac4781292a71942
+Installed-Size: 1944657
+Filename: v2ray-geosite_20240609003813-1_all.ipk
+Size: 1945404
+SHA256sum: 8068de43ef25ebbce77fa8afc471a339182d810ceff4b32d6529774d8505fbdc
 Description:  Geosite List for V2Ray
 
 Package: vector
