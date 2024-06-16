@@ -510,18 +510,18 @@ SHA256sum: a5ae31401079dfba5d65199a9c2545b1e8cee9b3a226c1bd5d8de110d35628a4
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.011-rbeta
+Version: 0.46.014-rbeta
 Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Source: feeds/base/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1716033432
+SourceDateEpoch: 1717987693
 Maintainer: vernesong
 Architecture: all
 Installed-Size: 17223680
-Filename: luci-app-openclash_0.46.011-rbeta_all.ipk
-Size: 5633691
-SHA256sum: 5c9ff199347bd2a6d7f0002153b75ad6cf76d8f115ad3c72295db8c089371fe4
+Filename: luci-app-openclash_0.46.014-rbeta_all.ipk
+Size: 5634031
+SHA256sum: 8ce48b6538acf5b70f710de528100d88bc281a8037277d61035f1bd2039ab262
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -695,8 +695,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 22220800
 Filename: tailscale_1.58.2-r1_aarch64_generic.ipk
-Size: 8502233
-SHA256sum: 8bc07b9ae363277e7c0d7b7efe7b2ce59c26b680750b6d2d3d800cf23ec57ed6
+Size: 8500388
+SHA256sum: 4df9a3c74b019947ab6cc6767dcb19283c422d40c38e8064f606d16f1e06e7e0
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -713,8 +713,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 137277440
 Filename: traefik_2.10.7-r1_aarch64_generic.ipk
-Size: 32940917
-SHA256sum: f855009a1390f01f9f117af982d78c9fe66c90f5b3fdfb8c9b7430388f60dd4a
+Size: 32940393
+SHA256sum: c9bb9f217706d98816075d9c47f83fb6a85f7aa20a66d6235843a503b363f66a
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -988,12 +988,12 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 7116800
 Filename: v2dat_2022.12.15~47b8ee51-r1_aarch64_generic.ipk
-Size: 2697109
-SHA256sum: 0c26e194d7bf4d9a2f2cbc622bf00b7be1b35189bd4ea180bd8933ec1c87eb78
+Size: 2696996
+SHA256sum: 09004fbae84fa7a2dcd00c38f98a893ef495eba161582d1640fdaa81375caf0f
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240609143453-r1
+Version: 20240616003622-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1004,14 +1004,14 @@ SourceDateEpoch: 1717423378
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 174080
-Filename: v2ray-geoip_20240609143453-r1_all.ipk
-Size: 35720
-SHA256sum: 6ec9d8da2682228983728353e5b69c6f018ab9aa5b275343cd1b19794d46ab8f
+Installed-Size: 163840
+Filename: v2ray-geoip_20240616003622-r1_all.ipk
+Size: 35082
+SHA256sum: 3b071c0668f66b150f955a3e3cdf0d95433b3139a5f20e00158e71e77511156f
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240609143453-r1
+Version: 20240616003622-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1022,10 +1022,10 @@ SourceDateEpoch: 1717423378
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 6092800
-Filename: v2ray-geosite_20240609143453-r1_all.ipk
-Size: 1945438
-SHA256sum: 4a43afd1259142b2117b909124d22f06f00014a3f094bdbe9da4d2b7418c51be
+Installed-Size: 6113280
+Filename: v2ray-geosite_20240616003622-r1_all.ipk
+Size: 1951142
+SHA256sum: c821d3d0330a368b03c025afbf8e84b72797a5eb1dfba9fcbecda4f3f4fa41e9
 Description:  Geosite List for V2Ray
 
 Package: vector
