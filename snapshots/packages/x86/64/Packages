@@ -230,8 +230,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 5120000
 Filename: libopenssl3_3.0.14-r1_x86_64.ipk
-Size: 2108683
-SHA256sum: caa5947d6a1d1e892a9e6f4e2ed412c0b15cf741dbb6101e99034f3956eedbcb
+Size: 2108801
+SHA256sum: e5387ad30f62ef1c724f1860a1d932af5b11a943224150d1df944d914bd1c91c
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -534,8 +534,8 @@ URL: https://tailscale.com
 Architecture: x86_64
 Installed-Size: 23173120
 Filename: tailscale_1.58.2-r1_x86_64.ipk
-Size: 9201627
-SHA256sum: 64e047c8734c5ac64b35fc86b916cae97502860b9a34e039feb0413eb1066615
+Size: 9201521
+SHA256sum: 252c6d15eefb5d33d1400063be1246e091d9e1e44392c5d574e16410601ac91d
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -548,8 +548,8 @@ URL: https://github.com/traefik/traefik/
 Architecture: x86_64
 Installed-Size: 141250560
 Filename: traefik_2.10.7-r1_x86_64.ipk
-Size: 36038646
-SHA256sum: df64ad42e04a12ffe436a467fb0a1a7b34473493e99afb2b37284ae97dad6fe4
+Size: 36039393
+SHA256sum: 5c4e1c1ec47226b3c74148de94801c756e09341a257827bd52ae9ad69519c223
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -754,34 +754,34 @@ URL: https://github.com/urlesistiana/v2dat
 Architecture: x86_64
 Installed-Size: 7413760
 Filename: v2dat_2022.12.15~47b8ee51-r1_x86_64.ipk
-Size: 2940703
-SHA256sum: 54636ec220059c4a9bb2e5eb2826a3e4470dc4aca1c1e0358984e52b3d9fb49a
+Size: 2940806
+SHA256sum: d2910b46066b6a2319ed2fd37afc66b0afdd6880bb2252767ded891da2cdebaf
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240616001324-r1
+Version: 20240623001408-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 163840
-Filename: v2ray-geoip_20240616001324-r1_all.ipk
-Size: 35082
-SHA256sum: a84137463bd7c1bddff02cd7923a6f25216c5b5f660b47a517b2097a35de7922
+Filename: v2ray-geoip_20240623001408-r1_all.ipk
+Size: 35261
+SHA256sum: 8defe10c921c748b387d4bf7cc16de6933c5d1b36a77260a749bb62be4ff3a3a
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240616001324-r1
+Version: 20240623001408-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 6113280
-Filename: v2ray-geosite_20240616001324-r1_all.ipk
-Size: 1951144
-SHA256sum: febc05acda0d456327145a0e04685407f74885980b3fac47fbdc4710c85947c3
+Installed-Size: 6123520
+Filename: v2ray-geosite_20240623001408-r1_all.ipk
+Size: 1951467
+SHA256sum: 1cef8d9948189c501ab1c6bec442b466de2a52e49bd3d01008adba2fed000236
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -806,8 +806,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 235520
 Filename: zlib-dev_1.3.1-r1_x86_64.ipk
-Size: 80527
-SHA256sum: 0db4cd96a56f9c15518354b5f769fd5c0675f993df0e7e02641f6251b81e0412
+Size: 80529
+SHA256sum: b7579741fe80a4c06f72b676bb902b246407667a62f496312f9dd2c304fd4a53
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
