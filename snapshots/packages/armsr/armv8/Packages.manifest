@@ -238,22 +238,22 @@ SHA256sum: 35d4745d490ed80b95fb8a42f3ea78784930195eb2fd6f150cd69327667d6d45
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.14-r1
+Version: 3.0.14-r2
 Depends: libc, libopenssl3
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1717922440
+SourceDateEpoch: 1719215227
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 30720
-Filename: libopenssl-conf_3.0.14-r1_aarch64_generic.ipk
-Size: 7475
-SHA256sum: c3e16d893ef6c0ef9229076171fd1a06b7b2e66fb796da27d936a2095c83926c
+Filename: libopenssl-conf_3.0.14-r2_aarch64_generic.ipk
+Size: 7478
+SHA256sum: 35eadfd1d36abb9f52df6f32221f4ed9804560a8453dbc18e892101ec3ce1a91
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -261,29 +261,29 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.14-r1
+Version: 3.0.14-r2
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1717922440
+SourceDateEpoch: 1719215227
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 143360
-Filename: libopenssl-legacy_3.0.14-r1_aarch64_generic.ipk
-Size: 37752
-SHA256sum: 3a21b7ffb92b4814a00ebf2a661efc43538864dbaf9657e8e6c5fcc4c73dfe4b
+Filename: libopenssl-legacy_3.0.14-r2_aarch64_generic.ipk
+Size: 37796
+SHA256sum: 8504578e608b9817658d1d668bbb90f180a78d548621acc70960a82d0c23b940
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.14-r1
+Version: 3.0.14-r2
 Depends: libc, kmod-crypto-user, kmod-cryptodev
 Provides: libopenssl
 Source: feeds/base/package/libs/openssl
@@ -291,16 +291,16 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1717922440
+SourceDateEpoch: 1719215227
 URL: http://www.openssl.org/
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 5345280
-Filename: libopenssl3_3.0.14-r1_aarch64_generic.ipk
-Size: 2027705
-SHA256sum: f98a57bf7870d88d8e7f3ce2376025cce53c560d5cafd53b398ce4f0f66a5566
+Filename: libopenssl3_3.0.14-r2_aarch64_generic.ipk
+Size: 2027784
+SHA256sum: 4859eb3a68d56e8bbe7eea00bf0e06024f0cabae3c857ea5f2cc0e5c3d869270
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -410,21 +410,21 @@ SHA256sum: a9019b70c132e34ed8148349af7fb957798d4c6902f27776f31fee52503bdd2b
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libucode20230711
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, libjson-c5
 Provides: libucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: libs
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 ABIVersion: 20230711
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 204800
-Filename: libucode20230711_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 79490
-SHA256sum: 8360f9dc619f8996498516d97216d3151de7af7aa33a653ae5e81482f5149226
+Filename: libucode20230711_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 79505
+SHA256sum: 95a5f941c50ca27937d392fb9debe2229f955577045a1c31092e46bc1ded67c3
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: lua-examples
@@ -577,22 +577,22 @@ SHA256sum: bca5868107f3292a166c48312f4170c26f611ca736153cc9cd037f2e2226c440
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
-Version: 3.0.14-r1
+Version: 3.0.14-r2
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1717922440
+SourceDateEpoch: 1719215227
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 890880
-Filename: openssl-util_3.0.14-r1_aarch64_generic.ipk
-Size: 341310
-SHA256sum: ad3a8c38e05f172c2a4e63b280dfe1fa61a95a5730e12876553e3d4ef2ef84d6
+Filename: openssl-util_3.0.14-r2_aarch64_generic.ipk
+Size: 341323
+SHA256sum: dd81f64702fa9fff8016b8e96ad02df3f999dd96830ab7bdd8a58b1ad6e40ea8
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -695,8 +695,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 22220800
 Filename: tailscale_1.58.2-r1_aarch64_generic.ipk
-Size: 8500232
-SHA256sum: cbaec2b80dba16db3935be67341074bbf1cc6f9059f35d9581b3eb4472ffaba4
+Size: 8500309
+SHA256sum: 9d9dbd0326f99673d9d231b81e8e7474bda29eea68f09c587ed3591fc5b64306
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -713,8 +713,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 137277440
 Filename: traefik_2.10.7-r1_aarch64_generic.ipk
-Size: 32939538
-SHA256sum: 916155cdb693ce32beb098c77cdc52d557bcf0cbf399af3151a4ba1212d4ab35
+Size: 32940212
+SHA256sum: 9bcfcb47e8d5eccea02cb7e3c89339378a04209cd03ea6c1ae8e2b666f2f06d3
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -767,211 +767,211 @@ SHA256sum: ff48dd615d8e48c5caf2d5c269ebb2a4e127e2f07e7d717ecc6cd7695ce2bd3f
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: ucode-mod-debug
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode, libubox20240329, libucode20230711
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-debug_2024.05.09~0d823e70-r1_aarch64_generic.ipk
+Filename: ucode-mod-debug_2024.06.18~4dd98370-r1_aarch64_generic.ipk
 Size: 9397
-SHA256sum: 35d7e0ab6a426ec6c4f47959b72e8762adaf4c8045b7b092d6cbd04f6335911b
+SHA256sum: 03ece9b3f81160b6b62e8d4a79d6ed05c70bbed89261962d9b135a9e0bcfe17e
 Description:  The debug plugin module provides runtime debugging and introspection facilities.
 
 Package: ucode-mod-fs
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-fs_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 11112
-SHA256sum: 66820e496dd287963de79b867221f8a6c5f0e528a99f4287221d6c214b4fa8a1
+Filename: ucode-mod-fs_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 11454
+SHA256sum: f66914a7892c0b16c9407a30b91d70bfd1eded2e8589f806ce75e614bdac7553
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-log
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode, libubox20240329
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-log_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 5260
-SHA256sum: e2e8ae5c51a2e9f4faec1ed75a4548aeecfb9387bf1c3ef6657c4e6ba3429325
+Filename: ucode-mod-log_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 5259
+SHA256sum: 7c40fb6d31744b7ba12738eefc05da36602f365515d97b4cc08ede753a01095b
 Description:  The log plugin module provides access to the syslog and libubox ulog APIs.
 
 Package: ucode-mod-math
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-math_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 3434
-SHA256sum: 9cfceb4a6f42b4098976033d1584db9433ad7891a5ae1548412a71f4266d41ea
+Filename: ucode-mod-math_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 3440
+SHA256sum: fc28daa447e7ea71f76c7dc9c64750e7003344c5896e43901c2e1d6816ce5444
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode, libnl-tiny1, libubox20240329
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-nl80211_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 22285
-SHA256sum: ff274630862858bc91d6f1ef5fb79b5d2d9241a8a29be8b0685a75cc35d19e47
+Filename: ucode-mod-nl80211_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 22299
+SHA256sum: 2fd4f314f169fa6ba0f4c5810473210c5884830cdd75e69e8dc67df38bfaca29
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-resolv
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-resolv_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 9014
-SHA256sum: 9b65d6260862501a59bb3dcf6b578752d3d6a87e43525e9a434255d87792096c
+Filename: ucode-mod-resolv_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 9026
+SHA256sum: c8556dce9b60f3d297495a9eb6579da472f882c3cdc483eec288a73233d23d10
 Description:  The resolv plugin implements simple DNS resolving.
 
 Package: ucode-mod-rtnl
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode, libnl-tiny1, libubox20240329
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 143360
-Filename: ucode-mod-rtnl_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 28736
-SHA256sum: 45be4d4334e1434df99ef25e2453f22973cd27f7bd7ffaf015a8f48f22c414fb
+Filename: ucode-mod-rtnl_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 28747
+SHA256sum: 4526482cf397620974eefadd5208c1d0c868dbe030ba6b8f184ed0c30b319dfe
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-socket
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 81920
-Filename: ucode-mod-socket_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 19592
-SHA256sum: 4531896a17de55eb273e2bc61ce58e98d8115e1b49a441e6234271aad2cf8a44
+Filename: ucode-mod-socket_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 24733
+SHA256sum: e88e6199c8d1cf8e618abef9334767c9d664ac9f3df29488650f8a27d7fbeedf
 Description:  The socket plugin provides access to IPv4
 
 Package: ucode-mod-struct
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-struct_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 10293
-SHA256sum: 68a339845e0b4e3327553902265a95476289b5489b577cce01d9400d5a8fb8e8
+Filename: ucode-mod-struct_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 10291
+SHA256sum: e3eb869e7082c0ed738031ac361c672e92399408ad36d27c8ddcd10117bdaa98
 Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
 
 Package: ucode-mod-ubus
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode, libubus20231128, libblobmsg-json20240329
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-ubus_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 15893
-SHA256sum: 15c49c912eb2377c09aba0eaeac23045f24a6beaffb8fc7c6b3bc0b2bb88bdd2
+Filename: ucode-mod-ubus_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 15905
+SHA256sum: a6cfaf6c97477ecd6e0ad62cb87dfaf546b6969caaffe276f49b5fd050083e2d
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
 
 Package: ucode-mod-uci
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode, libuci20130104
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-uci_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 8447
-SHA256sum: c34ac3b94685fc389fa69bcba6dc903f7dcaa71b95aa2587a523d60caa2e00b6
+Filename: ucode-mod-uci_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 8458
+SHA256sum: ef021b609057a2ffa576c63b8e35b62b0ec15307df1e02eed40df4c9cf51d901
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, ucode, libubox20240329
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode-mod-uloop_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 10247
-SHA256sum: 74fbb8f310ea2ad5e5a8152a3adaca95e6ee00fb9b0147e4d92838fb53891823
+Filename: ucode-mod-uloop_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 10234
+SHA256sum: c0ae1c3cc0f50f39502ec1f4f3d1880414d788bd38de7caa9e86d0548d0cc5f3
 Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
 
 Package: ucode
-Version: 2024.05.09~0d823e70-r1
+Version: 2024.06.18~4dd98370-r1
 Depends: libc, libucode20230711
 Source: feeds/base/package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1715209016
+SourceDateEpoch: 1718963546
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 71680
-Filename: ucode_2024.05.09~0d823e70-r1_aarch64_generic.ipk
-Size: 7491
-SHA256sum: baeea4557838b671ab6013501cf7da08fd20417f223c5f7b974cfe762cc14355
+Filename: ucode_2024.06.18~4dd98370-r1_aarch64_generic.ipk
+Size: 7500
+SHA256sum: 4f1de34a973e7599f077c6cefa631207951b2b565195424499b17f31b9dbb34c
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -988,12 +988,12 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 7116800
 Filename: v2dat_2022.12.15~47b8ee51-r1_aarch64_generic.ipk
-Size: 2697058
-SHA256sum: f41477fb4645b866208e6f3ce1fe3a371074abee20c814286c664e2afc745063
+Size: 2697008
+SHA256sum: 5436f8ac4006ab35867ac34d76706298b507f5047a2b32543ec9bb150fde7f53
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240623003642-r1
+Version: 20240630003512-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1005,13 +1005,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 163840
-Filename: v2ray-geoip_20240623003642-r1_all.ipk
-Size: 35260
-SHA256sum: fb7bb3524cbb9062be4c040d65dedc6d30325dc81ce21264f2503527503f2eed
+Filename: v2ray-geoip_20240630003512-r1_all.ipk
+Size: 35132
+SHA256sum: dcb010d1ae53aac6fe64556b35ce44c6f97853be960a6cf4248b08e3fb8d0d1c
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240623003642-r1
+Version: 20240630003512-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1022,10 +1022,10 @@ SourceDateEpoch: 1717423378
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 6123520
-Filename: v2ray-geosite_20240623003642-r1_all.ipk
-Size: 1951466
-SHA256sum: 07d2656f2c963a60dde13496a0e3825122ae466c4243013d34f26079f7d3de17
+Installed-Size: 6205440
+Filename: v2ray-geosite_20240630003512-r1_all.ipk
+Size: 1982036
+SHA256sum: ac5096687a00ec50055b4e788cc7ef829f65a7634be878eb8935f7659acd2569
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1058,8 +1058,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: aarch64_generic
 Installed-Size: 245760
 Filename: zlib-dev_1.3.1-r1_aarch64_generic.ipk
-Size: 82922
-SHA256sum: 19821d352949ad30051a9e5e7c8f8592a80994c6bfb19146e6de3f538dd05657
+Size: 82921
+SHA256sum: f4d692eb64e1df7d22bfcd92a4e2bb7e08e7d806295d8bc0dbd393b37c461a92
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
