@@ -957,7 +957,7 @@ SHA256sum: c4ec3df9eb3a616fdc505c93482b48d6c899cbb5c9ad5a0902e0407d6a586cf0
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240630005746-1
+Version: 20240707010629-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -967,14 +967,14 @@ Section: net
 SourceDateEpoch: 1717423378
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 35255
-Filename: v2ray-geoip_20240630005746-1_all.ipk
-Size: 35106
-SHA256sum: fd316891a27805322b5f97f7b748cf220fc074a560063b6134c69ea751dd9b63
+Installed-Size: 37464
+Filename: v2ray-geoip_20240707010629-1_all.ipk
+Size: 36428
+SHA256sum: 1b12f7b5375b1f162d5acd68cd3ee28ffab664933f0796eb17976ca61f8d50e3
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240630005746-1
+Version: 20240707010629-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -984,10 +984,10 @@ Section: net
 SourceDateEpoch: 1717423378
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 1981397
-Filename: v2ray-geosite_20240630005746-1_all.ipk
-Size: 1982011
-SHA256sum: ed8c1a54e79540e76fee0dace4173f57a992d9e5cb56648f2634be42d4492f94
+Installed-Size: 2010997
+Filename: v2ray-geosite_20240707010629-1_all.ipk
+Size: 2011547
+SHA256sum: 5a49b6edfe1657b7499b2db3232f5110b570c338d5f861a62dffb8ab76f55bd7
 Description:  Geosite List for V2Ray
 
 Package: vector
