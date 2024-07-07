@@ -237,6 +237,29 @@ Size: 17839
 SHA256sum: 35d4745d490ed80b95fb8a42f3ea78784930195eb2fd6f150cd69327667d6d45
 Description:  This package contains a stripped down version of libnl
 
+Package: libopenssl-afalg
+Version: 3.0.14-r2
+Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
+Source: feeds/base/package/libs/openssl
+SourceName: openssl
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1720167756
+URL: http://www.openssl.org/
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 81920
+Filename: libopenssl-afalg_3.0.14-r2_aarch64_generic.ipk
+Size: 7920
+SHA256sum: 8b6b1a6c89d20cb2cbcbadddc2ec87eaf02aebf28ad30e7ee8fceaf4296ae993
+Description:  This package adds an engine that enables hardware acceleration
+ through the AF_ALG kernel interface.
+ See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "afalg"
+
 Package: libopenssl-conf
 Version: 3.0.14-r2
 Depends: libc, libopenssl3
@@ -245,20 +268,43 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1719215227
+SourceDateEpoch: 1720167756
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 30720
+Installed-Size: 20480
 Filename: libopenssl-conf_3.0.14-r2_aarch64_generic.ipk
-Size: 7478
-SHA256sum: 35eadfd1d36abb9f52df6f32221f4ed9804560a8453dbc18e892101ec3ce1a91
+Size: 6485
+SHA256sum: 1def5fa348386605359973ff78ad9ed464de3329067ad8a8d705e8c9966f5652
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
  general-purpose cryptography library.
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
+
+Package: libopenssl-devcrypto
+Version: 3.0.14-r2
+Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
+Source: feeds/base/package/libs/openssl
+SourceName: openssl
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1720167756
+URL: http://www.openssl.org/
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 81920
+Filename: libopenssl-devcrypto_3.0.14-r2_aarch64_generic.ipk
+Size: 12385
+SHA256sum: 40f3ef796f8cd93b241c41ac3d4e2977e1c93f44f66c517fb811acfd64796da4
+Description:  This package adds an engine that enables hardware acceleration
+ through the /dev/crypto kernel interface.
+ See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
 Version: 3.0.14-r2
@@ -268,15 +314,15 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1719215227
+SourceDateEpoch: 1720167756
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: libopenssl-legacy_3.0.14-r2_aarch64_generic.ipk
-Size: 37796
-SHA256sum: 8504578e608b9817658d1d668bbb90f180a78d548621acc70960a82d0c23b940
+Size: 37767
+SHA256sum: 459a7700834d0c5866b9a09d2281eebd3e8e80ceaaf75c599bf70a33e6dfa6d8
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
@@ -284,23 +330,23 @@ Description:  The OpenSSL legacy provider supplies OpenSSL implementations of al
 
 Package: libopenssl3
 Version: 3.0.14-r2
-Depends: libc, kmod-crypto-user, kmod-cryptodev
+Depends: libc
 Provides: libopenssl
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1719215227
+SourceDateEpoch: 1720167756
 URL: http://www.openssl.org/
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 5345280
+Installed-Size: 5273600
 Filename: libopenssl3_3.0.14-r2_aarch64_generic.ipk
-Size: 2027784
-SHA256sum: 4859eb3a68d56e8bbe7eea00bf0e06024f0cabae3c857ea5f2cc0e5c3d869270
+Size: 2015946
+SHA256sum: 989fcce70179f5d850f84e3e2d6c94a9b4e9403f059b1fc55d1db4a1235c162d
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -584,15 +630,15 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1719215227
+SourceDateEpoch: 1720167756
 URL: http://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 890880
 Filename: openssl-util_3.0.14-r2_aarch64_generic.ipk
-Size: 341323
-SHA256sum: dd81f64702fa9fff8016b8e96ad02df3f999dd96830ab7bdd8a58b1ad6e40ea8
+Size: 341316
+SHA256sum: fbbae37b7813340424263ba8f7b9f1ebd2df97a249a0af6c3702d4ad9e3ad64a
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -695,8 +741,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 22220800
 Filename: tailscale_1.58.2-r1_aarch64_generic.ipk
-Size: 8500309
-SHA256sum: 9d9dbd0326f99673d9d231b81e8e7474bda29eea68f09c587ed3591fc5b64306
+Size: 8500315
+SHA256sum: 8fa35a2f5c205560ef6dadbd5c3907ee9e080d355eb2a68d0a22fa50ae6bb6a8
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -714,7 +760,7 @@ Architecture: aarch64_generic
 Installed-Size: 137277440
 Filename: traefik_2.10.7-r1_aarch64_generic.ipk
 Size: 32940212
-SHA256sum: 9bcfcb47e8d5eccea02cb7e3c89339378a04209cd03ea6c1ae8e2b666f2f06d3
+SHA256sum: a8029063f9b145b32d428c9caed7afffa6d02cb96575103d5c93e35e31586929
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -988,12 +1034,12 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 7116800
 Filename: v2dat_2022.12.15~47b8ee51-r1_aarch64_generic.ipk
-Size: 2697008
-SHA256sum: 5436f8ac4006ab35867ac34d76706298b507f5047a2b32543ec9bb150fde7f53
+Size: 2696953
+SHA256sum: 779fa05527bd0dbdd2d5d33111428bace8f0c2492de689abb5ee89983ffb1703
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240630003512-r1
+Version: 20240707003654-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1004,14 +1050,14 @@ SourceDateEpoch: 1717423378
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 163840
-Filename: v2ray-geoip_20240630003512-r1_all.ipk
-Size: 35132
-SHA256sum: dcb010d1ae53aac6fe64556b35ce44c6f97853be960a6cf4248b08e3fb8d0d1c
+Installed-Size: 174080
+Filename: v2ray-geoip_20240707003654-r1_all.ipk
+Size: 36460
+SHA256sum: 3889ef9c25093f7f3fa5b38f4755194fe6f609e49bd7032f4a371253b7a8ff20
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240630003512-r1
+Version: 20240707003654-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1022,10 +1068,10 @@ SourceDateEpoch: 1717423378
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 6205440
-Filename: v2ray-geosite_20240630003512-r1_all.ipk
-Size: 1982036
-SHA256sum: ac5096687a00ec50055b4e788cc7ef829f65a7634be878eb8935f7659acd2569
+Installed-Size: 6287360
+Filename: v2ray-geosite_20240707003654-r1_all.ipk
+Size: 2011575
+SHA256sum: dd9d9438d2596cc18da5617331d3d31354236ef3507b9f3e61fa37dda8ca3ab7
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1059,7 +1105,7 @@ Architecture: aarch64_generic
 Installed-Size: 245760
 Filename: zlib-dev_1.3.1-r1_aarch64_generic.ipk
 Size: 82921
-SHA256sum: f4d692eb64e1df7d22bfcd92a4e2bb7e08e7d806295d8bc0dbd393b37c461a92
+SHA256sum: e0ece6bb7006777a727fb44bc303418181b000ecb114888c1992e09bbe0d3e6e
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
