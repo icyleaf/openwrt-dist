@@ -193,8 +193,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 30720
 Filename: libopenssl-conf_3.0.14-r2_x86_64.ipk
-Size: 7478
-SHA256sum: f478778fc4cd91da2f7fb9a366f85e21479edac7dd4a0b7d83c39e9f074e51e6
+Size: 7474
+SHA256sum: 0f53c610bdbb4525cadb1039fa5dfeb629ca2a963966dc79c17492f9ecc98b5d
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -211,8 +211,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 133120
 Filename: libopenssl-legacy_3.0.14-r2_x86_64.ipk
-Size: 38531
-SHA256sum: 4f8232adfdf282565621664a5a62c1feaec1630dab0a8ee9c3f3f69ea8eb9b0e
+Size: 38494
+SHA256sum: 438a74f935f8966fb380ede4a498e925db8c836008411050b7a930b00af5b546
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
@@ -230,8 +230,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 5120000
 Filename: libopenssl3_3.0.14-r2_x86_64.ipk
-Size: 2108603
-SHA256sum: d68976aa7606786887f7aa4413e53acb288888646b2f42bdd3b2926a38158157
+Size: 2108593
+SHA256sum: 7bf65f7071685b1f70edbb9bdfd0f6b88186c855d3371ac9866f21cc7499c66b
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -455,8 +455,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 839680
 Filename: openssl-util_3.0.14-r2_x86_64.ipk
-Size: 341227
-SHA256sum: 1cb2d8ca57e3fec26d8c5d28237496eefbc46d187f2921d3af3a6c7db9ea9163
+Size: 341218
+SHA256sum: 70b3ea16c866c2d77ac65474f7cfb9936f7da22b475d728317a457b21fc6be8c
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -759,29 +759,29 @@ SHA256sum: c1998a274b3fbc03daf9d5ac677217688d9ad9f0fbf62c49ba30ed70427007ad
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240630001259-r1
+Version: 20240707001329-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 163840
-Filename: v2ray-geoip_20240630001259-r1_all.ipk
-Size: 35136
-SHA256sum: 6f191f6bb272d41a24cfb32a3e7f5513704f30091cf2362a050250ced4df0582
+Installed-Size: 174080
+Filename: v2ray-geoip_20240707001329-r1_all.ipk
+Size: 36459
+SHA256sum: a286b6a15d18a0118e8664694b0f200873f62dca6bbe376a394242e47aff82d5
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240630001259-r1
+Version: 20240707001329-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 6205440
-Filename: v2ray-geosite_20240630001259-r1_all.ipk
-Size: 1982037
-SHA256sum: 48d59db5eae2e7e26c583130f9fa0b8aa60daff324c56052d6a7003cf0f10634
+Installed-Size: 6287360
+Filename: v2ray-geosite_20240707001329-r1_all.ipk
+Size: 2011572
+SHA256sum: 433a4a61a2ab9883f39ef19401660b8bf1190fff381520d079198c8181eb8c8f
 Description:  Geosite List for V2Ray
 
 Package: vector
