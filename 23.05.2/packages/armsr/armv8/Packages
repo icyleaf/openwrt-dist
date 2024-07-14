@@ -2,24 +2,26 @@ Package: ca-bundle
 Version: 20240203-1
 Depends: libc
 Provides: ca-certs
+License: GPL-2.0-or-later MPL-2.0
 Section: base
 Architecture: all
 Installed-Size: 127330
 Filename: ca-bundle_20240203-1_all.ipk
-Size: 128134
-SHA256sum: b951a208f6df777544326ef4b012f2219913118267ba0ac3c957d9cd16ba5eea
+Size: 128166
+SHA256sum: a6154296252f22d98c50980d8de8a2e26e93a60f267ecfd9c01abe7839174935
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
 Version: 20240203-1
 Depends: libc
 Provides: ca-certs
+License: GPL-2.0-or-later MPL-2.0
 Section: base
 Architecture: all
-Installed-Size: 138419
+Installed-Size: 138408
 Filename: ca-certificates_20240203-1_all.ipk
-Size: 139132
-SHA256sum: b701a98ed1d3d360cd972570daa93356efca9ffd9cd1fe235ce85958caa27376
+Size: 139146
+SHA256sum: d0b27918897101aa390a4febd062e9464e09414164bdbfca5d01432bc37cae73
 Description:  System CA certificates
 
 Package: iwinfo
@@ -107,12 +109,12 @@ Provides: libjson-c
 License: MIT
 Section: libs
 ABIVersion: 5
-CPE-ID: cpe:/a:json-c_project:json-c
+CPE-ID: cpe:/a:json-c:json-c
 Architecture: aarch64_generic
-Installed-Size: 28909
+Installed-Size: 28908
 Filename: libjson-c5_0.16-3_aarch64_generic.ipk
-Size: 29708
-SHA256sum: 92d03c1ef086c958c9b19580b9f26af0e7912845b3fcc5104caf9ee0bc6d35d2
+Size: 29681
+SHA256sum: c9b65534217b333baa910a60f1b94bfdd25a2e3e0b22fa3368ba1769a130a911
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script20230523
@@ -148,7 +150,7 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls12
-Version: 2.28.7-2
+Version: 2.28.8-1
 Depends: libc
 Provides: libmbedtls
 License: GPL-2.0-or-later
@@ -156,10 +158,10 @@ Section: libs
 ABIVersion: 12
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_generic
-Installed-Size: 252797
-Filename: libmbedtls12_2.28.7-2_aarch64_generic.ipk
-Size: 253280
-SHA256sum: f369d05d7862310c37bb8269087ef86c98b0d0cb673ef3cb5555732b8819e909
+Installed-Size: 255454
+Filename: libmbedtls12_2.28.8-1_aarch64_generic.ipk
+Size: 255974
+SHA256sum: 3f62fb101975a7fde172adc04ca84b3ad043f03428dfc1c271f200e0b70dbbab
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -179,16 +181,16 @@ SHA256sum: 0eceba35ae9412d481f860e739ad8e3aae53f7b94664b8c270d005017d9a755d
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
-Installed-Size: 6267
-Filename: libopenssl-conf_3.0.13-1_aarch64_generic.ipk
-Size: 7453
-SHA256sum: 5939da192f2522a6a96fed9ed63cd322c89946661ad1cc7467aa8ab91c31c01d
+Installed-Size: 6264
+Filename: libopenssl-conf_3.0.14-2_aarch64_generic.ipk
+Size: 7448
+SHA256sum: 739579488d31ac0a309a537bc6b7ec1727fd5d431fbdad359b4ee597e64565b5
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -196,23 +198,23 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
-Installed-Size: 36784
-Filename: libopenssl-legacy_3.0.13-1_aarch64_generic.ipk
-Size: 37753
-SHA256sum: 6ce32fbdce959966f01b6695980ef78e9bb04b300f7c537a138d8bd9e5989347
+Installed-Size: 36811
+Filename: libopenssl-legacy_3.0.14-2_aarch64_generic.ipk
+Size: 37779
+SHA256sum: f6bb9b7b65839e588cf53dc5574ae1cb6c137ef52e9c9f8a313d1be2b8c3435a
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, kmod-crypto-user, kmod-cryptodev
 Provides: libopenssl
 License: Apache-2.0
@@ -220,10 +222,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
-Installed-Size: 2030616
-Filename: libopenssl3_3.0.13-1_aarch64_generic.ipk
-Size: 2019072
-SHA256sum: 333652e17b5111529ddc476062966bccaf29b611d9510ce231ea174d8a39c7c0
+Installed-Size: 2033541
+Filename: libopenssl3_3.0.14-2_aarch64_generic.ipk
+Size: 2021979
+SHA256sum: 381ab6f7bfe660b18b2c220fbb37487fa4954c34911c072c62faa42527e261c4
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -404,16 +406,16 @@ SHA256sum: d850eb273c57b682b7a5496feb3c28651c4ecde0f6f27f849217942104f34fec
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
-Version: 2.28.7-2
+Version: 2.28.8-1
 Depends: libc, libmbedtls12
 License: GPL-2.0-or-later
 Section: utils
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_generic
-Installed-Size: 33392
-Filename: mbedtls-util_2.28.7-2_aarch64_generic.ipk
+Installed-Size: 33399
+Filename: mbedtls-util_2.28.8-1_aarch64_generic.ipk
 Size: 34097
-SHA256sum: 514ffebb7b09699716d64f83dc9f26556da89fe4e2677e8821b95aa9546a1d74
+SHA256sum: 286e55f66c5876983c104ced6b63a53ec6c8f5f175cada35e0b2c27c3a9f3abb
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -432,16 +434,16 @@ SHA256sum: 73c38f5672307961e40303d735f0904fae9f596475ca7074907a7562c5e098ef
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
-Installed-Size: 342031
-Filename: openssl-util_3.0.13-1_aarch64_generic.ipk
-Size: 341630
-SHA256sum: e0844e336f4f62153669bcd23a7e94fab4fe44f140245a6f74a597b12f10db5a
+Installed-Size: 342063
+Filename: openssl-util_3.0.14-2_aarch64_generic.ipk
+Size: 341731
+SHA256sum: 1d2a71fc457242226c07ecf175950152c92bf4e6f51750fd792a4cb99625902f
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -729,27 +731,27 @@ SHA256sum: d205923704e9129d3ff01064a92ef7b283913b9487836550c5c3b2fcb34a34d8
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240707012708-1
+Version: 20240714011913-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 37464
-Filename: v2ray-geoip_20240707012708-1_all.ipk
-Size: 36431
-SHA256sum: e62a936f489f2fb8da89451c4f3d5df8e37e03d5478923f91216976f80695612
+Installed-Size: 35816
+Filename: v2ray-geoip_20240714011913-1_all.ipk
+Size: 35699
+SHA256sum: ed0a7f32711d90ac0dd9b19e7276f0e6e60d6299ee628de174367c5ae8a478f4
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240707012708-1
+Version: 20240714011913-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2010997
-Filename: v2ray-geosite_20240707012708-1_all.ipk
-Size: 2011548
-SHA256sum: 47c68b01f8c108310787efa1ff048d53d8d6a846e0f05dd1564a1a1578c5d512
+Installed-Size: 2011551
+Filename: v2ray-geosite_20240714011913-1_all.ipk
+Size: 2012235
+SHA256sum: d19a8871019c59543336775d78c7b034c923ec808c399e571389472b45302966
 Description:  Geosite List for V2Ray
 
 Package: vector
