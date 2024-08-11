@@ -377,10 +377,10 @@ Version: 1.6.0
 Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
 Section: luci
 Architecture: all
-Installed-Size: 14489
+Installed-Size: 14471
 Filename: luci-app-mosdns_1.6.0_all.ipk
-Size: 15371
-SHA256sum: 529a64474a20924a8e80d8461a15e83ed0d0a9a18b62a9f8460188114f083b08
+Size: 15362
+SHA256sum: b9a890bceb9ce45932fe6391fc2eb50a7cdb3ae32037b1cffed7d8692d3bd5b5
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -395,14 +395,14 @@ SHA256sum: 3e759d8965f4ecd143891bd573d35390e8667151fd6a9b36438105220551f664
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-24.216.30046-b99b579
+Version: git-24.217.39763-84fdff5
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
-Installed-Size: 4271
-Filename: luci-i18n-mosdns-zh-cn_git-24.216.30046-b99b579_all.ipk
-Size: 5099
-SHA256sum: 66dee20845130c768526404ee0c2e6b8c9a3e6aa5c4d5f739daf1344c920bdc8
+Installed-Size: 4268
+Filename: luci-i18n-mosdns-zh-cn_git-24.217.39763-84fdff5_all.ipk
+Size: 5100
+SHA256sum: 897b5a2c24673251618cab4817fb373d79b49648a4ddb289cade89f450a2d18d
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -724,34 +724,34 @@ Depends: libc
 License: GPL-3.0
 Section: utils
 Architecture: aarch64_generic
-Installed-Size: 2638639
+Installed-Size: 2638648
 Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_generic.ipk
-Size: 2631987
-SHA256sum: faaeec8fd8917b7b923d8d3ffe2a69286924b636c26f498683fe651286d2465e
+Size: 2632001
+SHA256sum: 43ec6504fba654b276305512f1691383b0d47e71e0420bbf2f38cd5c1ecd8451
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240804012638-1
+Version: 20240811012049-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 37565
-Filename: v2ray-geoip_20240804012638-1_all.ipk
-Size: 36306
-SHA256sum: b1936ab7b046a1e4d449062c17213c6923c42da77860ef5fc6ab30a14e8a5e8a
+Installed-Size: 62406
+Filename: v2ray-geoip_20240811012049-1_all.ipk
+Size: 60641
+SHA256sum: e03ef8d4db66446a6666ab2d588df6c59a8f42a5c39500ba799436048a39f44c
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240804012638-1
+Version: 20240811012049-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2092128
-Filename: v2ray-geosite_20240804012638-1_all.ipk
-Size: 2092914
-SHA256sum: d3f02d5d9ef82c64978e18919a1afbef95d9516e239ee1df352c2e9ba0a1053c
+Installed-Size: 2089543
+Filename: v2ray-geosite_20240811012049-1_all.ipk
+Size: 2089970
+SHA256sum: 038d95392fd40cbee8a3dfcc8472c2100352c4a79f000800abc144cfb6a921dd
 Description:  Geosite List for V2Ray
 
 Package: vector
