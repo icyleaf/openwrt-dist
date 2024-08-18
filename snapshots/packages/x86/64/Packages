@@ -283,8 +283,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 5099520
 Filename: libopenssl3_3.0.14-r2_x86_64.ipk
-Size: 2096416
-SHA256sum: d0caa65d0dd5f5c24dd905f8ecab82ff4bf6d144ebf2798a4588dc949b33d8bb
+Size: 2096422
+SHA256sum: c5ad2346f7cede6fc01bc7cd83be035f8cb11f9efb324627b4828140b16c4ccb
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -442,8 +442,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 102400
 Filename: luci-app-mosdns_1.6.0-1_all.ipk
-Size: 15391
-SHA256sum: f9f4c5c26921023a963302351cd92d1950931bbddb8a5fd2e3e31505c7a044ed
+Size: 15478
+SHA256sum: b4c31305a4aaf0740d44c375be05207e9282312536822b22fbfa1c34dbdbac7e
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -458,14 +458,14 @@ SHA256sum: 8ce48b6538acf5b70f710de528100d88bc281a8037277d61035f1bd2039ab262
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 24.217.39763~84fdff5
+Version: 24.229.38157~6f37807
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_24.217.39763~84fdff5_all.ipk
-Size: 5023
-SHA256sum: 79e86735a4ed6f756acc80b517a9b004f96fc833d04a60534f860d8c904fa600
+Filename: luci-i18n-mosdns-zh-cn_24.229.38157~6f37807_all.ipk
+Size: 5029
+SHA256sum: cd353da0a0f0cc9fdc29a28e0e0e13e4ac772b7c98592381525b12e019c2efcc
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -587,8 +587,8 @@ URL: https://tailscale.com
 Architecture: x86_64
 Installed-Size: 23173120
 Filename: tailscale_1.58.2-r1_x86_64.ipk
-Size: 9201647
-SHA256sum: e8f0f6175b1684d2dfbc13610d426cd4eff20ac22324bc09462e54bec4a4c24f
+Size: 9200940
+SHA256sum: ad9ef51acdbc461e22314734f2d95f7c812555fab8474bf1f3bbcc65a0ca16c4
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -601,8 +601,8 @@ URL: https://github.com/traefik/traefik/
 Architecture: x86_64
 Installed-Size: 141250560
 Filename: traefik_2.10.7-r1_x86_64.ipk
-Size: 36045388
-SHA256sum: 1ae7d115b6fb83914a7dbab612dc9f31686c15f5f05684d1074794cba09ca3a8
+Size: 36043092
+SHA256sum: c3d82a49be5ecf37b480bc5d2710517caa1e0d0eb47613d1278ccea5c5ad1dfb
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -807,34 +807,34 @@ URL: https://github.com/urlesistiana/v2dat
 Architecture: x86_64
 Installed-Size: 7413760
 Filename: v2dat_2022.12.15~47b8ee51-r1_x86_64.ipk
-Size: 2941058
-SHA256sum: e98108f4525c18724edc2852bf6fe2cc76eb1ee91915eca059146db7ee14989e
+Size: 2941136
+SHA256sum: 18347517436fcd13a9f781c88ab6a1af249cdcc422da2aa577db482dec7820f6
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240811001657-r1
+Version: 20240818001236-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 337920
-Filename: v2ray-geoip_20240811001657-r1_all.ipk
-Size: 60670
-SHA256sum: 9d1d6a3526580a73ae978bb8650195103e27b179d04af869d2c503394f30e803
+Filename: v2ray-geoip_20240818001236-r1_all.ipk
+Size: 60716
+SHA256sum: a99190a807beab0f04270d83c67b6de44780b1fef880d5eb81e9013b77eba88d
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240811001657-r1
+Version: 20240818001236-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 6584320
-Filename: v2ray-geosite_20240811001657-r1_all.ipk
-Size: 2090005
-SHA256sum: 5ed0dd9107f412b3683971052dafd25931a0c45c23e93654fcb7b0305b2a9e84
+Installed-Size: 6574080
+Filename: v2ray-geosite_20240818001236-r1_all.ipk
+Size: 2080277
+SHA256sum: 289b445556ecdde1020cf80fa45722c10c1f3bb8ff1a7404188a847a74c29b0b
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -859,8 +859,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 235520
 Filename: zlib-dev_1.3.1-r1_x86_64.ipk
-Size: 80523
-SHA256sum: d71bcc673f0f0d1dae18ea3fb451c78c748fe94083ba7736090659e4102a13e7
+Size: 80530
+SHA256sum: 1989b12f596b99956d28bd2c81cea5d7e3d9b2dc1c92251e8b8b372d7cce27b7
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
