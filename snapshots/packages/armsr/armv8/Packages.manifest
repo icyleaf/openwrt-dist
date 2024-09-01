@@ -345,8 +345,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 5273600
 Filename: libopenssl3_3.0.14-r2_aarch64_generic.ipk
-Size: 2015979
-SHA256sum: 79ceedfc7891af38c96b88082cdb1d3cb09c476fa0a7c75cde636ef12d6b7698
+Size: 2015995
+SHA256sum: ec3d39bc673f2f761592900795724a52bf3cc6626b38c7acf39d110162ad66e7
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -545,14 +545,14 @@ Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
 Source: feeds/base/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1724498694
+SourceDateEpoch: 1724595837
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 389120
 Filename: luci-app-mosdns_1.6.5-1_all.ipk
-Size: 103380
-SHA256sum: 63c9cbab719f47e4d6295a73827566328d6fc3403540275bb2e7d8b177f150d6
+Size: 103451
+SHA256sum: 5836b6af11aed2ad7d9df9d60398e957581ffc8f7ea11f6304ddfd4f461e4b89
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -571,18 +571,18 @@ SHA256sum: 8ce48b6538acf5b70f710de528100d88bc281a8037277d61035f1bd2039ab262
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 24.237.41094~fdf5ff5
+Version: 24.238.51837~9c42ea4
 Depends: libc, luci-app-mosdns
 Source: feeds/base/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1724498694
+SourceDateEpoch: 1724595837
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_24.237.41094~fdf5ff5_all.ipk
-Size: 5015
-SHA256sum: 5e6619ad43b9457f0c07f221b91063e96ee5bc06c0e77bf53435fc167529ea9b
+Filename: luci-i18n-mosdns-zh-cn_24.238.51837~9c42ea4_all.ipk
+Size: 5022
+SHA256sum: 0dc941565ef0b8f1cdeb20126e061ca6caacf431558cef3de7b41d3b10fbd83a
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -742,8 +742,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 22220800
 Filename: tailscale_1.58.2-r1_aarch64_generic.ipk
-Size: 8501818
-SHA256sum: 08a0b5301f292d0b1f5c11f47fbdfcb1186d350be01f7dd48bf942870ea74c7e
+Size: 8501649
+SHA256sum: f2e8d9e1f034c03ff0d091e44992bab203b101025d733163443d7858a48cab80
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -760,8 +760,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 137277440
 Filename: traefik_2.10.7-r1_aarch64_generic.ipk
-Size: 32937388
-SHA256sum: cd6886711d7db84605bf76355d0c8b05d309925c7c68f35624c5edb0f5c5d1b0
+Size: 32936994
+SHA256sum: 1a92aa0bc6bbd323cc76a5f1abf15adb8934fce73deb64f018f7df2fc0fdbc6e
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -1029,18 +1029,18 @@ Source: feeds/base/luci-app-mosdns/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1724498694
+SourceDateEpoch: 1724595837
 URL: https://github.com/urlesistiana/v2dat
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 7116800
 Filename: v2dat_2022.12.15~47b8ee51-r1_aarch64_generic.ipk
-Size: 2696700
-SHA256sum: 4d300daccbed2493f28e95fbb406b09ed0389f2d0dc32fb1dfbc6ce8de8d8f60
+Size: 2696759
+SHA256sum: 8f6d8abbf545db718feb129b0f5c4c8c7675ecb4496b7b227f1633bea83071ee
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240825003919-r1
+Version: 20240901003742-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1052,13 +1052,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 337920
-Filename: v2ray-geoip_20240825003919-r1_all.ipk
-Size: 60700
-SHA256sum: 55856ac40fbc4ce94c2df586ef1fcff8ee5d59bb70720d0acf0ccdc3ab0a0150
+Filename: v2ray-geoip_20240901003742-r1_all.ipk
+Size: 60824
+SHA256sum: 0a5d2b0073932f3422383d8524ae7fbd54fb4a144aa7d116790c5380725fefda
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240825003919-r1
+Version: 20240901003742-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1069,10 +1069,10 @@ SourceDateEpoch: 1717423378
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 6584320
-Filename: v2ray-geosite_20240825003919-r1_all.ipk
-Size: 2083494
-SHA256sum: ad7df1ee089464adfe32cda4bb6973653fbb8d2c1df0bc76f53abcb57d112402
+Installed-Size: 6594560
+Filename: v2ray-geosite_20240901003742-r1_all.ipk
+Size: 2087486
+SHA256sum: 292ab95026b19b89f5dbbc34e6cbbee00811dda0d9e771b2670ae3dddf6d1004
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1105,8 +1105,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: aarch64_generic
 Installed-Size: 245760
 Filename: zlib-dev_1.3.1-r1_aarch64_generic.ipk
-Size: 82905
-SHA256sum: 4f55d952b0b46c1149b28a8b7bb1df723f7c35127202b702356a1608e9434838
+Size: 82914
+SHA256sum: bc33bee3cd97f60ffd8f24ce846efca80ad2dd3c83bb5aeff48caebaf23a620f
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
