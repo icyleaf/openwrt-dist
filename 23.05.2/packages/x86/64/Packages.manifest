@@ -500,18 +500,18 @@ SHA256sum: 69eb253cd8ee3cc3b4966ca420ea51f12698095bd695e39ce32c11c2d3280b51
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.031-beta
+Version: 0.46.033-beta
 Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Source: package/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1726758894
+SourceDateEpoch: 1727108448
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 6148323
-Filename: luci-app-openclash_0.46.031-beta_all.ipk
-Size: 6124508
-SHA256sum: ce86266bd88e1f8c8644f5b516c6510c5ebd731a726c0d5f00fd9b2171cdf435
+Installed-Size: 6156694
+Filename: luci-app-openclash_0.46.033-beta_all.ipk
+Size: 6133493
+SHA256sum: 740bb66dba48f1c48fdac3ec434be15bc97cee6b3537e7a7ad16913eb111f180
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -556,13 +556,13 @@ Source: package/icyleaf/utils/neofetch
 SourceName: neofetch
 License: MIT
 Section: utils
-SourceDateEpoch: 1710307146
+SourceDateEpoch: 1727273642
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
-Installed-Size: 96212
+Installed-Size: 96210
 Filename: neofetch_20211210-master-1_x86_64.ipk
-Size: 97051
-SHA256sum: 1b904f3cd828d7d3fe3f4fe38a40dc242d7e03b2f9b4a2bde05184283c87a0ce
+Size: 97047
+SHA256sum: 856184de7ae44395576e3b00ccfdda980a36c0f4abb8df6b56e8b8368a7723b9
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
@@ -677,13 +677,13 @@ SourceName: tailscale
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1710307146
+SourceDateEpoch: 1727273642
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
-Installed-Size: 9076449
+Installed-Size: 9076447
 Filename: tailscale_1.58.2-1_x86_64.ipk
-Size: 9059067
-SHA256sum: 68cd6a98554afb671b98ecbb9c128f14ab9c178d4c5732be1dbb2ce86eca8293
+Size: 9059045
+SHA256sum: b4e4fa84b2aa7dc96455cb318888e16065522ba3d80a2774cdc850dfd2cf0488
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -694,13 +694,13 @@ Source: package/icyleaf/network/traefik
 SourceName: traefik
 License: MIT
 Section: net
-SourceDateEpoch: 1710307146
+SourceDateEpoch: 1727273642
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
-Installed-Size: 36100111
+Installed-Size: 36100110
 Filename: traefik_2.10.7-1_x86_64.ipk
-Size: 35709367
-SHA256sum: 142efec9090b6674fd3f1db2b10d0a7b63d526dd4ebfa1dbebec4d6906e7f043
+Size: 35709172
+SHA256sum: f8f0d02b82ed99150814d1cf4dcad889a6e624235c943aa30732b6d7b264f1e4
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -962,7 +962,7 @@ SHA256sum: 15cbd9b041d80381befab6a1af37d2b0ffe760252295a1e5ac274ce9e2badf20
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240922010051-1
+Version: 20240929005912-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -972,14 +972,14 @@ Section: net
 SourceDateEpoch: 1717423378
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 60988
-Filename: v2ray-geoip_20240922010051-1_all.ipk
-Size: 60364
-SHA256sum: b10e03518c9da7eb0407111e43fa3876a5d7477dddec4fdf44ce514333723356
+Installed-Size: 61102
+Filename: v2ray-geoip_20240929005912-1_all.ipk
+Size: 60514
+SHA256sum: 97f48f7466c3317d1d623d40315742a506520165f5c0d7916ca83f04b71e6a43
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240922010051-1
+Version: 20240929005912-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -989,26 +989,26 @@ Section: net
 SourceDateEpoch: 1717423378
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 2187138
-Filename: v2ray-geosite_20240922010051-1_all.ipk
-Size: 2187884
-SHA256sum: 027331dafadf17b64e69f1ba1502eddfce1f44f5b4bf8feba22c3b378b3e5746
+Installed-Size: 2189177
+Filename: v2ray-geosite_20240929005912-1_all.ipk
+Size: 2189701
+SHA256sum: 7434db0c713a5ddd0cddc34d59830507e667236f245c3aa2431bfcf555831d22
 Description:  Geosite List for V2Ray
 
 Package: vector
-Version: 0.36.0-1
+Version: 0.41.1-1
 Depends: libc
 Source: package/icyleaf/utils/vector
 SourceName: vector
 License: MIT
 Section: utils
-SourceDateEpoch: 1710307146
+SourceDateEpoch: 1727273642
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
-Installed-Size: 46315044
-Filename: vector_0.36.0-1_x86_64.ipk
-Size: 46060232
-SHA256sum: d2813c2befdd8c3adf13c4e5f1d617d512367bdcb09ca4bdf8e039968f015a73
+Installed-Size: 45333150
+Filename: vector_0.41.1-1_x86_64.ipk
+Size: 45122966
+SHA256sum: ab9c664c0902ef9790c5482ea1d3e3f1ffbe1bfb56b9f43fae9dfe333d90f9e4
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
