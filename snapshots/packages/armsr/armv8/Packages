@@ -152,19 +152,19 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls21
-Version: 3.6.0-r1
+Version: 3.6.1-r1
 Depends: libc
 Provides: libmbedtls
 License: GPL-2.0-or-later
 Section: libs
-URL: https://tls.mbed.org
+URL: https://www.trustedfirmware.org/projects/mbed-tls/
 ABIVersion: 21
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_generic
 Installed-Size: 860160
-Filename: libmbedtls21_3.6.0-r1_aarch64_generic.ipk
-Size: 330386
-SHA256sum: d2f3fe98f92eae4b862d2cddd5f937612b95ae5dcfd80dad140349951da85f99
+Filename: libmbedtls21_3.6.1-r1_aarch64_generic.ipk
+Size: 331318
+SHA256sum: 9f16414399a5335680ed32cb410f42cf4423a4b747bebfb492237dc6690b0a71
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -188,13 +188,13 @@ Version: 3.0.15-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 License: Apache-2.0
 Section: libs
-URL: http://www.openssl.org/
+URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: libopenssl-afalg_3.0.15-r1_aarch64_generic.ipk
-Size: 7909
-SHA256sum: 4dd21c4b8f528f8f2a2b4eaf6aaf4a19f41abd3989b69c75e62312569e39b442
+Size: 7913
+SHA256sum: 416a5eab87472956f15d656aeef17dd857abfb05f61c00a4b6fc894409746ef7
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -206,13 +206,13 @@ Version: 3.0.15-r1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
-URL: http://www.openssl.org/
+URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
 Installed-Size: 20480
 Filename: libopenssl-conf_3.0.15-r1_aarch64_generic.ipk
-Size: 6490
-SHA256sum: 11e342a74d0f17c21057694855ee96c2f0c367a5c8d11d531c4120d0fb239d20
+Size: 6494
+SHA256sum: a0193e229d8acc4fb37e8f94fb64c34bd2e4be4ea0274d2d859fa93be9ad1655
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -224,13 +224,13 @@ Version: 3.0.15-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
-URL: http://www.openssl.org/
+URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: libopenssl-devcrypto_3.0.15-r1_aarch64_generic.ipk
-Size: 12381
-SHA256sum: 637430a16cc76aea60cfb888dc98b8a5f50335d5b5aa72b6d6aab590f5e0cc60
+Size: 12384
+SHA256sum: d2b6ad63287df54694672a8f350e1b200b6b3fdc00484d71c0080caaec6cb379
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -242,13 +242,13 @@ Version: 3.0.15-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
-URL: http://www.openssl.org/
+URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: libopenssl-legacy_3.0.15-r1_aarch64_generic.ipk
-Size: 37764
-SHA256sum: f41e8c78a1cf2794b98e8c5fb2ccfa415bb31968634419079bd6250d0b616877
+Size: 37775
+SHA256sum: 2aa48ba3a6a1c78fd574e4a9e74d76f4978761899c9f2709f0f8532c9a36a46c
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
@@ -260,14 +260,14 @@ Depends: libc
 Provides: libopenssl
 License: Apache-2.0
 Section: libs
-URL: http://www.openssl.org/
+URL: https://www.openssl.org/
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
 Installed-Size: 5273600
 Filename: libopenssl3_3.0.15-r1_aarch64_generic.ipk
-Size: 2015962
-SHA256sum: 4fb1eec3add946eaca0074ec6f439e48629c226cb4f8d5fff189fa05953f5cab
+Size: 2015931
+SHA256sum: 790881808a5aefac1cc2b3ce11ca4c41267a9a4e88ec870049580f23d636b31c
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -430,14 +430,14 @@ SHA256sum: 3361d6208db74761ba682ab4ce259a04ed2d32b71573089d87d78c4e78b2f446
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.031-rbeta
+Version: 0.46.033-rbeta
 Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 18974720
-Filename: luci-app-openclash_0.46.031-rbeta_all.ipk
-Size: 6124520
-SHA256sum: 67b0a1b782e4d0248055455c4e8a23ddb28e62b281398fdf9c2282e1a94deac4
+Installed-Size: 19056640
+Filename: luci-app-openclash_0.46.033-rbeta_all.ipk
+Size: 6133501
+SHA256sum: 8858c7e0efe9bdb4c2c3926c101a2811fa24b3bc95a541d355042f63a8038d80
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -452,17 +452,17 @@ SHA256sum: c74bf8cca23464c01f36ba6737cb1591d05b34c8d5839e6048f09f52a7873e1b
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
-Version: 3.6.0-r1
+Version: 3.6.1-r1
 Depends: libc, libmbedtls21
 License: GPL-2.0-or-later
 Section: utils
-URL: https://tls.mbed.org
+URL: https://www.trustedfirmware.org/projects/mbed-tls/
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_generic
 Installed-Size: 143360
-Filename: mbedtls-util_3.6.0-r1_aarch64_generic.ipk
-Size: 10214
-SHA256sum: 726cb805fd39b916a57560d2b2f80978f279898ffc0753db364f3e223b139419
+Filename: mbedtls-util_3.6.1-r1_aarch64_generic.ipk
+Size: 10052
+SHA256sum: e94ace6b3977709841afe5895b623cfdf4a293290b6cd56816e98a7cb84ebce0
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -477,8 +477,8 @@ URL: https://github.com/dylanaraps/neofetch
 Architecture: aarch64_generic
 Installed-Size: 389120
 Filename: neofetch_20211210-master-r1_aarch64_generic.ipk
-Size: 97082
-SHA256sum: bca5868107f3292a166c48312f4170c26f611ca736153cc9cd037f2e2226c440
+Size: 97083
+SHA256sum: 1c5d7a3ae52a139ebe3fc025df331c74cf5af75cc3b12ced68abbb368ecefdf3
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
@@ -486,13 +486,13 @@ Version: 3.0.15-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
-URL: http://www.openssl.org/
+URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_generic
 Installed-Size: 890880
 Filename: openssl-util_3.0.15-r1_aarch64_generic.ipk
-Size: 341300
-SHA256sum: 9f9e3d4dd6ea6dcc1b381ab19961dc37b24eb7b6a12eb1e92588676500cdc99c
+Size: 341310
+SHA256sum: fe2f708020f6045ec7c805eb2c02786bea921a3689c34c379f0445d3cfdfc5aa
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -570,8 +570,8 @@ URL: https://tailscale.com
 Architecture: aarch64_generic
 Installed-Size: 22220800
 Filename: tailscale_1.58.2-r1_aarch64_generic.ipk
-Size: 8502079
-SHA256sum: d9eca8016a39ddf4f170a4de2023a6cc70522e25b5dcb37588a329b04da7958b
+Size: 8502030
+SHA256sum: e3c7d588d683d33cb50b0eb9ca7309c648330ce6e49776978c063b935449d720
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -584,8 +584,8 @@ URL: https://github.com/traefik/traefik/
 Architecture: aarch64_generic
 Installed-Size: 137338880
 Filename: traefik_2.10.7-r1_aarch64_generic.ipk
-Size: 32928768
-SHA256sum: 706d2610ba38aa32394869e4a929ef84878f783f81272d92c0efe8ff6ea9e571
+Size: 32929922
+SHA256sum: 4dd45cf0469893458d3f6004dfd0e32c8896f64543f8486f86a1f98ab3500ae8
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -790,47 +790,47 @@ URL: https://github.com/urlesistiana/v2dat
 Architecture: aarch64_generic
 Installed-Size: 7116800
 Filename: v2dat_2022.12.15~47b8ee51-r1_aarch64_generic.ipk
-Size: 2696730
-SHA256sum: 322aa184a35d244aaae0291bfb2f73c956e9a89b556e21e4acf61ea6b635225d
+Size: 2696930
+SHA256sum: c27c6f27a7d4e7ba9bd48a8ecaef65de976666833c9d3b92c30cd82121e111c3
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240922003740-r1
+Version: 20240929003545-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 327680
-Filename: v2ray-geoip_20240922003740-r1_all.ipk
-Size: 60401
-SHA256sum: d4c9cfe34b78852e60fc74e4a1f64df2f05c5c0cd769258360382b50d6ca4dea
+Filename: v2ray-geoip_20240929003545-r1_all.ipk
+Size: 60542
+SHA256sum: fae53edb916de04788a619ee7b7af4d6353dd9b5c8404c53028709e8c7e8a464
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240922003740-r1
+Version: 20240929003545-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 6942720
-Filename: v2ray-geosite_20240922003740-r1_all.ipk
-Size: 2187912
-SHA256sum: 98893da5deb2ff8c9637e74d6ec1dcc21c078fbc646cbda67921c52f9ae938b2
+Installed-Size: 6952960
+Filename: v2ray-geosite_20240929003545-r1_all.ipk
+Size: 2189729
+SHA256sum: 33b31389dbbf2975367a68b02cc14995b35d0572497a56c14d415e075b75e248
 Description:  Geosite List for V2Ray
 
 Package: vector
-Version: 0.36.0-r1
+Version: 0.41.1-r1
 Depends: libc
 License: MIT
 Section: utils
 URL: https://github.com/vectordotdev/vector
 Architecture: aarch64_generic
-Installed-Size: 124016640
-Filename: vector_0.36.0-r1_aarch64_generic.ipk
-Size: 44940953
-SHA256sum: 4159bc7b1e0202d8d4358e4e6ceb15d228e68ea8fb9f52e853de7b7776da6982
+Installed-Size: 116715520
+Filename: vector_0.41.1-r1_aarch64_generic.ipk
+Size: 43804699
+SHA256sum: 124c1f95069f3bef92402cb08d8c04cb16876bc0582f3fd255601166d8052691
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
@@ -842,8 +842,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: aarch64_generic
 Installed-Size: 245760
 Filename: zlib-dev_1.3.1-r1_aarch64_generic.ipk
-Size: 82924
-SHA256sum: 10c735760a465e0c9fa6d30fa9ab4623b66d19c170a3a6fdf15bee0831ad2f2f
+Size: 82922
+SHA256sum: c8fc49fc66e377bab6f7df8527b3eb2d4ffa23a616f234c5c098f1430fd83388
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
