@@ -384,14 +384,14 @@ SHA256sum: 69eb253cd8ee3cc3b4966ca420ea51f12698095bd695e39ce32c11c2d3280b51
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.031-beta
+Version: 0.46.033-beta
 Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 6148323
-Filename: luci-app-openclash_0.46.031-beta_all.ipk
-Size: 6124508
-SHA256sum: ce86266bd88e1f8c8644f5b516c6510c5ebd731a726c0d5f00fd9b2171cdf435
+Installed-Size: 6156694
+Filename: luci-app-openclash_0.46.033-beta_all.ipk
+Size: 6133493
+SHA256sum: 740bb66dba48f1c48fdac3ec434be15bc97cee6b3537e7a7ad16913eb111f180
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -427,10 +427,10 @@ Depends: libc
 License: MIT
 Section: utils
 Architecture: aarch64_generic
-Installed-Size: 96212
+Installed-Size: 96210
 Filename: neofetch_20211210-master-1_aarch64_generic.ipk
-Size: 97052
-SHA256sum: 73c38f5672307961e40303d735f0904fae9f596475ca7074907a7562c5e098ef
+Size: 97050
+SHA256sum: 4e57fbad7b5e37f5422e8d10744692066e76cbab84aa5150017213cd6a0c78b7
 Description:  A system information frontend, with an (unhealthy) emphasis on performance.
 
 Package: openssl-util
@@ -518,10 +518,10 @@ Provides: tailscaled
 License: BSD-3-Clause
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 8386267
+Installed-Size: 8386266
 Filename: tailscale_1.58.2-1_aarch64_generic.ipk
-Size: 8364786
-SHA256sum: 1c8cc236059715a81c31b43bdc72aafb7275748e61912599452e4f6f2f3101ae
+Size: 8364851
+SHA256sum: ba41982a33eed477918310b03dea51161f64dea92c533a51f724ec334cb261a1
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -531,10 +531,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 32969784
+Installed-Size: 32969872
 Filename: traefik_2.10.7-1_aarch64_generic.ipk
-Size: 32597855
-SHA256sum: 702827ea74e128317fc2b3dd8bdd9e06c9dd92cd0392712568e78b472d8234ac
+Size: 32598435
+SHA256sum: 11642767be62b0e6c4aff23484c4fa97a4e89d7333853171b81953e2c610e8a0
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -731,39 +731,39 @@ SHA256sum: 7e6b23a2c84ffe9879774754d65a416daf36e1e8e62fcf9e024462a00b4fd8ad
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240922011953-1
+Version: 20240929012008-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 60988
-Filename: v2ray-geoip_20240922011953-1_all.ipk
-Size: 60368
-SHA256sum: 91429757e94b1bda9843a36f392f5751002f696f8cd90615bdcc72d17cfa1167
+Installed-Size: 61102
+Filename: v2ray-geoip_20240929012008-1_all.ipk
+Size: 60514
+SHA256sum: 1e76e52ba0bfda3048b1456bb9cd1fac5de067fe8f943734ae3716aed9dd7b9b
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240922011953-1
+Version: 20240929012008-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2187138
-Filename: v2ray-geosite_20240922011953-1_all.ipk
-Size: 2187883
-SHA256sum: 617362fa9a26bc428c5ff458700ad8e05564abd7399a2a4c41d45172a520f2b4
+Installed-Size: 2189177
+Filename: v2ray-geosite_20240929012008-1_all.ipk
+Size: 2189699
+SHA256sum: 14deb570a3625f755f24c48eb3996e4372b2cf780e18d0469a6218b8f1fd83c5
 Description:  Geosite List for V2Ray
 
 Package: vector
-Version: 0.36.0-1
+Version: 0.41.1-1
 Depends: libc
 License: MIT
 Section: utils
 Architecture: aarch64_generic
-Installed-Size: 45305936
-Filename: vector_0.36.0-1_aarch64_generic.ipk
-Size: 44940922
-SHA256sum: e14e2fdbbc9ae861cc8dcce73754f1948393c9dd54b6f0c2aec7cd328eb9a01a
+Installed-Size: 44133734
+Filename: vector_0.41.1-1_aarch64_generic.ipk
+Size: 43804668
+SHA256sum: fc696cedf4704b1504afc45d4c475e65feef55838e27b1e4349e5a2ca847b4c4
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
