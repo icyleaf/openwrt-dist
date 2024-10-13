@@ -135,7 +135,7 @@ Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
 Package: libjson-c5
-Version: 0.17-r1
+Version: 0.18-r1
 Depends: libc
 Provides: libjson-c
 Source: feeds/base/package/libs/libjson-c
@@ -143,16 +143,16 @@ SourceName: json-c
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1714254260
+SourceDateEpoch: 1728124160
 URL: https://json-c.github.io/json-c/
 ABIVersion: 5
 CPE-ID: cpe:/a:json-c:json-c
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 71680
-Filename: libjson-c5_0.17-r1_x86_64.ipk
-Size: 30275
-SHA256sum: d00e8a65ae0de0442f9d08815dc34b0f0db228c3ef42225ffc573d03d0c14929
+Installed-Size: 81920
+Filename: libjson-c5_0.18-r1_x86_64.ipk
+Size: 30402
+SHA256sum: f2d69c8ddc3d86c87b640d40dc3f8180a826c58c347e04c8c68204f9df5685f3
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script20240329
@@ -367,8 +367,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 5099520
 Filename: libopenssl3_3.0.15-r1_x86_64.ipk
-Size: 2096811
-SHA256sum: f99a172dcd897d4caded8e106045edf83f9abb24b7990dd14f8f1ebdbeb0d8e4
+Size: 2096726
+SHA256sum: d553fe6167fa1210c8b3b2e1eb32ab75312356916b3e7f090bb5f662fc7e1f15
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -764,8 +764,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 23541760
 Filename: tailscale_1.58.2-r1_x86_64.ipk
-Size: 9335073
-SHA256sum: 18bec5ce173f1a5f827a787fd3a91d2ca29d98f45e138446335b870ee42697ee
+Size: 9334879
+SHA256sum: 58d25c77488ee39f4c1812213bd31db81d61c7171829dc4ed8919628bb9c169c
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -782,8 +782,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 139089920
 Filename: traefik_2.10.7-r1_x86_64.ipk
-Size: 36081638
-SHA256sum: 5a37d3754f878070ac6b3004bacd6fd3a9ba3df17a2c1718532f71de121090da
+Size: 36081290
+SHA256sum: 6cd67233b5b0b0517bf00323bdd296b894d6ee11415cbd9089a4d12c5489a8f3
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -1057,12 +1057,12 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 7751680
 Filename: v2dat_2022.12.15~47b8ee51-r1_x86_64.ipk
-Size: 3057222
-SHA256sum: 36d87c6f4f184952af2732ec46050885c59cc42658672a97ad9037e8450ce58e
+Size: 3057204
+SHA256sum: 044081d083fb2d7983efabd72ef8a008c6f914c05a67a81eda8c0582e8df1bb9
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-10-06-r1
+Version: 2024-10-13-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1074,13 +1074,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 348160
-Filename: v2ray-geoip_2024-10-06-r1_all.ipk
-Size: 61053
-SHA256sum: 29a10695e3b0ab9765be04f24a15cc5035a5cb861a88293252605f04dadda81b
+Filename: v2ray-geoip_2024-10-13-r1_all.ipk
+Size: 61176
+SHA256sum: 74dd9ab7ab5cf1bbe48c41c1e1d6b19ea80fc69f2291e560fdfb3ce7808eec45
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-10-06-r1
+Version: 2024-10-13-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1091,10 +1091,10 @@ SourceDateEpoch: 1727959000
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 6963200
-Filename: v2ray-geosite_2024-10-06-r1_all.ipk
-Size: 2195922
-SHA256sum: 7b16963bb21beabf2ea4e071c67657ca83200fcffddec51a23082c950a7aae59
+Installed-Size: 6942720
+Filename: v2ray-geosite_2024-10-13-r1_all.ipk
+Size: 2180198
+SHA256sum: 68f89a36833539a2be102d19f277db4381ae478f4045b8eb14e455ab959a6aa0
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1127,8 +1127,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 235520
 Filename: zlib-dev_1.3.1-r1_x86_64.ipk
-Size: 80530
-SHA256sum: 7fb374b015ceb84703716811cc8cb37075430d680dbbb0c291e46b9ef8e69382
+Size: 80531
+SHA256sum: aab13e104019ce68feed929c230a37085b8f311d835e4b58b97e1718d922aacd
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
