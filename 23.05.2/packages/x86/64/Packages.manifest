@@ -500,18 +500,18 @@ SHA256sum: 4d8bde84dc76bd7dc161d65c9293621c35dc377b0c648641af587df07101eb47
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.033-beta
-Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Version: 0.46.050-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Source: package/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1727108448
+SourceDateEpoch: 1731151403
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 6156694
-Filename: luci-app-openclash_0.46.033-beta_all.ipk
-Size: 6133493
-SHA256sum: 740bb66dba48f1c48fdac3ec434be15bc97cee6b3537e7a7ad16913eb111f180
+Installed-Size: 7652924
+Filename: luci-app-openclash_0.46.050-beta_all.ipk
+Size: 7614699
+SHA256sum: 1d56cf4753f79d669468027023cf01adfe34f5d88ef02007150e3f389cc3da2e
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -962,7 +962,7 @@ SHA256sum: 4fb3e8fe3b9cb5ff4081feee9e312126706d55ce9f661e8d48263602222db37d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-11-03-1
+Version: 2024-11-10-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -972,14 +972,14 @@ Section: net
 SourceDateEpoch: 1727959000
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 63960
-Filename: v2ray-geoip_2024-11-03-1_all.ipk
-Size: 62001
-SHA256sum: 2654bb55f84c63a1bdcb0098631b0a6b6379db8d618a3edc7c913d66bcd6e39a
+Installed-Size: 63959
+Filename: v2ray-geoip_2024-11-10-1_all.ipk
+Size: 62043
+SHA256sum: d83b88c3653c9469ba28b4f9c46683034f79c2b44b4aa2ef34434ae324e651fb
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-11-03-1
+Version: 2024-11-10-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -989,10 +989,10 @@ Section: net
 SourceDateEpoch: 1727959000
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 2151471
-Filename: v2ray-geosite_2024-11-03-1_all.ipk
-Size: 2152125
-SHA256sum: e1ab43fe9601038175ecde0d6334af358d54b7ff16ab0a02a5f22376cb05293b
+Installed-Size: 2128980
+Filename: v2ray-geosite_2024-11-10-1_all.ipk
+Size: 2129935
+SHA256sum: c499fc4fbd8ad4bcbbd15df76d93e09056c416b7c979cb954694319c531fce53
 Description:  Geosite List for V2Ray
 
 Package: vector
