@@ -283,8 +283,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 5099520
 Filename: libopenssl3_3.0.15-r1_x86_64.ipk
-Size: 2096752
-SHA256sum: d6fe5933d1bf69194a9903e6638b9490140aef814e5b427eb02e112890e969ce
+Size: 2096744
+SHA256sum: 8d852772311e398c1db28e1f099e1c57769c48d953490278c86bbd2bbf5b34a1
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -447,14 +447,14 @@ SHA256sum: ccbf0f6f5f3b89960891206036699fb6d3328a8f14e145681870434d6f5bb9b2
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.033-rbeta
-Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Version: 0.46.050-rbeta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 19056640
-Filename: luci-app-openclash_0.46.033-rbeta_all.ipk
-Size: 6133501
-SHA256sum: 8858c7e0efe9bdb4c2c3926c101a2811fa24b3bc95a541d355042f63a8038d80
+Installed-Size: 20183040
+Filename: luci-app-openclash_0.46.050-rbeta_all.ipk
+Size: 7614706
+SHA256sum: 2afda6cc4baa4950d970f7a48d0ab3b584c4f1a7be248f7c5e4c4edb7061c607
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -587,8 +587,8 @@ URL: https://tailscale.com
 Architecture: x86_64
 Installed-Size: 23541760
 Filename: tailscale_1.58.2-r1_x86_64.ipk
-Size: 9334919
-SHA256sum: aadc9ff6687c1d0da84c3d1eba49a9666bf9f26613109f024fe3fea500eaa8d1
+Size: 9335059
+SHA256sum: 4d225bd6d0b138c5ead6f6c4dfcc1340c70023e45d3968c80475e796488a3b00
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -601,8 +601,8 @@ URL: https://github.com/traefik/traefik/
 Architecture: x86_64
 Installed-Size: 139089920
 Filename: traefik_2.10.7-r1_x86_64.ipk
-Size: 36081005
-SHA256sum: 83ac724b96c60a38de3c9fedcfc291fcd8abf636ed36306afb5f2f7f0e9ca625
+Size: 36081545
+SHA256sum: 849fc51a4c284bac9e986b77ea8da5906df4a561187d2c1a707294b21c079b76
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -807,34 +807,34 @@ URL: https://github.com/urlesistiana/v2dat
 Architecture: x86_64
 Installed-Size: 7751680
 Filename: v2dat_2022.12.15~47b8ee51-r1_x86_64.ipk
-Size: 3057302
-SHA256sum: 2d2e1fb49027bc44e70a84fbd1d6b6f0b4d9b802fa5f9ca97b48ad12f038a920
+Size: 3057254
+SHA256sum: e5e93d450751e4f6e3077696820a1286b7a56214c34e511b76d69e50fdf49546
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-11-03-r1
+Version: 2024-11-10-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 348160
-Filename: v2ray-geoip_2024-11-03-r1_all.ipk
-Size: 62035
-SHA256sum: 51b50d7c92e68d2d4f1d464015a49c3c556e2272437eba0cd12b150246dcce22
+Filename: v2ray-geoip_2024-11-10-r1_all.ipk
+Size: 62076
+SHA256sum: cbee7ceb341c4c4898118d544437af18b00d711aaa2cb6167f25e63e68e67f48
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-11-03-r1
+Version: 2024-11-10-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 6871040
-Filename: v2ray-geosite_2024-11-03-r1_all.ipk
-Size: 2152153
-SHA256sum: 127ed84a5b97a8d17896f6871d08c831191628dbb5aad1251e0a5d58e7c42215
+Installed-Size: 6809600
+Filename: v2ray-geosite_2024-11-10-r1_all.ipk
+Size: 2129964
+SHA256sum: 2050189f724916cb7913a4e45d98f3b8136747b2dca77bca98d4ff6b822d8c08
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -859,8 +859,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 235520
 Filename: zlib-dev_1.3.1-r1_x86_64.ipk
-Size: 80534
-SHA256sum: 834341f361fbff8945ecd2bcbd0c55808e714710c1ae9adae28695ee9a048893
+Size: 80527
+SHA256sum: 7a84e40a5c21bc5e6fde69313e9280c198603b7601459a8c8387fa8f423b94f3
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
