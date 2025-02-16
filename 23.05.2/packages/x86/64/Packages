@@ -384,14 +384,14 @@ SHA256sum: 702caf1169368698a32ea515ea1dd77271488547c8df192ee23fced1787502fc
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.064
-Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Version: 0.46.075
+Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 7895821
-Filename: luci-app-openclash_0.46.064_all.ipk
-Size: 7857268
-SHA256sum: 8cd3d61650f45df188e4a62b743151808eeac465bc04c973628ff41e1295bf74
+Installed-Size: 9255240
+Filename: luci-app-openclash_0.46.075_all.ipk
+Size: 9216065
+SHA256sum: 136268da2e7ed238911a1091333eba6ea45ee794f71666fe4a8f9dbb5c5e3b1c
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -731,27 +731,27 @@ SHA256sum: 65214362fe330cad6037717dad90d3d38726586c4bebfb3e4ad31e5f4ea6b7fd
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.02.09-1
+Version: 2025.02.16-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 63487
-Filename: v2ray-geoip_2025.02.09-1_all.ipk
-Size: 61587
-SHA256sum: 89e8bc70659925097438c7a5d891dd62c279766bb0bcba497da9ddbe4a965e59
+Installed-Size: 63660
+Filename: v2ray-geoip_2025.02.16-1_all.ipk
+Size: 61704
+SHA256sum: 5ebc808cb0383ed0abc07209de75ed4c04750ee9b9a1cf699a8c3f1801888382
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.02.09-1
+Version: 2025.02.16-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2190569
-Filename: v2ray-geosite_2025.02.09-1_all.ipk
-Size: 2191291
-SHA256sum: 39477b6042a687a0cc9dd7f764a9f81a0cc96bd4f29544dbb53885a9696d7839
+Installed-Size: 2167290
+Filename: v2ray-geosite_2025.02.16-1_all.ipk
+Size: 2168211
+SHA256sum: 634d7b5e98dfa235f02f6abc2b10d1fad73aba69c628cc98480bb932dc67a38a
 Description:  Geosite List for V2Ray
 
 Package: vector
