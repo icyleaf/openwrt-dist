@@ -421,18 +421,6 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
 
-Package: neofetch
-Version: 20211210-master-1
-Depends: libc
-License: MIT
-Section: utils
-Architecture: x86_64
-Installed-Size: 96210
-Filename: neofetch_20211210-master-1_x86_64.ipk
-Size: 97047
-SHA256sum: 856184de7ae44395576e3b00ccfdda980a36c0f4abb8df6b56e8b8368a7723b9
-Description:  A system information frontend, with an (unhealthy) emphasis on performance.
-
 Package: openssl-util
 Version: 3.0.15-1
 Depends: libc, libopenssl3, libopenssl-conf
@@ -518,10 +506,10 @@ Provides: tailscaled
 License: BSD-3-Clause
 Section: net
 Architecture: x86_64
-Installed-Size: 9076447
+Installed-Size: 9076380
 Filename: tailscale_1.58.2-1_x86_64.ipk
-Size: 9059045
-SHA256sum: b4e4fa84b2aa7dc96455cb318888e16065522ba3d80a2774cdc850dfd2cf0488
+Size: 9059012
+SHA256sum: 139f1c749736abfb962e673223934c5c8ef26542c893ca27a3393c19b9b8aa01
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -531,10 +519,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 36100110
+Installed-Size: 36100097
 Filename: traefik_2.10.7-1_x86_64.ipk
-Size: 35709172
-SHA256sum: f8f0d02b82ed99150814d1cf4dcad889a6e624235c943aa30732b6d7b264f1e4
+Size: 35709111
+SHA256sum: 10514a4e59eadec94d4484139143c816d88e70de9840c925acbf85796763a7c2
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -731,27 +719,27 @@ SHA256sum: 65214362fe330cad6037717dad90d3d38726586c4bebfb3e4ad31e5f4ea6b7fd
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.02.16-1
+Version: 2025.02.17-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 63660
-Filename: v2ray-geoip_2025.02.16-1_all.ipk
+Filename: v2ray-geoip_2025.02.17-1_all.ipk
 Size: 61704
-SHA256sum: 5ebc808cb0383ed0abc07209de75ed4c04750ee9b9a1cf699a8c3f1801888382
+SHA256sum: 7052efb18f6988a55e3ef1c77ee936402f1da59b7e77244ad2281ec68d4a1204
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.02.16-1
+Version: 2025.02.17-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2167290
-Filename: v2ray-geosite_2025.02.16-1_all.ipk
-Size: 2168211
-SHA256sum: 634d7b5e98dfa235f02f6abc2b10d1fad73aba69c628cc98480bb932dc67a38a
+Installed-Size: 2168041
+Filename: v2ray-geosite_2025.02.17-1_all.ipk
+Size: 2168844
+SHA256sum: f5128765d4adf2f83deb7aadb9dca8501a68de4967ef7aa596e359859c232b0a
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -760,10 +748,10 @@ Depends: libc
 License: MIT
 Section: utils
 Architecture: x86_64
-Installed-Size: 45333150
+Installed-Size: 45332995
 Filename: vector_0.41.1-1_x86_64.ipk
-Size: 45122966
-SHA256sum: ab9c664c0902ef9790c5482ea1d3e3f1ffbe1bfb56b9f43fae9dfe333d90f9e4
+Size: 45123000
+SHA256sum: a34f869f9c43a4215c174369728bebb537da31e645a99577b043be067291c003
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
