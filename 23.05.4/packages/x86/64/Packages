@@ -719,27 +719,27 @@ SHA256sum: 8887e012b583ef201ebd8e10ede527167447c82d88e007cb3b52e00b878ce4d7
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.05.18-1
+Version: 2025.05.25-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 66398
-Filename: v2ray-geoip_2025.05.18-1_all.ipk
-Size: 64457
-SHA256sum: 38fc2be27d048c2d7a878a4f7d52733a74e7f19b44d82a4faf2eff2da8a168f3
+Installed-Size: 67125
+Filename: v2ray-geoip_2025.05.25-1_all.ipk
+Size: 64842
+SHA256sum: f986c56f352ec70c9fb73ea1eb5f3bb735930bf89b27322a3747e890ef3a9dce
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.05.18-1
+Version: 2025.05.25-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2978392
-Filename: v2ray-geosite_2025.05.18-1_all.ipk
-Size: 2979012
-SHA256sum: b4e80dd5396086d7d5acfd59df8810fb94b9b7699ae5bc85a839431da0d1aa97
+Installed-Size: 2974224
+Filename: v2ray-geosite_2025.05.25-1_all.ipk
+Size: 2974937
+SHA256sum: 8ec1ce002ac8e4640a693433d96c6cb32b6c238d6d8951cda1196c8965fa7940
 Description:  Geosite List for V2Ray
 
 Package: vector
