@@ -562,19 +562,19 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-mosdns
-Version: 1.6.12-r1
+Version: 1.6.13-r1
 Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
 Source: feeds/base/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1749802642
+SourceDateEpoch: 1750688854
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 378880
-Filename: luci-app-mosdns_1.6.12-r1_all.ipk
-Size: 103642
-SHA256sum: 762d6c6d5f431aafd28b712d5589842af95291c045fb31fb33cd0ec31a9973ac
+Filename: luci-app-mosdns_1.6.13-r1_all.ipk
+Size: 103183
+SHA256sum: 01253d935f116424249369370a54c30a088e053174f88eaa8995af37ecdb71ac
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -593,18 +593,18 @@ SHA256sum: da5f39a50f3637066e0c09c07ddc6f913de152f4b4e89226eb45bb239cdc96e5
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 25.164.29842~43fa291
+Version: 25.174.52054~d9313e6
 Depends: libc, luci-app-mosdns
 Source: feeds/base/luci-app-mosdns/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1749802642
+SourceDateEpoch: 1750688854
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_25.164.29842~43fa291_all.ipk
-Size: 5124
-SHA256sum: bbf356867a00b58a2f56d3360ad2621c007c0a45491d9184092cceb3626c43fa
+Filename: luci-i18n-mosdns-zh-cn_25.174.52054~d9313e6_all.ipk
+Size: 5126
+SHA256sum: 121771bdf1b378cd4fb4af2e428ab786073d419c09b6eb928a1eb443a17dcf80
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
@@ -1050,18 +1050,18 @@ Source: feeds/base/luci-app-mosdns/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1749802642
+SourceDateEpoch: 1750688854
 URL: https://github.com/urlesistiana/v2dat
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
 Installed-Size: 5734400
 Filename: v2dat_2022.12.15~47b8ee51-r2_x86_64.ipk
-Size: 2294508
-SHA256sum: 83bb444eb5420026a9eb2b9729515144a0730d7c6bbc924ab43ddd488bbeae61
+Size: 2294555
+SHA256sum: 53968caa943fd2dee69bc53cb200c07557faf30685e443148d747b5886f2afeb
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.06.22-r1
+Version: 2025.06.29-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1073,13 +1073,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 368640
-Filename: v2ray-geoip_2025.06.22-r1_all.ipk
-Size: 65211
-SHA256sum: 354232f4522a747e55dd9ede4bcaf2ec099d36aedac71a93778e9efb64847623
+Filename: v2ray-geoip_2025.06.29-r1_all.ipk
+Size: 65019
+SHA256sum: d9ea07e7ae37016cb15e1032abfc34bc565e2907e9aa36f480d242b6d9a63c5a
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.06.22-r1
+Version: 2025.06.29-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1090,10 +1090,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 9523200
-Filename: v2ray-geosite_2025.06.22-r1_all.ipk
-Size: 2988338
-SHA256sum: 58f03b8b59fd14044a4640657e4760aa4a6a2589d2a8d5e6eff8b1789c65099a
+Installed-Size: 9512960
+Filename: v2ray-geosite_2025.06.29-r1_all.ipk
+Size: 2991690
+SHA256sum: 35e8657ed167b30543dc4d2e45a0e138320f8a8d551107ec272f321029aa126c
 Description:  Geosite List for V2Ray
 
 Package: vector
