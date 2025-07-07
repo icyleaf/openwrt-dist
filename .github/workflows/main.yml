@@ -20,8 +20,8 @@ jobs:
         url:
         # - https://downloads.immortalwrt.org/snapshots/targets/x86/64/immortalwrt-sdk-x86-64_gcc-13.3.0_musl.Linux-x86_64.tar.zst
         # - https://downloads.immortalwrt.org/snapshots/targets/armsr/armv8/immortalwrt-sdk-armsr-armv8_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-        - https://downloads.immortalwrt.org/releases/23.05.4/targets/x86/64/immortalwrt-sdk-23.05.4-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
-        - https://downloads.immortalwrt.org/releases/23.05.4/targets/armsr/armv8/immortalwrt-sdk-23.05.4-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+        # - https://downloads.immortalwrt.org/releases/23.05.4/targets/x86/64/immortalwrt-sdk-23.05.4-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+        # - https://downloads.immortalwrt.org/releases/23.05.4/targets/armsr/armv8/immortalwrt-sdk-23.05.4-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/releases/24.10.1/targets/x86/64/immortalwrt-sdk-24.10.1-x86-64_gcc-13.3.0_musl.Linux-x86_64.tar.zst
     steps:
     - uses: actions/checkout@master
