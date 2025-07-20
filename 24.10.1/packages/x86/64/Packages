@@ -318,19 +318,19 @@ SHA256sum: 56a185e2d7cede6bb6b79df938217859ca3dc075b5774293c3cd4a5b4fb34f7b
 Description:  Basic utility library
 
 Package: libubus-lua
-Version: 2025.05.16~88e63250-r1
+Version: 2025.07.02~5952b48e-r1
 Depends: libc, libubus20250102, liblua5.1.5
 License: LGPL-2.1
 Section: libs
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libubus-lua_2025.05.16~88e63250-r1_x86_64.ipk
-Size: 7884
-SHA256sum: f5c17d4802c273190593ad595b93d9f30593d5798d87b9fcca4d2c5f0a783556
+Filename: libubus-lua_2025.07.02~5952b48e-r1_x86_64.ipk
+Size: 7881
+SHA256sum: d140616c7f059e60df491d780b0687693bac8494d3dc870d4add21d1c3e12497
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus20250102
-Version: 2025.05.16~88e63250-r1
+Version: 2025.07.02~5952b48e-r1
 Depends: libc, libubox20240329
 Provides: libubus
 License: LGPL-2.1
@@ -338,9 +338,9 @@ Section: libs
 ABIVersion: 20250102
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libubus20250102_2025.05.16~88e63250-r1_x86_64.ipk
-Size: 12418
-SHA256sum: 04e5c01c7125579978b31325521f1f262fc5bcdbe6bacc3f0160ba357721f339
+Filename: libubus20250102_2025.07.02~5952b48e-r1_x86_64.ipk
+Size: 12416
+SHA256sum: e0a4b62b4c51d88cbd87553f451072de09fe2d7d6468f5522e95d7e63cf00804
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -447,14 +447,14 @@ SHA256sum: 4f4d6714434a3469262d42a02b0496fcd32d8ac1956f9d4cc359c269fd9b86bb
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.120
+Version: 0.46.137
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 24504320
-Filename: luci-app-openclash_0.46.120_all.ipk
-Size: 9113027
-SHA256sum: 328a5cfc412d9438a8c474b0f7b019162ba196b2f53092c70ad0321e1eeb340e
+Installed-Size: 24924160
+Filename: luci-app-openclash_0.46.137_all.ipk
+Size: 9236595
+SHA256sum: 9eb643fa7b89a64117960310b5e81d8ee27e22685766acb58d6b02af22d10281
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -593,27 +593,27 @@ SHA256sum: 06bdc5f313d420791b436db3344c1d356d36c2b11a87c16bcd6b3bcbb77200fb
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
-Version: 2025.05.16~88e63250-r1
+Version: 2025.07.02~5952b48e-r1
 Depends: libc, libubus20250102, libblobmsg-json20240329, ubusd
 License: LGPL-2.1
 Section: base
 Architecture: x86_64
 Installed-Size: 30720
-Filename: ubus_2025.05.16~88e63250-r1_x86_64.ipk
-Size: 6960
-SHA256sum: 251a679c69693bb557d2c16c1cd3c697328ba2621488f4f2618a995143bf5758
+Filename: ubus_2025.07.02~5952b48e-r1_x86_64.ipk
+Size: 6963
+SHA256sum: bdc72de343a9de7bae92006ed68cc1fb1d6e301e29e3d7d67fbd16be6d86211b
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
-Version: 2025.05.16~88e63250-r1
+Version: 2025.07.02~5952b48e-r1
 Depends: libc, libubox20240329, libblobmsg-json20240329
 License: LGPL-2.1
 Section: base
 Architecture: x86_64
 Installed-Size: 40960
-Filename: ubusd_2025.05.16~88e63250-r1_x86_64.ipk
-Size: 13316
-SHA256sum: 59f16abfb9cc6dd948d196fdf961a5a28737390b0bf27c74a2b2608f6f0ad64f
+Filename: ubusd_2025.07.02~5952b48e-r1_x86_64.ipk
+Size: 13326
+SHA256sum: da51b7cd3e7c3862f59c7d76c441fb30cdcef0b8ed495c4f2357a0c02c14580e
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -811,29 +811,29 @@ SHA256sum: b011410074d6a3b552c79387f7c9545542f32fa2b7a35d263e7eb3a6eb6e5eb5
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.07.13-r1
+Version: 2025.07.20-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 348160
-Filename: v2ray-geoip_2025.07.13-r1_all.ipk
-Size: 61774
-SHA256sum: fb8ccc42988c055c26c89d4afcca174eb5e7dba0e2627f75123aa67f2e18407b
+Filename: v2ray-geoip_2025.07.20-r1_all.ipk
+Size: 61598
+SHA256sum: d2272b49ad0d552f5c4f8ebbbf0bd4ec379ac94fed274b3adb83f6e4c7bdbab4
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.07.13-r1
+Version: 2025.07.20-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 9451520
-Filename: v2ray-geosite_2025.07.13-r1_all.ipk
-Size: 2975420
-SHA256sum: 5d20f2fe555c287de9a753a55e64e8fdecac9e316ec7f63b9537e29be010faa9
+Installed-Size: 9799680
+Filename: v2ray-geosite_2025.07.20-r1_all.ipk
+Size: 3101225
+SHA256sum: 1144aa0ec2d2ac50ad6dbdcd6af6cdc0c2210c92758bf890a7f2db924830698a
 Description:  Geosite List for V2Ray
 
 Package: vector
