@@ -511,8 +511,8 @@ Section: utils
 Architecture: x86_64
 Installed-Size: 30720
 Filename: rpcd-mod-file_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 7926
-SHA256sum: 83137028f79cd82f4e7dd866248037d03df31c3f0daed61e5e6290afb02dff42
+Size: 7933
+SHA256sum: aa49e2da96e57746c4db7a059df9a046a93aa699490aa5549d9ceb193b3f7788
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
@@ -523,8 +523,8 @@ Section: utils
 Architecture: x86_64
 Installed-Size: 30720
 Filename: rpcd-mod-iwinfo_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 8310
-SHA256sum: d9f83393b5afb8a2a7932a892dd2f27586c395fe4089dac43ee3e12904b9bbd4
+Size: 8309
+SHA256sum: 87c0482b79681f8547814f0696f9defb7a6f2119967a141729199b975321e365
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-rpcsys
@@ -535,8 +535,8 @@ Section: utils
 Architecture: x86_64
 Installed-Size: 20480
 Filename: rpcd-mod-rpcsys_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 4675
-SHA256sum: b85f3e3ae42ab7e252740bede292bdd102e1dcd29703cf798fd3a50261e85296
+Size: 4678
+SHA256sum: 26ee43e224c59fef4992d17c935c6467d0a4f770131a39a01a83a5c8fe346d3c
 Description:  Provides ubus calls for sysupgrade and password changing.
 
 Package: rpcd-mod-ucode
@@ -547,8 +547,8 @@ Section: utils
 Architecture: x86_64
 Installed-Size: 30720
 Filename: rpcd-mod-ucode_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 8483
-SHA256sum: 886d023d4f56d164c16b323838d71a5a7a86d381ea08a6f5c5e786a9a1589467
+Size: 8499
+SHA256sum: e9b59d21d5d4122451445c7190b750e569cfa823d6e0eb187455ec147520b1d7
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
@@ -559,8 +559,8 @@ Section: utils
 Architecture: x86_64
 Installed-Size: 81920
 Filename: rpcd_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 25987
-SHA256sum: 0f406f5bc39faec46d5a930d2bb092574bc16684993c96ada81275c7c7a1e9e4
+Size: 25995
+SHA256sum: f32ddea00851f48af89a711911b4e007db5db87798c5d6c43a330687a30f06d5
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -811,29 +811,29 @@ SHA256sum: 0b4cae7b37fb7d20891f88a57cfb62ed58d0cb5c03f72eee5fea3b2e63248de9
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.08.10-r1
+Version: 2025.08.17-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 337920
-Filename: v2ray-geoip_2025.08.10-r1_all.ipk
-Size: 59497
-SHA256sum: d0466fb6ede33d15c6a3d86beab93c32a528a631ffcaf3c6b0b62d7b88354ecc
+Filename: v2ray-geoip_2025.08.17-r1_all.ipk
+Size: 59945
+SHA256sum: d541732df1ba5f22c00fe6fb98b94db56de543269b18648502d5cb9f0c073e50
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.08.10-r1
+Version: 2025.08.17-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 9902080
-Filename: v2ray-geosite_2025.08.10-r1_all.ipk
-Size: 3144818
-SHA256sum: 3c409eb7c0fc25ff847c4edae5622cb6db855d956a122fd2c743adda10fb2f2e
+Installed-Size: 9840640
+Filename: v2ray-geosite_2025.08.17-r1_all.ipk
+Size: 3117497
+SHA256sum: ff16960f83a70e3354a28715ba24469d7e5004b63a9acb00286d2ba336d253d1
 Description:  Geosite List for V2Ray
 
 Package: vector
