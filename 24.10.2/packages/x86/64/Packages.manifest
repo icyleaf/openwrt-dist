@@ -1,5 +1,5 @@
 Package: ca-bundle
-Version: 20241223-r1
+Version: 20250419-r1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -7,16 +7,16 @@ SourceName: ca-certificates
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1744562312
+SourceDateEpoch: 1756042257
 Architecture: all
 Installed-Size: 235520
-Filename: ca-bundle_20241223-r1_all.ipk
-Size: 133127
-SHA256sum: 7cc5eda86273bb0b89af37ba750c07aba103180380a77c1b1b85c2e8bfe57c12
+Filename: ca-bundle_20250419-r1_all.ipk
+Size: 131153
+SHA256sum: d34f66d977246ccb764a4c34ed9bf5e12f14d8b21c626e748c9d2145b8f4c4b8
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
-Version: 20241223-r1
+Version: 20250419-r1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -24,12 +24,12 @@ SourceName: ca-certificates
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1744562312
+SourceDateEpoch: 1756042257
 Architecture: all
 Installed-Size: 419840
-Filename: ca-certificates_20241223-r1_all.ipk
-Size: 144468
-SHA256sum: 363edf7647093a1aa3e529ee314a3be4eef435f7a78eefe5d966ef665707a6ac
+Filename: ca-certificates_20250419-r1_all.ipk
+Size: 142364
+SHA256sum: 014d03fc77efbb14ab004e2d8edf768da94f0a6541ad5c450f3030182405136e
 Description:  System CA certificates
 
 Package: iwinfo
@@ -206,15 +206,15 @@ SourceName: mbedtls
 License: GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1752215853
+SourceDateEpoch: 1756044161
 URL: https://www.trustedfirmware.org/projects/mbed-tls/
 ABIVersion: 21
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 696320
 Filename: libmbedtls21_3.6.4-r1_x86_64.ipk
-Size: 310969
-SHA256sum: bca1e7852fc3c11a8b951fa75c67847fecb1fe6376e00f3a0340a86277b1c119
+Size: 310950
+SHA256sum: e09f820610e1805204d1da1042fb44d8eb3dc53640633025bd0b2027a1db472a
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -578,18 +578,18 @@ SHA256sum: 4f4d6714434a3469262d42a02b0496fcd32d8ac1956f9d4cc359c269fd9b86bb
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.137
+Version: 0.47.001
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Source: feeds/base/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1752934901
+SourceDateEpoch: 1756486290
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 24924160
-Filename: luci-app-openclash_0.46.137_all.ipk
-Size: 9236595
-SHA256sum: 9eb643fa7b89a64117960310b5e81d8ee27e22685766acb58d6b02af22d10281
+Installed-Size: 24002560
+Filename: luci-app-openclash_0.47.001_all.ipk
+Size: 8788097
+SHA256sum: c803917773c90e6889bb5e6d76096debff5125016870d0dfaf4ca94abbcdd5b3
 Description:  A LuCI support for clash
 
 Package: luci-i18n-mosdns-zh-cn
@@ -615,14 +615,14 @@ SourceName: mbedtls
 License: GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1752215853
+SourceDateEpoch: 1756044161
 URL: https://www.trustedfirmware.org/projects/mbed-tls/
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 40960
 Filename: mbedtls-util_3.6.4-r1_x86_64.ipk
-Size: 9031
-SHA256sum: 089e1b297d49d20c3d1a567726e3a14d1578256eead0ab481a38eff19035a95a
+Size: 9027
+SHA256sum: 729a1e3776576dfb29bce0f27b3d4fa7c8e566b462df699a48e54adc2ccc494f
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -1061,7 +1061,7 @@ SHA256sum: 0b4cae7b37fb7d20891f88a57cfb62ed58d0cb5c03f72eee5fea3b2e63248de9
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.08.24-r1
+Version: 2025.08.31-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1073,13 +1073,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 337920
-Filename: v2ray-geoip_2025.08.24-r1_all.ipk
-Size: 60142
-SHA256sum: 28e6f7db42a9b38ca2c5c5b2b3136595bf9d1f3965894cf1c742924c2d52cdaa
+Filename: v2ray-geoip_2025.08.31-r1_all.ipk
+Size: 60197
+SHA256sum: 3282d6fcecf4ce9d445371d41fb41a4fff3a662bb173b6b8f62ad6b2a48d94f8
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.08.24-r1
+Version: 2025.08.31-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1090,10 +1090,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 9973760
-Filename: v2ray-geosite_2025.08.24-r1_all.ipk
-Size: 3170314
-SHA256sum: dba362eadeede8eb56df988c811c537e9ee9cd8d63bb9edb2ea8686aec2d3553
+Installed-Size: 10076160
+Filename: v2ray-geosite_2025.08.31-r1_all.ipk
+Size: 3207620
+SHA256sum: 6617698df3b151501c8ec1b3d948c802e84c68bd365a4e7aa305574708f34a2e
 Description:  Geosite List for V2Ray
 
 Package: vector
