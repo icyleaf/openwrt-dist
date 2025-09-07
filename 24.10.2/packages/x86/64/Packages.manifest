@@ -652,83 +652,83 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package contains the OpenSSL command-line utility.
 
 Package: rpcd-mod-file
-Version: 2024.09.17~9f4b86e7-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, rpcd
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1754748108
+SourceDateEpoch: 1756761626
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: rpcd-mod-file_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 7933
-SHA256sum: aa49e2da96e57746c4db7a059df9a046a93aa699490aa5549d9ceb193b3f7788
+Filename: rpcd-mod-file_2025.09.01~bba95191-r1_x86_64.ipk
+Size: 7923
+SHA256sum: ead4dd32f0bee2948ff83444261e9d78c5f3b4830904023f6e719c22e3c50521
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
-Version: 2024.09.17~9f4b86e7-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libiwinfo (>=2023.01.21), libc, libubus20250102, libubox20240329, rpcd, libiwinfo20230701
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1754748108
+SourceDateEpoch: 1756761626
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: rpcd-mod-iwinfo_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 8309
-SHA256sum: 87c0482b79681f8547814f0696f9defb7a6f2119967a141729199b975321e365
+Filename: rpcd-mod-iwinfo_2025.09.01~bba95191-r1_x86_64.ipk
+Size: 8296
+SHA256sum: 49eca981de35c7b9034553a634a31413914f544b5cee103b8cd97e275979280d
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-rpcsys
-Version: 2024.09.17~9f4b86e7-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, rpcd
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1754748108
+SourceDateEpoch: 1756761626
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 20480
-Filename: rpcd-mod-rpcsys_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 4678
-SHA256sum: 26ee43e224c59fef4992d17c935c6467d0a4f770131a39a01a83a5c8fe346d3c
+Filename: rpcd-mod-rpcsys_2025.09.01~bba95191-r1_x86_64.ipk
+Size: 4687
+SHA256sum: 5a6f2079f55282701079efcc0f58de128b79098f5b07d259a784c6f6ec24559f
 Description:  Provides ubus calls for sysupgrade and password changing.
 
 Package: rpcd-mod-ucode
-Version: 2024.09.17~9f4b86e7-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, rpcd, libucode20230711
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1754748108
+SourceDateEpoch: 1756761626
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: rpcd-mod-ucode_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 8499
-SHA256sum: e9b59d21d5d4122451445c7190b750e569cfa823d6e0eb187455ec147520b1d7
+Filename: rpcd-mod-ucode_2025.09.01~bba95191-r1_x86_64.ipk
+Size: 8493
+SHA256sum: b6a1e234588d983f7d7fcfec0258c5f7bce4339acf5a5d4ad2927d68c12050e5
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
-Version: 2024.09.17~9f4b86e7-r1
+Version: 2025.09.01~bba95191-r1
 Depends: libc, libubus20250102, libubox20240329, libuci20250120, libblobmsg-json20240329, libjson-c5
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1754748108
+SourceDateEpoch: 1756761626
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 81920
-Filename: rpcd_2024.09.17~9f4b86e7-r1_x86_64.ipk
-Size: 25995
-SHA256sum: f32ddea00851f48af89a711911b4e007db5db87798c5d6c43a330687a30f06d5
+Filename: rpcd_2025.09.01~bba95191-r1_x86_64.ipk
+Size: 25982
+SHA256sum: 3672cbb2cd7b3cc4dc9f1ff549a6fd24ec125cf1998faf428cf534d93dcddd98
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -1061,7 +1061,7 @@ SHA256sum: 0b4cae7b37fb7d20891f88a57cfb62ed58d0cb5c03f72eee5fea3b2e63248de9
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.08.31-r1
+Version: 2025.09.07-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1072,14 +1072,14 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 337920
-Filename: v2ray-geoip_2025.08.31-r1_all.ipk
-Size: 60197
-SHA256sum: 3282d6fcecf4ce9d445371d41fb41a4fff3a662bb173b6b8f62ad6b2a48d94f8
+Installed-Size: 348160
+Filename: v2ray-geoip_2025.09.07-r1_all.ipk
+Size: 60752
+SHA256sum: 2e8c183faab3cc6dbee96eb5504b7d77cc3a6c803327f5451a87da61cd7094c9
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.08.31-r1
+Version: 2025.09.07-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1090,10 +1090,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 10076160
-Filename: v2ray-geosite_2025.08.31-r1_all.ipk
-Size: 3207620
-SHA256sum: 6617698df3b151501c8ec1b3d948c802e84c68bd365a4e7aa305574708f34a2e
+Installed-Size: 10004480
+Filename: v2ray-geosite_2025.09.07-r1_all.ipk
+Size: 3188186
+SHA256sum: 85c345b6d8375b65a907b66e2b24835ece16b1858e0513bedc9cd8ec37b947d7
 Description:  Geosite List for V2Ray
 
 Package: vector
