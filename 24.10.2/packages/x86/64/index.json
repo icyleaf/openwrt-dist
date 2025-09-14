@@ -4,6 +4,7 @@
   "packages": {
     "ca-bundle": "20250419-r1",
     "ca-certificates": "20250419-r1",
+    "fastfetch": "2.52.0-r1",
     "iwinfo": "2024.10.20~b94f066e-r1",
     "jshn": "2025.07.23~49056d17-r1",
     "libblobmsg-json": "2025.07.23~49056d17-r1",
@@ -33,7 +34,10 @@
     "luac": "5.1.5-r11",
     "luci-app-mosdns": "1.6.15-r1",
     "luci-app-openclash": "0.47.001",
+    "luci-app-tailscale": "1.2.6-r1",
     "luci-i18n-mosdns-zh-cn": "25.184.57906~10501bd",
+    "luci-i18n-tailscale-zh-cn": "25.257.13985~61f3a39",
+    "luci-i18n-tailscale-zh-tw": "25.257.13985~61f3a39",
     "mbedtls-util": "3.6.4-r1",
     "openssl-util": "3.0.17-r1",
     "rpcd-mod-file": "2025.09.01~bba95191-r1",

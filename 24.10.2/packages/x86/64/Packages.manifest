@@ -32,6 +32,24 @@ Size: 142364
 SHA256sum: 014d03fc77efbb14ab004e2d8edf768da94f0a6541ad5c450f3030182405136e
 Description:  System CA certificates
 
+Package: fastfetch
+Version: 2.52.0-r1
+Depends: libc
+Source: feeds/base/icyleaf/utils/fastfetch
+SourceName: fastfetch
+License: MIT
+Section: utils
+SourceDateEpoch: 1757821985
+URL: https://github.com/fastfetch-cli/fastfetch
+Maintainer: icyleaf <icyleaf.cn@gmail.com>
+Architecture: x86_64
+Installed-Size: 1146880
+Filename: fastfetch_2.52.0-r1_x86_64.ipk
+Size: 375338
+SHA256sum: 707fa318a6ddd23026c9159a9d536c12bd7a039d7193a79bf049fe2f6208499c
+Description:  Fastfetch is a neofetch-like tool for fetching
+ system information and displaying it prettily.
+
 Package: iwinfo
 Version: 2024.10.20~b94f066e-r1
 Depends: libc, libiwinfo20230701
@@ -592,6 +610,22 @@ Size: 8788097
 SHA256sum: c803917773c90e6889bb5e6d76096debff5125016870d0dfaf4ca94abbcdd5b3
 Description:  A LuCI support for clash
 
+Package: luci-app-tailscale
+Version: 1.2.6-r1
+Depends: libc, tailscale
+Source: feeds/base/icyleaf/luci/applications/luci-app-tailscale
+SourceName: luci-app-tailscale
+Section: luci
+SourceDateEpoch: 1757821985
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-tailscale_1.2.6-r1_all.ipk
+Size: 8361
+SHA256sum: dd1462644c974f70eb070d07963f3bbf52e6403f81548ebd17aec811b766e68a
+Description:  LuCI for Tailscale
+
 Package: luci-i18n-mosdns-zh-cn
 Version: 25.184.57906~10501bd
 Depends: libc, luci-app-mosdns
@@ -606,6 +640,34 @@ Filename: luci-i18n-mosdns-zh-cn_25.184.57906~10501bd_all.ipk
 Size: 5214
 SHA256sum: fda9348b66335fc766700b813d0e52cb814ed553a84f5556e2dc85b0d5561226
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-tailscale-zh-cn
+Version: 25.257.13985~61f3a39
+Depends: libc, luci-app-tailscale
+Source: feeds/base/icyleaf/luci/applications/luci-app-tailscale
+SourceName: luci-app-tailscale
+Section: luci
+SourceDateEpoch: 1757821985
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-tailscale-zh-cn_25.257.13985~61f3a39_all.ipk
+Size: 2759
+SHA256sum: 4be7c76c3bbf63e7b561659ab0c7f51a82a5c3354bd7f3065e77cb38dfb91960
+Description:  Translation for luci-app-tailscale - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-tailscale-zh-tw
+Version: 25.257.13985~61f3a39
+Depends: libc, luci-app-tailscale
+Source: feeds/base/icyleaf/luci/applications/luci-app-tailscale
+SourceName: luci-app-tailscale
+Section: luci
+SourceDateEpoch: 1757821985
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-tailscale-zh-tw_25.257.13985~61f3a39_all.ipk
+Size: 2771
+SHA256sum: fdcd6543addad28f9bd4c5e7eec5a0ae7789bd1ecc0e47437029f2f780b62e94
+Description:  Translation for luci-app-tailscale - 繁體中文 (Chinese Traditional)
 
 Package: mbedtls-util
 Version: 3.6.4-r1
@@ -741,14 +803,14 @@ SourceName: tailscale
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1739757621
+SourceDateEpoch: 1757821985
 URL: https://tailscale.com
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 23552000
 Filename: tailscale_1.58.2-r1_x86_64.ipk
-Size: 9337053
-SHA256sum: f9025da38fb9835ee84af2270d5f0358b10856f15bda9860dafd9848a9afdc88
+Size: 9337044
+SHA256sum: 380fbe786968af0f51b7de97d55daf9b882bd4b4eefc3e13248d269ce7b8e0ff
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
@@ -759,14 +821,14 @@ Source: feeds/base/icyleaf/network/traefik
 SourceName: traefik
 License: MIT
 Section: net
-SourceDateEpoch: 1739757621
+SourceDateEpoch: 1757821985
 URL: https://github.com/traefik/traefik/
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 139110400
 Filename: traefik_2.10.7-r1_x86_64.ipk
-Size: 36094143
-SHA256sum: 6de515a94c1959928d46816dd59f76a2f45c347c5899cd8a07b2b2882893c355
+Size: 36093879
+SHA256sum: a0d6c228c6f1bf2726e09bb32d778e92337420d936d45e1dceef0af5900dd1ed
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -1103,14 +1165,14 @@ Source: feeds/base/icyleaf/utils/vector
 SourceName: vector
 License: MIT
 Section: utils
-SourceDateEpoch: 1739757621
+SourceDateEpoch: 1757821985
 URL: https://github.com/vectordotdev/vector
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 126167040
 Filename: vector_0.41.1-r1_x86_64.ipk
-Size: 45123025
-SHA256sum: 3fd0692cd19ef42a25228982fcf800e2494e26085b8e6c07860ff7b796e1e4be
+Size: 45122805
+SHA256sum: fe6d460938d180a799f31a428b5ca2f70294a3ae43a718213db1a5aa75bb2720
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
