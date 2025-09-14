@@ -2,7 +2,7 @@ name: Openwrt Build Bot
 on:
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - '**.md'
   schedule:
