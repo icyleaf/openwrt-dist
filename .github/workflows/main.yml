@@ -18,6 +18,7 @@ jobs:
       max-parallel: 1
       matrix:
         url:
+        - https://downloads.immortalwrt.org/releases/23.05.4/targets/x86/64/immortalwrt-sdk-23.05.4-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
         - https://downloads.immortalwrt.org/releases/24.10.2/targets/x86/64/immortalwrt-sdk-24.10.2-x86-64_gcc-13.3.0_musl.Linux-x86_64.tar.zst
         - https://downloads.immortalwrt.org/releases/24.10.2/targets/mediatek/filogic/immortalwrt-sdk-24.10.2-mediatek-filogic_gcc-13.3.0_musl.Linux-x86_64.tar.zst
     steps:
@@ -75,6 +76,12 @@ jobs:
 
         # Clash
         git clone --depth=1 -b master https://github.com/vernesong/OpenClash package/openclash
+
+        # log viewer
+        git clone --depth=1 -b master https://github.com/gSpotx2f/luci-app-log.git
+
+        # nikki
+        git clone --depth=1 -b main https://github.com/nikkinikki-org/OpenWrt-nikki.git
 
         # mosdns
         rm -rf packages/net/v2ray-geodata
