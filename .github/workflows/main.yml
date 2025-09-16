@@ -93,9 +93,6 @@ jobs:
         # git clone --depth=1 -b master https://github.com/aa65535/openwrt-dist-luci package/openwrt-dist-luci
         # pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
 
-        # Remove old version packages (custom packages)
-        rm -rf package/feed/packages/tailscale
-
     - name: Generate .config
       working-directory: sdk
       run: |
