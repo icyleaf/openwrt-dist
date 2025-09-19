@@ -25,16 +25,16 @@ SHA256sum: 014d03fc77efbb14ab004e2d8edf768da94f0a6541ad5c450f3030182405136e
 Description:  System CA certificates
 
 Package: fastfetch
-Version: 2.52.0-r1
+Version: 2.52.0-r7
 Depends: libc
 License: MIT
 Section: utils
 URL: https://github.com/fastfetch-cli/fastfetch
 Architecture: x86_64
 Installed-Size: 1146880
-Filename: fastfetch_2.52.0-r1_x86_64.ipk
-Size: 375338
-SHA256sum: 707fa318a6ddd23026c9159a9d536c12bd7a039d7193a79bf049fe2f6208499c
+Filename: fastfetch_2.52.0-r7_x86_64.ipk
+Size: 375366
+SHA256sum: 43c393f34311f999158f3902f30eea40adcf731cbd392e37fda7336cee8e63e5
 Description:  Fastfetch is a neofetch-like tool for fetching
  system information and displaying it prettily.
 
@@ -198,7 +198,7 @@ SHA256sum: d3fb330318a0876bd0df522f59ac822526e5ea4ce490f8d3a71860455cfde9e3
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-afalg
-Version: 3.0.17-r1
+Version: 3.0.17-r2
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 License: Apache-2.0
 Section: libs
@@ -206,9 +206,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libopenssl-afalg_3.0.17-r1_x86_64.ipk
-Size: 7975
-SHA256sum: cc81e424463f857637b225d3bac0117742e01783771871391b5939067b951b72
+Filename: libopenssl-afalg_3.0.17-r2_x86_64.ipk
+Size: 7983
+SHA256sum: 405ba941acd0eb1ad3b24f9895ede179bfaafa583aa65928174fc330912fc943
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -216,7 +216,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "afalg"
 
 Package: libopenssl-conf
-Version: 3.0.17-r1
+Version: 3.0.17-r2
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
@@ -224,9 +224,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 20480
-Filename: libopenssl-conf_3.0.17-r1_x86_64.ipk
-Size: 6485
-SHA256sum: 6a4a9a61ca5b5fbeca71a7a0bab096f9732e24328faaa634cadaebfc32470b25
+Filename: libopenssl-conf_3.0.17-r2_x86_64.ipk
+Size: 6483
+SHA256sum: 9e52223e9fa4ba80e6b28b431a85a4e6d5cb0671e60956559fc408d6c0c3bab9
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -234,7 +234,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.17-r1
+Version: 3.0.17-r2
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
@@ -242,9 +242,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libopenssl-devcrypto_3.0.17-r1_x86_64.ipk
-Size: 12480
-SHA256sum: 785a31da11bc017b42d55bfb69d5deeac5fa25f361856bf12e2417617b4999ec
+Filename: libopenssl-devcrypto_3.0.17-r2_x86_64.ipk
+Size: 12481
+SHA256sum: e75a88e197b8267e24b527df97ea924a704a6c471db83cd90482059ecea7aeb2
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -252,7 +252,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.17-r1
+Version: 3.0.17-r2
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
@@ -260,16 +260,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 133120
-Filename: libopenssl-legacy_3.0.17-r1_x86_64.ipk
-Size: 38545
-SHA256sum: 315ba2ca30edcacc08c36ad8819923774fab56b046c93355a6dcb5ea2c90b7b5
+Filename: libopenssl-legacy_3.0.17-r2_x86_64.ipk
+Size: 38546
+SHA256sum: d3bac2794112bdce2f74bfcb6993b0dbd8d8087748f040f84aecd97cb2dd0a86
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl-padlock
-Version: 3.0.17-r1
+Version: 3.0.17-r2
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-hw-padlock
 License: Apache-2.0
 Section: libs
@@ -277,16 +277,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libopenssl-padlock_3.0.17-r1_x86_64.ipk
-Size: 11341
-SHA256sum: aa03443c385fa97e6d8d0650b08b0a6ff4c0623e2d32e28f242406538bb0840e
+Filename: libopenssl-padlock_3.0.17-r2_x86_64.ipk
+Size: 11330
+SHA256sum: eff6b6a5b3740945adc28d47de10b7b99eae7ebccf9d636c03f1be72d9fea606
 Description:  This package adds an engine that enables VIA Padlock hardware acceleration.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
  and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
  The engine_id is "padlock"
 
 Package: libopenssl3
-Version: 3.0.17-r1
+Version: 3.0.17-r2
 Depends: libc
 Provides: libopenssl
 License: Apache-2.0
@@ -296,9 +296,9 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 5099520
-Filename: libopenssl3_3.0.17-r1_x86_64.ipk
-Size: 2098278
-SHA256sum: 74612fc54a17c71f7557ac30ae384878a8d19c3195a79526c24b495164ac374f
+Filename: libopenssl3_3.0.17-r2_x86_64.ipk
+Size: 2098254
+SHA256sum: aff9a9f6025d2bf9f043e910173bf65d56043cf23729462c8c41660f27612f69
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -461,14 +461,14 @@ SHA256sum: 4f4d6714434a3469262d42a02b0496fcd32d8ac1956f9d4cc359c269fd9b86bb
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.47.001
+Version: 0.47.006
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 24002560
-Filename: luci-app-openclash_0.47.001_all.ipk
-Size: 8788097
-SHA256sum: c803917773c90e6889bb5e6d76096debff5125016870d0dfaf4ca94abbcdd5b3
+Installed-Size: 24104960
+Filename: luci-app-openclash_0.47.006_all.ipk
+Size: 8806266
+SHA256sum: 436f19ed0172af2a4e41a6dd394047431b0c05a05130bff619f4897b7e15a8d2
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -479,8 +479,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-tailscale_1.2.6-r1_all.ipk
-Size: 8361
-SHA256sum: dd1462644c974f70eb070d07963f3bbf52e6403f81548ebd17aec811b766e68a
+Size: 8358
+SHA256sum: 2de1cd5d5cd2a262491a64e886baa8a07547ea2e1a2947563b23fff6f0a39ec2
 Description:  LuCI for Tailscale
 
 Package: luci-i18n-mosdns-zh-cn
@@ -495,25 +495,25 @@ SHA256sum: fda9348b66335fc766700b813d0e52cb814ed553a84f5556e2dc85b0d5561226
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tailscale-zh-cn
-Version: 25.257.13985~61f3a39
+Version: 25.262.25400~c1f7748
 Depends: libc, luci-app-tailscale
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-tailscale-zh-cn_25.257.13985~61f3a39_all.ipk
-Size: 2759
-SHA256sum: 4be7c76c3bbf63e7b561659ab0c7f51a82a5c3354bd7f3065e77cb38dfb91960
+Filename: luci-i18n-tailscale-zh-cn_25.262.25400~c1f7748_all.ipk
+Size: 2753
+SHA256sum: 97dc0922193e76f2bf9e1034f89e1546700e504f1a805611ebffb6a341a3f932
 Description:  Translation for luci-app-tailscale - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tailscale-zh-tw
-Version: 25.257.13985~61f3a39
+Version: 25.262.25400~c1f7748
 Depends: libc, luci-app-tailscale
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-tailscale-zh-tw_25.257.13985~61f3a39_all.ipk
-Size: 2771
-SHA256sum: fdcd6543addad28f9bd4c5e7eec5a0ae7789bd1ecc0e47437029f2f780b62e94
+Filename: luci-i18n-tailscale-zh-tw_25.262.25400~c1f7748_all.ipk
+Size: 2763
+SHA256sum: a871855912d763fd86f2d58e52fa42b7472678da6bfa24d653263597690dbd6e
 Description:  Translation for luci-app-tailscale - 繁體中文 (Chinese Traditional)
 
 Package: mbedtls-util
@@ -534,7 +534,7 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  CSR generation (gen_key, cert_req)
 
 Package: openssl-util
-Version: 3.0.17-r1
+Version: 3.0.17-r2
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
@@ -542,9 +542,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 849920
-Filename: openssl-util_3.0.17-r1_x86_64.ipk
-Size: 343353
-SHA256sum: f6eb06e36844bfedf9a29dfe8e87eff5007cfec37c606bfc5036b7805fb18541
+Filename: openssl-util_3.0.17-r2_x86_64.ipk
+Size: 343366
+SHA256sum: 78dafcea0820daad3f3f1972070551c7ad3001547e422dc643640c7090916f4e
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -612,21 +612,6 @@ SHA256sum: 3672cbb2cd7b3cc4dc9f1ff549a6fd24ec125cf1998faf428cf534d93dcddd98
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
-Package: tailscale
-Version: 1.58.2-r1
-Depends: libc, ca-bundle, kmod-tun
-Provides: tailscaled
-License: BSD-3-Clause
-Section: net
-URL: https://tailscale.com
-Architecture: x86_64
-Installed-Size: 23552000
-Filename: tailscale_1.58.2-r1_x86_64.ipk
-Size: 9337044
-SHA256sum: 380fbe786968af0f51b7de97d55daf9b882bd4b4eefc3e13248d269ce7b8e0ff
-Description:  It creates a secure network between your servers, computers,
- and cloud instances. Even when separated by firewalls or subnets.
-
 Package: traefik
 Version: 2.10.7-r1
 Depends: libc, ca-bundle
@@ -636,8 +621,8 @@ URL: https://github.com/traefik/traefik/
 Architecture: x86_64
 Installed-Size: 139110400
 Filename: traefik_2.10.7-r1_x86_64.ipk
-Size: 36093879
-SHA256sum: a0d6c228c6f1bf2726e09bb32d778e92337420d936d45e1dceef0af5900dd1ed
+Size: 36093826
+SHA256sum: 9e0e9674b21011b9b75ba514dbca64553be0fd2e4d675b549c43a3deb2b93ba6
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -859,42 +844,42 @@ SHA256sum: 0b4cae7b37fb7d20891f88a57cfb62ed58d0cb5c03f72eee5fea3b2e63248de9
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.09.14-r1
+Version: 2025.09.19-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 348160
-Filename: v2ray-geoip_2025.09.14-r1_all.ipk
-Size: 60881
-SHA256sum: b773dacaca954c520e4d5741e566f490ab668b291c2d0a63b69f9096b5802d2c
+Filename: v2ray-geoip_2025.09.19-r1_all.ipk
+Size: 61011
+SHA256sum: 92837de686b060dba1941ced891c8d88ce360f602626c2e458b3de9009f61dc7
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.09.14-r1
+Version: 2025.09.19-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10076160
-Filename: v2ray-geosite_2025.09.14-r1_all.ipk
-Size: 3209121
-SHA256sum: a8fdb6bb86e793d8637848194f5e15e40c20793a059f3e5b481787d0fa4aa161
+Installed-Size: 10127360
+Filename: v2ray-geosite_2025.09.19-r1_all.ipk
+Size: 3225383
+SHA256sum: db39532646c2eb6389b0dad5cc95d2cf37531f7ba13c9037a42a82a9fabeb600
 Description:  Geosite List for V2Ray
 
 Package: vector
-Version: 0.41.1-r1
+Version: 0.49.0-r1
 Depends: libc
 License: MIT
 Section: utils
 URL: https://github.com/vectordotdev/vector
 Architecture: x86_64
-Installed-Size: 126167040
-Filename: vector_0.41.1-r1_x86_64.ipk
-Size: 45122805
-SHA256sum: fe6d460938d180a799f31a428b5ca2f70294a3ae43a718213db1a5aa75bb2720
+Installed-Size: 136724480
+Filename: vector_0.49.0-r1_x86_64.ipk
+Size: 49775135
+SHA256sum: 0dd2c5dd6a0309d4f56a327a1a1fda042d0a402ad41d7f3b9f149ea36a0e56cb
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
