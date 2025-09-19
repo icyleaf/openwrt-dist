@@ -1110,10 +1110,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 10127360
+Installed-Size: 10137600
 Filename: v2ray-geosite_2025.09.19-r1_all.ipk
-Size: 3225383
-SHA256sum: db39532646c2eb6389b0dad5cc95d2cf37531f7ba13c9037a42a82a9fabeb600
+Size: 3227820
+SHA256sum: 87ab7de5e5012b708adbbd47b598d662bf6d1a8e50c7f8e5733b834d486d4af5
 Description:  Geosite List for V2Ray
 
 Package: vector
