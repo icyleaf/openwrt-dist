@@ -86,7 +86,7 @@ jobs:
 
         # mosdns
         rm -rf packages/net/v2ray-geodata
-        git clone --depth=1 https://github.com/sbwml/luci-app-mosdns.git -b v5 package/luci-app-mosdns
+        git clone --depth=1 https://github.com/0x5c3p73r/luci-app-mosdns -b feat/v2dat-multi-openwrt-version package/luci-app-mosdns
         git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
         rm -rf package/luci-app-mosdns/mosdns
 
