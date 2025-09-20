@@ -385,6 +385,18 @@ Description:  Lua is a powerful light-weight programming language designed for e
  language. Lua is free software.
  This package contains the Lua language compiler.
 
+Package: luci-app-log-viewer
+Version: 1.5.0
+Depends: libc, ucode, ucode-mod-fs
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 9717
+Filename: luci-app-log-viewer_1.5.0_all.ipk
+Size: 10570
+SHA256sum: 2eadd2b73d852b7363aeb36f6792c1257e171ec0df324ed9238fc1a25070198b
+Description:  Advanced syslog and kernel log (tail, search, etc)
+
 Package: luci-app-mosdns
 Version: 1.6.15
 Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
@@ -395,6 +407,17 @@ Filename: luci-app-mosdns_1.6.15_all.ipk
 Size: 103536
 SHA256sum: 2cd738817ad60955e9f6b9e40b1e4a18881629f935dea6517c4dfb49e7ec0fa7
 Description:  LuCI Support for mosdns
+
+Package: luci-app-nikki
+Version: 1.24.2
+Depends: libc, luci-base, nikki
+Section: luci
+Architecture: all
+Installed-Size: 8996
+Filename: luci-app-nikki_1.24.2_all.ipk
+Size: 9825
+SHA256sum: c3213d890d48758981a0fe94fa161b773f14ffa8eff322f1e63378b93aa32d93
+Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
 Version: 0.47.006
@@ -418,6 +441,18 @@ Size: 8327
 SHA256sum: ffe9854d348b69271fe73a5fe9dec9dc9827011bad4641d1f15f97f8f0523414
 Description:  LuCI for Tailscale
 
+Package: luci-i18n-log-ru
+Version: git-25.244.55455-0d05ae8
+Depends: libc, luci-app-log-viewer
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1338
+Filename: luci-i18n-log-ru_git-25.244.55455-0d05ae8_all.ipk
+Size: 2106
+SHA256sum: 3c32e480ef55734c5e6e6469ad63872f9e4e3e4f3787cee688e882ca20ad1584
+Description:  Translation for luci-app-log-viewer - Русский (Russian)
+
 Package: luci-i18n-mosdns-zh-cn
 Version: git-25.262.56763-d4421a0
 Depends: libc, luci-app-mosdns
@@ -428,6 +463,28 @@ Filename: luci-i18n-mosdns-zh-cn_git-25.262.56763-d4421a0_all.ipk
 Size: 5201
 SHA256sum: 2ecfe18b3d064353f5f95c8d5869ccaadcbad8dc69ba658fb9cd7593d0733108
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-nikki-zh-cn
+Version: git-25.260.45692-7f70e2f
+Depends: libc, luci-app-nikki
+Section: luci
+Architecture: all
+Installed-Size: 3935
+Filename: luci-i18n-nikki-zh-cn_git-25.260.45692-7f70e2f_all.ipk
+Size: 4668
+SHA256sum: ce58776f0740fb674b01b4f7e8b030f088c39675037ea05be02cb721b62c681e
+Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-nikki-zh-tw
+Version: git-25.260.45692-7f70e2f
+Depends: libc, luci-app-nikki
+Section: luci
+Architecture: all
+Installed-Size: 3984
+Filename: luci-i18n-nikki-zh-tw_git-25.260.45692-7f70e2f_all.ipk
+Size: 4716
+SHA256sum: acdd4b301a560a7aef66f7e00175e41dd7fb907c9b6dfcd90d917750871c89a5
+Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tailscale-zh-cn
 Version: git-25.262.25400-c1f7748
@@ -466,6 +523,19 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
+
+Package: nikki
+Version: 2025.08.27-2
+Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun
+Provides: mihomo
+License: GPL3.0+
+Section: net
+Architecture: x86_64
+Installed-Size: 12956303
+Filename: nikki_2025.08.27-2_x86_64.ipk
+Size: 12915686
+SHA256sum: 445b849e653968da42155f1c437b1968c08fa7403c667dab077404b322f90cae
+Description:  A rule based proxy in Go.
 
 Package: openssl-util
 Version: 3.0.17-2
