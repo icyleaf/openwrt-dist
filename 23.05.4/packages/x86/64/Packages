@@ -533,8 +533,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 12956303
 Filename: nikki_2025.08.27-2_x86_64.ipk
-Size: 12915686
-SHA256sum: 445b849e653968da42155f1c437b1968c08fa7403c667dab077404b322f90cae
+Size: 12915687
+SHA256sum: 3b02c86e8b7b22976c040cb3cbe3b290573ce32b8e9dd62c377daafc43a68c0b
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
