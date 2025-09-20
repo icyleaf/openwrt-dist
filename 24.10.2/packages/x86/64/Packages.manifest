@@ -780,8 +780,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 31641600
 Filename: nikki_2025.08.27-r2_x86_64.ipk
-Size: 11625663
-SHA256sum: 1694b6502723af30428b3116a01152397da401a40d61a6a8362db40b0c4f45ed
+Size: 11625601
+SHA256sum: b27af899d7c949a385d122cd9b6f26f1b80272543ae4a8c33f0a51b56356f044
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1228,8 +1228,8 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 10137600
 Filename: v2ray-geosite_2025.09.20-r1_all.ipk
-Size: 3227819
-SHA256sum: d216723d8e684bbf4e8976c21d32e0434af187bd4f82b282c7facb1926e9cdee
+Size: 3233619
+SHA256sum: e2427886b0504e5a5c3919cd7a46f93e046698084afc790e12fa823c8ea44ece
 Description:  Geosite List for V2Ray
 
 Package: vector
