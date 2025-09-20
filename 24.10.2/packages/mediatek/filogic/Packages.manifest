@@ -758,8 +758,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30351360
 Filename: nikki_2025.08.27-r2_aarch64_cortex-a53.ipk
-Size: 10713352
-SHA256sum: 4bcf050d8539bc28a70ca97f0d220f0c19769212b2f46f78e4075b024c7df6eb
+Size: 10713339
+SHA256sum: 41621f8afedd4169d98e10624af80bf99747ac5d8278ee8c5161e7110c696e1e
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1206,8 +1206,8 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 10137600
 Filename: v2ray-geosite_2025.09.20-r1_all.ipk
-Size: 3227819
-SHA256sum: d216723d8e684bbf4e8976c21d32e0434af187bd4f82b282c7facb1926e9cdee
+Size: 3233619
+SHA256sum: e2427886b0504e5a5c3919cd7a46f93e046698084afc790e12fa823c8ea44ece
 Description:  Geosite List for V2Ray
 
 Package: vector
