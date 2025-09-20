@@ -456,8 +456,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 389120
 Filename: luci-app-mosdns_1.6.15-r1_all.ipk
-Size: 103517
-SHA256sum: 4f4d6714434a3469262d42a02b0496fcd32d8ac1956f9d4cc359c269fd9b86bb
+Size: 103565
+SHA256sum: 8408b301ff6d9abc0583ab4e669b85fdf1f7eeb81061fa52a414ccec762fad52
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -484,14 +484,14 @@ SHA256sum: 2de1cd5d5cd2a262491a64e886baa8a07547ea2e1a2947563b23fff6f0a39ec2
 Description:  LuCI for Tailscale
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 25.184.57906~10501bd
+Version: 25.262.56763~d4421a0
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_25.184.57906~10501bd_all.ipk
-Size: 5214
-SHA256sum: fda9348b66335fc766700b813d0e52cb814ed553a84f5556e2dc85b0d5561226
+Filename: luci-i18n-mosdns-zh-cn_25.262.56763~d4421a0_all.ipk
+Size: 5201
+SHA256sum: b377ce8f993503cdb7dfb5493c653708b774e321179e259ecc4d3e20c3095707
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -839,34 +839,34 @@ URL: https://github.com/urlesistiana/v2dat
 Architecture: x86_64
 Installed-Size: 5734400
 Filename: v2dat_2022.12.15~47b8ee51-r3_x86_64.ipk
-Size: 2295023
-SHA256sum: 0b4cae7b37fb7d20891f88a57cfb62ed58d0cb5c03f72eee5fea3b2e63248de9
+Size: 2294567
+SHA256sum: b31f62d2c01940a390e00bade29aac970a60682980254267f7d1571a081f0740
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.09.19-r1
+Version: 2025.09.20-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 348160
-Filename: v2ray-geoip_2025.09.19-r1_all.ipk
-Size: 61011
-SHA256sum: 92837de686b060dba1941ced891c8d88ce360f602626c2e458b3de9009f61dc7
+Filename: v2ray-geoip_2025.09.20-r1_all.ipk
+Size: 61010
+SHA256sum: eef9680f218695cf92f22ee325eca8b10dc70bb2c36524f3a7df7ac09f64c501
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.09.19-r1
+Version: 2025.09.20-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10137600
-Filename: v2ray-geosite_2025.09.19-r1_all.ipk
-Size: 3227820
-SHA256sum: 87ab7de5e5012b708adbbd47b598d662bf6d1a8e50c7f8e5733b834d486d4af5
+Filename: v2ray-geosite_2025.09.20-r1_all.ipk
+Size: 3227819
+SHA256sum: d216723d8e684bbf4e8976c21d32e0434af187bd4f82b282c7facb1926e9cdee
 Description:  Geosite List for V2Ray
 
 Package: vector
