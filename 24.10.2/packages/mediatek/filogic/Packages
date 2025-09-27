@@ -585,8 +585,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 31160320
 Filename: nikki_2025.09.24-r1_aarch64_cortex-a53.ipk
-Size: 11016064
-SHA256sum: e3b0c85fc6890dcf27d611499fd3ff8607bcdd07c726ef48861f5b69e037f3a4
+Size: 11016010
+SHA256sum: 8c633e94c0446f49ca59d66274a07af3d4d9ca1c742e5c8645839e72a3b5079d
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -900,29 +900,29 @@ SHA256sum: 6692bd23ab0ea5631d31e40df8bd7814c64e0e70d8a8880c47a267ff7b90276d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.09.26-r1
+Version: 2025.09.27-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 307200
-Filename: v2ray-geoip_2025.09.26-r1_all.ipk
-Size: 56140
-SHA256sum: 813d18fee9b9a72511913317d9ebe67c8abd41d9b367756deac38f0f528575e2
+Filename: v2ray-geoip_2025.09.27-r1_all.ipk
+Size: 56144
+SHA256sum: 4965efc7b7f926b33d15da09acdf8ac02835b6e5e7602d81b3f5aac6c8d16816
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.09.26-r1
+Version: 2025.09.27-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10199040
-Filename: v2ray-geosite_2025.09.26-r1_all.ipk
-Size: 3260026
-SHA256sum: 4854985b0d70ca719526455fe18b5b2761b8af6295e4f211514a4271b83ce709
+Installed-Size: 10188800
+Filename: v2ray-geosite_2025.09.27-r1_all.ipk
+Size: 3254705
+SHA256sum: 706eb72f66d844f81789ccbe190ea2a8d49a14fa704ad260a18aae9d94ad06d7
 Description:  Geosite List for V2Ray
 
 Package: vector
