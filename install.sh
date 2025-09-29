@@ -31,7 +31,7 @@ case "$release" in
     exit 1
     ;;
 esac
-feed_url="https://icyleaf-openwrt-repo.vercel.app/$release/packages/$arch$repo_url/$release/packages/$arch"
+feed_url="https://icyleaf-openwrt-repo.vercel.app/$release/packages/$arch"
 
 if [ -x "/bin/opkg" ]; then
   echo "add feed key"
