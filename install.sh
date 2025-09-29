@@ -1,10 +1,9 @@
 #!/bin/sh
 
 key_pub_path="key-build.pub"
-key_pub_url="https://cdn.jsdelivr.net/gh/icyleaf/openwrt-dist@main/$key_pub_name"
-
+key_pub_url="https://github.com/icyleaf/openwrt-dist/raw/refs/heads/main/${key_pub_path}"
 if ! [[ -f /etc/openwrt_release ]]; then
-  echo "This script is only for OpenWrt."
+  echo "This script is only for OpenWrt/ImmortalWrt."
   exit 1
 fi
 
