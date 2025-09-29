@@ -2,7 +2,6 @@
 
 key_pub_path="key-build.pub"
 key_pub_url="https://cdn.jsdelivr.net/gh/icyleaf/openwrt-dist@main/$key_pub_name"
-feed_url="https://icyleaf-openwrt-repo.vercel.app/$release/packages/$arch$repo_url/$release/packages/$arch"
 
 if ! [[ -f /etc/openwrt_release ]]; then
   echo "This script is only for OpenWrt."
@@ -32,6 +31,7 @@ case "$release" in
     exit 1
     ;;
 esac
+feed_url="https://icyleaf-openwrt-repo.vercel.app/$release/packages/$arch$repo_url/$release/packages/$arch"
 
 if [ -x "/bin/opkg" ]; then
   echo "add feed key"
