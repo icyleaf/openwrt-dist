@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/bin/sh
 
 key_pub_path="key-build.pub"
 key_pub_url="https://cdn.jsdelivr.net/gh/icyleaf/openwrt-dist@main/$key_pub_name"
@@ -12,8 +12,11 @@ fi
 . /etc/openwrt_release
 
 # get branch/arch
-arch="$DISTRIB_ARCH"
 release="$DISTRIB_RELEASE"
+arch="$DISTRIB_ARCH"
+if [ "$arch" = "x86_64" ]; then
+  arch="x86/64"
+fi
 
 # TODO: merge major releases later (need changes in github action first)
 case "$release" in
