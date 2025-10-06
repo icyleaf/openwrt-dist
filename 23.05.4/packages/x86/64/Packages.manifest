@@ -252,21 +252,21 @@ SHA256sum: a85dedaadc00ee9b32f9434589db5e145faaa07646946ddb1164bfa7f862243e
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.17-2
+Version: 3.0.18-1
 Depends: libc, libopenssl3
 Source: feeds/base/package/libs/openssl
 SourceName: libopenssl-conf
 License: Apache-2.0
-LicenseFiles: LICENSE
+LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1758265406
+SourceDateEpoch: 1759742485
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
-Installed-Size: 6260
-Filename: libopenssl-conf_3.0.17-2_x86_64.ipk
-Size: 7444
-SHA256sum: 58703fa4904a05925a8d378c5558a7b3d0152b3d7c6a870102319b9253a4715c
+Installed-Size: 6263
+Filename: libopenssl-conf_3.0.18-1_x86_64.ipk
+Size: 7448
+SHA256sum: 3645c1e4d5b7e77805b3c6cf814d378c7dbdb7e16ee345dc7c93928fc0206222
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -274,44 +274,44 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.17-2
+Version: 3.0.18-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: libopenssl-legacy
 License: Apache-2.0
-LicenseFiles: LICENSE
+LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1758265406
+SourceDateEpoch: 1759742485
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
-Installed-Size: 37626
-Filename: libopenssl-legacy_3.0.17-2_x86_64.ipk
-Size: 38582
-SHA256sum: 91fb180b7618862786d06cf3fca8fdc89ef64122bbf5295c356c480861941ff7
+Installed-Size: 37629
+Filename: libopenssl-legacy_3.0.18-1_x86_64.ipk
+Size: 38588
+SHA256sum: bcc0e2dc5f91f1a7f6bde6511c02eb7a0f03dcb44d446de9015af638dd820f8d
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.17-2
+Version: 3.0.18-1
 Depends: libc, kmod-crypto-user, kmod-cryptodev
 Provides: libopenssl
 Source: feeds/base/package/libs/openssl
 SourceName: libopenssl
 License: Apache-2.0
-LicenseFiles: LICENSE
+LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1758265406
+SourceDateEpoch: 1759742485
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
-Installed-Size: 2119718
-Filename: libopenssl3_3.0.17-2_x86_64.ipk
-Size: 2109935
-SHA256sum: 1c38f215fd7891f559298564a5e87a2ee1c867735e3cbba878e1612a4b31770e
+Installed-Size: 2120923
+Filename: libopenssl3_3.0.18-1_x86_64.ipk
+Size: 2111709
+SHA256sum: c97f0c318cd5a7a2252790f1ff513267cf6d1fd9f2f361e2d76795bfcde52504
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -548,18 +548,18 @@ SHA256sum: 1e9eb18646761450682ef3507040baa5d4070fa247abb73b00f027b0850069d5
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
-Version: 0.47.010
+Version: 0.47.015
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Source: feeds/base/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1759319661
+SourceDateEpoch: 1759786499
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 8860850
-Filename: luci-app-openclash_0.47.010_all.ipk
-Size: 8830539
-SHA256sum: 532fdabb4a458f768c9218c67c8ea94e48134ffed9c6bfea7c830b4ed8b32f60
+Installed-Size: 8856959
+Filename: luci-app-openclash_0.47.015_all.ipk
+Size: 8828050
+SHA256sum: e6c4df4a880707fef931c0e6b5ffa6d6881c6451f4010478b8d2dc59da47429b
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -696,26 +696,26 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 13396165
 Filename: nikki_2025.09.24-1_x86_64.ipk
-Size: 13347747
-SHA256sum: 693d3605152b99e4f0993b1ede42f0f1b19911adfd0df66106ad6a57d21f57ef
+Size: 13347699
+SHA256sum: 035d6657083aa384897faf0bdffb1041730376cee81c7eaec1de962889af12fe
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
-Version: 3.0.17-2
+Version: 3.0.18-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl-util
 License: Apache-2.0
-LicenseFiles: LICENSE
+LicenseFiles: LICENSE.txt
 Section: utils
-SourceDateEpoch: 1758265406
+SourceDateEpoch: 1759742485
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
-Installed-Size: 342015
-Filename: openssl-util_3.0.17-2_x86_64.ipk
-Size: 340454
-SHA256sum: daedf2e80faf4bf930f0d4605f12e7b2826297ea4f9a41c99bb78d1bf9a946ce
+Installed-Size: 342241
+Filename: openssl-util_3.0.18-1_x86_64.ipk
+Size: 341026
+SHA256sum: ad57141d35abcf0aa6375430ca460c3d55655baddb4e85c44eee125cf6c74d79
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1094,7 +1094,7 @@ SHA256sum: 88fc81fd4dfa401caf2db5d71a5fa38a4eaa635f2ad8a3f8a8bc2dde3a33efc3
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.05-1
+Version: 2025.10.06-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geoip
@@ -1105,13 +1105,13 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 58663
-Filename: v2ray-geoip_2025.10.05-1_all.ipk
-Size: 56791
-SHA256sum: 13342904996b85c444e941d1346dc8969379b24b572c5fb3505fd35eb9cb4c37
+Filename: v2ray-geoip_2025.10.06-1_all.ipk
+Size: 56788
+SHA256sum: 07fe17637e23c09f3a3a0f7da05a138022115581cfc16ec73445a7760fd32f39
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.05-1
+Version: 2025.10.06-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geosite
@@ -1121,10 +1121,10 @@ Section: net
 SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 3226743
-Filename: v2ray-geosite_2025.10.05-1_all.ipk
-Size: 3227500
-SHA256sum: 6cbca10970ff8d3f060919bd5cacfafe7dcce9df7c5e1b877215ae258d58bd34
+Installed-Size: 3250663
+Filename: v2ray-geosite_2025.10.06-1_all.ipk
+Size: 3251126
+SHA256sum: a632e866759469c30b3f46529f006afb63f3d8a660c8f6c5e05eb52b36fe8d20
 Description:  Geosite List for V2Ray
 
 Package: vector
