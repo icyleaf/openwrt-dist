@@ -469,14 +469,14 @@ SHA256sum: c1e6c359d5a28c77344d5101bf94a83c1ffe7c2c929bdcf2829142a6ff516fa6
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
-Version: 0.47.010
+Version: 0.47.015
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 24176640
-Filename: luci-app-openclash_0.47.010_all.ipk
-Size: 8830543
-SHA256sum: 2e37219d23e01bd3618940c1d6e76423c6b8392c4ad795ae8b17bbdb263f7da6
+Installed-Size: 24186880
+Filename: luci-app-openclash_0.47.015_all.ipk
+Size: 8828043
+SHA256sum: b61d9a20b0d1cb467eec5f44a36789f27664b2bdf7eb6084098efc60507a5282
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -586,7 +586,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 31160320
 Filename: nikki_2025.09.24-r1_aarch64_cortex-a53.ipk
 Size: 11015987
-SHA256sum: ee563081f4639731eefeceb26129d8d580ca223dd070c4c16120578eb5701253
+SHA256sum: c1c9f97bbe1ce6ea4016ec92757a74c0f1a04576a2398a4ccc1834ac32271d68
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -900,29 +900,29 @@ SHA256sum: 6692bd23ab0ea5631d31e40df8bd7814c64e0e70d8a8880c47a267ff7b90276d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.05-r1
+Version: 2025.10.06-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 317440
-Filename: v2ray-geoip_2025.10.05-r1_all.ipk
-Size: 56818
-SHA256sum: d806d4096f723cc723592d36d348cf348ccf34bf39d41cdfd22f13837f56055b
+Filename: v2ray-geoip_2025.10.06-r1_all.ipk
+Size: 56819
+SHA256sum: 45425479b3623b88ba0850fa911113fc368edd7cbdca2b1cab07daca409e19ef
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.05-r1
+Version: 2025.10.06-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10106880
-Filename: v2ray-geosite_2025.10.05-r1_all.ipk
-Size: 3227531
-SHA256sum: c3c5becaf3516e268702eb0db5121e236b39306c9c9a6bcda936b90b19b45a7e
+Installed-Size: 10178560
+Filename: v2ray-geosite_2025.10.06-r1_all.ipk
+Size: 3251155
+SHA256sum: 22c28828ee795f4285e486fc468177e32b7d5da3e2803310d2ec6ab6c2ae5411
 Description:  Geosite List for V2Ray
 
 Package: vector
