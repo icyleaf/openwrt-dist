@@ -432,16 +432,16 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-log-viewer
-Version: 1.5.0-r1
+Version: 1.5.0-r2
 Depends: libc, ucode, ucode-mod-fs
 License: MIT
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-log-viewer_1.5.0-r1_all.ipk
-Size: 10600
-SHA256sum: 98738f821671f6056fddff67d3081cef9818324c141035f37423a45bb388b0da
+Filename: luci-app-log-viewer_1.5.0-r2_all.ipk
+Size: 10602
+SHA256sum: 620de38fae5eeb56c988c7c7f77d281e55f3bfcaa6627044c48a17c8ddfbe173
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-momo
@@ -517,15 +517,15 @@ SHA256sum: 054845cd19244b9a4045e1abe5f6cfec3445b719f22fa6eb884a1b3be44b9a18
 Description:  Provides Luci for vector
 
 Package: luci-i18n-log-ru
-Version: 25.244.55455~0d05ae8
+Version: 25.280.74606~8669543
 Depends: libc, luci-app-log-viewer
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-log-ru_25.244.55455~0d05ae8_all.ipk
-Size: 2105
-SHA256sum: 01f777dcecb96d4a25fce85327eff4d4ee341a15cb644625d10ec8e15e23cb87
+Filename: luci-i18n-log-ru_25.280.74606~8669543_all.ipk
+Size: 2095
+SHA256sum: 60bca8f0bc6d85ae895889fbc856b8c154f5c357a71ea1d73eab0f9d0b0522e5
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
@@ -646,8 +646,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 31160320
 Filename: nikki_2025.09.24-r1_aarch64_cortex-a53.ipk
-Size: 11016105
-SHA256sum: f50e25a2b25b3db7ba6b3727de1fe2ab9dd11ec2c1c9dc007b17e3c2dec07590
+Size: 11016099
+SHA256sum: 7f6650bc59003385e8faa4c30bb521add2ea61c2796ed33806ec30d3d56e20c3
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -982,8 +982,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10178560
 Filename: v2ray-geosite_2025.10.07-r1_all.ipk
-Size: 3251155
-SHA256sum: 6379bd072a4ba48e5f3e6971ad49577a598145f87893f41a1c5ff5066ceb21d2
+Size: 3253624
+SHA256sum: 8c97d3c2117e33d5051c4192b3c33db0b37f6161cddb0910b3470c554b9e0e0d
 Description:  Geosite List for V2Ray
 
 Package: vector
