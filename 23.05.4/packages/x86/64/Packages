@@ -30,10 +30,10 @@ Depends: libc
 License: MIT
 Section: utils
 Architecture: x86_64
-Installed-Size: 396810
+Installed-Size: 396812
 Filename: fastfetch_2.52.0-7_x86_64.ipk
-Size: 397626
-SHA256sum: 89917aae0e1d7d120f95e74378d620978b750e04be29240cc4bb1df1671910d5
+Size: 397640
+SHA256sum: 1ce626f63a613ab28beb7a9c365bafd9eefb152f00fe636e4d8ac8fc454cdf11
 Description:  Fastfetch is a neofetch-like tool for fetching
  system information and displaying it prettily.
 
@@ -391,10 +391,10 @@ Depends: libc, ucode, ucode-mod-fs
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 9717
+Installed-Size: 9725
 Filename: luci-app-log-viewer_1.5.0_all.ipk
-Size: 10570
-SHA256sum: 2eadd2b73d852b7363aeb36f6792c1257e171ec0df324ed9238fc1a25070198b
+Size: 10575
+SHA256sum: 5e91a16b3edba3b5f553629c9b791788b7e85ff219c84dcfae9a3787f688b34c
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-momo
@@ -449,31 +449,31 @@ Architecture: all
 Installed-Size: 7463
 Filename: luci-app-tailscale_1.2.6_all.ipk
 Size: 8327
-SHA256sum: 52d6b22eab9f9fe2a6c9065fbaebf811549e929daa0134403dd1e3649cb88456
+SHA256sum: 218b7a1d79e5dd18fe012deb483756cfdbd728460986e6964151a047c495a5e0
 Description:  LuCI for Tailscale
 
 Package: luci-app-vector
-Version: 0.1.18
+Version: 0.1.20
 Depends: libc, luci-base, curl
 License: GPL-3.0
 Section: luci
 Architecture: all
-Installed-Size: 84687
-Filename: luci-app-vector_0.1.18_all.ipk
-Size: 85640
-SHA256sum: 4b98e559c0aedbc8e3b3d9413121d675694ca74d139a6112c58d66bf34462298
+Installed-Size: 84691
+Filename: luci-app-vector_0.1.20_all.ipk
+Size: 85639
+SHA256sum: 506468faf6f34aa0b7773d1e8a9ab6f289363572f661d0113ab0d4b420e0608c
 Description:  Provides Luci for vector
 
 Package: luci-i18n-log-ru
-Version: git-25.244.55455-0d05ae8
+Version: git-25.280.74606-8669543
 Depends: libc, luci-app-log-viewer
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1338
-Filename: luci-i18n-log-ru_git-25.244.55455-0d05ae8_all.ipk
-Size: 2106
-SHA256sum: 3c32e480ef55734c5e6e6469ad63872f9e4e3e4f3787cee688e882ca20ad1584
+Installed-Size: 1335
+Filename: luci-i18n-log-ru_git-25.280.74606-8669543_all.ipk
+Size: 2101
+SHA256sum: 5241abf9fa7e3f090a8e4e872072d795cbf26b552886c2c2a31a6f84c46a689a
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
@@ -521,26 +521,38 @@ SHA256sum: 83abe87e73855d96256a33292ee477ce09e970231ca8e3960b25796294216ae7
 Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tailscale-zh-cn
-Version: git-25.280.50072-6085ffe
+Version: git-25.280.53467-758ba4e
 Depends: libc, luci-app-tailscale
 Section: luci
 Architecture: all
 Installed-Size: 1977
-Filename: luci-i18n-tailscale-zh-cn_git-25.280.50072-6085ffe_all.ipk
-Size: 2756
-SHA256sum: a931b2db0cad206a200a39504fe136655db3f535f44985c6db2f1a04f0a6bf81
+Filename: luci-i18n-tailscale-zh-cn_git-25.280.53467-758ba4e_all.ipk
+Size: 2762
+SHA256sum: bce41b704760a3b52c5ef4d3b4b53a647a8d8b71445349b452dd26b10c28a332
 Description:  Translation for luci-app-tailscale - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tailscale-zh-tw
-Version: git-25.280.50072-6085ffe
+Version: git-25.280.53467-758ba4e
 Depends: libc, luci-app-tailscale
 Section: luci
 Architecture: all
 Installed-Size: 1992
-Filename: luci-i18n-tailscale-zh-tw_git-25.280.50072-6085ffe_all.ipk
-Size: 2771
-SHA256sum: 5f9018af1abe47f5f9ab76bf5e21bcf6d5c939113ab233da139b0f7938dd1743
+Filename: luci-i18n-tailscale-zh-tw_git-25.280.53467-758ba4e_all.ipk
+Size: 2777
+SHA256sum: 10b2437fbc6fd08c9d1a818ef09963376d0c5adb0e5284657022488665e8dabd
 Description:  Translation for luci-app-tailscale - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-vector-zh-cn
+Version: git-25.280.53467-758ba4e
+Depends: libc, luci-app-vector
+License: GPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 1486
+Filename: luci-i18n-vector-zh-cn_git-25.280.53467-758ba4e_all.ipk
+Size: 2303
+SHA256sum: 8fc55cac17d8657cc862faec1df156203219313fb6b767cbd24647327d5d535a
+Description:  Translation for luci-app-vector - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
 Version: 2.28.10-1
@@ -579,8 +591,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 13396165
 Filename: nikki_2025.09.24-1_x86_64.ipk
-Size: 13347619
-SHA256sum: 1df8a5f1a6ccaf19eee42565ad506934e191d9c152a085cab09dd68e565392a4
+Size: 13347777
+SHA256sum: a591c5bbdb4b4c5d1ae9da7691e33657d698e5f5714c788f7783ffef4db6d15b
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -667,10 +679,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 36098650
+Installed-Size: 36098642
 Filename: traefik_2.10.7-1_x86_64.ipk
-Size: 35705655
-SHA256sum: ca740235f00ea6548b016e1e8ecbed216dd63f5c60909aa0e1f0453cbac4a13a
+Size: 35705549
+SHA256sum: 1accd093ae4743ec1d697841a6b8be74fd55d27e78aeca11a298504f972f7adc
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -896,10 +908,10 @@ Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3250663
+Installed-Size: 3253139
 Filename: v2ray-geosite_2025.10.07-1_all.ipk
-Size: 3251126
-SHA256sum: afbb3f575d5f0626979e8ba3234e50fdc10fa52f9cea9efbfb611ec780e11b7a
+Size: 3253594
+SHA256sum: ff27e41b2724a53b46d63f1324af94c40e7a1123a77f53a8afd428e842317866
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -908,10 +920,10 @@ Depends: libc
 License: MIT
 Section: utils
 Architecture: x86_64
-Installed-Size: 49975273
+Installed-Size: 49975116
 Filename: vector_0.49.0-1_x86_64.ipk
-Size: 49775282
-SHA256sum: 190821b39f0a16c5003d5117534e924a59096bf42dda53d129847d3e214feab5
+Size: 49774907
+SHA256sum: 79dce345d71bdeddc8c296620a860fedaf69f1243cca07999ff9c4cc06c2d07c
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
