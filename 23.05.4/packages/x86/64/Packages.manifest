@@ -39,13 +39,13 @@ Source: feeds/base/icyleaf/utils/fastfetch
 SourceName: fastfetch
 License: MIT
 Section: utils
-SourceDateEpoch: 1758265400
+SourceDateEpoch: 1759845272
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
-Installed-Size: 396809
+Installed-Size: 396810
 Filename: fastfetch_2.52.0-7_x86_64.ipk
 Size: 397626
-SHA256sum: 8a9c75f13662e65e95eefa46c468d18fe5565acc7a57c39ae6c973c8984debe7
+SHA256sum: 89917aae0e1d7d120f95e74378d620978b750e04be29240cc4bb1df1671910d5
 Description:  Fastfetch is a neofetch-like tool for fetching
  system information and displaying it prettily.
 
@@ -517,6 +517,21 @@ Size: 10570
 SHA256sum: 2eadd2b73d852b7363aeb36f6792c1257e171ec0df324ed9238fc1a25070198b
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
+Package: luci-app-momo
+Version: 1.0.5
+Depends: libc, luci-base, momo
+Source: feeds/base/momo/luci-app-momo
+SourceName: luci-app-momo
+Section: luci
+SourceDateEpoch: 1756541264
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5781
+Filename: luci-app-momo_1.0.5_all.ipk
+Size: 6581
+SHA256sum: b284060820d2be4b95d7d0b800c7eff80dcd2311b2dd434490d3ecb042b33007
+Description:  LuCI Support for momo
+
 Package: luci-app-mosdns
 Version: 1.6.15
 Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
@@ -568,14 +583,30 @@ Depends: libc, tailscale
 Source: feeds/base/icyleaf/luci/applications/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1758265400
+SourceDateEpoch: 1759845272
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7464
+Installed-Size: 7463
 Filename: luci-app-tailscale_1.2.6_all.ipk
 Size: 8327
-SHA256sum: ffe9854d348b69271fe73a5fe9dec9dc9827011bad4641d1f15f97f8f0523414
+SHA256sum: 52d6b22eab9f9fe2a6c9065fbaebf811549e929daa0134403dd1e3649cb88456
 Description:  LuCI for Tailscale
+
+Package: luci-app-vector
+Version: 0.1.18
+Depends: libc, luci-base, curl
+Source: feeds/base/icyleaf/luci/applications/luci-app-vector
+SourceName: luci-app-vector
+License: GPL-3.0
+Section: luci
+SourceDateEpoch: 1759845272
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 84687
+Filename: luci-app-vector_0.1.18_all.ipk
+Size: 85640
+SHA256sum: 4b98e559c0aedbc8e3b3d9413121d675694ca74d139a6112c58d66bf34462298
+Description:  Provides Luci for vector
 
 Package: luci-i18n-log-ru
 Version: git-25.244.55455-0d05ae8
@@ -591,6 +622,20 @@ Filename: luci-i18n-log-ru_git-25.244.55455-0d05ae8_all.ipk
 Size: 2106
 SHA256sum: 3c32e480ef55734c5e6e6469ad63872f9e4e3e4f3787cee688e882ca20ad1584
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
+
+Package: luci-i18n-momo-zh-cn
+Version: git-25.242.29264-3cf77ab
+Depends: libc, luci-app-momo
+Source: feeds/base/momo/luci-app-momo
+SourceName: luci-i18n-momo-zh-cn
+Section: luci
+SourceDateEpoch: 1756541264
+Architecture: all
+Installed-Size: 1711
+Filename: luci-i18n-momo-zh-cn_git-25.242.29264-3cf77ab_all.ipk
+Size: 2474
+SHA256sum: b8535563e8048c55d221e7f858072a4a0224287d4a8f4c872186b6e50e9083fb
+Description:  Translation for luci-app-momo - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-mosdns-zh-cn
 Version: git-25.262.56763-d4421a0
@@ -636,31 +681,31 @@ SHA256sum: 83abe87e73855d96256a33292ee477ce09e970231ca8e3960b25796294216ae7
 Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tailscale-zh-cn
-Version: git-25.262.25400-c1f7748
+Version: git-25.280.50072-6085ffe
 Depends: libc, luci-app-tailscale
 Source: feeds/base/icyleaf/luci/applications/luci-app-tailscale
 SourceName: luci-i18n-tailscale-zh-cn
 Section: luci
-SourceDateEpoch: 1758265400
+SourceDateEpoch: 1759845272
 Architecture: all
-Installed-Size: 1981
-Filename: luci-i18n-tailscale-zh-cn_git-25.262.25400-c1f7748_all.ipk
-Size: 2757
-SHA256sum: 6f85a3ca95a65faa71971530246cabcc372efa53ae02a837cf3843a4ba15421b
+Installed-Size: 1977
+Filename: luci-i18n-tailscale-zh-cn_git-25.280.50072-6085ffe_all.ipk
+Size: 2756
+SHA256sum: a931b2db0cad206a200a39504fe136655db3f535f44985c6db2f1a04f0a6bf81
 Description:  Translation for luci-app-tailscale - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-tailscale-zh-tw
-Version: git-25.262.25400-c1f7748
+Version: git-25.280.50072-6085ffe
 Depends: libc, luci-app-tailscale
 Source: feeds/base/icyleaf/luci/applications/luci-app-tailscale
 SourceName: luci-i18n-tailscale-zh-tw
 Section: luci
-SourceDateEpoch: 1758265400
+SourceDateEpoch: 1759845272
 Architecture: all
-Installed-Size: 1991
-Filename: luci-i18n-tailscale-zh-tw_git-25.262.25400-c1f7748_all.ipk
-Size: 2765
-SHA256sum: d4e4eb022786268924da20213aa46045e48cacabb9a09620f226b0ffc835ce3c
+Installed-Size: 1992
+Filename: luci-i18n-tailscale-zh-tw_git-25.280.50072-6085ffe_all.ipk
+Size: 2771
+SHA256sum: 5f9018af1abe47f5f9ab76bf5e21bcf6d5c939113ab233da139b0f7938dd1743
 Description:  Translation for luci-app-tailscale - 繁體中文 (Chinese Traditional)
 
 Package: mbedtls-util
@@ -683,6 +728,22 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
 
+Package: momo
+Version: 2025.08.11-3
+Depends: libc, ca-bundle, curl, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, sing-box
+Source: feeds/base/momo/momo
+SourceName: momo
+License: GPL-3.0+
+Section: net
+SourceDateEpoch: 1756541264
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: x86_64
+Installed-Size: 83566
+Filename: momo_2025.08.11-3_x86_64.ipk
+Size: 81670
+SHA256sum: 0f6122ff07615e827950c59dcab44eb418007746210b1d208b2b76417f3b2b02
+Description:  The universal proxy platform.
+
 Package: nikki
 Version: 2025.09.24-1
 Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun
@@ -696,8 +757,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 13396165
 Filename: nikki_2025.09.24-1_x86_64.ipk
-Size: 13347699
-SHA256sum: 035d6657083aa384897faf0bdffb1041730376cee81c7eaec1de962889af12fe
+Size: 13347619
+SHA256sum: 1df8a5f1a6ccaf19eee42565ad506934e191d9c152a085cab09dd68e565392a4
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -810,13 +871,13 @@ Source: feeds/base/icyleaf/network/traefik
 SourceName: traefik
 License: MIT
 Section: net
-SourceDateEpoch: 1758265400
+SourceDateEpoch: 1759845272
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
-Installed-Size: 36098655
+Installed-Size: 36098650
 Filename: traefik_2.10.7-1_x86_64.ipk
-Size: 35706232
-SHA256sum: 0a6d816462da612e079a469873deac301040ab23b3d370f4262dfd196501afe8
+Size: 35705655
+SHA256sum: ca740235f00ea6548b016e1e8ecbed216dd63f5c60909aa0e1f0453cbac4a13a
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
@@ -1094,7 +1155,7 @@ SHA256sum: 88fc81fd4dfa401caf2db5d71a5fa38a4eaa635f2ad8a3f8a8bc2dde3a33efc3
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.06-1
+Version: 2025.10.07-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geoip
@@ -1105,13 +1166,13 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 58663
-Filename: v2ray-geoip_2025.10.06-1_all.ipk
+Filename: v2ray-geoip_2025.10.07-1_all.ipk
 Size: 56788
-SHA256sum: 07fe17637e23c09f3a3a0f7da05a138022115581cfc16ec73445a7760fd32f39
+SHA256sum: 07c03a3fefe5bc26f5463b2f314a4e7f229cc045a5f9e602efb830af2621f8de
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.06-1
+Version: 2025.10.07-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geosite
@@ -1122,9 +1183,9 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 3250663
-Filename: v2ray-geosite_2025.10.06-1_all.ipk
+Filename: v2ray-geosite_2025.10.07-1_all.ipk
 Size: 3251126
-SHA256sum: a632e866759469c30b3f46529f006afb63f3d8a660c8f6c5e05eb52b36fe8d20
+SHA256sum: afbb3f575d5f0626979e8ba3234e50fdc10fa52f9cea9efbfb611ec780e11b7a
 Description:  Geosite List for V2Ray
 
 Package: vector
@@ -1134,13 +1195,13 @@ Source: feeds/base/icyleaf/utils/vector
 SourceName: vector
 License: MIT
 Section: utils
-SourceDateEpoch: 1758265400
+SourceDateEpoch: 1759845272
 Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
-Installed-Size: 49975248
+Installed-Size: 49975273
 Filename: vector_0.49.0-1_x86_64.ipk
-Size: 49775108
-SHA256sum: f5c943732dd678493353936b345cb4d3fc1630952db406e7889ca70ce3531b4c
+Size: 49775282
+SHA256sum: 190821b39f0a16c5003d5117534e924a59096bf42dda53d129847d3e214feab5
 Description:  A high-performance observability data pipeline.
 
 Package: zlib-dev
