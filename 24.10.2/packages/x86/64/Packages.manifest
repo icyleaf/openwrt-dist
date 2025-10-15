@@ -256,22 +256,22 @@ SHA256sum: d3fb330318a0876bd0df522f59ac822526e5ea4ce490f8d3a71860455cfde9e3
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-afalg
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1758465927
+SourceDateEpoch: 1760506554
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libopenssl-afalg_3.0.17-r3_x86_64.ipk
-Size: 7984
-SHA256sum: 5dbbfaf71a2a86f0824433f2b28a43ce962f1885fc53c7bcd8e62247b688b0e0
+Filename: libopenssl-afalg_3.0.18-r1_x86_64.ipk
+Size: 7983
+SHA256sum: b527cc33d714dfc99d5f091b6e5bbd96101c65ba0072786d2fcab1e67e8874da
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -279,22 +279,22 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "afalg"
 
 Package: libopenssl-conf
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1758465927
+SourceDateEpoch: 1760506554
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 20480
-Filename: libopenssl-conf_3.0.17-r3_x86_64.ipk
-Size: 6486
-SHA256sum: 54ec75e3e30d2fe814cba4ea1ddd1c94dab174cd216e9693bf55d7c3854e3c60
+Filename: libopenssl-conf_3.0.18-r1_x86_64.ipk
+Size: 6490
+SHA256sum: 6a721873c14209d728344a474a8b94417ef445cd2dadfdac8f2baa77b3721545
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -302,22 +302,22 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1758465927
+SourceDateEpoch: 1760506554
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libopenssl-devcrypto_3.0.17-r3_x86_64.ipk
-Size: 12478
-SHA256sum: 396605838d00d1f46882a0195ab415687b1699380218510aed74d755cbd494cf
+Filename: libopenssl-devcrypto_3.0.18-r1_x86_64.ipk
+Size: 12486
+SHA256sum: dad662c16ef90dc63715221370225b9fcaf9199004145d737cbceb57b253f590
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -325,51 +325,51 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1758465927
+SourceDateEpoch: 1760506554
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 133120
-Filename: libopenssl-legacy_3.0.17-r3_x86_64.ipk
-Size: 38503
-SHA256sum: a60023b98d2368ef4350ae13925f09465f794ca6bbc93960469fea5dea5d01dc
+Filename: libopenssl-legacy_3.0.18-r1_x86_64.ipk
+Size: 38516
+SHA256sum: 040cdaf2b0a40f8c4b4d8c335aec69a40e56fda3aea199487ef542751d9c683b
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl-padlock
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-hw-padlock
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1758465927
+SourceDateEpoch: 1760506554
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libopenssl-padlock_3.0.17-r3_x86_64.ipk
-Size: 11341
-SHA256sum: 8c67bb4a86a860da7faba05b0ad0deb786887c6032ac7ffeb8c39ddcec2ccb5a
+Filename: libopenssl-padlock_3.0.18-r1_x86_64.ipk
+Size: 11345
+SHA256sum: 5bcc1f3350771322cd0b0208142eb5d40d20353f3a2f7b3d051cb2298d867f29
 Description:  This package adds an engine that enables VIA Padlock hardware acceleration.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
  and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
  The engine_id is "padlock"
 
 Package: libopenssl3
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc
 Provides: libopenssl
 Source: feeds/base/package/libs/openssl
@@ -377,16 +377,16 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1758465927
+SourceDateEpoch: 1760506554
 URL: https://www.openssl.org/
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 5099520
-Filename: libopenssl3_3.0.17-r3_x86_64.ipk
-Size: 2098254
-SHA256sum: 335483dfaac9a7d9f6f049e29078aced4c82c3ea9fd67bbef7d4a35547743d6f
+Filename: libopenssl3_3.0.18-r1_x86_64.ipk
+Size: 2098961
+SHA256sum: 2387ef2d5b0908a0c080782c062a36ad6bdc06bbe253d0aeba931288e1c0994b
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -634,14 +634,14 @@ Depends: libc, luci-base, nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1758800995
+SourceDateEpoch: 1760542074
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.24.2-r1_all.ipk
-Size: 9858
-SHA256sum: c1e6c359d5a28c77344d5101bf94a83c1ffe7c2c929bdcf2829142a6ff516fa6
+Size: 10030
+SHA256sum: 5e4d9476827c82a81731ddf1f8f8a6dd7ed06e13395f7e1cc8976cb01dc58630
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -737,31 +737,31 @@ SHA256sum: b377ce8f993503cdb7dfb5493c653708b774e321179e259ecc4d3e20c3095707
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 25.268.42595~21693b9
+Version: 25.288.55674~12a190b
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1758800995
+SourceDateEpoch: 1760542074
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_25.268.42595~21693b9_all.ipk
-Size: 4668
-SHA256sum: b58d410d9208d0fa763b21e0c309df4623cb6557c560f1ebb4ef85ec3b33c7c3
+Filename: luci-i18n-nikki-zh-cn_25.288.55674~12a190b_all.ipk
+Size: 4881
+SHA256sum: 87b9932d27b128a27c93d45336284cf8b166672e9b2472e194c71f639d311237
 Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-tw
-Version: 25.268.42595~21693b9
+Version: 25.288.55674~12a190b
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1758800995
+SourceDateEpoch: 1760542074
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-tw_25.268.42595~21693b9_all.ipk
-Size: 4705
-SHA256sum: a7fe0d6ea2672810965a23925908b493d36ec71c81d94ac2deae65ec720600e2
+Filename: luci-i18n-nikki-zh-tw_25.288.55674~12a190b_all.ipk
+Size: 4900
+SHA256sum: da5cc619cd9fea71b1ce76752542954a18daa9a948c2a298e8420c1ed0bcf387
 Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -847,40 +847,40 @@ SHA256sum: 733e7f6670032e3f771691825d41ad224280bb4a38bebedbb61a4244d00ac864
 Description:  The universal proxy platform.
 
 Package: nikki
-Version: 2025.09.24-r1
+Version: 2025.10.15-r1
 Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun
 Provides: mihomo
 Source: feeds/base/nikki/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1758800995
+SourceDateEpoch: 1760542074
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 33423360
-Filename: nikki_2025.09.24-r1_x86_64.ipk
-Size: 12085096
-SHA256sum: 8cb8d0d3dd7e8d9ad49dd55935f958c7b6dcccfba79f6009505daeac0e6c28d8
+Installed-Size: 33402880
+Filename: nikki_2025.10.15-r1_x86_64.ipk
+Size: 12071164
+SHA256sum: c6fd4c1fe0c0cd6b95e378a67c3408690369582a2efa2629ab1c1c953a20406b
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: feeds/base/package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: utils
-SourceDateEpoch: 1758465927
+SourceDateEpoch: 1760506554
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: x86_64
 Installed-Size: 849920
-Filename: openssl-util_3.0.17-r3_x86_64.ipk
-Size: 343369
-SHA256sum: c51cf7ab3b14181ec26bf70a3d6673f93129b8ff7a35c3cd08e5002f357f527a
+Filename: openssl-util_3.0.18-r1_x86_64.ipk
+Size: 343435
+SHA256sum: 73af2bae47e29d630cc9b23cc0d1df8c831c72d4afc5f41f066abd13e9c26c03
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1277,7 +1277,7 @@ SHA256sum: b31f62d2c01940a390e00bade29aac970a60682980254267f7d1571a081f0740
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.14-r1
+Version: 2025.10.15-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1289,13 +1289,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 317440
-Filename: v2ray-geoip_2025.10.14-r1_all.ipk
-Size: 57338
-SHA256sum: fa90242d1e0756a055136b6aa6b9154d96583c4420f5234d83e6da32d6395003
+Filename: v2ray-geoip_2025.10.15-r1_all.ipk
+Size: 57339
+SHA256sum: 70d9d082a03a6fff1957e0f92fe08f2093b4f076db7f701885fc3b42d11734cd
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.14-r1
+Version: 2025.10.15-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1306,10 +1306,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 10199040
-Filename: v2ray-geosite_2025.10.14-r1_all.ipk
-Size: 3260994
-SHA256sum: 75f08afee88316c6d3a293a7b6b8fcafc59342c0ca065eed7118aadd26752129
+Installed-Size: 10209280
+Filename: v2ray-geosite_2025.10.15-r1_all.ipk
+Size: 3262450
+SHA256sum: 08489858a7277137b07e3b17a55f2fa0c53f88c77f54374075a9998575a21efd
 Description:  Geosite List for V2Ray
 
 Package: vector
