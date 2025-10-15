@@ -198,7 +198,7 @@ SHA256sum: ba7491484d959045f1b8ea0606b1d3f0c468641dcf1c3fb7f7537f719f37584f
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-afalg
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 License: Apache-2.0
 Section: libs
@@ -206,9 +206,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
-Filename: libopenssl-afalg_3.0.17-r3_aarch64_cortex-a53.ipk
-Size: 7911
-SHA256sum: 721ec3b4f89e300f5d89d5c27f22e8b1b8bbfff792a511ea607ca5f06d740329
+Filename: libopenssl-afalg_3.0.18-r1_aarch64_cortex-a53.ipk
+Size: 7907
+SHA256sum: 465ec3d3330b4669ae476925b523c15d45f4afbf4e4cb19ecf54aa058d5627bb
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -216,7 +216,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "afalg"
 
 Package: libopenssl-conf
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
@@ -224,9 +224,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
-Filename: libopenssl-conf_3.0.17-r3_aarch64_cortex-a53.ipk
-Size: 6497
-SHA256sum: 0f4b642715c41b751e2974a532c2b3883147582366a1340e8d4212c2a2c6a3c0
+Filename: libopenssl-conf_3.0.18-r1_aarch64_cortex-a53.ipk
+Size: 6494
+SHA256sum: 6c1301906691eed58fa473b84c8469329a6de472342c02a636e0a3aba4fb19e5
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -234,7 +234,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
@@ -242,9 +242,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
-Filename: libopenssl-devcrypto_3.0.17-r3_aarch64_cortex-a53.ipk
-Size: 12367
-SHA256sum: b5d2b04ebff685e8507bd716ef74d586e0d6359180c63b9ebee80a8c4d2090f4
+Filename: libopenssl-devcrypto_3.0.18-r1_aarch64_cortex-a53.ipk
+Size: 12370
+SHA256sum: 6de03cd57d0111a14bc77cb790d55f1bea1ef2894940d0c3949b7f8f70b226cd
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -252,7 +252,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
@@ -260,16 +260,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: libopenssl-legacy_3.0.17-r3_aarch64_cortex-a53.ipk
-Size: 37752
-SHA256sum: 8c8d6c6bcd4063f9f49379840013eae390887d449dc3c9539bca14a496912e21
+Filename: libopenssl-legacy_3.0.18-r1_aarch64_cortex-a53.ipk
+Size: 37772
+SHA256sum: 7e427e4ebde8841be6805c9cbe2dfc6d4a5b01a38a13aa19926a45678965dca1
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc
 Provides: libopenssl
 License: Apache-2.0
@@ -279,9 +279,9 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 5345280
-Filename: libopenssl3_3.0.17-r3_aarch64_cortex-a53.ipk
-Size: 2018137
-SHA256sum: fbaf0b68bd56ad8835c62cc0467bf8b9ab9ef2efd9247cbdae2d08236e7a9860
+Filename: libopenssl3_3.0.18-r1_aarch64_cortex-a53.ipk
+Size: 2018141
+SHA256sum: 195bacfcf2b7f16917ddae5bc4fffa287d0d35955cbbddc51ff2690febbd3ff9
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -476,8 +476,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.24.2-r1_all.ipk
-Size: 9858
-SHA256sum: c1e6c359d5a28c77344d5101bf94a83c1ffe7c2c929bdcf2829142a6ff516fa6
+Size: 10030
+SHA256sum: 5e4d9476827c82a81731ddf1f8f8a6dd7ed06e13395f7e1cc8976cb01dc58630
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -551,25 +551,25 @@ SHA256sum: b377ce8f993503cdb7dfb5493c653708b774e321179e259ecc4d3e20c3095707
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 25.268.42595~21693b9
+Version: 25.288.55674~12a190b
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_25.268.42595~21693b9_all.ipk
-Size: 4668
-SHA256sum: b58d410d9208d0fa763b21e0c309df4623cb6557c560f1ebb4ef85ec3b33c7c3
+Filename: luci-i18n-nikki-zh-cn_25.288.55674~12a190b_all.ipk
+Size: 4881
+SHA256sum: 87b9932d27b128a27c93d45336284cf8b166672e9b2472e194c71f639d311237
 Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-tw
-Version: 25.268.42595~21693b9
+Version: 25.288.55674~12a190b
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-tw_25.268.42595~21693b9_all.ipk
-Size: 4705
-SHA256sum: a7fe0d6ea2672810965a23925908b493d36ec71c81d94ac2deae65ec720600e2
+Filename: luci-i18n-nikki-zh-tw_25.288.55674~12a190b_all.ipk
+Size: 4900
+SHA256sum: da5cc619cd9fea71b1ce76752542954a18daa9a948c2a298e8420c1ed0bcf387
 Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -637,7 +637,7 @@ SHA256sum: cc10f6f370297a6f0ee67601480c12780997d3d28ece5490434830f4e94ff48f
 Description:  The universal proxy platform.
 
 Package: nikki
-Version: 2025.09.24-r1
+Version: 2025.10.15-r1
 Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun
 Provides: mihomo
 License: GPL3.0+
@@ -645,13 +645,13 @@ Section: net
 URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 31160320
-Filename: nikki_2025.09.24-r1_aarch64_cortex-a53.ipk
-Size: 11016094
-SHA256sum: 30871cea1f79f19237a98e58ce117c21a1157488b0445989908502d7aa16c125
+Filename: nikki_2025.10.15-r1_aarch64_cortex-a53.ipk
+Size: 11009490
+SHA256sum: b7a61333dcbbb0078e3ce72bef08a6bfd703760d6dfde6af8be964bdddd0e736
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
-Version: 3.0.17-r3
+Version: 3.0.18-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
@@ -659,9 +659,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 890880
-Filename: openssl-util_3.0.17-r3_aarch64_cortex-a53.ipk
-Size: 341811
-SHA256sum: bdd9165488b7b8f80d36d33a3bc315e7970c44c3f7117f033223f8048e08b1c5
+Filename: openssl-util_3.0.18-r1_aarch64_cortex-a53.ipk
+Size: 342016
+SHA256sum: 02e41d5d3a05ad225fae943798e64ad350d7fa9115e73d6eccc7f9e48aff09c6
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -961,29 +961,29 @@ SHA256sum: 6692bd23ab0ea5631d31e40df8bd7814c64e0e70d8a8880c47a267ff7b90276d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.14-r1
+Version: 2025.10.15-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 317440
-Filename: v2ray-geoip_2025.10.14-r1_all.ipk
-Size: 57338
-SHA256sum: fa90242d1e0756a055136b6aa6b9154d96583c4420f5234d83e6da32d6395003
+Filename: v2ray-geoip_2025.10.15-r1_all.ipk
+Size: 57339
+SHA256sum: 70d9d082a03a6fff1957e0f92fe08f2093b4f076db7f701885fc3b42d11734cd
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.14-r1
+Version: 2025.10.15-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10199040
-Filename: v2ray-geosite_2025.10.14-r1_all.ipk
-Size: 3260994
-SHA256sum: 75f08afee88316c6d3a293a7b6b8fcafc59342c0ca065eed7118aadd26752129
+Installed-Size: 10209280
+Filename: v2ray-geosite_2025.10.15-r1_all.ipk
+Size: 3262450
+SHA256sum: 08489858a7277137b07e3b17a55f2fa0c53f88c77f54374075a9998575a21efd
 Description:  Geosite List for V2Ray
 
 Package: vector
