@@ -612,14 +612,14 @@ Depends: libc, luci-base, nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1760542074
+SourceDateEpoch: 1760582352
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.24.2-r1_all.ipk
-Size: 10030
-SHA256sum: 5e4d9476827c82a81731ddf1f8f8a6dd7ed06e13395f7e1cc8976cb01dc58630
+Size: 10034
+SHA256sum: 1f40eccde14f47e087232e7961b592b48bde2f23c4196862a1d82ba6ae1410be
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -715,31 +715,31 @@ SHA256sum: b377ce8f993503cdb7dfb5493c653708b774e321179e259ecc4d3e20c3095707
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 25.288.55674~12a190b
+Version: 25.289.09552~6de7fa8
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1760542074
+SourceDateEpoch: 1760582352
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_25.288.55674~12a190b_all.ipk
-Size: 4881
-SHA256sum: 87b9932d27b128a27c93d45336284cf8b166672e9b2472e194c71f639d311237
+Filename: luci-i18n-nikki-zh-cn_25.289.09552~6de7fa8_all.ipk
+Size: 4874
+SHA256sum: c804df30e85c7e059a5199cfa06e9a21f5f1839d0c168f5c1f9aadee3699fd5b
 Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-tw
-Version: 25.288.55674~12a190b
+Version: 25.289.09552~6de7fa8
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1760542074
+SourceDateEpoch: 1760582352
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-tw_25.288.55674~12a190b_all.ipk
-Size: 4900
-SHA256sum: da5cc619cd9fea71b1ce76752542954a18daa9a948c2a298e8420c1ed0bcf387
+Filename: luci-i18n-nikki-zh-tw_25.289.09552~6de7fa8_all.ipk
+Size: 4902
+SHA256sum: 0d365ee6b4b17e212cc1f30c2b168c8752ac0088a5518f49063b92755b47814c
 Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -832,14 +832,14 @@ Source: feeds/base/nikki/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1760542074
+SourceDateEpoch: 1760582352
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 31160320
 Filename: nikki_2025.10.15-r1_aarch64_cortex-a53.ipk
-Size: 11009490
-SHA256sum: b7a61333dcbbb0078e3ce72bef08a6bfd703760d6dfde6af8be964bdddd0e736
+Size: 11009597
+SHA256sum: af904e01a5783e67edee1b6dc6c878e7c3329f3f398e3be8f6e5e13797b27954
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1255,7 +1255,7 @@ SHA256sum: 6692bd23ab0ea5631d31e40df8bd7814c64e0e70d8a8880c47a267ff7b90276d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.15-r1
+Version: 2025.10.16-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1267,13 +1267,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 317440
-Filename: v2ray-geoip_2025.10.15-r1_all.ipk
-Size: 57339
-SHA256sum: 70d9d082a03a6fff1957e0f92fe08f2093b4f076db7f701885fc3b42d11734cd
+Filename: v2ray-geoip_2025.10.16-r1_all.ipk
+Size: 57613
+SHA256sum: f6d30e518210968f403321c488f6997d2a57ab9e409858562790e8fca7be2afa
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.15-r1
+Version: 2025.10.16-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1285,9 +1285,9 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 10209280
-Filename: v2ray-geosite_2025.10.15-r1_all.ipk
-Size: 3262450
-SHA256sum: 08489858a7277137b07e3b17a55f2fa0c53f88c77f54374075a9998575a21efd
+Filename: v2ray-geosite_2025.10.16-r1_all.ipk
+Size: 3263657
+SHA256sum: 9410bd6f92c7874af89f7821e832202ac01141613c352a6e6e85f421099d9976
 Description:  Geosite List for V2Ray
 
 Package: vector
