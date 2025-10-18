@@ -216,7 +216,7 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls21
-Version: 3.6.4-r1
+Version: 3.6.5-r1
 Depends: libc
 Provides: libmbedtls
 Source: feeds/base/package/libs/mbedtls
@@ -224,15 +224,15 @@ SourceName: mbedtls
 License: GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1756044161
+SourceDateEpoch: 1760813318
 URL: https://www.trustedfirmware.org/projects/mbed-tls/
 ABIVersion: 21
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_cortex-a53
 Installed-Size: 860160
-Filename: libmbedtls21_3.6.4-r1_aarch64_cortex-a53.ipk
-Size: 330062
-SHA256sum: 256b5088d1d126d334bf468a469a090e43657b9f2ff36500084f8830163fb6d9
+Filename: libmbedtls21_3.6.5-r1_aarch64_cortex-a53.ipk
+Size: 330869
+SHA256sum: 604a3fdb2ff610082696bde244b371d2728fad64685422c8221c660864effb0b
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -406,37 +406,37 @@ SHA256sum: 52c4370d186d631eb4257740c630205264715765b36312b53e2b4b2c64444bd3
 Description:  Basic utility library
 
 Package: libubus-lua
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubus20250102, liblua5.1.5
 Source: feeds/base/package/system/ubus
 SourceName: ubus
 License: LGPL-2.1
 Section: libs
-SourceDateEpoch: 1752741915
+SourceDateEpoch: 1760792196
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: libubus-lua_2025.07.02~5952b48e-r1_aarch64_cortex-a53.ipk
-Size: 8094
-SHA256sum: 82a10b980a788caae438fd880935a539910e6b529f02b8dd1cb2179dbb1fb81d
+Filename: libubus-lua_2025.10.17~60e04048-r1_aarch64_cortex-a53.ipk
+Size: 8092
+SHA256sum: 05210423b2813f2f24ce83e33afc7eb062fa8d9a7a4c27fcae865c343701c116
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus20250102
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubox20240329
 Provides: libubus
 Source: feeds/base/package/system/ubus
 SourceName: ubus
 License: LGPL-2.1
 Section: libs
-SourceDateEpoch: 1752741915
+SourceDateEpoch: 1760792196
 ABIVersion: 20250102
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: libubus20250102_2025.07.02~5952b48e-r1_aarch64_cortex-a53.ipk
-Size: 13244
-SHA256sum: d824fec453111e1cc96a22cc9061135721730ee4809c701f86e7c9dd3d8b61f5
+Filename: libubus20250102_2025.10.17~60e04048-r1_aarch64_cortex-a53.ipk
+Size: 13243
+SHA256sum: 405d07f3068ea32cd64ce6996e4f3fc2cfbaa408c4863ec3590484630b4722f2
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -787,21 +787,21 @@ SHA256sum: 8211e257c3d93831e6967b1f10e25a0a1c13c862153140837bf5c040cf520021
 Description:  Translation for luci-app-vector - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
-Version: 3.6.4-r1
+Version: 3.6.5-r1
 Depends: libc, libmbedtls21
 Source: feeds/base/package/libs/mbedtls
 SourceName: mbedtls
 License: GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1756044161
+SourceDateEpoch: 1760813318
 URL: https://www.trustedfirmware.org/projects/mbed-tls/
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: mbedtls-util_3.6.4-r1_aarch64_cortex-a53.ipk
-Size: 10076
-SHA256sum: 4c8076a75c9bb3663ad1ce2e102fad99f312b9cb7d5d8398718af7f9b7ab0b37
+Filename: mbedtls-util_3.6.5-r1_aarch64_cortex-a53.ipk
+Size: 10079
+SHA256sum: 06a48b52e2f9491207c0cf177584076ff16dc52bc5e4ce62c355077956ce9bc2
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -838,8 +838,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 31160320
 Filename: nikki_2025.10.15-r1_aarch64_cortex-a53.ipk
-Size: 11009367
-SHA256sum: 6e5cc680af861c24e9c2253fcce09841368fdbbacd0cc5475da313c93c2a08c3
+Size: 11009611
+SHA256sum: ebb4f4c910d37037161d4b315143e9dfda2d7dd102a1b0063946d89cfc1381fe
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -964,36 +964,36 @@ SHA256sum: dfdb57a6da03596c9f343e35513a8becc238abec5d0bc2f0f7404367283347f6
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubus20250102, libblobmsg-json20240329, ubusd
 Source: feeds/base/package/system/ubus
 SourceName: ubus
 License: LGPL-2.1
 Section: base
-SourceDateEpoch: 1752741915
+SourceDateEpoch: 1760792196
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ubus_2025.07.02~5952b48e-r1_aarch64_cortex-a53.ipk
-Size: 7541
-SHA256sum: 71088ae6372b53e5b664d748e8480c5d12dd95cd8be6314d7787191cd4f4d494
+Filename: ubus_2025.10.17~60e04048-r1_aarch64_cortex-a53.ipk
+Size: 7543
+SHA256sum: 574f1380d2e58672b2c6ddd4e20e80f5d4103ad89c99760b65a3ef4d554db957
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubox20240329, libblobmsg-json20240329
 Source: feeds/base/package/system/ubus
 SourceName: ubus
 License: LGPL-2.1
 Section: base
 Require-User: ubus=81:ubus=81
-SourceDateEpoch: 1752741915
+SourceDateEpoch: 1760792196
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ubusd_2025.07.02~5952b48e-r1_aarch64_cortex-a53.ipk
-Size: 14157
-SHA256sum: f8ad46b51d8856d8458c2babf1b0cb0cf0e888f7d75e59f817c4018d535c24ce
+Filename: ubusd_2025.10.17~60e04048-r1_aarch64_cortex-a53.ipk
+Size: 14664
+SHA256sum: 78f6f3b655f4ceef64c4d9420d55db7cad3dd40f0308a7da1f4ea44a8d8a40cb
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -1255,7 +1255,7 @@ SHA256sum: 6692bd23ab0ea5631d31e40df8bd7814c64e0e70d8a8880c47a267ff7b90276d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.17-r1
+Version: 2025.10.18-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1267,13 +1267,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 317440
-Filename: v2ray-geoip_2025.10.17-r1_all.ipk
-Size: 57610
-SHA256sum: faa29a7b9b107c2b664254572515eb1a1c496ffc78984981d0b13d98ca6ca57c
+Filename: v2ray-geoip_2025.10.18-r1_all.ipk
+Size: 57613
+SHA256sum: a14e2e1ca0ff334c03b827d50d624266c031cacf01d14f140d462ed67f00283d
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.17-r1
+Version: 2025.10.18-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1284,10 +1284,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 10219520
-Filename: v2ray-geosite_2025.10.17-r1_all.ipk
-Size: 3270407
-SHA256sum: b9633f540aef6b4631bba5489785c9ab6270a2fa3d76504e44fa05b26f354280
+Installed-Size: 10229760
+Filename: v2ray-geosite_2025.10.18-r1_all.ipk
+Size: 3273244
+SHA256sum: 063f7c71aecd023673b851d7f38f098b0e4decb4ffe23889a0a29f03eabeaa6f
 Description:  Geosite List for V2Ray
 
 Package: vector
