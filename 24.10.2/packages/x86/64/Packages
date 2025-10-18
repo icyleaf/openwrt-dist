@@ -166,7 +166,7 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls21
-Version: 3.6.4-r1
+Version: 3.6.5-r1
 Depends: libc
 Provides: libmbedtls
 License: GPL-2.0-or-later
@@ -176,9 +176,9 @@ ABIVersion: 21
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 696320
-Filename: libmbedtls21_3.6.4-r1_x86_64.ipk
-Size: 310950
-SHA256sum: e09f820610e1805204d1da1042fb44d8eb3dc53640633025bd0b2027a1db472a
+Filename: libmbedtls21_3.6.5-r1_x86_64.ipk
+Size: 311847
+SHA256sum: 2f50e4a01acfee6aab9eb361cecfa3f8a24e4836918e78a46127f7f147d6b75f
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -332,19 +332,19 @@ SHA256sum: 2129f92e30b38ae6d74618fbf5fddd0ea910d4c5b9d38f07004765dcd8019162
 Description:  Basic utility library
 
 Package: libubus-lua
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubus20250102, liblua5.1.5
 License: LGPL-2.1
 Section: libs
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libubus-lua_2025.07.02~5952b48e-r1_x86_64.ipk
-Size: 7881
-SHA256sum: d140616c7f059e60df491d780b0687693bac8494d3dc870d4add21d1c3e12497
+Filename: libubus-lua_2025.10.17~60e04048-r1_x86_64.ipk
+Size: 7879
+SHA256sum: ed95348ae8fd9a6a057b6296d87ba6c8ac7ed64d55b7b753736f730df0910ce2
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus20250102
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubox20240329
 Provides: libubus
 License: LGPL-2.1
@@ -352,9 +352,9 @@ Section: libs
 ABIVersion: 20250102
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libubus20250102_2025.07.02~5952b48e-r1_x86_64.ipk
-Size: 12416
-SHA256sum: e0a4b62b4c51d88cbd87553f451072de09fe2d7d6468f5522e95d7e63cf00804
+Filename: libubus20250102_2025.10.17~60e04048-r1_x86_64.ipk
+Size: 12415
+SHA256sum: d4adddbd3bea025e38026e187f96ac156cea68e6279a49fb03a504f4beddce22
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -624,7 +624,7 @@ SHA256sum: 8211e257c3d93831e6967b1f10e25a0a1c13c862153140837bf5c040cf520021
 Description:  Translation for luci-app-vector - 简体中文 (Chinese Simplified)
 
 Package: mbedtls-util
-Version: 3.6.4-r1
+Version: 3.6.5-r1
 Depends: libc, libmbedtls21
 License: GPL-2.0-or-later
 Section: utils
@@ -632,9 +632,9 @@ URL: https://www.trustedfirmware.org/projects/mbed-tls/
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 40960
-Filename: mbedtls-util_3.6.4-r1_x86_64.ipk
-Size: 9027
-SHA256sum: 729a1e3776576dfb29bce0f27b3d4fa7c8e566b462df699a48e54adc2ccc494f
+Filename: mbedtls-util_3.6.5-r1_x86_64.ipk
+Size: 9035
+SHA256sum: c30220e956299c288b832314fdbea8d423382fe40cce94956c0586f69fda5756
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -664,7 +664,7 @@ Architecture: x86_64
 Installed-Size: 33402880
 Filename: nikki_2025.10.15-r1_x86_64.ipk
 Size: 12071182
-SHA256sum: ae43c820c0087a28288bd0fdb95ea6518875db39957464846e6ebba2e698d58a
+SHA256sum: 9a28c86a65725895445061eaba4c58b481a57d2ea15f598c93b9b5ef0da63def
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -760,27 +760,27 @@ SHA256sum: 3eaf86f48f703de89301067c84c577d8b3b57f6e18284d68d2bed99f2d71c960
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubus20250102, libblobmsg-json20240329, ubusd
 License: LGPL-2.1
 Section: base
 Architecture: x86_64
 Installed-Size: 30720
-Filename: ubus_2025.07.02~5952b48e-r1_x86_64.ipk
-Size: 6963
-SHA256sum: bdc72de343a9de7bae92006ed68cc1fb1d6e301e29e3d7d67fbd16be6d86211b
+Filename: ubus_2025.10.17~60e04048-r1_x86_64.ipk
+Size: 6958
+SHA256sum: d8cbd2f206b4f2b4a89a205483d1fe8d148466c97390f9039723c9b77205d2c9
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
-Version: 2025.07.02~5952b48e-r1
+Version: 2025.10.17~60e04048-r1
 Depends: libc, libubox20240329, libblobmsg-json20240329
 License: LGPL-2.1
 Section: base
 Architecture: x86_64
 Installed-Size: 40960
-Filename: ubusd_2025.07.02~5952b48e-r1_x86_64.ipk
-Size: 13326
-SHA256sum: da51b7cd3e7c3862f59c7d76c441fb30cdcef0b8ed495c4f2357a0c02c14580e
+Filename: ubusd_2025.10.17~60e04048-r1_x86_64.ipk
+Size: 13769
+SHA256sum: 3d30b637eb7fe47ec03d571bfc387167e4fe2e9af94a63eb47a935fdde2079a1
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -978,29 +978,29 @@ SHA256sum: b31f62d2c01940a390e00bade29aac970a60682980254267f7d1571a081f0740
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.17-r1
+Version: 2025.10.18-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 317440
-Filename: v2ray-geoip_2025.10.17-r1_all.ipk
-Size: 57610
-SHA256sum: faa29a7b9b107c2b664254572515eb1a1c496ffc78984981d0b13d98ca6ca57c
+Filename: v2ray-geoip_2025.10.18-r1_all.ipk
+Size: 57613
+SHA256sum: a14e2e1ca0ff334c03b827d50d624266c031cacf01d14f140d462ed67f00283d
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.17-r1
+Version: 2025.10.18-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10219520
-Filename: v2ray-geosite_2025.10.17-r1_all.ipk
-Size: 3270407
-SHA256sum: b9633f540aef6b4631bba5489785c9ab6270a2fa3d76504e44fa05b26f354280
+Installed-Size: 10229760
+Filename: v2ray-geosite_2025.10.18-r1_all.ipk
+Size: 3273244
+SHA256sum: 063f7c71aecd023673b851d7f38f098b0e4decb4ffe23889a0a29f03eabeaa6f
 Description:  Geosite List for V2Ray
 
 Package: vector
