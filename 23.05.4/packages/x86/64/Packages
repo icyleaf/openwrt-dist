@@ -272,29 +272,29 @@ SHA256sum: c8002bf2e4ef7fffc7799fa7d455ba5ead41db520b64cc893a35de30217fe0ce
 Description:  Basic utility library
 
 Package: libubus-lua
-Version: 2023-06-05-f787c97b-1
+Version: 2023-06-05-f787c97b-2
 Depends: libc, libubus20230605, liblua5.1.5
 License: LGPL-2.1
 Section: libs
 Architecture: x86_64
-Installed-Size: 7110
-Filename: libubus-lua_2023-06-05-f787c97b-1_x86_64.ipk
-Size: 7894
-SHA256sum: 5df46264b8ddb5f63dbda6f4eb7fbcbe10593fb77ce3e192a0e0c67bc92866fa
+Installed-Size: 7109
+Filename: libubus-lua_2023-06-05-f787c97b-2_x86_64.ipk
+Size: 7899
+SHA256sum: f245512143fa4609e63b5de7d95cda2b956aff35acbabc4e8f407d4b925a88f8
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus20230605
-Version: 2023-06-05-f787c97b-1
+Version: 2023-06-05-f787c97b-2
 Depends: libc, libubox20230523
 Provides: libubus
 License: LGPL-2.1
 Section: libs
 ABIVersion: 20230605
 Architecture: x86_64
-Installed-Size: 10752
-Filename: libubus20230605_2023-06-05-f787c97b-1_x86_64.ipk
-Size: 11497
-SHA256sum: a6a7c1eb6f75180d9542886d386f33ba7b4a72c117f7cd990dbc3fe1a5b9985a
+Installed-Size: 10751
+Filename: libubus20230605_2023-06-05-f787c97b-2_x86_64.ipk
+Size: 11495
+SHA256sum: a48483f130377be60d23695963504c774c235d1f5dc82af714044a96a98fb68c
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -589,10 +589,10 @@ Provides: mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 13381526
+Installed-Size: 13381522
 Filename: nikki_2025.10.15-1_x86_64.ipk
-Size: 13333097
-SHA256sum: c4774f95b403aa9aca34411a7f64abf9a162458e430db8f3b680d31573bee8a1
+Size: 13333208
+SHA256sum: 007cd9b06e3210e1a89548a99874b3e53cb63f875fe5f7824a81243389ccef2a
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -686,27 +686,27 @@ SHA256sum: 1accd093ae4743ec1d697841a6b8be74fd55d27e78aeca11a298504f972f7adc
 Description:  Traefik, The Cloud Native Application Proxy
 
 Package: ubus
-Version: 2023-06-05-f787c97b-1
+Version: 2023-06-05-f787c97b-2
 Depends: libc, libubus20230605, libblobmsg-json20230523, ubusd
 License: LGPL-2.1
 Section: base
 Architecture: x86_64
-Installed-Size: 6153
-Filename: ubus_2023-06-05-f787c97b-1_x86_64.ipk
-Size: 6955
-SHA256sum: eb13be6e83bc5b5a97504505daea718f26ed563c30efdd35ed92329b0e5cf433
+Installed-Size: 6152
+Filename: ubus_2023-06-05-f787c97b-2_x86_64.ipk
+Size: 6950
+SHA256sum: 376c4f66aec3baded396e11eee4043d6d6883697d215c06027ed0f1b13a30133
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
-Version: 2023-06-05-f787c97b-1
+Version: 2023-06-05-f787c97b-2
 Depends: libc, libubox20230523, libblobmsg-json20230523
 License: LGPL-2.1
 Section: base
 Architecture: x86_64
-Installed-Size: 12546
-Filename: ubusd_2023-06-05-f787c97b-1_x86_64.ipk
-Size: 13324
-SHA256sum: ae15110278f8390c3694d17003b06d8152c824a36360b115d11bc1b7945ab223
+Installed-Size: 12556
+Filename: ubusd_2023-06-05-f787c97b-2_x86_64.ipk
+Size: 13333
+SHA256sum: 875d93e936b95b0bb4fb2e13a7dabe316a2182bed2605548933d569818719eef
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -891,27 +891,27 @@ SHA256sum: 88fc81fd4dfa401caf2db5d71a5fa38a4eaa635f2ad8a3f8a8bc2dde3a33efc3
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.22-1
+Version: 2025.10.23-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 59453
-Filename: v2ray-geoip_2025.10.22-1_all.ipk
-Size: 57584
-SHA256sum: d2212b36d2954064329893085fa6373c65192d77b6b144eed1f693b8c9dc78c9
+Installed-Size: 59533
+Filename: v2ray-geoip_2025.10.23-1_all.ipk
+Size: 57694
+SHA256sum: 98d8a912ede18bd670e979e1d445d87396a113599e29263a2630bf8892419005
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.22-1
+Version: 2025.10.23-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3254130
-Filename: v2ray-geosite_2025.10.22-1_all.ipk
-Size: 3254717
-SHA256sum: 3138ef411c8fa8f034dacf715c08e36076bd3e84318bfdbb72972a2e7006fb98
+Installed-Size: 3260549
+Filename: v2ray-geosite_2025.10.23-1_all.ipk
+Size: 3261140
+SHA256sum: 6e14335b257680a7dd7bfa33643c73c88152630a1f64281356f9e8a4f58c4c12
 Description:  Geosite List for V2Ray
 
 Package: vector
