@@ -563,18 +563,18 @@ SHA256sum: 210304ac1766c797d3ad04ad4a4835a9a3803b3aa18a5ebc7f92cc48ef75d815
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
-Version: 0.47.024
+Version: 0.47.028
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Source: feeds/base/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1761538511
+SourceDateEpoch: 1761998751
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 9685400
-Filename: luci-app-openclash_0.47.024_all.ipk
-Size: 9652838
-SHA256sum: 324d5aa13dd8f72831f777d5bac985f4c2341230e6110dd1ed3165e1ff948454
+Installed-Size: 9686191
+Filename: luci-app-openclash_0.47.028_all.ipk
+Size: 9653123
+SHA256sum: 24c83c15d5869225ac3127e3cb1dd79db2798e4b45dbca9bcc3ed15003d113ac
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -771,10 +771,10 @@ Section: net
 SourceDateEpoch: 1761903398
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 13381509
+Installed-Size: 13381500
 Filename: nikki_2025.10.15-1_x86_64.ipk
-Size: 13333311
-SHA256sum: 86945f1bf3235f8ad89806a8899c666b234cd50a3f9d582877d90289e0866495
+Size: 13333281
+SHA256sum: fb9d733f6ebf7af903626fb74addb242dddc5d8caedd09ee3a7eedb1c2692849
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1171,7 +1171,7 @@ SHA256sum: 88fc81fd4dfa401caf2db5d71a5fa38a4eaa635f2ad8a3f8a8bc2dde3a33efc3
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.10.31-1
+Version: 2025.11.01-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geoip
@@ -1182,13 +1182,13 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 60793
-Filename: v2ray-geoip_2025.10.31-1_all.ipk
-Size: 58872
-SHA256sum: ea2d3ff1dcf9968b693a50e1d0e19017e2c4ee6840504107ac9f398e72bb4e8a
+Filename: v2ray-geoip_2025.11.01-1_all.ipk
+Size: 58874
+SHA256sum: 14c616b2c8f2837c31c733afe314f2644165aaef172b7140f21739c931855643
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.10.31-1
+Version: 2025.11.01-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geosite
@@ -1199,9 +1199,9 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 3286292
-Filename: v2ray-geosite_2025.10.31-1_all.ipk
-Size: 3286552
-SHA256sum: c180a83bd5b4e8956c4974dd2cc13d657d474c8ab39c0ae884afea6d4dfe9755
+Filename: v2ray-geosite_2025.11.01-1_all.ipk
+Size: 3286548
+SHA256sum: 21116343a30021bae61130ef0030706b3b98c6840f8d93a32a9c2bb74bc40cb6
 Description:  Geosite List for V2Ray
 
 Package: vector
