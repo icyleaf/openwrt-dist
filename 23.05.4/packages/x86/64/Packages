@@ -30,10 +30,10 @@ Depends: libc
 License: MIT
 Section: utils
 Architecture: x86_64
-Installed-Size: 395461
+Installed-Size: 396812
 Filename: fastfetch_2.52.0-7_x86_64.ipk
-Size: 396267
-SHA256sum: 484457f4dbb62dc6f945346d7a5c19bbcf0d985a5e5b8429f1b6391f758dde83
+Size: 397640
+SHA256sum: 1ce626f63a613ab28beb7a9c365bafd9eefb152f00fe636e4d8ac8fc454cdf11
 Description:  Fastfetch is a neofetch-like tool for fetching
  system information and displaying it prettily.
 
@@ -589,10 +589,10 @@ Provides: mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 13462423
+Installed-Size: 13462428
 Filename: nikki_2025.12.01-1_x86_64.ipk
-Size: 13417288
-SHA256sum: dc805b4013e3ed35d44e564841df65325823cdbee2b4cce8f09bbd61b10569f9
+Size: 13417353
+SHA256sum: c63f585d4f8af1535d44c94f0341cebb40f2d7d1dda792c9e190cb4514d9c523
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -891,27 +891,27 @@ SHA256sum: 88fc81fd4dfa401caf2db5d71a5fa38a4eaa635f2ad8a3f8a8bc2dde3a33efc3
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.12.11-1
+Version: 2025.12.12-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 63972
-Filename: v2ray-geoip_2025.12.11-1_all.ipk
-Size: 62139
-SHA256sum: 2b71d26b78867acb8a6921eb99993ebdcdc90bbabb272593a4efb46da5b3020f
+Filename: v2ray-geoip_2025.12.12-1_all.ipk
+Size: 62140
+SHA256sum: da1b0308f59fdec1208e61f1e8b076f8f53ce81a45faf4ebf891f18dcb955c37
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.12.11-1
+Version: 2025.12.12-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3016502
-Filename: v2ray-geosite_2025.12.11-1_all.ipk
-Size: 3017074
-SHA256sum: 85e275736a3d51f30db31579362d95c09e4ad45fe34a9bdd0b96465f3adce63d
+Installed-Size: 3019981
+Filename: v2ray-geosite_2025.12.12-1_all.ipk
+Size: 3020254
+SHA256sum: f0085f310adbb6c9939621e165705c2eda4129edbc78ec04b105aadb5caf7271
 Description:  Geosite List for V2Ray
 
 Package: vector
