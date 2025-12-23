@@ -771,10 +771,10 @@ Section: net
 SourceDateEpoch: 1766458326
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 14247351
+Installed-Size: 14247352
 Filename: nikki_2025.12.21-1_x86_64.ipk
-Size: 14199953
-SHA256sum: c01d7db204180d55eead97e0bb0d29e46968d23e7ee58fa63ce4b30e7539a0dc
+Size: 14199808
+SHA256sum: b663911c6a6709763d36495189258d08df904d9c7c6c395a35c03511410cfd5c
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
