@@ -586,14 +586,14 @@ Source: feeds/base/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1759869806
+SourceDateEpoch: 1766615445
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-log-viewer_1.5.0-r2_all.ipk
-Size: 10602
-SHA256sum: 620de38fae5eeb56c988c7c7f77d281e55f3bfcaa6627044c48a17c8ddfbe173
+Size: 10612
+SHA256sum: 839628961ab8853b6edaf1bf1005bdee0c208d42137e2825fa7f193ef3b373fa
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-momo
@@ -693,18 +693,18 @@ SHA256sum: 054845cd19244b9a4045e1abe5f6cfec3445b719f22fa6eb884a1b3be44b9a18
 Description:  Provides Luci for vector
 
 Package: luci-i18n-log-ru
-Version: 25.280.74606~8669543
+Version: 25.358.81045~6922686
 Depends: libc, luci-app-log-viewer
 Source: feeds/base/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1759869806
+SourceDateEpoch: 1766615445
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-log-ru_25.280.74606~8669543_all.ipk
-Size: 2095
-SHA256sum: 60bca8f0bc6d85ae895889fbc856b8c154f5c357a71ea1d73eab0f9d0b0522e5
+Filename: luci-i18n-log-ru_25.358.81045~6922686_all.ipk
+Size: 2104
+SHA256sum: e32fa85f4b3137019b9b349665ca506ae39be83c3141401c30c022ecd0ec6343
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
@@ -860,8 +860,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 34928640
 Filename: nikki_2025.12.21-r1_x86_64.ipk
-Size: 12686604
-SHA256sum: d7e4c588a8dd14325ab0c5aef185ea8e889f19aafb35a16a4e570e99ed06c47d
+Size: 12686569
+SHA256sum: 7fb65e3c782491e77a9f48c0d8bc8a3d2ec6816da5735bfabf3e7130ca72ef16
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1277,7 +1277,7 @@ SHA256sum: b31f62d2c01940a390e00bade29aac970a60682980254267f7d1571a081f0740
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.12.24-r1
+Version: 2025.12.25-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1289,13 +1289,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 348160
-Filename: v2ray-geoip_2025.12.24-r1_all.ipk
-Size: 62652
-SHA256sum: 3a5943c0efd5935d880685db0c077c19c04d025743895c931f7056e2540e28a6
+Filename: v2ray-geoip_2025.12.25-r1_all.ipk
+Size: 62790
+SHA256sum: 81d4cf459e8e9e6770bee0994b7eb8f6ebd0a1739ebfb739d7ab7fe1fc9e2a77
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.12.24-r1
+Version: 2025.12.25-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1307,9 +1307,9 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 9338880
-Filename: v2ray-geosite_2025.12.24-r1_all.ipk
-Size: 3019476
-SHA256sum: 50abb012a66ff99923b542d32421a9574c6c44df9bffecd6850b799d7bd5d7e4
+Filename: v2ray-geosite_2025.12.25-r1_all.ipk
+Size: 3024437
+SHA256sum: 86d39650bf775ac79869ca232ce3c23520b990b43a7f7d1b0b00e51cbe9cafb6
 Description:  Geosite List for V2Ray
 
 Package: vector
