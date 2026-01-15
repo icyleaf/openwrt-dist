@@ -773,8 +773,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 14247340
 Filename: nikki_2025.12.21-1_x86_64.ipk
-Size: 14199709
-SHA256sum: 43b2ec23f5d4782e979df16d7c80ed5b873dc95dc1a6e0e536535f425eae40f8
+Size: 14199718
+SHA256sum: f30a1a5d2e8591354dcac324a9fe9bef094e6a4b8859ed814f0769cbda261c28
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
