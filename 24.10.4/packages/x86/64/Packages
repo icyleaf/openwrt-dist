@@ -663,8 +663,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 34928640
 Filename: nikki_2025.12.21-r1_x86_64.ipk
-Size: 12683314
-SHA256sum: c689d74152b6b76caeef9c44ae7dc8f149314c472e38d0ae715933d29e5c4b16
+Size: 12683391
+SHA256sum: 0e889432bc1f142c34863c421ab334b01ee41e646d5da3c7bdf04443e95db380
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -999,8 +999,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 9390080
 Filename: v2ray-geosite_2026.01.15-r1_all.ipk
-Size: 3040450
-SHA256sum: 8ab739a3dc92611fac6b554e6e8348550ed54f450058b0b2434101d455ca29fe
+Size: 3042958
+SHA256sum: 933225842a498fbe5f66ee406c067c0ff2c725bbfec95ae3e671f1c7421d5822
 Description:  Geosite List for V2Ray
 
 Package: vector
