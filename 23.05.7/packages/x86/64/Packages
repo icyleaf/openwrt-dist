@@ -601,10 +601,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/nikki
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 14342319
+Installed-Size: 14342320
 Filename: nikki_2026.01.16-1_x86_64.ipk
-Size: 14295626
-SHA256sum: 885a18cf766db37bea8f7ec64f26949c878f0c58de3e5df75d49e65e10a7e283
+Size: 14295437
+SHA256sum: 31ec777f45ed1cc8657c09a09801197d9c55d71175f1987aff9e779325a5ac56
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -903,27 +903,27 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.01.21-1
+Version: 2026.01.22-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 29747
-Filename: v2ray-geoip_2026.01.21-1_all.ipk
-Size: 30349
-SHA256sum: e25a20ee76e051c0d514972677cbfeeb356d55b6759c1f3cf5e08c60323ee216
+Installed-Size: 29700
+Filename: v2ray-geoip_2026.01.22-1_all.ipk
+Size: 30298
+SHA256sum: 820fe2d1230f0934f69d5601778edd512f3c094332a6a1a63066f9a2c7d001e3
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.01.21-1
+Version: 2026.01.22-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3154387
-Filename: v2ray-geosite_2026.01.21-1_all.ipk
-Size: 3154729
-SHA256sum: c1e9ccc0bad7df25cd5e481caab599bf130516fde4abb0e6e5dc507caf772bc8
+Installed-Size: 3155430
+Filename: v2ray-geosite_2026.01.22-1_all.ipk
+Size: 3155737
+SHA256sum: 3eeeb939110f42ba289d59d0314f6f6fa00e27a45e8e1d0664235d7c644c783b
 Description:  Geosite List for V2Ray
 
 Package: vector
