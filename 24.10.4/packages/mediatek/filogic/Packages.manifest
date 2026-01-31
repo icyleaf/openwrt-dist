@@ -580,14 +580,14 @@ Depends: libc, luci-base, momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1767170391
+SourceDateEpoch: 1769848217
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-momo_1.1.0-r1_all.ipk
-Size: 6925
-SHA256sum: a8a4e3b2ea9cbce0284ca3fd9f31a85ecabfa1a127c7e09364ada62b93f1d9f3
+Size: 6932
+SHA256sum: bf8507ea2d91da65c44d78b60cc1ce9c4b1661d21c776703dc132027ef6a86d1
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -686,17 +686,17 @@ SHA256sum: e32fa85f4b3137019b9b349665ca506ae39be83c3141401c30c022ecd0ec6343
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: 25.365.31191~5318bfe
+Version: 26.031.30617~0999ace
 Depends: libc, luci-app-momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1767170391
+SourceDateEpoch: 1769848217
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-momo-zh-cn_25.365.31191~5318bfe_all.ipk
+Filename: luci-i18n-momo-zh-cn_26.031.30617~0999ace_all.ipk
 Size: 2874
-SHA256sum: c167da2cb49059d72eb592f6387245b4595de7d4aa17984994451d804208aba3
+SHA256sum: 41f18fa747a6a0256bcdfa180024376d7b39ff59626992ac11fec287d6d70c09
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -828,14 +828,14 @@ Source: feeds/base/momo/momo
 SourceName: momo
 License: GPL-3.0+
 Section: net
-SourceDateEpoch: 1767170391
+SourceDateEpoch: 1769848217
 URL: https://sing-box.sagernet.org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 542720
 Filename: momo_2025.12.31-r1_aarch64_cortex-a53.ipk
-Size: 82610
-SHA256sum: 039eaf4b673679575febbe90a7ec4d567f7800177fd7d9244d7a98b3e61028c7
+Size: 82574
+SHA256sum: f7b28b0990137cb0eb6a2b6faad31b689d73b38247212fb6ba23b8b5bec1b503
 Description:  The universal proxy platform.
 
 Package: nikki
@@ -853,8 +853,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 32890880
 Filename: nikki_2026.01.16-r1_aarch64_cortex-a53.ipk
-Size: 11674850
-SHA256sum: 0aa0f1d7866b99d8df1bb75c92d3dc731561e00177c961aa01056ea893c72524
+Size: 11674790
+SHA256sum: d40cc775a476c80a4ada68ebdc8481631e4d4abf99668e1dfd4d4f081f9776f2
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1270,7 +1270,7 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.01.30-r1
+Version: 2026.01.31-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1282,13 +1282,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 122880
-Filename: v2ray-geoip_2026.01.30-r1_all.ipk
-Size: 30338
-SHA256sum: 550b02070aa35cbbce50c4ddcf7b73faa45858033eedb9442ebef0c76e0d54ff
+Filename: v2ray-geoip_2026.01.31-r1_all.ipk
+Size: 30339
+SHA256sum: b686e21b2f6416de49fa517a119c515a69346bee7cbbc21d1a77ea0ad8b1472f
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.01.30-r1
+Version: 2026.01.31-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1299,10 +1299,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 9861120
-Filename: v2ray-geosite_2026.01.30-r1_all.ipk
-Size: 3214722
-SHA256sum: 534fff7aa7fc7963181e5628c157e7e8cbb9513ca0e7b1f577831f4ea4b62a7e
+Installed-Size: 9871360
+Filename: v2ray-geosite_2026.01.31-r1_all.ipk
+Size: 3220188
+SHA256sum: 8eb481e530fee4a9e69c40eba332d647f147158e33fbe790cd4d61b282a8ee33
 Description:  Geosite List for V2Ray
 
 Package: vector
