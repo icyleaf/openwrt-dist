@@ -402,10 +402,10 @@ Version: 1.1.0-1
 Depends: libc, luci-base, momo
 Section: luci
 Architecture: all
-Installed-Size: 6092
+Installed-Size: 6093
 Filename: luci-app-momo_1.1.0-1_all.ipk
-Size: 6899
-SHA256sum: 4eadddeefd522f8027bc4f2d04a1f08a1f5570edfd9138d2db9fb0102f8ad6d9
+Size: 6904
+SHA256sum: 19f3ac14369da86c86d64c48630272dd0f82ca7f072113a77b1dc89dbe8ecece
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -477,14 +477,14 @@ SHA256sum: cf33f2c7d91a23c71e6f71d4a8bbaca33b3e9b34b140949171fc37cc1e8883f1
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: git-25.365.31191-5318bfe
+Version: git-26.031.30617-0999ace
 Depends: libc, luci-app-momo
 Section: luci
 Architecture: all
-Installed-Size: 2114
-Filename: luci-i18n-momo-zh-cn_git-25.365.31191-5318bfe_all.ipk
-Size: 2878
-SHA256sum: 0d9ee5f2b47c19a563b771f4ecd91df3d58e04309a89b3b3418bdf01f7751fa9
+Installed-Size: 2115
+Filename: luci-i18n-momo-zh-cn_git-26.031.30617-0999ace_all.ipk
+Size: 2881
+SHA256sum: 59510e7b456c8450f8d2994424b99bbe814fdff1971b8542fdb57b5df80f1c77
 Description:  Translation for luci-app-momo - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -587,10 +587,10 @@ Depends: libc, ca-bundle, curl, firewall4, ip-full, kmod-inet-diag, kmod-nft-soc
 License: GPL-3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 84338
+Installed-Size: 84349
 Filename: momo_2025.12.31-1_x86_64.ipk
-Size: 82577
-SHA256sum: dbf58dcab055f7ecd1844c0f4a38347cd1cd4ec8a2bb0078cd5f4451f5ec4cf1
+Size: 82547
+SHA256sum: 8d3cf1ac945c5d6bd0081ecd59c4fe97c71781850c1d28756ac5290579a11a70
 Description:  The universal proxy platform.
 
 Package: nikki
@@ -603,8 +603,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 14342319
 Filename: nikki_2026.01.16-1_x86_64.ipk
-Size: 14295662
-SHA256sum: ec04813c66919a4f64b2fb1efc8258b78c62180460e8fb65025aa651f60cad98
+Size: 14295628
+SHA256sum: c3cff167c2e44e44e46a4ce7f989735ea7947081658e1efc48ec9272efd52829
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -903,27 +903,27 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.01.30-1
+Version: 2026.01.31-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 29703
-Filename: v2ray-geoip_2026.01.30-1_all.ipk
-Size: 30314
-SHA256sum: c1d7b6ffa30dd391ddecdbd4658e97b56dd5f508413e25b871d9322757f7d03b
+Filename: v2ray-geoip_2026.01.31-1_all.ipk
+Size: 30313
+SHA256sum: 483954cab723d0f36a78c7b3b4a4fa87519e985677bb309ef8b714569bb29bd9
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.01.30-1
+Version: 2026.01.31-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3216101
-Filename: v2ray-geosite_2026.01.30-1_all.ipk
-Size: 3216500
-SHA256sum: cae89b51cd05941d2d9266435a9d225bd822015ac1c0165028e4675a977b163a
+Installed-Size: 3214539
+Filename: v2ray-geosite_2026.01.31-1_all.ipk
+Size: 3214699
+SHA256sum: ee765973fb293a6e2bf35190b6ab1b2f0d4bdf3f2a8300f4f4b8f7c61f1085d9
 Description:  Geosite List for V2Ray
 
 Package: vector
