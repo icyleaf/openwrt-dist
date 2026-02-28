@@ -194,16 +194,16 @@ SHA256sum: a85dedaadc00ee9b32f9434589db5e145faaa07646946ddb1164bfa7f862243e
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.18-1
+Version: 3.0.19-1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 6263
-Filename: libopenssl-conf_3.0.18-1_x86_64.ipk
-Size: 7448
-SHA256sum: 3645c1e4d5b7e77805b3c6cf814d378c7dbdb7e16ee345dc7c93928fc0206222
+Installed-Size: 6267
+Filename: libopenssl-conf_3.0.19-1_x86_64.ipk
+Size: 7458
+SHA256sum: cbaa016276959270754ce45bba7da17f561110091a9292a6ecd2656add4704f7
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -211,23 +211,23 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-legacy
-Version: 3.0.18-1
+Version: 3.0.19-1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 37629
-Filename: libopenssl-legacy_3.0.18-1_x86_64.ipk
-Size: 38588
-SHA256sum: bcc0e2dc5f91f1a7f6bde6511c02eb7a0f03dcb44d446de9015af638dd820f8d
+Installed-Size: 37626
+Filename: libopenssl-legacy_3.0.19-1_x86_64.ipk
+Size: 38579
+SHA256sum: b6b5923221f0d5b332204209daab02d0d8c287cf2ad8b97912130e5f0f1dd628
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.18-1
+Version: 3.0.19-1
 Depends: libc, kmod-crypto-user, kmod-cryptodev
 Provides: libopenssl
 License: Apache-2.0
@@ -235,10 +235,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 2120926
-Filename: libopenssl3_3.0.18-1_x86_64.ipk
-Size: 2111637
-SHA256sum: b4e845e32d36ec28af8a9e9f373198a16d1631dbff1eff3757b977688848e5a5
+Installed-Size: 2121385
+Filename: libopenssl3_3.0.19-1_x86_64.ipk
+Size: 2111881
+SHA256sum: 812a3830313163cc40e4a1965eaf38bf6d67ca65f8d531cdfd1a26076cecf7ee
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -424,10 +424,10 @@ Version: 1.25.1-1
 Depends: libc, luci-base, nikki
 Section: luci
 Architecture: all
-Installed-Size: 9334
+Installed-Size: 9470
 Filename: luci-app-nikki_1.25.1-1_all.ipk
-Size: 10179
-SHA256sum: dbf8b3086f0e4013d284b78cda726d825b8e4004ce379660a4a3bc93fe4cc90d
+Size: 10317
+SHA256sum: 9ccd277eb607c476a8675a7894389c0b4d8a54b3190a0f69f0b3a7e709ae3527
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -499,36 +499,36 @@ SHA256sum: 2ecfe18b3d064353f5f95c8d5869ccaadcbad8dc69ba658fb9cd7593d0733108
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-ru
-Version: git-26.042.34287-a76852b
+Version: git-26.058.31720-8713fd4
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
-Installed-Size: 4860
-Filename: luci-i18n-nikki-ru_git-26.042.34287-a76852b_all.ipk
-Size: 5595
-SHA256sum: 2412f1a8361c78d648bbeae655dd5ccde2fe5ae4088bf99c5998ec8e2ad3d6b9
+Installed-Size: 4858
+Filename: luci-i18n-nikki-ru_git-26.058.31720-8713fd4_all.ipk
+Size: 5598
+SHA256sum: 60f5314b4a28ef4896ed7a8d8caebe2bbb67301b3497ef8942498e2fcf80d596
 Description:  Translation for luci-app-nikki - Русский (Russian)
 
 Package: luci-i18n-nikki-zh-cn
-Version: git-26.042.34287-a76852b
+Version: git-26.058.31720-8713fd4
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
-Installed-Size: 4370
-Filename: luci-i18n-nikki-zh-cn_git-26.042.34287-a76852b_all.ipk
-Size: 5104
-SHA256sum: 4d53ad6136de92eaebf88168e324b9a3e3ab0ef68301e5b19f1f7ee6535b9774
+Installed-Size: 4364
+Filename: luci-i18n-nikki-zh-cn_git-26.058.31720-8713fd4_all.ipk
+Size: 5095
+SHA256sum: fbde3c88c0805770aa44f94bfcd1e2e48319021fdfa367e1c1de7ef207c58f49
 Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-tw
-Version: git-26.042.34287-a76852b
+Version: git-26.058.31720-8713fd4
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
-Installed-Size: 4418
-Filename: luci-i18n-nikki-zh-tw_git-26.042.34287-a76852b_all.ipk
-Size: 5156
-SHA256sum: 071826b0e24aa3aef212b3fca94e7e3a45b988be4aadbce110a94c72277f037f
+Installed-Size: 4416
+Filename: luci-i18n-nikki-zh-tw_git-26.058.31720-8713fd4_all.ipk
+Size: 5151
+SHA256sum: a9a73e7ddd4c7d188a9b69f0af58d0d7f339d951dee00320e0746ddc37d74c4e
 Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -601,23 +601,23 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/nikki
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 14388583
+Installed-Size: 14391409
 Filename: nikki_2026.02.08-1_x86_64.ipk
-Size: 14341123
-SHA256sum: d90417a8ef2fc0edbf2ad6bf9a609c92e71e3c6e21d8452868e4afa14f2eb008
+Size: 14344368
+SHA256sum: 674e95cbfe01df2a1e20ec771e7ed198e0f815eee3bf22760d00153f36d3cc1f
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
-Version: 3.0.18-1
+Version: 3.0.19-1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 342241
-Filename: openssl-util_3.0.18-1_x86_64.ipk
-Size: 341026
-SHA256sum: ad57141d35abcf0aa6375430ca460c3d55655baddb4e85c44eee125cf6c74d79
+Installed-Size: 342254
+Filename: openssl-util_3.0.19-1_x86_64.ipk
+Size: 340939
+SHA256sum: 79ca687805b7fbb65e2f0849b28429544b5e05968d53ee426437859caa6af9c8
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -903,27 +903,27 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.02.17-1
+Version: 2026.02.28-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 29733
-Filename: v2ray-geoip_2026.02.17-1_all.ipk
-Size: 30348
-SHA256sum: 0c3c28fd683f49897e297769dee241fcd4eb648f9fe33b1e9e547f0f9c852284
+Installed-Size: 29887
+Filename: v2ray-geoip_2026.02.28-1_all.ipk
+Size: 30508
+SHA256sum: e8388204bf49de5d66828d648045497e16d4c3ce054c1c1c7dacdae4ad9aa142
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.02.17-1
+Version: 2026.02.28-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3252512
-Filename: v2ray-geosite_2026.02.17-1_all.ipk
-Size: 3253078
-SHA256sum: 0e4ec5bf15805dd85ab9c354241e2b0e9667e9a252566f5b90380505d98a945b
+Installed-Size: 3356990
+Filename: v2ray-geosite_2026.02.28-1_all.ipk
+Size: 3357223
+SHA256sum: 9fe0698d6243e04df7ae8b0f1b0c23bc3c88c6cd55c60fc487d188b12b5fceed
 Description:  Geosite List for V2Ray
 
 Package: vector
