@@ -424,10 +424,10 @@ Version: 1.25.1-1
 Depends: libc, luci-base, nikki
 Section: luci
 Architecture: all
-Installed-Size: 9470
+Installed-Size: 9474
 Filename: luci-app-nikki_1.25.1-1_all.ipk
-Size: 10317
-SHA256sum: 9ccd277eb607c476a8675a7894389c0b4d8a54b3190a0f69f0b3a7e709ae3527
+Size: 10321
+SHA256sum: 62f9e31ea68ae122ae6d2e119ffc02da6c694034b8d75a281d4bbf9b0be73420
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -499,36 +499,36 @@ SHA256sum: 2ecfe18b3d064353f5f95c8d5869ccaadcbad8dc69ba658fb9cd7593d0733108
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-ru
-Version: git-26.058.31720-8713fd4
+Version: git-26.059.22913-8ad0b2c
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
-Installed-Size: 4858
-Filename: luci-i18n-nikki-ru_git-26.058.31720-8713fd4_all.ipk
-Size: 5598
-SHA256sum: 60f5314b4a28ef4896ed7a8d8caebe2bbb67301b3497ef8942498e2fcf80d596
+Installed-Size: 4861
+Filename: luci-i18n-nikki-ru_git-26.059.22913-8ad0b2c_all.ipk
+Size: 5605
+SHA256sum: acf0480afd20321083018a2d76055b724175e590b973045b880736f8b217efee
 Description:  Translation for luci-app-nikki - Русский (Russian)
 
 Package: luci-i18n-nikki-zh-cn
-Version: git-26.058.31720-8713fd4
+Version: git-26.059.22913-8ad0b2c
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
-Installed-Size: 4364
-Filename: luci-i18n-nikki-zh-cn_git-26.058.31720-8713fd4_all.ipk
+Installed-Size: 4368
+Filename: luci-i18n-nikki-zh-cn_git-26.059.22913-8ad0b2c_all.ipk
 Size: 5095
-SHA256sum: fbde3c88c0805770aa44f94bfcd1e2e48319021fdfa367e1c1de7ef207c58f49
+SHA256sum: 0b5f68d34ea9138d2d2c7cca30c582a55901267672a9a34e45a7a09c26d3350f
 Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-tw
-Version: git-26.058.31720-8713fd4
+Version: git-26.059.22913-8ad0b2c
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
-Installed-Size: 4416
-Filename: luci-i18n-nikki-zh-tw_git-26.058.31720-8713fd4_all.ipk
+Installed-Size: 4415
+Filename: luci-i18n-nikki-zh-tw_git-26.059.22913-8ad0b2c_all.ipk
 Size: 5151
-SHA256sum: a9a73e7ddd4c7d188a9b69f0af58d0d7f339d951dee00320e0746ddc37d74c4e
+SHA256sum: 5218b8aaa3fe0d059afdef13a2bd959d7cefe58f3a46cba889219fc2d557aa87
 Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -601,10 +601,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/nikki
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 14391409
+Installed-Size: 14391454
 Filename: nikki_2026.02.08-1_x86_64.ipk
-Size: 14344368
-SHA256sum: 674e95cbfe01df2a1e20ec771e7ed198e0f815eee3bf22760d00153f36d3cc1f
+Size: 14344431
+SHA256sum: e6018c5e27c48f0263f29f2e655186e0866c2e3c660b55aaf662836b33163b65
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
