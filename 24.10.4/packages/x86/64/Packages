@@ -486,15 +486,15 @@ SHA256sum: b7a2b531ec3fe4fb052510542044c306aa5751cf49fcf42e5e1f24e2ba4b21e4
 Description:  LuCI Support for mosdns
 
 Package: luci-app-nikki
-Version: 1.25.1-r1
+Version: 1.25.2-r1
 Depends: libc, luci-base, nikki
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-nikki_1.25.1-r1_all.ipk
+Filename: luci-app-nikki_1.25.2-r1_all.ipk
 Size: 10348
-SHA256sum: f94ad5aadaa0ede6f11826d7e0dc376279d54cb5635f5ecea7a7072c58193e7a
+SHA256sum: 79cdd9fc260268496e83ae8e38d66f50ce6cdf78b54d876c44b8c313f07984dc
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -568,36 +568,36 @@ SHA256sum: fefb6e319721c6686270fcf9952218583140c5df92ac65e03c19ec213845b5ee
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-ru
-Version: 26.059.22913~8ad0b2c
+Version: 26.061.12721~980cc7d
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-ru_26.059.22913~8ad0b2c_all.ipk
-Size: 5596
-SHA256sum: 86d2689e1a669e7ebad197119cfe89dfb5b2d875520e3379dd40dc53723dad70
+Filename: luci-i18n-nikki-ru_26.061.12721~980cc7d_all.ipk
+Size: 5593
+SHA256sum: 3cd89f66bd943d3c41a2f04ee2e3fca62450f9fd983cd5a07563c2108d6d605f
 Description:  Translation for luci-app-nikki - Русский (Russian)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.059.22913~8ad0b2c
+Version: 26.061.12721~980cc7d
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.059.22913~8ad0b2c_all.ipk
-Size: 5096
-SHA256sum: ffee08de680038716943c8676508ca067077f1dee785c70fc5e865ace7ecb53d
+Filename: luci-i18n-nikki-zh-cn_26.061.12721~980cc7d_all.ipk
+Size: 5102
+SHA256sum: 43fd9dbac1f74b80745dcfc9b5925b4d093111b89f077bddad1bf882969580f2
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-tw
-Version: 26.059.22913~8ad0b2c
+Version: 26.061.12721~980cc7d
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-tw_26.059.22913~8ad0b2c_all.ipk
-Size: 5152
-SHA256sum: 1f0ecc21c8c9beecfa85d686d2f2b52bd98b4f537813ce1514152ad8ce4f1806
+Filename: luci-i18n-nikki-zh-tw_26.061.12721~980cc7d_all.ipk
+Size: 5155
+SHA256sum: c4de39f17b870024030c121f619fbb41fe54f099f3453dd3207d6b07b4e10247
 Description:  Translation for luci-app-nikki - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -675,8 +675,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 35266560
 Filename: nikki_2026.02.08-r1_x86_64.ipk
-Size: 12814622
-SHA256sum: 09b46f68fcbadbae14b1da08cec37771f0982b7f64394226e7425d891451f83f
+Size: 12814597
+SHA256sum: 7bb22aa3e9461daa7e42845714781f1a3f30f11ae8f0cedb3f964765f1411339
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -990,29 +990,29 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.03.01-r1
+Version: 2026.03.02-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 122880
-Filename: v2ray-geoip_2026.03.01-r1_all.ipk
+Filename: v2ray-geoip_2026.03.02-r1_all.ipk
 Size: 30532
-SHA256sum: 83297cc8328132e46d715df6e14fcabd83f05372059f109e23d0005fb4ebeeea
+SHA256sum: 1003553790099b19de15ab7524b16584483cf9a7585d7ebe43cda5da609b38e4
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.03.01-r1
+Version: 2026.03.02-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10260480
-Filename: v2ray-geosite_2026.03.01-r1_all.ipk
-Size: 3359004
-SHA256sum: ed92671f0785850bd5aa7d54eb3acbf8585437fc438ebc2233e546d39f093b7c
+Installed-Size: 10352640
+Filename: v2ray-geosite_2026.03.02-r1_all.ipk
+Size: 3388679
+SHA256sum: 4fbcc920c748fe5f6d06b7b0844c583265333c9526dc5ae630dcf75baeaade30
 Description:  Geosite List for V2Ray
 
 Package: vector
