@@ -786,10 +786,10 @@ Section: net
 SourceDateEpoch: 1772422321
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 14391458
+Installed-Size: 14391454
 Filename: nikki_2026.02.08-1_x86_64.ipk
-Size: 14344421
-SHA256sum: bb0281f3af60319067538a646e419f4746583e9cb41467150e4cd03f137e50bc
+Size: 14344372
+SHA256sum: 34e316a62763aa48136b75924067f367c5c1b9259127191208785276f82f4464
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1186,7 +1186,7 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.03.02-1
+Version: 2026.03.03-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geoip
@@ -1197,13 +1197,13 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 29887
-Filename: v2ray-geoip_2026.03.02-1_all.ipk
+Filename: v2ray-geoip_2026.03.03-1_all.ipk
 Size: 30510
-SHA256sum: 5283c74c861bcea7f0a1df7946a38615fed5abca78edab5c47367c69b72f0872
+SHA256sum: 0da8964849c5b2b8dd6f43462c262d581c13f60c71d0a6a07a7154b2c97b8c84
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.03.02-1
+Version: 2026.03.03-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geosite
@@ -1213,10 +1213,10 @@ Section: net
 SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 3358463
-Filename: v2ray-geosite_2026.03.02-1_all.ipk
-Size: 3358977
-SHA256sum: 5b481087a8463d0f310c4254881e991897f15c137af537007fedaa1c43e7307a
+Installed-Size: 3388121
+Filename: v2ray-geosite_2026.03.03-1_all.ipk
+Size: 3388651
+SHA256sum: 44c164e10e5352fd990a27b45e99fdb60012c96c930593121bacd2a705f9bce8
 Description:  Geosite List for V2Ray
 
 Package: vector
