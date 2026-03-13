@@ -645,18 +645,18 @@ SHA256sum: 5b39ed1a2012a272a31386cb68e3c5785dd48dda8032a1c12e51ba33f07fc26d
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
-Version: 0.47.055
+Version: 0.47.071
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Source: feeds/base/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1770417730
+SourceDateEpoch: 1773422565
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 21811200
-Filename: luci-app-openclash_0.47.055_all.ipk
-Size: 7268807
-SHA256sum: ba71ce79f2695eb6388ef43134b4191c4a85602c45791dd67638079ee4e027a8
+Installed-Size: 21155840
+Filename: luci-app-openclash_0.47.071_all.ipk
+Size: 7212129
+SHA256sum: dc4c7c833756f457155c4f3e02ee486fa319d83dc64e9e7c24d6928b2daaebf2
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -875,8 +875,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 35665920
 Filename: nikki_2026.03.10-r1_x86_64.ipk
-Size: 12963643
-SHA256sum: 3619c3ceec5dbc5455045fdee85acc5cc13763ad2d4b1a71fed1f8381d7e887f
+Size: 12963780
+SHA256sum: 61a57125bbfc7ae2b8e88e83ad4183385593915a0c76ec57d2952ed5cb14c178
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1292,7 +1292,7 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.03.12-r1
+Version: 2026.03.13-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1304,13 +1304,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 122880
-Filename: v2ray-geoip_2026.03.12-r1_all.ipk
-Size: 30249
-SHA256sum: b434fdf0120289fd1b68e0a9b50803fb52657d9f502a614c71b97dc82f4ed12f
+Filename: v2ray-geoip_2026.03.13-r1_all.ipk
+Size: 30248
+SHA256sum: d84c761e87a09c466b0e6dbdf90779928cb5e4e04ab8b2f5299559d101d3436c
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.03.12-r1
+Version: 2026.03.13-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1321,10 +1321,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 10465280
-Filename: v2ray-geosite_2026.03.12-r1_all.ipk
-Size: 3434389
-SHA256sum: 103f159582b6ef33d39ad9a554ab66d12cfd3961aa10215918528050b50aef3e
+Installed-Size: 10475520
+Filename: v2ray-geosite_2026.03.13-r1_all.ipk
+Size: 3436382
+SHA256sum: 6c2b441f5e826d24df577ae6425c5f45a7434af04a7b08d59a7972c93bbf8a8c
 Description:  Geosite List for V2Ray
 
 Package: vector
