@@ -518,18 +518,18 @@ SHA256sum: 19dac1b48293703adce75e75789e54c59617f1af3ec84d8b65a449c470712b38
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-momo
-Version: 1.1.0-1
+Version: 1.1.1-1
 Depends: libc, luci-base, momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1769848217
+SourceDateEpoch: 1774786532
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6093
-Filename: luci-app-momo_1.1.0-1_all.ipk
-Size: 6904
-SHA256sum: 19f3ac14369da86c86d64c48630272dd0f82ca7f072113a77b1dc89dbe8ecece
+Installed-Size: 6083
+Filename: luci-app-momo_1.1.1-1_all.ipk
+Size: 6889
+SHA256sum: adf3063e9a0284bda54f45677cb014f973d1aa71cf5f012b83cff2d14cc77846
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -553,13 +553,13 @@ Depends: libc, luci-base, nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1773987146
+SourceDateEpoch: 1774786743
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 9476
 Filename: luci-app-nikki_1.25.3-1_all.ipk
-Size: 10327
-SHA256sum: f7a382d4d2e98b9cace70720e52cf50ba6d2dff94bf4acdbfafd3b5fb8d000fd
+Size: 10330
+SHA256sum: 06d3b00927ee1037522b0412a220c453e4a28cee634413eb5770799940e8c65c
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -624,17 +624,17 @@ SHA256sum: cf33f2c7d91a23c71e6f71d4a8bbaca33b3e9b34b140949171fc37cc1e8883f1
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: git-26.031.30617-0999ace
+Version: git-26.088.44132-5157168
 Depends: libc, luci-app-momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-i18n-momo-zh-cn
 Section: luci
-SourceDateEpoch: 1769848217
+SourceDateEpoch: 1774786532
 Architecture: all
 Installed-Size: 2115
-Filename: luci-i18n-momo-zh-cn_git-26.031.30617-0999ace_all.ipk
+Filename: luci-i18n-momo-zh-cn_git-26.088.44132-5157168_all.ipk
 Size: 2881
-SHA256sum: 59510e7b456c8450f8d2994424b99bbe814fdff1971b8542fdb57b5df80f1c77
+SHA256sum: 6a402d1750ad02d39945c996af2fa42c49f358d02f322ec25816f44ad3fd30d6
 Description:  Translation for luci-app-momo - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -653,45 +653,45 @@ SHA256sum: 2ecfe18b3d064353f5f95c8d5869ccaadcbad8dc69ba658fb9cd7593d0733108
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-ru
-Version: git-26.079.22346-f69917c
+Version: git-26.088.44343-a20a48b
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-i18n-nikki-ru
 Section: luci
-SourceDateEpoch: 1773987146
+SourceDateEpoch: 1774786743
 Architecture: all
 Installed-Size: 4859
-Filename: luci-i18n-nikki-ru_git-26.079.22346-f69917c_all.ipk
-Size: 5603
-SHA256sum: 06734d16ca03d8c72eebce9f61c94f7396e629a99a211e1a518c7d7cd512aa68
+Filename: luci-i18n-nikki-ru_git-26.088.44343-a20a48b_all.ipk
+Size: 5595
+SHA256sum: f5d7dc36a220600774cfe932ef86e9254c5055318240cf7ec354e627d1db9b93
 Description:  Translation for luci-app-nikki - Русский (Russian)
 
 Package: luci-i18n-nikki-zh-cn
-Version: git-26.079.22346-f69917c
+Version: git-26.088.44343-a20a48b
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-i18n-nikki-zh-cn
 Section: luci
-SourceDateEpoch: 1773987146
+SourceDateEpoch: 1774786743
 Architecture: all
-Installed-Size: 4367
-Filename: luci-i18n-nikki-zh-cn_git-26.079.22346-f69917c_all.ipk
-Size: 5101
-SHA256sum: 4751e056dd3e5869dd89e6fd3720b644007461fc053045fa15d9354ecd274ef0
+Installed-Size: 4370
+Filename: luci-i18n-nikki-zh-cn_git-26.088.44343-a20a48b_all.ipk
+Size: 5100
+SHA256sum: 0365c7c88ea38cc2f10f6fb8b610bff6e2f9b773bcfc81c98188b4410cc2b73c
 Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-nikki-zh-tw
-Version: git-26.079.22346-f69917c
+Version: git-26.088.44343-a20a48b
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-i18n-nikki-zh-tw
 Section: luci
-SourceDateEpoch: 1773987146
+SourceDateEpoch: 1774786743
 Architecture: all
-Installed-Size: 4417
-Filename: luci-i18n-nikki-zh-tw_git-26.079.22346-f69917c_all.ipk
-Size: 5155
-SHA256sum: 75f15814e04a5a936ab1528829a989ab3c745077d4371cd82beffe759eca3564
+Installed-Size: 4418
+Filename: luci-i18n-nikki-zh-tw_git-26.088.44343-a20a48b_all.ipk
+Size: 5157
+SHA256sum: 43a060c410f3779f1bb69ad60cbe6a1fc3b62035e34cb5fc0060de008b00810a
 Description:  Translation for luci-app-nikki - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -759,23 +759,23 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  CSR generation (gen_key, cert_req)
 
 Package: momo
-Version: 2025.12.31-1
-Depends: libc, ca-bundle, curl, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, sing-box
+Version: 2026.03.29-1
+Depends: libc, ca-bundle, curl, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, sing-box
 Source: feeds/base/momo/momo
 SourceName: momo
 License: GPL-3.0+
 Section: net
-SourceDateEpoch: 1769848217
+SourceDateEpoch: 1774786532
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 84349
-Filename: momo_2025.12.31-1_x86_64.ipk
-Size: 82547
-SHA256sum: 8d3cf1ac945c5d6bd0081ecd59c4fe97c71781850c1d28756ac5290579a11a70
+Installed-Size: 46581
+Filename: momo_2026.03.29-1_x86_64.ipk
+Size: 47295
+SHA256sum: a4b7c36bf38be747c190aff572b5b7d7732e771e828b3e4381c9938308b30fa1
 Description:  The universal proxy platform.
 
 Package: nikki
-Version: 2026.03.10-2
+Version: 2026.03.10-3
 Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy
 Provides: mihomo
 Alternatives: 300:/usr/bin/mihomo:/usr/libexec/nikki
@@ -783,13 +783,13 @@ Source: feeds/base/nikki/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1773987146
+SourceDateEpoch: 1774786743
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 14544529
-Filename: nikki_2026.03.10-2_x86_64.ipk
-Size: 14496382
-SHA256sum: 9756ecce1e0a4d836d3e7e9be96fad1b86bf397a6c0f1b716429a1d688bfe185
+Installed-Size: 14511261
+Filename: nikki_2026.03.10-3_x86_64.ipk
+Size: 14465920
+SHA256sum: 0a30a63e3892103f0a7a852604960757429661c55c82510e85075c8a6327ed51
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1186,7 +1186,7 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.03.28-1
+Version: 2026.03.29-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geoip
@@ -1197,13 +1197,13 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 29761
-Filename: v2ray-geoip_2026.03.28-1_all.ipk
-Size: 30370
-SHA256sum: d7d0339529b9265e567c08295feaedd942e2e2ea991bc6e7122adc90610558f8
+Filename: v2ray-geoip_2026.03.29-1_all.ipk
+Size: 30371
+SHA256sum: 4ad351e9f0fb0d1cd56fba7866df5c6094956054f146443322704185f481183e
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.03.28-1
+Version: 2026.03.29-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geosite
@@ -1213,10 +1213,10 @@ Section: net
 SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 3452283
-Filename: v2ray-geosite_2026.03.28-1_all.ipk
-Size: 3452452
-SHA256sum: 570a0c35554459f44a78cab3bc72ba4756107d1147929d20776d93abcc63e468
+Installed-Size: 3456644
+Filename: v2ray-geosite_2026.03.29-1_all.ipk
+Size: 3456846
+SHA256sum: bf38c5c86f969345e83a98a7ebb6686a58aa970ab8a5182b30ff719f01fedcaf
 Description:  Geosite List for V2Ray
 
 Package: vector
