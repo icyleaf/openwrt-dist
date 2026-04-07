@@ -523,13 +523,13 @@ Depends: libc, luci-base, momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1775031438
+SourceDateEpoch: 1775530189
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6088
+Installed-Size: 6330
 Filename: luci-app-momo_1.1.1-1_all.ipk
-Size: 6891
-SHA256sum: bdf583c56f0bfa1400e934fd7da6853ec2b35b46bf354dfcef59355da300e0ee
+Size: 7191
+SHA256sum: 9944543ac675abd32d7e0c4871112afb7803df70973520ddce6ca162eb33c826
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -563,18 +563,18 @@ SHA256sum: 9af9d21af16a74d2cd9b5d3df6cb1894bc4c370ef4f48b612b4da417b139a456
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
-Version: 0.47.075
+Version: 0.47.086
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Source: feeds/base/openclash/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1773977175
+SourceDateEpoch: 1775593360
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 7230664
-Filename: luci-app-openclash_0.47.075_all.ipk
-Size: 7213561
-SHA256sum: 80061b9ebcea30a7b828f671942ac3ff40ad5c5f57e449c977e2c237bac3a078
+Installed-Size: 3894298
+Filename: luci-app-openclash_0.47.086_all.ipk
+Size: 3887165
+SHA256sum: be52ca0d0bf6c39f59f3b2c7e85f951a455a6fa0edd0ba0b1dcabe9416b44640
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -624,17 +624,17 @@ SHA256sum: cf33f2c7d91a23c71e6f71d4a8bbaca33b3e9b34b140949171fc37cc1e8883f1
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: git-26.091.29838-10dd99e
+Version: git-26.097.10189-c77747a
 Depends: libc, luci-app-momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-i18n-momo-zh-cn
 Section: luci
-SourceDateEpoch: 1775031438
+SourceDateEpoch: 1775530189
 Architecture: all
-Installed-Size: 2116
-Filename: luci-i18n-momo-zh-cn_git-26.091.29838-10dd99e_all.ipk
-Size: 2883
-SHA256sum: 04d9327f650824f01b518510e50013bee0e6b47d10e7825551dc51a6c4589adf
+Installed-Size: 2337
+Filename: luci-i18n-momo-zh-cn_git-26.097.10189-c77747a_all.ipk
+Size: 3111
+SHA256sum: 75a7106ba282bbd03fe5ce325ab96434db0245ac19438d942c750dfc7d1ee992
 Description:  Translation for luci-app-momo - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -765,13 +765,13 @@ Source: feeds/base/momo/momo
 SourceName: momo
 License: GPL-3.0+
 Section: net
-SourceDateEpoch: 1775031438
+SourceDateEpoch: 1775530189
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 46574
+Installed-Size: 47817
 Filename: momo_2026.03.29-1_x86_64.ipk
-Size: 47270
-SHA256sum: b26ce3430d3cd1aa01529c8815561a35217f26ae2e327e9af27dec8a951f55f0
+Size: 48638
+SHA256sum: f7352c1ff1ca5f46d3cc140d2bc7bacd2635651397ca0ec1cd71b6488c09da35
 Description:  The universal proxy platform.
 
 Package: nikki
@@ -786,10 +786,10 @@ Section: net
 SourceDateEpoch: 1775040508
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 14569768
+Installed-Size: 14569762
 Filename: nikki_2026.04.01-1_x86_64.ipk
-Size: 14523866
-SHA256sum: 894ff713deb38b24a1b8794c1be42c96bc87bc711986c2a986d57a9766143bca
+Size: 14524020
+SHA256sum: 79e046aab906e2f3c361650fffffb98b957ea0190ad555b7d135911feb7cdee5
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -1186,7 +1186,7 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.04.06-1
+Version: 2026.04.07-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geoip
@@ -1197,13 +1197,13 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 27964
-Filename: v2ray-geoip_2026.04.06-1_all.ipk
+Filename: v2ray-geoip_2026.04.07-1_all.ipk
 Size: 28567
-SHA256sum: 0c85e3a5217d5736bee549d8bc666b24d46b2f5623703befddd4a6a98b9715e1
+SHA256sum: de5b0be414cd1b2d51d68d9124b7e947a581ae33e511515d6028d97baa013ff9
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.04.06-1
+Version: 2026.04.07-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geosite
@@ -1213,10 +1213,10 @@ Section: net
 SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 3476105
-Filename: v2ray-geosite_2026.04.06-1_all.ipk
-Size: 3476343
-SHA256sum: 4c578a438b6265ae6d69a9575acc7a77aba631d8f4d1ee8f08524f6973ba4c5e
+Installed-Size: 3496715
+Filename: v2ray-geosite_2026.04.07-1_all.ipk
+Size: 3497056
+SHA256sum: a6528ed88a9efc57ea97a8ccf8a8c0b2f9dac919f947eec8889864072227cadf
 Description:  Geosite List for V2Ray
 
 Package: vector
