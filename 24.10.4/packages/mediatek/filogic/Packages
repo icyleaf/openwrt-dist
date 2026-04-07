@@ -452,8 +452,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-momo_1.1.1-r1_all.ipk
-Size: 6926
-SHA256sum: abb73ad55c50e504df0290d7f4ae5e63c3b1000ea556ae3ee9aa61d28b197481
+Size: 7220
+SHA256sum: f5c3cf80a4a8d0786806c43891d19a1ae9921a0b093d5bdbe691c366412f8783
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -481,14 +481,14 @@ SHA256sum: b58b951bb6631a400da127448888d43d543a02e15e6125be3aab3a76f269af5f
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
-Version: 0.47.075
+Version: 0.47.086
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 21155840
-Filename: luci-app-openclash_0.47.075_all.ipk
-Size: 7213560
-SHA256sum: 19d0cd5b309a145ec8a6d3ed6004974bf716dfbbe0bd8d437a3c135aca9d0f0d
+Installed-Size: 10803200
+Filename: luci-app-openclash_0.47.086_all.ipk
+Size: 3887170
+SHA256sum: 30aa2ae9531b506590786870bfb56f954f7aeb40431e5d5c18daead7a4cce784
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -529,14 +529,14 @@ SHA256sum: e32fa85f4b3137019b9b349665ca506ae39be83c3141401c30c022ecd0ec6343
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: 26.091.29838~10dd99e
+Version: 26.097.10189~c77747a
 Depends: libc, luci-app-momo
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-momo-zh-cn_26.091.29838~10dd99e_all.ipk
-Size: 2885
-SHA256sum: 5ccb9d40104aa0c496a99401c702b5038009386d8d6b1616ff5f842d7f06ac31
+Filename: luci-i18n-momo-zh-cn_26.097.10189~c77747a_all.ipk
+Size: 3106
+SHA256sum: 662fb4f8d10ce3d32c075e0b0fff55ba1cf11ef5f8f1a064aa61119ff00594ba
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -643,8 +643,8 @@ URL: https://sing-box.sagernet.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 276480
 Filename: momo_2026.03.29-r1_aarch64_cortex-a53.ipk
-Size: 47309
-SHA256sum: 0cb3d281b3467f5a5cdec9f3468c0f6f79d99391f38b3e3ba9df4660a9f6e84c
+Size: 48675
+SHA256sum: 5c9de9cdb7a0dbc40a06464b9d88b9e3a326f33a7a4bd762fb0c5c717dac387d
 Description:  The universal proxy platform.
 
 Package: nikki
@@ -658,8 +658,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 33208320
 Filename: nikki_2026.04.01-r1_aarch64_cortex-a53.ipk
-Size: 11861886
-SHA256sum: 20158f76f8ef2e482a821ef549242bfede95951c4e9f93475b7498669c7bccbe
+Size: 11861826
+SHA256sum: 78559cb43ce139b44d7a2460b4cc9ed04d60495180a706fbfd6290ee5a90b183
 Description:  A rule based proxy in Go.
 
 Package: openssl-util
@@ -973,29 +973,29 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.04.06-r1
+Version: 2026.04.07-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 112640
-Filename: v2ray-geoip_2026.04.06-r1_all.ipk
+Filename: v2ray-geoip_2026.04.07-r1_all.ipk
 Size: 28595
-SHA256sum: ac942046d61c1fbb5427decb81b66f28f7c45d2d180a5b34aa375860105c5e91
+SHA256sum: 2a6867154c7f5b254913e3de623f4c837cf0617b2bf91e6304934feddfd555d2
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.04.06-r1
+Version: 2026.04.07-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10649600
-Filename: v2ray-geosite_2026.04.06-r1_all.ipk
-Size: 3497084
-SHA256sum: 5121b835e96ec737b88563d5313712d99317036250bb7cea99a52ef0c292adc3
+Installed-Size: 10598400
+Filename: v2ray-geosite_2026.04.07-r1_all.ipk
+Size: 3479808
+SHA256sum: 22dda05c567473cace58a7abbffb13c2bd309163eb6e4e69c0266978acf92b1e
 Description:  Geosite List for V2Ray
 
 Package: vector
