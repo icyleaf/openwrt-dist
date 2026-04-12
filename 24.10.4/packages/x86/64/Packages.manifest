@@ -602,14 +602,14 @@ Depends: libc, luci-base, momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1775806695
+SourceDateEpoch: 1775994113
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-momo_1.2.0-r1_all.ipk
 Size: 7853
-SHA256sum: acb35f0310091879762bbf51ae14b5eeae9bbc791e53933ced9eb60999d76101
+SHA256sum: ac35d29e21c9319a099473b9698f2740122ebf5c4871e178fa6400cf29354fe0
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -634,14 +634,14 @@ Depends: libc, luci-base, nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1775900574
+SourceDateEpoch: 1775993866
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.26.0-r1_all.ipk
-Size: 10429
-SHA256sum: 1bb03bf29c880f19d0bfdced8710f99d919fddad170a5dfd9ffe1ad5cd828109
+Size: 10440
+SHA256sum: 005f14bfb8ddc18c39685626ab3e379ed8699ed93b5d58f87418b99dc494ac8d
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -708,17 +708,17 @@ SHA256sum: e32fa85f4b3137019b9b349665ca506ae39be83c3141401c30c022ecd0ec6343
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: 26.100.27495~383dcd3
+Version: 26.102.42113~d0cda14
 Depends: libc, luci-app-momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1775806695
+SourceDateEpoch: 1775994113
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-momo-zh-cn_26.100.27495~383dcd3_all.ipk
-Size: 3476
-SHA256sum: fb8ee27efcab0166fe8bc9795a9489ea5ab1be0e5a59ba49d180778b2e96c542
+Filename: luci-i18n-momo-zh-cn_26.102.42113~d0cda14_all.ipk
+Size: 3482
+SHA256sum: 0a50ccdb568efc0112edb7960c39b0b9b950a2fdd66c77c9b091060f13261768
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -737,45 +737,45 @@ SHA256sum: fefb6e319721c6686270fcf9952218583140c5df92ac65e03c19ec213845b5ee
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-ru
-Version: 26.101.34974~8ecb4b1
+Version: 26.102.41866~1c1f683
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1775900574
+SourceDateEpoch: 1775993866
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-ru_26.101.34974~8ecb4b1_all.ipk
-Size: 5756
-SHA256sum: 582491ef974340ead7f773d6acdd29be4d98e63df81e077e304b66ece0c0867d
+Filename: luci-i18n-nikki-ru_26.102.41866~1c1f683_all.ipk
+Size: 5750
+SHA256sum: b9c1e8c534af74b0ea7955906700c60e900a5a5feb844d4b66b099c30931590f
 Description:  Translation for luci-app-nikki - Русский (Russian)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.101.34974~8ecb4b1
+Version: 26.102.41866~1c1f683
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1775900574
+SourceDateEpoch: 1775993866
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.101.34974~8ecb4b1_all.ipk
+Filename: luci-i18n-nikki-zh-cn_26.102.41866~1c1f683_all.ipk
 Size: 5214
-SHA256sum: 671625633fd2bc1e467b5fb3009e45dc29e08b3c662db865a0496fcbc86583f0
+SHA256sum: 13ba32a336b5cb9a9430350b80c0e5212196de59bbeac703b78fbceabf97bea5
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-tw
-Version: 26.101.34974~8ecb4b1
+Version: 26.102.41866~1c1f683
 Depends: libc, luci-app-nikki
 Source: feeds/base/nikki/luci-app-nikki
 SourceName: luci-app-nikki
 Section: luci
-SourceDateEpoch: 1775900574
+SourceDateEpoch: 1775993866
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-tw_26.101.34974~8ecb4b1_all.ipk
+Filename: luci-i18n-nikki-zh-tw_26.102.41866~1c1f683_all.ipk
 Size: 5289
-SHA256sum: a0526fd810ce1235026efa35457f95c1fad84ec1615102cf892921fd196b7f7f
+SHA256sum: cdfbadccbe05b6f8ac9a920f128f0caecd4851000cb11026a8c70efb0a87b031
 Description:  Translation for luci-app-nikki - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -853,14 +853,14 @@ Source: feeds/base/nikki/mihomo-alpha
 SourceName: mihomo-alpha
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1775900574
+SourceDateEpoch: 1775993866
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 35389440
+Installed-Size: 35399680
 Filename: mihomo-alpha_2026.04.11_x86_64.ipk
-Size: 12989350
-SHA256sum: 1de123c382b8b0d2ae7422fbd16751b96ed8df79d7f5b8170e0b8a07182bbf48
+Size: 12990126
+SHA256sum: d231eea49b7874fbde345140ce60da8fda865556e2229170cab13675d935b7b6
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -873,14 +873,14 @@ Source: feeds/base/nikki/mihomo-meta
 SourceName: mihomo-meta
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1775900574
+SourceDateEpoch: 1775993866
 URL: https://wiki.metacubex.one
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 35338240
 Filename: mihomo-meta_1.19.23_x86_64.ipk
-Size: 12969621
-SHA256sum: 98461532728c29c099ac64347234f961143bc9eedc763d3fadf3ba8ddb34c95b
+Size: 12969635
+SHA256sum: 48c96354b39017f2c14b8dc061f5f7ac061caa1e43e985b9494a031ab1d3221e
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -890,15 +890,15 @@ Source: feeds/base/momo/momo
 SourceName: momo
 License: GPL-3.0+
 Section: net
-SourceDateEpoch: 1775806695
-URL: https://sing-box.sagernet.org
+SourceDateEpoch: 1775994113
+URL: https://github.com/nikkinikki-org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 286720
 Filename: momo_2026.04.09-r1_x86_64.ipk
-Size: 49081
-SHA256sum: a54193d66d548e5230ff6fdf116212f96c6ea0efa67f83eee32af896cc26103b
-Description:  The universal proxy platform.
+Size: 49204
+SHA256sum: e85ceb51976b55fac65561a3d3d0fa1fc2f8441d0379085f21c887489adce3ca
+Description:  Transparent Proxy with sing-box on OpenWrt.
 
 Package: nikki
 Version: 2026.04.08-r1
@@ -907,14 +907,14 @@ Source: feeds/base/nikki/nikki
 SourceName: nikki
 License: GPL3.0+
 Section: net
-SourceDateEpoch: 1775900574
+SourceDateEpoch: 1775993866
 URL: https://github.com/nikkinikki-org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 307200
 Filename: nikki_2026.04.08-r1_x86_64.ipk
-Size: 52986
-SHA256sum: 51856528f75c36da1e7f0f7a9f9338f9537a91b9a9b10156c6861540901e42a5
+Size: 52974
+SHA256sum: c56ae30d751f53bd2cae14bc4b51f7b13b1331536a66415d9b308c3b06885823
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: openssl-util
@@ -1330,7 +1330,7 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.04.11-r1
+Version: 2026.04.12-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1342,13 +1342,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 112640
-Filename: v2ray-geoip_2026.04.11-r1_all.ipk
-Size: 28599
-SHA256sum: cb291f8ba27cc53eb0100021d3feb854a5f6859e379b798d23e9bf5e65c2e940
+Filename: v2ray-geoip_2026.04.12-r1_all.ipk
+Size: 28598
+SHA256sum: afc9b4ac77109a6ebaec6a134e3b6103549891d3b544c592eaca5e7a35e3edaf
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.04.11-r1
+Version: 2026.04.12-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1360,9 +1360,9 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 10670080
-Filename: v2ray-geosite_2026.04.11-r1_all.ipk
-Size: 3503727
-SHA256sum: 3f9d40efef5d8751ddfbc9db3beca70cf87dec33854d95c91184fa1b63429a3d
+Filename: v2ray-geosite_2026.04.12-r1_all.ipk
+Size: 3508408
+SHA256sum: 01cb98d3ed4fc5224836e93336f4c4c48186e58884147da87565ac1f894b3637
 Description:  Geosite List for V2Ray
 
 Package: vector
