@@ -452,8 +452,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-momo_1.2.0-r1_all.ipk
-Size: 7853
-SHA256sum: ac35d29e21c9319a099473b9698f2740122ebf5c4871e178fa6400cf29354fe0
+Size: 7856
+SHA256sum: 5184af8e898e4144da31a614a8d8300889566f382a581b12f571e78f204ac1eb
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -529,14 +529,14 @@ SHA256sum: e32fa85f4b3137019b9b349665ca506ae39be83c3141401c30c022ecd0ec6343
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: 26.102.42113~d0cda14
+Version: 26.103.03479~c190c39
 Depends: libc, luci-app-momo
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-momo-zh-cn_26.102.42113~d0cda14_all.ipk
-Size: 3482
-SHA256sum: 0a50ccdb568efc0112edb7960c39b0b9b950a2fdd66c77c9b091060f13261768
+Filename: luci-i18n-momo-zh-cn_26.103.03479~c190c39_all.ipk
+Size: 3480
+SHA256sum: fa7bdcbb8e8a541e996c5b194acf982710ffc715dcdfa4756fb12deb97bfa917
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -646,8 +646,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 33044480
 Filename: mihomo-alpha_2026.04.11_aarch64_cortex-a53.ipk
-Size: 11853084
-SHA256sum: b3360d752b227a483acf4bd9616cbdbdb8f6a08a5226621c7a816a005cc55f0d
+Size: 11853085
+SHA256sum: bb8f09a154a83bc91c3f44fe500fae1c9a51df87ff62169321d2f2496d4d6aec
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -662,8 +662,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 32972800
 Filename: mihomo-meta_1.19.23_aarch64_cortex-a53.ipk
-Size: 11834620
-SHA256sum: 45d940c26dea19b928143ea582f8f88092535004996452c904aab114091dd0ee
+Size: 11834607
+SHA256sum: 0d0d23c689b82ea5cde313c4e2c9e74c642b629eb70567f36bd611b0421cc36f
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -675,8 +675,8 @@ URL: https://github.com/nikkinikki-org
 Architecture: aarch64_cortex-a53
 Installed-Size: 286720
 Filename: momo_2026.04.09-r1_aarch64_cortex-a53.ipk
-Size: 49207
-SHA256sum: ecf5d61a083e87c10cd2115b78a6c176915a7694fd7408bd25135315c40022fd
+Size: 49159
+SHA256sum: 8d5b5460b81fc5c346f2cd5971ee80d9ba033d091498fed898e2ad246927094f
 Description:  Transparent Proxy with sing-box on OpenWrt.
 
 Package: nikki
@@ -1003,29 +1003,29 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.04.12-r1
+Version: 2026.04.13-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 112640
-Filename: v2ray-geoip_2026.04.12-r1_all.ipk
-Size: 28598
-SHA256sum: afc9b4ac77109a6ebaec6a134e3b6103549891d3b544c592eaca5e7a35e3edaf
+Filename: v2ray-geoip_2026.04.13-r1_all.ipk
+Size: 28597
+SHA256sum: bc65d16429cbae9182d6b08863866fd043cc4fca970acc2130a4dcc944ba25af
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.04.12-r1
+Version: 2026.04.13-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10670080
-Filename: v2ray-geosite_2026.04.12-r1_all.ipk
-Size: 3508408
-SHA256sum: 01cb98d3ed4fc5224836e93336f4c4c48186e58884147da87565ac1f894b3637
+Installed-Size: 10240
+Filename: v2ray-geosite_2026.04.13-r1_all.ipk
+Size: 962
+SHA256sum: 63645a54a5a036cf97f93fc4ea149e10b4d7e261e932fff89647fecf95ad5996
 Description:  Geosite List for V2Ray
 
 Package: vector
