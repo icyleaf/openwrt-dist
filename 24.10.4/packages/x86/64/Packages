@@ -493,8 +493,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-nikki_1.26.0-r1_all.ipk
-Size: 10435
-SHA256sum: 993c0e13c234ca9a6745a16033305f0a8d48cd86ed75cc7cf013e95e2205436a
+Size: 10427
+SHA256sum: 9935a97cf10b05f40d7181fa1f68264bd905b97e36b7ef1d2361892fb91814e6
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -568,36 +568,36 @@ SHA256sum: fefb6e319721c6686270fcf9952218583140c5df92ac65e03c19ec213845b5ee
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-ru
-Version: 26.128.05432~d12f89e
+Version: 26.135.04404~73125a5
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-ru_26.128.05432~d12f89e_all.ipk
-Size: 5747
-SHA256sum: 6c6ce1638a5d39e26e9ef841709ee668b26560cb363ec9fa01fb13b21db1b4bf
+Filename: luci-i18n-nikki-ru_26.135.04404~73125a5_all.ipk
+Size: 5756
+SHA256sum: 08c68124694976d023474c82335cec242bf3a1b3288edc488aec0244d23a8a2b
 Description:  Translation for luci-app-nikki - Русский (Russian)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.128.05432~d12f89e
+Version: 26.135.04404~73125a5
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.128.05432~d12f89e_all.ipk
-Size: 5204
-SHA256sum: 6f70c2723bee582b4fbacf42cc9bc85e0415b433b2d196080a7e87c3e5d67afc
+Filename: luci-i18n-nikki-zh-cn_26.135.04404~73125a5_all.ipk
+Size: 5209
+SHA256sum: fc770f087e804b6755adbdb4f8cfe6ae8b2055e40fcc3ed0520239b4da8a2bc7
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-tw
-Version: 26.128.05432~d12f89e
+Version: 26.135.04404~73125a5
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-tw_26.128.05432~d12f89e_all.ipk
-Size: 5278
-SHA256sum: a206931c6488f068426cc33e3aa5ed90ff616980a39a81727130772aef40c568
+Filename: luci-i18n-nikki-zh-tw_26.135.04404~73125a5_all.ipk
+Size: 5285
+SHA256sum: 0970fbb4831bb8f373517b4883b18832ac31280df1dcc5068dc1076e27097a30
 Description:  Translation for luci-app-nikki - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -663,8 +663,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 35614720
 Filename: mihomo-alpha_2026.05.08_x86_64.ipk
-Size: 13070945
-SHA256sum: 959237c9c934a933ccf5cf0ffc043da0ebb6ab54bb1c4ac22aaabf6716928b89
+Size: 13071060
+SHA256sum: ccc9755565c66e0a0c1872b870561c02c3ea5277642623396df01ac440045153
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -679,8 +679,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 35502080
 Filename: mihomo-meta_1.19.24_x86_64.ipk
-Size: 13033290
-SHA256sum: 9eb4853de6255856b82d45d7fda6ef1365aeddc0afe58419d2fcc76f90cf9136
+Size: 13033163
+SHA256sum: ddd37670f538544a29292ea36764613d58772da2960986031ff7995494b1ccc8
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -705,8 +705,8 @@ URL: https://github.com/nikkinikki-org
 Architecture: x86_64
 Installed-Size: 307200
 Filename: nikki_2026.04.08-r1_x86_64.ipk
-Size: 52991
-SHA256sum: 745f56f46c1a76e2f168056846ace29d896264a67128d7ef4782fb75ede96b82
+Size: 52996
+SHA256sum: 6203038aeb1eb78afdb71a3344ad6bd71b815e62971a07a160861e5e1842a0f2
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: openssl-util
@@ -1020,29 +1020,29 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.05.13-r1
+Version: 2026.05.15-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 112640
-Filename: v2ray-geoip_2026.05.13-r1_all.ipk
-Size: 28863
-SHA256sum: 50e045a8e41a51871b270e1aeb8ad7a93f1ebdaef61722769db20ed2c7c32d94
+Filename: v2ray-geoip_2026.05.15-r1_all.ipk
+Size: 28874
+SHA256sum: b98a1c39aefb6aba482ac554e77bf36c117385bb4925ed95bb60392d8b001f08
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.05.13-r1
+Version: 2026.05.15-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10557440
-Filename: v2ray-geosite_2026.05.13-r1_all.ipk
-Size: 3469397
-SHA256sum: e842e4fdeb8dcf121d832eb15f5158a58b5e87c9d0b001960d78bf2ef863186f
+Installed-Size: 10567680
+Filename: v2ray-geosite_2026.05.15-r1_all.ipk
+Size: 3475229
+SHA256sum: efd7d1e503ea21e4171f148daa2370eddb53e2c978c204b490d3a6b927cf51f9
 Description:  Geosite List for V2Ray
 
 Package: vector
