@@ -166,7 +166,7 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls21
-Version: 3.6.5-r1
+Version: 3.6.6-r2
 Depends: libc
 Provides: libmbedtls
 License: GPL-2.0-or-later
@@ -176,9 +176,9 @@ ABIVersion: 21
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_cortex-a53
 Installed-Size: 860160
-Filename: libmbedtls21_3.6.5-r1_aarch64_cortex-a53.ipk
-Size: 330869
-SHA256sum: 604a3fdb2ff610082696bde244b371d2728fad64685422c8221c660864effb0b
+Filename: libmbedtls21_3.6.6-r2_aarch64_cortex-a53.ipk
+Size: 331101
+SHA256sum: 1f7342f4ef91a119042ce397a30be0c2a0ec858294bdb6c2013d3222485205a4
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -198,7 +198,7 @@ SHA256sum: ba7491484d959045f1b8ea0606b1d3f0c468641dcf1c3fb7f7537f719f37584f
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-afalg
-Version: 3.0.19-r1
+Version: 3.0.20-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 License: Apache-2.0
 Section: libs
@@ -206,9 +206,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
-Filename: libopenssl-afalg_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 7910
-SHA256sum: 2a1243fbb2602b5a1064d0c6b2300e72fbe9efdc72ba463f306a934f5d76f770
+Filename: libopenssl-afalg_3.0.20-r1_aarch64_cortex-a53.ipk
+Size: 7904
+SHA256sum: d25abfd9dde71374b7ab2f5b76395b828bf0d443523ffdd63a5ead62b2c98e43
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -216,7 +216,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "afalg"
 
 Package: libopenssl-conf
-Version: 3.0.19-r1
+Version: 3.0.20-r1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
@@ -224,9 +224,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
-Filename: libopenssl-conf_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 6495
-SHA256sum: 2ea39fec50b02df397114bce1ffd5284dfecd25a625420afd24588426fe5b0ef
+Filename: libopenssl-conf_3.0.20-r1_aarch64_cortex-a53.ipk
+Size: 6491
+SHA256sum: 2e73a8fdd637d46c5c39a6bcb9665aeee7fa8e50d4976ec45f901ca32d761e6b
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -234,7 +234,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.19-r1
+Version: 3.0.20-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
@@ -242,9 +242,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
-Filename: libopenssl-devcrypto_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 12368
-SHA256sum: 3ac73be305ca934606871baf6df4b891962adcb993e67f5e13e8b1e9942c82e5
+Filename: libopenssl-devcrypto_3.0.20-r1_aarch64_cortex-a53.ipk
+Size: 12379
+SHA256sum: f0af16936ec774ff94bc02f7b9c62b62e6ca39904b1b8160895cb4fc5f23b293
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -252,7 +252,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.19-r1
+Version: 3.0.20-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
@@ -260,16 +260,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: libopenssl-legacy_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 37775
-SHA256sum: 9e829e5d84e3faf0eb53006f1dacdb0352ec3c529b2e16efe281720a286f1490
+Filename: libopenssl-legacy_3.0.20-r1_aarch64_cortex-a53.ipk
+Size: 37827
+SHA256sum: 3f6b07a3c812e4ab736c495ee88c66361607e21458a4b1a12a866a780e4bd042
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.19-r1
+Version: 3.0.20-r1
 Depends: libc
 Provides: libopenssl
 License: Apache-2.0
@@ -279,9 +279,9 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 5345280
-Filename: libopenssl3_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 2020509
-SHA256sum: 494e5a7389957b9063cb6ac96537859e17ec6ff622657d461d20b5578ef4ebfd
+Filename: libopenssl3_3.0.20-r1_aarch64_cortex-a53.ipk
+Size: 2021465
+SHA256sum: 5177be5338a4f3219fe83303fd5e1a33c7fc87f1743eb0a7c5812840a3b9c57f
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -618,7 +618,7 @@ SHA256sum: 24c8b71c98e9dd1a0a622d2ff525beae5eb5d2bcca224b343c2fac8fc25d07f0
 Description:  Translation for luci-app-vector - 简体中文 (Simplified Chinese)
 
 Package: mbedtls-util
-Version: 3.6.5-r1
+Version: 3.6.6-r2
 Depends: libc, libmbedtls21
 License: GPL-2.0-or-later
 Section: utils
@@ -626,9 +626,9 @@ URL: https://www.trustedfirmware.org/projects/mbed-tls/
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: mbedtls-util_3.6.5-r1_aarch64_cortex-a53.ipk
-Size: 10079
-SHA256sum: 06a48b52e2f9491207c0cf177584076ff16dc52bc5e4ce62c355077956ce9bc2
+Filename: mbedtls-util_3.6.6-r2_aarch64_cortex-a53.ipk
+Size: 10048
+SHA256sum: a7a3e52030f35d34ed5ba937982f3471d201571d46b77c2b75c57aca36016b55
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -646,8 +646,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 33239040
 Filename: mihomo-alpha_2026.05.08_aarch64_cortex-a53.ipk
-Size: 11930066
-SHA256sum: 3dbb9dc7aa4322a113ef4f2ccb3e7718535c9233c66ea41e5dcaa7ac050286b7
+Size: 11930098
+SHA256sum: ad9e023977d4d5f347335f565e9be6d0a192e7b8437d910c1bcfe26f8fddfc2e
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -662,8 +662,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 33105920
 Filename: mihomo-meta_1.19.24_aarch64_cortex-a53.ipk
-Size: 11895146
-SHA256sum: 6188ec21754739d168daa7aab7959f0ae2536de0a668e7f018f4d96d2d32a2f3
+Size: 11895196
+SHA256sum: d2662c0638a79c3cd91a973713d215046a56672882e08eef96965fc45f54d38d
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -693,7 +693,7 @@ SHA256sum: 1c06f4d5c4126ee8a44513aa73b697301260b4d2c632b0718d99a21c7733443d
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: openssl-util
-Version: 3.0.19-r1
+Version: 3.0.20-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
@@ -701,9 +701,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 890880
-Filename: openssl-util_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 342098
-SHA256sum: 47f2ee5ae77cedf91a2263867e98b3584e374492f61acc6ff7f491e2d3cf1cf9
+Filename: openssl-util_3.0.20-r1_aarch64_cortex-a53.ipk
+Size: 342187
+SHA256sum: eb368d8dd26b2b1fb8711fcb51e364099ee5d7fdbb0420d57ecb46cbab6b41ef
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1003,29 +1003,29 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.05.15-r1
+Version: 2026.05.16-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 112640
-Filename: v2ray-geoip_2026.05.15-r1_all.ipk
+Filename: v2ray-geoip_2026.05.16-r1_all.ipk
 Size: 28874
-SHA256sum: b98a1c39aefb6aba482ac554e77bf36c117385bb4925ed95bb60392d8b001f08
+SHA256sum: be221ba20bc562dec2373c6d733abce8b3274d89fb33c605462f0075f11b48de
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.05.15-r1
+Version: 2026.05.16-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10567680
-Filename: v2ray-geosite_2026.05.15-r1_all.ipk
-Size: 3475002
-SHA256sum: 9b30966baec74905a5ba0851a37639dccf37557ef18179c7f256f64ee0d4d88e
+Filename: v2ray-geosite_2026.05.16-r1_all.ipk
+Size: 3473900
+SHA256sum: e3ec3a26706743b4db3372396c5d4e697d6056752840de2b7a2a2ffab2386365
 Description:  Geosite List for V2Ray
 
 Package: vector
