@@ -590,10 +590,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 19453957
+Installed-Size: 19453958
 Filename: mihomo-alpha_2026.05.19_x86_64.ipk
-Size: 19395155
-SHA256sum: 0d7cceb810de63964e16c5085183000a081bfabe0c53ee34c42a31a6617e457c
+Size: 19395267
+SHA256sum: df5407a2f710f4c1c662b2884b29d5f5f63ee1d53e6efdc78b9c21654afffb43
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -605,10 +605,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 19410100
+Installed-Size: 19410102
 Filename: mihomo-meta_1.19.25_x86_64.ipk
-Size: 19350870
-SHA256sum: 5152821647e06d9652b59de92404296d632c2de0668e30d64993bc11b2197d9a
+Size: 19350779
+SHA256sum: a3cbe3ebe4a04882a15f28835c113e43f9db5fefaa2e5352dfe925d5e475a46c
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -931,27 +931,27 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.05.20-1
+Version: 2026.05.21-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 19872
-Filename: v2ray-geoip_2026.05.20-1_all.ipk
-Size: 20562
-SHA256sum: bdbd5555bc976666267145990a2ff94625aa53cf1acf57400cf0b66d091d9f9e
+Installed-Size: 19790
+Filename: v2ray-geoip_2026.05.21-1_all.ipk
+Size: 20479
+SHA256sum: 2e3f211c56b2c94175af3166b08885a51f61d559c07673f1b616c639a473d262
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.05.20-1
+Version: 2026.05.21-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3453254
-Filename: v2ray-geosite_2026.05.20-1_all.ipk
-Size: 3453343
-SHA256sum: 2397151839c48f29d2f68a595b3450c58e05fa23f207cde323ae0a1d673664c9
+Installed-Size: 3459691
+Filename: v2ray-geosite_2026.05.21-1_all.ipk
+Size: 3459929
+SHA256sum: ca94a3c678a3906af1700c90ef0567814b2004c32f4baa772e60360c339ca578
 Description:  Geosite List for V2Ray
 
 Package: vector
