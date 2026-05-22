@@ -1,27 +1,27 @@
 Package: ca-bundle
-Version: 20250419-r1
+Version: 20260223-r1
 Depends: libc
 Provides: ca-certs
 License: GPL-2.0-or-later MPL-2.0
 Section: base
 Architecture: all
-Installed-Size: 235520
-Filename: ca-bundle_20250419-r1_all.ipk
-Size: 131153
-SHA256sum: d34f66d977246ccb764a4c34ed9bf5e12f14d8b21c626e748c9d2145b8f4c4b8
+Installed-Size: 225280
+Filename: ca-bundle_20260223-r1_all.ipk
+Size: 127138
+SHA256sum: 44abbaddf1000dc03aee003901cb569699a9adb2bf9539d06a11e2c1ab4e8790
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
-Version: 20250419-r1
+Version: 20260223-r1
 Depends: libc
 Provides: ca-certs
 License: GPL-2.0-or-later MPL-2.0
 Section: base
 Architecture: all
-Installed-Size: 419840
-Filename: ca-certificates_20250419-r1_all.ipk
-Size: 142364
-SHA256sum: 014d03fc77efbb14ab004e2d8edf768da94f0a6541ad5c450f3030182405136e
+Installed-Size: 399360
+Filename: ca-certificates_20260223-r1_all.ipk
+Size: 137813
+SHA256sum: 39150e8a471fab2f5046ac739c2a3ff045be3a20d5efdfd6169f0fd4f1a09185
 Description:  System CA certificates
 
 Package: fastfetch
@@ -646,8 +646,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 43059200
 Filename: mihomo-alpha_2026.05.19_aarch64_cortex-a53.ipk
-Size: 15512646
-SHA256sum: 72f7f41faa8c650935726a3f9cf4b9231c34d66b26c0b9949e40742b1c50a766
+Size: 15512644
+SHA256sum: 5bcf10f75b0f654f8488621f60615a618fe93fbf66c5e298e1e8219818054aac
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -662,8 +662,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 43059200
 Filename: mihomo-meta_1.19.25_aarch64_cortex-a53.ipk
-Size: 15497179
-SHA256sum: a170104e203c0f2cb85f5715b303c88534c60b0c2d0dd3b7dbbc8d0eafbce46d
+Size: 15497058
+SHA256sum: 711ca9ce680d63ca6166a0ae97ac8bc6717f169e7da911b66ae841490ec6a379
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1003,29 +1003,29 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.05.21-r1
+Version: 2026.05.22-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 81920
-Filename: v2ray-geoip_2026.05.21-r1_all.ipk
+Filename: v2ray-geoip_2026.05.22-r1_all.ipk
 Size: 20503
-SHA256sum: 375293251adb17dc337e29666de31f7fd934e068158a27b185babe570a2a3643
+SHA256sum: 86bebda4e57fd568f16d53efeca132aca63abdc294975e742fc20f54524c420e
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.05.21-r1
+Version: 2026.05.22-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10516480
-Filename: v2ray-geosite_2026.05.21-r1_all.ipk
-Size: 3461796
-SHA256sum: 5ef2d7b2364be6d5efb88e9810b4c4fa57f25fa2e05637fe9a9f1d7b2d05675e
+Installed-Size: 10526720
+Filename: v2ray-geosite_2026.05.22-r1_all.ipk
+Size: 3461537
+SHA256sum: 1f1b2ae1f1d31e8ee9cedfd7624ca3f161fdd57aff2bd32706c39cab302e05d0
 Description:  Geosite List for V2Ray
 
 Package: vector
