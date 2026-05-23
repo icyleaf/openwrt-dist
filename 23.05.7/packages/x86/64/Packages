@@ -590,10 +590,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 19453939
+Installed-Size: 19453960
 Filename: mihomo-alpha_2026.05.19_x86_64.ipk
-Size: 19395236
-SHA256sum: b2c5b636b1157ca05fc1e95d1cbf9ed50619d361829fe06de05f2feb2ff3763f
+Size: 19395335
+SHA256sum: 433c8d6b0423b9dc963f893122d6b9f76d3515d245067da6a2341c7f447aa1fb
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -605,10 +605,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 19410101
+Installed-Size: 19410102
 Filename: mihomo-meta_1.19.25_x86_64.ipk
-Size: 19350912
-SHA256sum: d4c3f8c26d48d0a005541a8b54253a5cccc4d84fdcd984a0d2854e2cf6c54a5a
+Size: 19350954
+SHA256sum: 2e5837fbff23784dee1efa0a72ead2c18cd112677b70f717eb3cd8e170220e32
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -931,27 +931,27 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.05.22-1
+Version: 2026.05.23-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 19790
-Filename: v2ray-geoip_2026.05.22-1_all.ipk
-Size: 20479
-SHA256sum: 0fa6dd7bb2dd2aa4fd849622d2f75c675eadbc5e550b6d6645841b9e79be972c
+Filename: v2ray-geoip_2026.05.23-1_all.ipk
+Size: 20480
+SHA256sum: 55592ad2cc4eaca341c70940deee63bc63c6009d7d7f950bc1adbed1819911c1
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.05.22-1
+Version: 2026.05.23-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3461735
-Filename: v2ray-geosite_2026.05.22-1_all.ipk
-Size: 3461769
-SHA256sum: ee92519046830f75a9c6a52e3b9d59d19eb8344b40ebf477d4bd4fea0b50ad0f
+Installed-Size: 3461466
+Filename: v2ray-geosite_2026.05.23-1_all.ipk
+Size: 3461511
+SHA256sum: 20948e4a6d209a4a7856697b1d6bca4648166629329406848d96729da7276f14
 Description:  Geosite List for V2Ray
 
 Package: vector
