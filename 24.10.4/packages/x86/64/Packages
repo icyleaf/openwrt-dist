@@ -504,8 +504,8 @@ Section: opt
 Architecture: all
 Installed-Size: 10803200
 Filename: luci-app-openclash_0.47.088_all.ipk
-Size: 3887684
-SHA256sum: 0c1514160c0f784cac5991f76259bf5c2a12a359d24c596490dd9e1eebcfd204
+Size: 3887204
+SHA256sum: 99cc8572655897d5d53c1e91a401ac29234c635eafc7eff1994f81723c4df838
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -663,8 +663,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 45854720
 Filename: mihomo-alpha_2026.05.19_x86_64.ipk
-Size: 16950400
-SHA256sum: 9fc268ab35e7dab222256a24572711f92efe6a5bdf4a4b3086862d3b00f6d23a
+Size: 16950305
+SHA256sum: d4b3da7bd39f381c9f57bee9383ffbe8f58bd3a6d26813589d91a8488d25d2de
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -679,8 +679,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 45813760
 Filename: mihomo-meta_1.19.25_x86_64.ipk
-Size: 16933067
-SHA256sum: bf5184f51254e57b780d69437326c34109de163b306111517cce89e48311ef50
+Size: 16933062
+SHA256sum: a5ea85ff25f8c513524ad12128d3745545324cfbc2f3f0f31a5b1a379e3e3ef2
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1020,29 +1020,29 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.05.24-r1
+Version: 2026.05.25-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 81920
-Filename: v2ray-geoip_2026.05.24-r1_all.ipk
+Filename: v2ray-geoip_2026.05.25-r1_all.ipk
 Size: 20503
-SHA256sum: c32336e448580cc0ad391feed8f18110d8553ac3e34fdd0d7fc388162268725d
+SHA256sum: c9a84efd414a40f4e1d5f68d2f2efde0b226622038c4782ed929036908c2da41
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.05.24-r1
+Version: 2026.05.25-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10526720
-Filename: v2ray-geosite_2026.05.24-r1_all.ipk
-Size: 3462090
-SHA256sum: f0bc7276c759b7c9d07b2a548da5fa91211698ab7d35565c23c4774206e0989e
+Filename: v2ray-geosite_2026.05.25-r1_all.ipk
+Size: 3460803
+SHA256sum: 3796f38163df393378f731d9a207f345648abc7cbdba86fc84a17541390a950c
 Description:  Geosite List for V2Ray
 
 Package: vector
