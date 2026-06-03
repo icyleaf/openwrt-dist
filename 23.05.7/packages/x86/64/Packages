@@ -398,14 +398,14 @@ SHA256sum: 19dac1b48293703adce75e75789e54c59617f1af3ec84d8b65a449c470712b38
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-momo
-Version: 1.2.0-1
+Version: 1.2.1-1
 Depends: libc, luci-base, momo
 Section: luci
 Architecture: all
-Installed-Size: 6978
-Filename: luci-app-momo_1.2.0-1_all.ipk
-Size: 7823
-SHA256sum: 5b3761c284e78484cf2e88873b99f3e184a777003f270a8fdbc3cb04dfa46915
+Installed-Size: 7097
+Filename: luci-app-momo_1.2.1-1_all.ipk
+Size: 7943
+SHA256sum: 877a414cea79af1086659b58cdab8dad2fe58711b70402b10d21221849ffac11
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -477,14 +477,14 @@ SHA256sum: cf33f2c7d91a23c71e6f71d4a8bbaca33b3e9b34b140949171fc37cc1e8883f1
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: git-26.103.03479-c190c39
+Version: git-26.154.52640-dc0b315
 Depends: libc, luci-app-momo
 Section: luci
 Architecture: all
-Installed-Size: 2741
-Filename: luci-i18n-momo-zh-cn_git-26.103.03479-c190c39_all.ipk
-Size: 3481
-SHA256sum: acbed5107bc0eea03fd321201b00f1b55499d8f941c1d78a980f4e07cf543763
+Installed-Size: 2820
+Filename: luci-i18n-momo-zh-cn_git-26.154.52640-dc0b315_all.ipk
+Size: 3557
+SHA256sum: 455f4d26525418550943bd1420727af5f356343a8187b440f85319110e987f67
 Description:  Translation for luci-app-momo - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -590,10 +590,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 19540250
+Installed-Size: 19540233
 Filename: mihomo-alpha_2026.05.30_x86_64.ipk
-Size: 19481774
-SHA256sum: 15fe1ef9df4492320f0acc13ba62743c690ddcc19ce73b1dc15bde9438df2440
+Size: 19481962
+SHA256sum: 121f6cef929f7561c0c9b2d19f256968848f790b86fba01f315b54c750fb2e9f
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -607,20 +607,20 @@ Section: net
 Architecture: x86_64
 Installed-Size: 19540201
 Filename: mihomo-meta_1.19.26_x86_64.ipk
-Size: 19482123
-SHA256sum: afb06649c7cbd40969ef2bf3abca7a8106d99dc3f4a2809bcc8115582b5a3fb9
+Size: 19482124
+SHA256sum: 74d24a7b2544f6ab646b8b752b5d7625988b0ae4a28cb7c39295cf9998779b9d
 Description:  A rule based proxy in Go.
 
 Package: momo
-Version: 2026.04.09-1
+Version: 2026.06.03-1
 Depends: libc, ca-bundle, curl, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, sing-box
 License: GPL-3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 48258
-Filename: momo_2026.04.09-1_x86_64.ipk
-Size: 49125
-SHA256sum: c411e10bb0de1a496e85b3f75972ffaf21adef426828f71effce193e28184bc7
+Installed-Size: 48475
+Filename: momo_2026.06.03-1_x86_64.ipk
+Size: 49339
+SHA256sum: d4d40b19fd36078657e4fae046c6ba9f87d30f31760432d199024103d8949c8f
 Description:  Transparent Proxy with sing-box on OpenWrt.
 
 Package: nikki
@@ -931,27 +931,27 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.06.02-1
+Version: 2026.06.03-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 19837
-Filename: v2ray-geoip_2026.06.02-1_all.ipk
-Size: 20527
-SHA256sum: 8883e08b5efb6945cdf8068d58768a8fee17a31787b61f41044b2f8e4d648768
+Filename: v2ray-geoip_2026.06.03-1_all.ipk
+Size: 20528
+SHA256sum: 34f92f37f7095018cc24b74cb181f07374d729dad4eb5bad38bbc1bec85caf12
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.06.02-1
+Version: 2026.06.03-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3479161
-Filename: v2ray-geosite_2026.06.02-1_all.ipk
-Size: 3479371
-SHA256sum: ee07d15aee64697e0ed94eaa20c2684ba379cc2e4e6fc15d0bd39723dad18123
+Installed-Size: 3424528
+Filename: v2ray-geosite_2026.06.03-1_all.ipk
+Size: 3424472
+SHA256sum: 6f945025fd97cba31d320dc57db01bec6bd894f23706cce685047650c1136345
 Description:  Geosite List for V2Ray
 
 Package: vector
