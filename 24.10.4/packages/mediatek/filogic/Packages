@@ -445,15 +445,15 @@ SHA256sum: 839628961ab8853b6edaf1bf1005bdee0c208d42137e2825fa7f193ef3b373fa
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-momo
-Version: 1.2.0-r1
+Version: 1.2.1-r1
 Depends: libc, luci-base, momo
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-momo_1.2.0-r1_all.ipk
-Size: 7856
-SHA256sum: 5184af8e898e4144da31a614a8d8300889566f382a581b12f571e78f204ac1eb
+Filename: luci-app-momo_1.2.1-r1_all.ipk
+Size: 7971
+SHA256sum: 06a93ef720062bba6b671ae3a221e35dc1f38937cb0a77e24e7ca2a4a9974297
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -529,14 +529,14 @@ SHA256sum: e32fa85f4b3137019b9b349665ca506ae39be83c3141401c30c022ecd0ec6343
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: 26.103.03479~c190c39
+Version: 26.154.52640~dc0b315
 Depends: libc, luci-app-momo
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-momo-zh-cn_26.103.03479~c190c39_all.ipk
-Size: 3480
-SHA256sum: fa7bdcbb8e8a541e996c5b194acf982710ffc715dcdfa4756fb12deb97bfa917
+Filename: luci-i18n-momo-zh-cn_26.154.52640~dc0b315_all.ipk
+Size: 3552
+SHA256sum: 99b916fdf62cacb7c4dbbcee8152a30f324a8ffe20a09110f8291a89f61cc892
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -646,8 +646,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 43253760
 Filename: mihomo-alpha_2026.05.30_aarch64_cortex-a53.ipk
-Size: 15591510
-SHA256sum: 0bc361d7f6755454f1c099fad192f52cdc32cb28845e7fab9fe51703cc3678f3
+Size: 15591666
+SHA256sum: 75c75ca97329ce39d12b3e08226f3cd1adf6f40d86c0232ec2615d0e2e190eec
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -662,21 +662,21 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 43253760
 Filename: mihomo-meta_1.19.26_aarch64_cortex-a53.ipk
-Size: 15591572
-SHA256sum: 7a015e80b287686d11075711f244017af551b48d4a43e301c96127333a731598
+Size: 15591639
+SHA256sum: 7ee1fbb82db387c738eeba92738296ab764f92b2265e97e6a9d6ad232caab507
 Description:  A rule based proxy in Go.
 
 Package: momo
-Version: 2026.04.09-r1
+Version: 2026.06.03-r1
 Depends: libc, ca-bundle, curl, firewall4, ip-full, kmod-inet-diag, kmod-nft-socket, kmod-nft-tproxy, kmod-tun, kmod-dummy, sing-box
 License: GPL-3.0+
 Section: net
 URL: https://github.com/nikkinikki-org
 Architecture: aarch64_cortex-a53
 Installed-Size: 286720
-Filename: momo_2026.04.09-r1_aarch64_cortex-a53.ipk
-Size: 49159
-SHA256sum: 8d5b5460b81fc5c346f2cd5971ee80d9ba033d091498fed898e2ad246927094f
+Filename: momo_2026.06.03-r1_aarch64_cortex-a53.ipk
+Size: 49374
+SHA256sum: 255ac87b0a5d52f6c65f79d58a08acca47750b9016e64536a10ea23cd5ff670e
 Description:  Transparent Proxy with sing-box on OpenWrt.
 
 Package: nikki
@@ -1003,29 +1003,29 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.06.02-r1
+Version: 2026.06.03-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 81920
-Filename: v2ray-geoip_2026.06.02-r1_all.ipk
-Size: 20550
-SHA256sum: 96f9609917d42f008d457e0b5487b26fc016eb53c752e3c6f9048c760b2f8532
+Filename: v2ray-geoip_2026.06.03-r1_all.ipk
+Size: 20548
+SHA256sum: 76b3dd98b4ec66880f851151666648fb96316e8323a1325158a3a63394909e29
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.06.02-r1
+Version: 2026.06.03-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10577920
-Filename: v2ray-geosite_2026.06.02-r1_all.ipk
-Size: 3479396
-SHA256sum: b812535d86cccae07939e1afb662a2887310178ffbb632418ea98ff4dd103dde
+Installed-Size: 10485760
+Filename: v2ray-geosite_2026.06.03-r1_all.ipk
+Size: 3437565
+SHA256sum: 6842a46aca44983647b5d57ef4396ed88593f4c9238664929e307e95ecc3c7da
 Description:  Geosite List for V2Ray
 
 Package: vector
