@@ -602,14 +602,14 @@ Depends: libc, luci-base, momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1780497440
+SourceDateEpoch: 1780968062
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-momo_1.2.1-r1_all.ipk
-Size: 7971
-SHA256sum: 06a93ef720062bba6b671ae3a221e35dc1f38937cb0a77e24e7ca2a4a9974297
+Size: 7976
+SHA256sum: 0d9fef1b98119f4e0cfc3049614ec46fc8ee7cb5d64d132b4a011d8f1d33b532
 Description:  LuCI Support for momo
 
 Package: luci-app-mosdns
@@ -708,17 +708,17 @@ SHA256sum: e32fa85f4b3137019b9b349665ca506ae39be83c3141401c30c022ecd0ec6343
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
-Version: 26.154.52640~dc0b315
+Version: 26.160.04862~9a5a1cd
 Depends: libc, luci-app-momo
 Source: feeds/base/momo/luci-app-momo
 SourceName: luci-app-momo
 Section: luci
-SourceDateEpoch: 1780497440
+SourceDateEpoch: 1780968062
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-momo-zh-cn_26.154.52640~dc0b315_all.ipk
-Size: 3552
-SHA256sum: 99b916fdf62cacb7c4dbbcee8152a30f324a8ffe20a09110f8291a89f61cc892
+Filename: luci-i18n-momo-zh-cn_26.160.04862~9a5a1cd_all.ipk
+Size: 3555
+SHA256sum: b815af7512a2434db59b26fe57caa66ff9a59fcde88ed6f7f70c364e460c70cb
 Description:  Translation for luci-app-momo - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-mosdns-zh-cn
@@ -859,8 +859,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 46059520
 Filename: mihomo-alpha_2026.05.30_x86_64.ipk
-Size: 17032088
-SHA256sum: ce4d8802b2a6c85f5a79121f74f849398b040134afdd17abe06f37d9ea03d72a
+Size: 17032080
+SHA256sum: 1231a496400437e1008e1a839a8863486518b1c6ec186bd3f654d70e6bd8d21f
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -879,8 +879,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 46776320
 Filename: mihomo-meta_1.19.27_x86_64.ipk
-Size: 17319687
-SHA256sum: c4c2ed48bee5f68a1a64b5f0beda8f8b9cf795f481af67251270db7ddd6674df
+Size: 17319784
+SHA256sum: bccf84feb61b2aeedee820dd6456ee544cf8b94f4472310077486aad5850ed0f
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -890,14 +890,14 @@ Source: feeds/base/momo/momo
 SourceName: momo
 License: GPL-3.0+
 Section: net
-SourceDateEpoch: 1780497440
+SourceDateEpoch: 1780968062
 URL: https://github.com/nikkinikki-org
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 286720
 Filename: momo_2026.06.03-r1_x86_64.ipk
-Size: 49367
-SHA256sum: 62fb0b001102f403be0aa50c8194378b5e9bec2276a0b8abf0fcfcba0e63e364
+Size: 49418
+SHA256sum: d2fa2215a2fb814f24fb34586b8e142cb1e20ec92a21a42caf92e4f8b7344f88
 Description:  Transparent Proxy with sing-box on OpenWrt.
 
 Package: nikki
@@ -1330,7 +1330,7 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.06.08-r1
+Version: 2026.06.09-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1342,13 +1342,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 81920
-Filename: v2ray-geoip_2026.06.08-r1_all.ipk
-Size: 20789
-SHA256sum: b347d4257fa0cc580008f69590bb4c5a671d2e7ea858510f304f75242c44b618
+Filename: v2ray-geoip_2026.06.09-r1_all.ipk
+Size: 20791
+SHA256sum: 1aca40845b09fe859b51de1c2a863f5143e9b2446190de182bcc790b7beb4dc7
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.06.08-r1
+Version: 2026.06.09-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1359,10 +1359,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 10516480
-Filename: v2ray-geosite_2026.06.08-r1_all.ipk
-Size: 3454459
-SHA256sum: 8ac9a7d7b1deb56aed567514df67bf1e3833ddb41c6af2de30e56c8c0d501514
+Installed-Size: 10393600
+Filename: v2ray-geosite_2026.06.09-r1_all.ipk
+Size: 3400867
+SHA256sum: 3492fad6fc0b094519bad06fe3d043e36da8d3dcfd12a001e2deba773c20aca8
 Description:  Geosite List for V2Ray
 
 Package: vector
