@@ -486,15 +486,15 @@ SHA256sum: b7a2b531ec3fe4fb052510542044c306aa5751cf49fcf42e5e1f24e2ba4b21e4
 Description:  LuCI Support for mosdns
 
 Package: luci-app-nikki
-Version: 1.26.0-r1
+Version: 1.26.1-r1
 Depends: libc, luci-base, nikki
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-nikki_1.26.0-r1_all.ipk
-Size: 10435
-SHA256sum: a4cc1b5d57da025ef0222f457b0b26aa56e6b1f73c24727666c6353e426cef20
+Filename: luci-app-nikki_1.26.1-r1_all.ipk
+Size: 10520
+SHA256sum: dcbf9ae7c6588981d8da50b61bfb1b0af306136be4300f1acc6f15868f16ac44
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
@@ -568,36 +568,36 @@ SHA256sum: fefb6e319721c6686270fcf9952218583140c5df92ac65e03c19ec213845b5ee
 Description:  Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-ru
-Version: 26.158.08507~6060401
+Version: 26.161.56550~95d41dd
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-ru_26.158.08507~6060401_all.ipk
-Size: 5746
-SHA256sum: 054e40dac011f849f23d062f578b51a99dfaefbee8867a3593bc3c8315b7be6e
+Filename: luci-i18n-nikki-ru_26.161.56550~95d41dd_all.ipk
+Size: 5749
+SHA256sum: 85946d65bc64f7112791c4d976fa21c5efd07e9bd3a6b71198ddde145c8b89f0
 Description:  Translation for luci-app-nikki - Русский (Russian)
 
 Package: luci-i18n-nikki-zh-cn
-Version: 26.158.08507~6060401
+Version: 26.161.56550~95d41dd
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-cn_26.158.08507~6060401_all.ipk
-Size: 5212
-SHA256sum: 52033646d84bfcc2983e9446db8c833660b41af9ce8bbfcebdfa0af09665590b
+Filename: luci-i18n-nikki-zh-cn_26.161.56550~95d41dd_all.ipk
+Size: 5267
+SHA256sum: 7e55582fe3e7ef84c4299fec0629a82343aaebedb45dc6fcf359ec1b8cdf09b5
 Description:  Translation for luci-app-nikki - 简体中文 (Simplified Chinese)
 
 Package: luci-i18n-nikki-zh-tw
-Version: 26.158.08507~6060401
+Version: 26.161.56550~95d41dd
 Depends: libc, luci-app-nikki
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-nikki-zh-tw_26.158.08507~6060401_all.ipk
-Size: 5283
-SHA256sum: a9e0c10a0922ae4c185a8ae736f5d97665ed91f1dec2982d7f57885cb771db57
+Filename: luci-i18n-nikki-zh-tw_26.161.56550~95d41dd_all.ipk
+Size: 5289
+SHA256sum: f2eb64440d128718557c1b7eb9cdbc5f6d1a75cffaf63361c1bca02640ee439d
 Description:  Translation for luci-app-nikki - 正體中文 (Traditional Chinese)
 
 Package: luci-i18n-tailscale-zh-cn
@@ -652,7 +652,7 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  CSR generation (gen_key, cert_req)
 
 Package: mihomo-alpha
-Version: 2026.05.30
+Version: 2026.06.10
 Depends: libc, ca-bundle, ip-full, kmod-inet-diag, kmod-tun
 Conflicts: mihomo-meta
 Provides: mihomo
@@ -661,10 +661,10 @@ License: GPL3.0+
 Section: net
 URL: https://wiki.metacubex.one
 Architecture: x86_64
-Installed-Size: 46059520
-Filename: mihomo-alpha_2026.05.30_x86_64.ipk
-Size: 17032080
-SHA256sum: 1231a496400437e1008e1a839a8863486518b1c6ec186bd3f654d70e6bd8d21f
+Installed-Size: 46786560
+Filename: mihomo-alpha_2026.06.10_x86_64.ipk
+Size: 17324501
+SHA256sum: c5fa31acd541f26bb7c66dcb3247728276157c5c669ab5f6cac59096c09ebc2e
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -679,8 +679,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 46776320
 Filename: mihomo-meta_1.19.27_x86_64.ipk
-Size: 17319784
-SHA256sum: bccf84feb61b2aeedee820dd6456ee544cf8b94f4472310077486aad5850ed0f
+Size: 17319791
+SHA256sum: 87d8cac2adcb642de62f1154e2581c000f4d27bdddfd80730c3257fefbf12f74
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -705,8 +705,8 @@ URL: https://github.com/nikkinikki-org
 Architecture: x86_64
 Installed-Size: 307200
 Filename: nikki_2026.04.08-r1_x86_64.ipk
-Size: 52983
-SHA256sum: edaf36e980dea7c53733ca0b4e76814fb8f1b58b3b64f80182ceda9d9c5b3142
+Size: 53184
+SHA256sum: 2307c3de888084b79183c012d8da2cf8d8ad216bf885de4c0ac3aefabe207821
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: openssl-util
@@ -1020,29 +1020,29 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.06.09-r1
+Version: 2026.06.10-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 81920
-Filename: v2ray-geoip_2026.06.09-r1_all.ipk
-Size: 20791
-SHA256sum: 1aca40845b09fe859b51de1c2a863f5143e9b2446190de182bcc790b7beb4dc7
+Filename: v2ray-geoip_2026.06.10-r1_all.ipk
+Size: 20795
+SHA256sum: a08236e65c5413e59f290924a3e387f4582a2d54e119d1588a261384732c3b56
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.06.09-r1
+Version: 2026.06.10-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10393600
-Filename: v2ray-geosite_2026.06.09-r1_all.ipk
-Size: 3400867
-SHA256sum: 3492fad6fc0b094519bad06fe3d043e36da8d3dcfd12a001e2deba773c20aca8
+Installed-Size: 10403840
+Filename: v2ray-geosite_2026.06.10-r1_all.ipk
+Size: 3400489
+SHA256sum: b4b97a81796beedc7682a731666efa11b3f34c6c80102c37388b5f0de6f7ad3d
 Description:  Geosite List for V2Ray
 
 Package: vector
