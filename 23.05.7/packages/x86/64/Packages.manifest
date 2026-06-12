@@ -502,19 +502,19 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-log-viewer
-Version: 1.5.0-2
+Version: 1.5.0-3
 Depends: libc, ucode, ucode-mod-fs
 Source: feeds/base/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1766615445
+SourceDateEpoch: 1781294574
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9732
-Filename: luci-app-log-viewer_1.5.0-2_all.ipk
-Size: 10583
-SHA256sum: 19dac1b48293703adce75e75789e54c59617f1af3ec84d8b65a449c470712b38
+Installed-Size: 9743
+Filename: luci-app-log-viewer_1.5.0-3_all.ipk
+Size: 10589
+SHA256sum: c0c50193116f11f434152933de4f728c302b353a9e9ebecdfea2bf62321d5853
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-momo
@@ -609,18 +609,18 @@ SHA256sum: 03e297921d46af15fd5a32572998f342136f64686a3303190787d0b3839889c3
 Description:  Provides Luci for vector
 
 Package: luci-i18n-log-ru
-Version: git-25.358.81045-6922686
+Version: git-26.163.72174-a90fe83
 Depends: libc, luci-app-log-viewer
 Source: feeds/base/luci-app-log
 SourceName: luci-i18n-log-ru
 License: MIT
 Section: luci
-SourceDateEpoch: 1766615445
+SourceDateEpoch: 1781294574
 Architecture: all
-Installed-Size: 1337
-Filename: luci-i18n-log-ru_git-25.358.81045-6922686_all.ipk
-Size: 2102
-SHA256sum: cf33f2c7d91a23c71e6f71d4a8bbaca33b3e9b34b140949171fc37cc1e8883f1
+Installed-Size: 1338
+Filename: luci-i18n-log-ru_git-26.163.72174-a90fe83_all.ipk
+Size: 2105
+SHA256sum: 50665fe2e38983a219f8c6a3c16d03ffc7bbcf7f8d89ed87a8c67ffa4a56587f
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
@@ -773,8 +773,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 19856831
 Filename: mihomo-alpha_2026.06.11_x86_64.ipk
-Size: 19795618
-SHA256sum: ef41588f55d5a98924c5a7f46f32beb019316a191d09694de7b6be2e16fd49cc
+Size: 19795433
+SHA256sum: 8ef6dc8b24bdd7053026ae50c741bb46bdc1884f44c5975638f84b1c9f891be8
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -792,8 +792,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 19851787
 Filename: mihomo-meta_1.19.27_x86_64.ipk
-Size: 19793087
-SHA256sum: 53d95c732f321801f4dd1efa52407088963bbde922847352fc02d1b4be4eb89f
+Size: 19793142
+SHA256sum: 5e46e38193380333c8f334b93ce54e214809704322ad2e64417934df3c6d378f
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1222,7 +1222,7 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.06.11-1
+Version: 2026.06.12-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geoip
@@ -1233,13 +1233,13 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 19923
-Filename: v2ray-geoip_2026.06.11-1_all.ipk
-Size: 20604
-SHA256sum: 26c16cf661f7f8687191443cd0a8fbfb40a5ef9b2ba85527ce5b3b393432f118
+Filename: v2ray-geoip_2026.06.12-1_all.ipk
+Size: 20609
+SHA256sum: 4f36696db2713bb9fea09925a8e8113da12ec2c88ed5a0dd7ba5ec292b20d8e0
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.06.11-1
+Version: 2026.06.12-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geosite
@@ -1249,10 +1249,10 @@ Section: net
 SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 3404481
-Filename: v2ray-geosite_2026.06.11-1_all.ipk
-Size: 3404455
-SHA256sum: 57dff5ed3b66314eb49ce7e6ad54794af970f7b00ecd8cb1c8cf558c1611c70e
+Installed-Size: 3415276
+Filename: v2ray-geosite_2026.06.12-1_all.ipk
+Size: 3415352
+SHA256sum: 36dc7f0ed9feee5bea33faf9e38f130b17017b1a7391f36575e667266e1c7873
 Description:  Geosite List for V2Ray
 
 Package: vector
