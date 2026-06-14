@@ -457,8 +457,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-log-viewer_1.5.0-r3_all.ipk
-Size: 10580
-SHA256sum: a8940721c4f2c7ed4d5e466bd25544c0f4fba12c5039432624b8d5486527f67c
+Size: 10575
+SHA256sum: e3dbbddd9486dba5c2729dabe25ff6269bac29a5bffaae48685172355a19cc54
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-momo
@@ -534,15 +534,15 @@ SHA256sum: b44ec6c14356bb465f7f15ade138d7dcb8370889a970903d7c5124f4e12e11af
 Description:  Provides Luci for vector
 
 Package: luci-i18n-log-ru
-Version: 26.164.01883~2041725
+Version: 26.165.56164~f51040c
 Depends: libc, luci-app-log-viewer
 License: MIT
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-log-ru_26.164.01883~2041725_all.ipk
-Size: 2104
-SHA256sum: 1e31648d0f7c63429cec26f1518ce6d4cb8ba3014ceedfef5c51b66eb449dac5
+Filename: luci-i18n-log-ru_26.165.56164~f51040c_all.ipk
+Size: 2103
+SHA256sum: 6beb099c87bd6333f4428e98b68322835d9f22cdb33f303d6f297f7e7ef3481f
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
@@ -663,8 +663,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 46796800
 Filename: mihomo-alpha_2026.06.12_x86_64.ipk
-Size: 17327446
-SHA256sum: 47886431b7b3f0f4ea6ccf79f03433d591ab6b722e98e08880b4e4f8a0970897
+Size: 17327443
+SHA256sum: b4aecda1a02c32a47141925aa5470d736d535ac58ef6fb1ceab6e6a3e0aad728
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -679,8 +679,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 46776320
 Filename: mihomo-meta_1.19.27_x86_64.ipk
-Size: 17320211
-SHA256sum: 73038bb6cb6a6a49c31e4b4be7c2c784d1fdf5d62a232d75c95d9fdb04a77d7c
+Size: 17320214
+SHA256sum: 5f1d80faa8e2afbe2fa3b0929affe451dad07922fd2cbb2afa51f632ca57ab42
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1020,29 +1020,29 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.06.13-r1
+Version: 2026.06.14-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 81920
-Filename: v2ray-geoip_2026.06.13-r1_all.ipk
-Size: 20629
-SHA256sum: 9a587926776f58b3279487e2942e0f329e77b3e2d906d650248e65d9860ebe09
+Filename: v2ray-geoip_2026.06.14-r1_all.ipk
+Size: 20628
+SHA256sum: 1053f499ab7557fac8e35910999e0a294b388886b1f7aae6c9e55e16a562dd93
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.06.13-r1
+Version: 2026.06.14-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10434560
-Filename: v2ray-geosite_2026.06.13-r1_all.ipk
-Size: 3416571
-SHA256sum: 68989ef8bf3b601ac3584c9d28192df61657dfd1e63830b89b4bee3215612ecf
+Filename: v2ray-geosite_2026.06.14-r1_all.ipk
+Size: 3416974
+SHA256sum: 063fabe7bfc61ee016392f4c1a5dd1e04659c39c2ffd19bf81a7e8974f376705
 Description:  Geosite List for V2Ray
 
 Package: vector
