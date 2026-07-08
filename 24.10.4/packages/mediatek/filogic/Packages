@@ -481,14 +481,14 @@ SHA256sum: 7579ff808385aa0d7ff9a9e1f360dd06df583e14beb88bcde728b616e66bef95
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
-Version: 0.47.110
+Version: 0.47.116
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 22179840
-Filename: luci-app-openclash_0.47.110_all.ipk
-Size: 8011363
-SHA256sum: aa83804f717f5acb54e208f98027175e23ca18b2b7000545c031c893bd6f4f5d
+Installed-Size: 22405120
+Filename: luci-app-openclash_0.47.116_all.ipk
+Size: 8136081
+SHA256sum: ece8517cdd1f3813d039fbfd66bb0942700e836045dc4360df3b1c99cf6d8d4b
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -646,8 +646,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 44052480
 Filename: mihomo-alpha_2026.06.23_aarch64_cortex-a53.ipk
-Size: 15869667
-SHA256sum: 5637388dce91097dbe642283e1172e266fc779e0d30ea031496649e34a86cc97
+Size: 15869798
+SHA256sum: 10b8fc0dd676f9184c7abc6d9da6cd7ec966c300d1b50ecedd4f9cb1ba15751d
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -662,8 +662,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 43991040
 Filename: mihomo-meta_1.19.27_aarch64_cortex-a53.ipk
-Size: 15853896
-SHA256sum: ec8c2b80fe8798f2ff0b80fac5114bd75939a692bc4c2099cfec730f4c029565
+Size: 15853968
+SHA256sum: 5390a748d1644bbdc6024f176fb9d25b5411ee64e54e210333affa643ce1fee1
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1003,29 +1003,29 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.07.06-r1
+Version: 2026.07.07-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 81920
-Filename: v2ray-geoip_2026.07.06-r1_all.ipk
-Size: 20780
-SHA256sum: 24aa033d6a196eb0fb0921faad92612215734b2aac2482f38b0382bcf995ed32
+Filename: v2ray-geoip_2026.07.07-r1_all.ipk
+Size: 20778
+SHA256sum: 54176ff041d07649052c597a0bc9863d5be7b80583bca16a36610dd91e44c5e0
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.07.06-r1
+Version: 2026.07.07-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10373120
-Filename: v2ray-geosite_2026.07.06-r1_all.ipk
-Size: 3390347
-SHA256sum: 08fd60eed088c9a45e71f66935c6c9cba7466acf16e77aacf5e78a72ea0c76be
+Installed-Size: 10383360
+Filename: v2ray-geosite_2026.07.07-r1_all.ipk
+Size: 3396957
+SHA256sum: 64844ee52a38c3e353100667b78ad74523186f0b82cd93dd4a1ec7dcb9f30718
 Description:  Geosite List for V2Ray
 
 Package: vector
