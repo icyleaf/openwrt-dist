@@ -837,8 +837,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 44707840
 Filename: mihomo-alpha_2026.07.08_aarch64_cortex-a53.ipk
-Size: 16120818
-SHA256sum: 9491cff5d2b9fdbef85b584669bd364741f8cccbdb297fa178a4fe909055c023
+Size: 16120832
+SHA256sum: 415da497ad7f45cc6110c0d080dd30cd8399d6edd95e41f016f686fb8a8cd515
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -857,8 +857,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 44707840
 Filename: mihomo-meta_1.19.28_aarch64_cortex-a53.ipk
-Size: 16120869
-SHA256sum: 4be0bf9a299902989ae3955f045a4ed80e1806359dea3c11b440a73fb8413b04
+Size: 16120786
+SHA256sum: 1005ff5f6f19a01ab06b63fd9510f93e8c432946ad3d8d11cb28325b4c502f82
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1321,8 +1321,8 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 81920
 Filename: v2ray-geoip_2026.07.17-r1_all.ipk
-Size: 21050
-SHA256sum: 17da0de1d82ec7161b8cdf82dfc6b84dc9f63fb15e1691ee36bddcde2eaa6421
+Size: 21015
+SHA256sum: ba4e10ffc7f0fb48aa6e5cc17770d82f424cd1ca1120a55276f0c036ebc93185
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
@@ -1337,10 +1337,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 10434560
+Installed-Size: 10455040
 Filename: v2ray-geosite_2026.07.17-r1_all.ipk
-Size: 3420582
-SHA256sum: 879dc244ee71ac0de4656ddf6ad9a2059adadf9f2a35bf61adfaf6c8f059c622
+Size: 3428126
+SHA256sum: aba9cebdfb01c8d884f950c309aa807d42355b6a53618497dd9023d36f7f0328
 Description:  Geosite List for V2Ray
 
 Package: vector
