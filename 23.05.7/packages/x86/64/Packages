@@ -431,14 +431,14 @@ SHA256sum: 31814eeefda6519300847384ff64046806163a5e086c74e3352b64c0474345c7
 Description:  LuCI Support for nikki
 
 Package: luci-app-openclash
-Version: 0.47.116
+Version: 0.47.133
 Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 8152840
-Filename: luci-app-openclash_0.47.116_all.ipk
-Size: 8136078
-SHA256sum: d758783e6a2c4120e171bf0811bfd1465c58a852bf4e4a025d2da2108a062bcc
+Installed-Size: 8160327
+Filename: luci-app-openclash_0.47.133_all.ipk
+Size: 8143989
+SHA256sum: e1faf3a1ceefdbde1014ff64a5541922d50c63e8e4eaad89d8c86a19eecb88d1
 Description:  A LuCI support for clash
 
 Package: luci-app-tailscale
@@ -590,10 +590,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 20152349
+Installed-Size: 20152363
 Filename: mihomo-alpha_2026.07.08_x86_64.ipk
-Size: 20089751
-SHA256sum: 48f5346e8a1713eac72c4cded90d76ea1ec6b9fa1dcdc99b1bd6abeb16aa69c6
+Size: 20089909
+SHA256sum: 98f835a0f022193493787fc94ff0231f3bf4c08a7be37024015b347c65fac1d3
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -605,10 +605,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 20152339
+Installed-Size: 20152340
 Filename: mihomo-meta_1.19.28_x86_64.ipk
-Size: 20090741
-SHA256sum: b237b53e1bac78baaf5e17a9553c2cd77d0c57f83bf863a8cbb037fb79e87482
+Size: 20090669
+SHA256sum: 2cf9b5a9f8118ea4eda47e82bbdcc230b3f80d1d610956e4cfd6fcdf751dbc10
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -931,27 +931,27 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.07.17-1
+Version: 2026.07.18-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 20322
-Filename: v2ray-geoip_2026.07.17-1_all.ipk
-Size: 20988
-SHA256sum: e54810087888ea699297328ee6897a3c9b6b2ec736556b00380d8eb39528176d
+Filename: v2ray-geoip_2026.07.18-1_all.ipk
+Size: 20987
+SHA256sum: c45698101b396ce91da7931c9b08559172a2f0546a49d547fe4a84e22dcca955
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.07.17-1
+Version: 2026.07.18-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3427905
-Filename: v2ray-geosite_2026.07.17-1_all.ipk
-Size: 3428101
-SHA256sum: f9ee291c3695ac4be86704eb074d9803b67b296e7996bda67f971dcfc71b3c82
+Installed-Size: 3426354
+Filename: v2ray-geosite_2026.07.18-1_all.ipk
+Size: 3426273
+SHA256sum: 6c08494f20a897ee49a84b1aeb3f77cc1b6fdff1e37197c22ec004ba76c04aff
 Description:  Geosite List for V2Ray
 
 Package: vector
