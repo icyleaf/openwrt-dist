@@ -663,8 +663,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 47513600
 Filename: mihomo-alpha_2026.07.08_x86_64.ipk
-Size: 17598553
-SHA256sum: 927f994ccc8f29f2f922b35f7db791afebb07a91be76ff205e3f2b85ca66bb81
+Size: 17598455
+SHA256sum: 92c5e32f9914dc4e8525bc10b45b601762cd80a61fefe64fc855c662266521dd
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -679,8 +679,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 46991360
 Filename: mihomo-meta_1.19.29_x86_64.ipk
-Size: 17337976
-SHA256sum: 539cb98fafa86973fa4d5a6385f52a030d4c3826502996c32c21977ab848c207
+Size: 17338151
+SHA256sum: 07d470958ff994380c424af7b36840ab21e1cf542e8b88072f9c28be9a95c101
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -728,63 +728,63 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package contains the OpenSSL command-line utility.
 
 Package: rpcd-mod-file
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libc, libubus20250102, libubox20240329, rpcd
 License: ISC
 Section: utils
 Architecture: x86_64
 Installed-Size: 30720
-Filename: rpcd-mod-file_2025.09.01~bba95191-r1_x86_64.ipk
-Size: 7923
-SHA256sum: ead4dd32f0bee2948ff83444261e9d78c5f3b4830904023f6e719c22e3c50521
+Filename: rpcd-mod-file_2025.09.01~bba95191-r2_x86_64.ipk
+Size: 8476
+SHA256sum: ee91c8d8cef21705f0415be7fe0942ad8fbc6c5c8c9cd397ec7a5309e84f0d9f
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libiwinfo (>=2023.01.21), libc, libubus20250102, libubox20240329, rpcd, libiwinfo20230701
 License: ISC
 Section: utils
 Architecture: x86_64
 Installed-Size: 30720
-Filename: rpcd-mod-iwinfo_2025.09.01~bba95191-r1_x86_64.ipk
-Size: 8296
-SHA256sum: 49eca981de35c7b9034553a634a31413914f544b5cee103b8cd97e275979280d
+Filename: rpcd-mod-iwinfo_2025.09.01~bba95191-r2_x86_64.ipk
+Size: 8298
+SHA256sum: ea0002cad1b8220f5081cab27fbaf2cd1b522fcb9f491563d820154c91a82c7c
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-rpcsys
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libc, libubus20250102, libubox20240329, rpcd
 License: ISC
 Section: utils
 Architecture: x86_64
 Installed-Size: 20480
-Filename: rpcd-mod-rpcsys_2025.09.01~bba95191-r1_x86_64.ipk
-Size: 4687
-SHA256sum: 5a6f2079f55282701079efcc0f58de128b79098f5b07d259a784c6f6ec24559f
+Filename: rpcd-mod-rpcsys_2025.09.01~bba95191-r2_x86_64.ipk
+Size: 4707
+SHA256sum: 4340f9bcbaf3f7501a0b39a881008a20cce477ce0e6f23251ecd4d5880af4f14
 Description:  Provides ubus calls for sysupgrade and password changing.
 
 Package: rpcd-mod-ucode
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libc, libubus20250102, libubox20240329, rpcd, libucode20230711
 License: ISC
 Section: utils
 Architecture: x86_64
 Installed-Size: 30720
-Filename: rpcd-mod-ucode_2025.09.01~bba95191-r1_x86_64.ipk
-Size: 8493
-SHA256sum: b6a1e234588d983f7d7fcfec0258c5f7bce4339acf5a5d4ad2927d68c12050e5
+Filename: rpcd-mod-ucode_2025.09.01~bba95191-r2_x86_64.ipk
+Size: 8529
+SHA256sum: ac580d3db8a798747859d0b526e986d3187d2612b07e7edeb8599ce2b087635a
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libc, libubus20250102, libubox20240329, libuci20250120, libblobmsg-json20240329, libjson-c5
 License: ISC
 Section: utils
 Architecture: x86_64
 Installed-Size: 81920
-Filename: rpcd_2025.09.01~bba95191-r1_x86_64.ipk
-Size: 25982
-SHA256sum: 3672cbb2cd7b3cc4dc9f1ff549a6fd24ec125cf1998faf428cf534d93dcddd98
+Filename: rpcd_2025.09.01~bba95191-r2_x86_64.ipk
+Size: 26117
+SHA256sum: 0ef1223b206ce45af9bd29ae8e659040010a12625c5fbb421da1ebc07de1ddb2
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -1041,8 +1041,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10485760
 Filename: v2ray-geosite_2026.07.22-r1_all.ipk
-Size: 3435277
-SHA256sum: d25fe42e6b0c9ea34e20a9010e5da78f15da7cf5ee3b4981655bd4786e93a35e
+Size: 3441996
+SHA256sum: 352833f5d762ce62820fcf32cae8d2d13728ad85850d176cf75d4460aed20c81
 Description:  Geosite List for V2Ray
 
 Package: vector
