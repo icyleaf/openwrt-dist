@@ -646,8 +646,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 44707840
 Filename: mihomo-alpha_2026.07.08_aarch64_cortex-a53.ipk
-Size: 16120805
-SHA256sum: 6414e90c9bf3810fd186f2a98e139edccee3e3916fafcf2a701c6508010f2286
+Size: 16120824
+SHA256sum: 8b01f5023836d198927821beb6c857fcb3a390a1990bccc798934e6c8c597aca
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -662,8 +662,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 44175360
 Filename: mihomo-meta_1.19.29_aarch64_cortex-a53.ipk
-Size: 15882250
-SHA256sum: 63bf88ad53e81950f4388282f3209f4b7a7899dc05cda436cf1d29551c77b712
+Size: 15882188
+SHA256sum: 351e78482f0da058af7ffd125820ceb70e159bfd9fe95d14a76fad4839836de7
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -711,63 +711,63 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package contains the OpenSSL command-line utility.
 
 Package: rpcd-mod-file
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libc, libubus20250102, libubox20240329, rpcd
 License: ISC
 Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: rpcd-mod-file_2025.09.01~bba95191-r1_aarch64_cortex-a53.ipk
-Size: 8421
-SHA256sum: 2f419e13108effd65966f80eee735322551c2ad8a42b59bd7157145e137024d0
+Filename: rpcd-mod-file_2025.09.01~bba95191-r2_aarch64_cortex-a53.ipk
+Size: 9055
+SHA256sum: 7b465f9b8221ddeb730c691dddf3c2c3d46f0a999b6ef4a1c3a4a7916a30cdeb
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libiwinfo (>=2023.01.21), libc, libubus20250102, libubox20240329, rpcd, libiwinfo20230701
 License: ISC
 Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: rpcd-mod-iwinfo_2025.09.01~bba95191-r1_aarch64_cortex-a53.ipk
-Size: 8784
-SHA256sum: 804df0245b7e59cae5ff32429bfef4cc476897727d8941328460d4fae5ab86ec
+Filename: rpcd-mod-iwinfo_2025.09.01~bba95191-r2_aarch64_cortex-a53.ipk
+Size: 8789
+SHA256sum: 6d0819191cf7939340812976b8e0a008a710bbb910a50dfcf2500049c71f1fb1
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-rpcsys
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libc, libubus20250102, libubox20240329, rpcd
 License: ISC
 Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: rpcd-mod-rpcsys_2025.09.01~bba95191-r1_aarch64_cortex-a53.ipk
-Size: 4918
-SHA256sum: 72a8d503b02b865978efef6ec742ab230290c6d72f3498478da3a938bee2a21a
+Filename: rpcd-mod-rpcsys_2025.09.01~bba95191-r2_aarch64_cortex-a53.ipk
+Size: 4942
+SHA256sum: 350992e3735adc32a60dda2465d4278d13015676a8bb56df0cb658aa2e84df16
 Description:  Provides ubus calls for sysupgrade and password changing.
 
 Package: rpcd-mod-ucode
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libc, libubus20250102, libubox20240329, rpcd, libucode20230711
 License: ISC
 Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: rpcd-mod-ucode_2025.09.01~bba95191-r1_aarch64_cortex-a53.ipk
-Size: 8933
-SHA256sum: 19a6e508c2f42bf6043fb74a4a59d8ca74e4e3810075dce4879cfad2c85a93e7
+Filename: rpcd-mod-ucode_2025.09.01~bba95191-r2_aarch64_cortex-a53.ipk
+Size: 8948
+SHA256sum: 644d150c4204dc532ee7104475cdda92af162385ce5be7b050675bf20cbec23a
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
-Version: 2025.09.01~bba95191-r1
+Version: 2025.09.01~bba95191-r2
 Depends: libc, libubus20250102, libubox20240329, libuci20250120, libblobmsg-json20240329, libjson-c5
 License: ISC
 Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
-Filename: rpcd_2025.09.01~bba95191-r1_aarch64_cortex-a53.ipk
-Size: 27939
-SHA256sum: 346e09edc6487af93db44fba1fec69bacf8ae2b5ce108e4bf870add406b8f8c3
+Filename: rpcd_2025.09.01~bba95191-r2_aarch64_cortex-a53.ipk
+Size: 28078
+SHA256sum: 18a2dcbf0b0abe2a5d01e6e6b545b166dcde2116b4555f8ce694384d67b94fb6
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -1024,8 +1024,8 @@ URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 10485760
 Filename: v2ray-geosite_2026.07.22-r1_all.ipk
-Size: 3435277
-SHA256sum: d25fe42e6b0c9ea34e20a9010e5da78f15da7cf5ee3b4981655bd4786e93a35e
+Size: 3441996
+SHA256sum: 352833f5d762ce62820fcf32cae8d2d13728ad85850d176cf75d4460aed20c81
 Description:  Geosite List for V2Ray
 
 Package: vector
