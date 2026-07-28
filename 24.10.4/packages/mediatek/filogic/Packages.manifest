@@ -1,5 +1,5 @@
 Package: ca-bundle
-Version: 20260223-r1
+Version: 20260601-r1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -7,16 +7,16 @@ SourceName: ca-certificates
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1779010265
+SourceDateEpoch: 1784759465
 Architecture: all
-Installed-Size: 225280
-Filename: ca-bundle_20260223-r1_all.ipk
-Size: 127138
-SHA256sum: 44abbaddf1000dc03aee003901cb569699a9adb2bf9539d06a11e2c1ab4e8790
+Installed-Size: 194560
+Filename: ca-bundle_20260601-r1_all.ipk
+Size: 107834
+SHA256sum: 2899d7edb3579161de412be51b4f821ba3097dd2bea56683c3e8848d256d8a4c
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
-Version: 20260223-r1
+Version: 20260601-r1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -24,12 +24,12 @@ SourceName: ca-certificates
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1779010265
+SourceDateEpoch: 1784759465
 Architecture: all
-Installed-Size: 399360
-Filename: ca-certificates_20260223-r1_all.ipk
-Size: 137813
-SHA256sum: 39150e8a471fab2f5046ac739c2a3ff045be3a20d5efdfd6169f0fd4f1a09185
+Installed-Size: 337920
+Filename: ca-certificates_20260601-r1_all.ipk
+Size: 116778
+SHA256sum: 29cf3d69e5bcf09a01bf8ab60a2614cd1821b816508787614ea24e470d322b1f
 Description:  System CA certificates
 
 Package: fastfetch
@@ -837,8 +837,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 44707840
 Filename: mihomo-alpha_2026.07.08_aarch64_cortex-a53.ipk
-Size: 16120974
-SHA256sum: 868efc3577da9eba050b65480dc45636f3fffde42370aaff32d0e18335f65445
+Size: 16120975
+SHA256sum: bcb883720c1767f5fd6936c966db72ff7482f67c5d67b367c9d42cb26a423703
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -857,8 +857,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 44175360
 Filename: mihomo-meta_1.19.29_aarch64_cortex-a53.ipk
-Size: 15881900
-SHA256sum: e33f8d18697884aa87117e6f35ba45c6c4079e9d73ee80225360ab2d9688ebc2
+Size: 15881998
+SHA256sum: 1f9781f960f9fc3e57d1c4c78d023bf08b16267ef178d89838779fa9e112b0af
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1308,7 +1308,7 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.07.26-r1
+Version: 2026.07.27-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1320,13 +1320,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 81920
-Filename: v2ray-geoip_2026.07.26-r1_all.ipk
-Size: 20964
-SHA256sum: 1c8539765d0b03df0334d7d4ac6bfb096643e4bb38255202e75536ff268f16c1
+Filename: v2ray-geoip_2026.07.27-r1_all.ipk
+Size: 20963
+SHA256sum: 74581dd2e50d0de6d6f9f216196b97b07c9c0c0700085b9825bd68988176c036
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.07.26-r1
+Version: 2026.07.27-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1337,10 +1337,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 10516480
-Filename: v2ray-geosite_2026.07.26-r1_all.ipk
-Size: 3452728
-SHA256sum: 46d750da5d2df7915f14f4dc51c5b887d66f5691f96cc64674d3c400ebfc1cbe
+Installed-Size: 10526720
+Filename: v2ray-geosite_2026.07.27-r1_all.ipk
+Size: 3453334
+SHA256sum: 3dad99686a261153917ec529f9cdc45ff1bc2b5618965a087526f4a213794837
 Description:  Geosite List for V2Ray
 
 Package: vector
