@@ -502,19 +502,19 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua language compiler.
 
 Package: luci-app-log-viewer
-Version: 1.5.0-3
+Version: 1.5.0-4
 Depends: libc, ucode, ucode-mod-fs
 Source: feeds/base/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1781451364
+SourceDateEpoch: 1785334838
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9698
-Filename: luci-app-log-viewer_1.5.0-3_all.ipk
-Size: 10549
-SHA256sum: 0a1e050527cf480277e69c07eea7cc2556395db6a54b19a2cc78fd7a3f6a6221
+Installed-Size: 9708
+Filename: luci-app-log-viewer_1.5.0-4_all.ipk
+Size: 10558
+SHA256sum: cdd2fbd6d3d493a003ae86e18654f996863e18dea3ef75ec4e1aa386a29a2eb8
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-momo
@@ -609,18 +609,18 @@ SHA256sum: 03e297921d46af15fd5a32572998f342136f64686a3303190787d0b3839889c3
 Description:  Provides Luci for vector
 
 Package: luci-i18n-log-ru
-Version: git-26.165.56164-f51040c
+Version: git-26.210.51638-4d5601b
 Depends: libc, luci-app-log-viewer
 Source: feeds/base/luci-app-log
 SourceName: luci-i18n-log-ru
 License: MIT
 Section: luci
-SourceDateEpoch: 1781451364
+SourceDateEpoch: 1785334838
 Architecture: all
 Installed-Size: 1338
-Filename: luci-i18n-log-ru_git-26.165.56164-f51040c_all.ipk
-Size: 2110
-SHA256sum: 2dbcd7b4b5fd52de4ed0fc2ba415010632c312b37609f42e06ae5b259296bf7f
+Filename: luci-i18n-log-ru_git-26.210.51638-4d5601b_all.ipk
+Size: 2100
+SHA256sum: 9b369dd7cf954702263c9ba84740f3b4b91c9c22045d4830b671ff20e62b4c85
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-momo-zh-cn
@@ -771,10 +771,10 @@ Section: net
 SourceDateEpoch: 1785225042
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 20152251
+Installed-Size: 20152250
 Filename: mihomo-alpha_2026.07.08_x86_64.ipk
-Size: 20090653
-SHA256sum: 5ad40a9a8d1d6390624a25ef10992977d02b438c61d722164ca33dbcb36fca0a
+Size: 20090646
+SHA256sum: 212c28d57446f92a162056e16e91c6f55c5879241e81625736e33c7ddcbfb988
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -790,10 +790,10 @@ Section: net
 SourceDateEpoch: 1785225042
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 19889231
+Installed-Size: 19889230
 Filename: mihomo-meta_1.19.29_x86_64.ipk
-Size: 19827285
-SHA256sum: b496c4411b1cbef03a8f6ee3f576b654f2838e7157c4547ae3dc285f6a98fe79
+Size: 19827316
+SHA256sum: 5006334fa4afeb295923588bce1df48e680c44aad339142c74f6947c94148065
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1222,7 +1222,7 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.07.28-1
+Version: 2026.07.29-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geoip
@@ -1232,14 +1232,14 @@ Section: net
 SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 20285
-Filename: v2ray-geoip_2026.07.28-1_all.ipk
-Size: 20954
-SHA256sum: 8c549abf3ff1c205d2b3cc5cb310490c6c7181890594e6393c6e5fcc20805547
+Installed-Size: 20323
+Filename: v2ray-geoip_2026.07.29-1_all.ipk
+Size: 21012
+SHA256sum: 8fa7d649d6a6a16e41272b4e71e47b986a5d0c3089567d1b8b2c99622c2d019c
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.07.28-1
+Version: 2026.07.29-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geosite
@@ -1249,10 +1249,10 @@ Section: net
 SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 3457011
-Filename: v2ray-geosite_2026.07.28-1_all.ipk
-Size: 3457156
-SHA256sum: 7bc3603b7624d1d06182791115944d665ec676ca8919ba983b241ce0a4a32729
+Installed-Size: 3456434
+Filename: v2ray-geosite_2026.07.29-1_all.ipk
+Size: 3456626
+SHA256sum: a54461bbe26fa6977e2d27f9a4e3bcf7f09634a42924201a9ed7cb78aa7527ce
 Description:  Geosite List for V2Ray
 
 Package: vector
