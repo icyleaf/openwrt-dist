@@ -45,8 +45,8 @@ Maintainer: icyleaf <icyleaf.cn@gmail.com>
 Architecture: x86_64
 Installed-Size: 1146880
 Filename: fastfetch_2.52.0-r7_x86_64.ipk
-Size: 374796
-SHA256sum: ddb62f76cd20bc5bd0f11e801302f5bb910284b512cb8478c0fc21aa169ab75d
+Size: 375357
+SHA256sum: 352329db798480a8da4a55c0cbc0dffbe631186cea59f5c8e92f71b62d5d8ff4
 Description:  Fastfetch is a neofetch-like tool for fetching
  system information and displaying it prettily.
 
@@ -859,8 +859,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 47513600
 Filename: mihomo-alpha_2026.07.08_x86_64.ipk
-Size: 17598726
-SHA256sum: 5969161e1cbad30db87cc5ed20a0a46dc6199190a36c2f4448decb8d2b27b716
+Size: 17598711
+SHA256sum: 8316cce7ae5fce3c21a66f7e6a98daaa030b2c5d9539371ed3ef32560ae9e682
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -879,8 +879,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 46991360
 Filename: mihomo-meta_1.19.29_x86_64.ipk
-Size: 17338176
-SHA256sum: c821a01a2d10137f3af6a83be7613e1a7c472e66354252bf54592601c59115f1
+Size: 17338179
+SHA256sum: ccece4e93fffa77b14c975d250cc177181228c5ed5ad645dba44638a404b180b
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1330,7 +1330,7 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.08.12-r1
+Version: 2026.08.13-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1342,13 +1342,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 81920
-Filename: v2ray-geoip_2026.08.12-r1_all.ipk
-Size: 21047
-SHA256sum: 1cb346d76e5c674f7260b32d553c694a073701daaf6a9716351040b16a2239f3
+Filename: v2ray-geoip_2026.08.13-r1_all.ipk
+Size: 19308
+SHA256sum: e12f0448ccb7c2f022447a0fa6d55b737dbe1c82055b1f7eea41c56b6e54bdd0
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.08.12-r1
+Version: 2026.08.13-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1359,10 +1359,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 10383360
-Filename: v2ray-geosite_2026.08.12-r1_all.ipk
-Size: 3389344
-SHA256sum: 3681d32cf15a4350e9b04c1be29d2756f9eb6ebfc66befa57bb31b7fdd9628d4
+Installed-Size: 10393600
+Filename: v2ray-geosite_2026.08.13-r1_all.ipk
+Size: 3396079
+SHA256sum: 04ec71b36c64941865dca1483f1ef0c45d0f8d7f7c7801d9c88ae5f904a440f4
 Description:  Geosite List for V2Ray
 
 Package: vector
