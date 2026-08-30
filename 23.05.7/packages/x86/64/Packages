@@ -590,10 +590,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 21292280
+Installed-Size: 21292267
 Filename: mihomo-alpha_2026.08.16_x86_64.ipk
-Size: 21228609
-SHA256sum: 78fd7127072e8fed754801b4d844482203070082416a9b22ffc07ec757e7f3f1
+Size: 21228178
+SHA256sum: f55d64a7ea8010b51fccf26e21c523947dfa9bb151d07cec294dc9dbdaa7b859
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -607,8 +607,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 21292275
 Filename: mihomo-meta_1.19.30_x86_64.ipk
-Size: 21228579
-SHA256sum: b9f0cbb47aedfedd7aa5f520386eb6c30ad4a0abfd84541b4ff976157347c261
+Size: 21228530
+SHA256sum: 4161be939d78696a78f8d2c7ad0219093de4c70556e634aeddf5d9bfe196d103
 Description:  A rule based proxy in Go.
 
 Package: momo
