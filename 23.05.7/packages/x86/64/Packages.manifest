@@ -771,10 +771,10 @@ Section: net
 SourceDateEpoch: 1789347779
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 21292284
+Installed-Size: 21292271
 Filename: mihomo-alpha_2026.08.16_x86_64.ipk
-Size: 21228600
-SHA256sum: 7774cf36b491cf329ee32af6bd8f591fd2f9f0eebf44458d2e0f4208f54877ff
+Size: 21228399
+SHA256sum: 2b37ad1060a7c04342e75bc810f202e500c4bf40cd956d1b876354a7a45c3994
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -790,10 +790,10 @@ Section: net
 SourceDateEpoch: 1789347779
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 21292257
+Installed-Size: 21292252
 Filename: mihomo-meta_1.19.30_x86_64.ipk
-Size: 21229187
-SHA256sum: c930944ae9ff3660038b1650ac65405a5d74cc83ea2f44c2fd982caf7bf6701b
+Size: 21229077
+SHA256sum: d65f8568c58ec7cba5cc8d39984c72dff32dd333db1c3496418cccd5a8143c41
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1249,10 +1249,10 @@ Section: net
 SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 3624127
+Installed-Size: 3623439
 Filename: v2ray-geosite_2026.09.15-1_all.ipk
-Size: 3624278
-SHA256sum: 9cb6c8ab16d1ea766ef241ba6b19678ba1fed34734d2b8fd2d08eb283da6c5c5
+Size: 3623670
+SHA256sum: 11eb0b7763f92f7f92c10c5c8ae2fb8041a525759b120d9cd8c8305ae4f472d6
 Description:  Geosite List for V2Ray
 
 Package: vector
