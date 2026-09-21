@@ -773,8 +773,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 21292268
 Filename: mihomo-alpha_2026.08.16_x86_64.ipk
-Size: 21228453
-SHA256sum: e01b228f3b3f181fd456b3c009d84334ec0e0cdc7bea311d41459177e91d8cee
+Size: 21228410
+SHA256sum: e07316c04f4f70b9db74adb9fefa8f633400d4be99b7cdc67fe6e0b54bfe5339
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -790,10 +790,10 @@ Section: net
 SourceDateEpoch: 1789606284
 Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
-Installed-Size: 25387146
+Installed-Size: 25387235
 Filename: mihomo-meta_1.19.31_x86_64.ipk
-Size: 25316557
-SHA256sum: 646e9090738e490bb1abbe204640bb49afa09eaf918233c61d3d1ed6d8e14105
+Size: 25316098
+SHA256sum: 09ec8c1b9003c5f5d86a3e488b511e71cb1e29bf3c417c7b1e57230540944400
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1222,7 +1222,7 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.09.19-1
+Version: 2026.09.20-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geoip
@@ -1233,13 +1233,13 @@ SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 31970
-Filename: v2ray-geoip_2026.09.19-1_all.ipk
+Filename: v2ray-geoip_2026.09.20-1_all.ipk
 Size: 32346
-SHA256sum: bdbba2fc44bc9267cab126b6fc76c9b971b2ceb6a61eeb56c1f91b9b22b453d0
+SHA256sum: 9de1cc9ba4ae66e9c6d002ea6f56114b6ebea36b13a6ffd20a1c3e28d0e50a1e
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.09.19-1
+Version: 2026.09.20-1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geosite
@@ -1249,10 +1249,10 @@ Section: net
 SourceDateEpoch: 1737793858
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 3636663
-Filename: v2ray-geosite_2026.09.19-1_all.ipk
-Size: 3636708
-SHA256sum: 9d5bdb43129829e34ba35bdbf720ff2e6c1d15262b578e550040e2d3902768cf
+Installed-Size: 3645721
+Filename: v2ray-geosite_2026.09.20-1_all.ipk
+Size: 3646081
+SHA256sum: 274388542152e38553b00ab10f8bd366b3add95111894761a3eeb3e5ffbb1c17
 Description:  Geosite List for V2Ray
 
 Package: vector
