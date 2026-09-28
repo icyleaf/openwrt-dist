@@ -590,10 +590,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 21292283
+Installed-Size: 21292281
 Filename: mihomo-alpha_2026.08.16_x86_64.ipk
-Size: 21228657
-SHA256sum: 10d20dca17a180f58829bf6fdb304539e7bc5d052165f47b3680acdc8ffff672
+Size: 21228636
+SHA256sum: f82b9f2c54f9f2b5cdf286d947d33dc960ce6f66e169e9ae2825762fd26828c3
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -605,10 +605,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 25387155
+Installed-Size: 25387154
 Filename: mihomo-meta_1.19.31_x86_64.ipk
-Size: 25316198
-SHA256sum: 10189381b88a5111622667528a0a6ae9c14b1dfca8a723c16d41c6734162b5f1
+Size: 25316290
+SHA256sum: cead60f595a27e04f878529debfb9d0c158c7244a1a0a4b91d94b8a330579043
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -931,27 +931,27 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.09.27-1
+Version: 2026.09.28-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 31572
-Filename: v2ray-geoip_2026.09.27-1_all.ipk
+Filename: v2ray-geoip_2026.09.28-1_all.ipk
 Size: 31984
-SHA256sum: 04f25270caafd3ec13208e4b6802313dbbde9aa5760540900cc577e499813b73
+SHA256sum: 43fbb49bd7227683e635314cc497c0194b7fcf1a6314a4c40013677415db9588
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.09.27-1
+Version: 2026.09.28-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3663835
-Filename: v2ray-geosite_2026.09.27-1_all.ipk
-Size: 3664230
-SHA256sum: b94cd1863974dd3b4f07ad5bddf47f541f3a927b6af2f75ea293c72fc05b766b
+Installed-Size: 3668169
+Filename: v2ray-geosite_2026.09.28-1_all.ipk
+Size: 3668217
+SHA256sum: 7d11f3bc84bb616bd82f37ce32c71ceba44867c606c9b80aa417f80984ddc882
 Description:  Geosite List for V2Ray
 
 Package: vector
