@@ -1,27 +1,27 @@
 Package: ca-bundle
-Version: 20260601-r1
+Version: 20260816-r1
 Depends: libc
 Provides: ca-certs
 License: GPL-2.0-or-later MPL-2.0
 Section: base
 Architecture: all
 Installed-Size: 194560
-Filename: ca-bundle_20260601-r1_all.ipk
-Size: 107834
-SHA256sum: 2899d7edb3579161de412be51b4f821ba3097dd2bea56683c3e8848d256d8a4c
+Filename: ca-bundle_20260816-r1_all.ipk
+Size: 107420
+SHA256sum: 2a1f0df6cb3b6ef8ee88c9add5a1d23aa8ffdcee6bb814d891e4d8bbcc1c3eae
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
-Version: 20260601-r1
+Version: 20260816-r1
 Depends: libc
 Provides: ca-certs
 License: GPL-2.0-or-later MPL-2.0
 Section: base
 Architecture: all
 Installed-Size: 337920
-Filename: ca-certificates_20260601-r1_all.ipk
-Size: 116778
-SHA256sum: 29cf3d69e5bcf09a01bf8ab60a2614cd1821b816508787614ea24e470d322b1f
+Filename: ca-certificates_20260816-r1_all.ipk
+Size: 116213
+SHA256sum: 80c7881ffe8c3077ef0093e5c5e4e8fec2ccaa8cc9b3b26c63fb1927fb36b6b9
 Description:  System CA certificates
 
 Package: fastfetch
@@ -166,7 +166,7 @@ Description:  Lua is a powerful light-weight programming language designed for e
  This package contains the Lua shared libraries, needed by other programs.
 
 Package: libmbedtls21
-Version: 3.6.6-r2
+Version: 3.6.7-r1
 Depends: libc
 Provides: libmbedtls
 License: GPL-2.0-or-later
@@ -176,9 +176,9 @@ ABIVersion: 21
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 696320
-Filename: libmbedtls21_3.6.6-r2_x86_64.ipk
-Size: 312126
-SHA256sum: 81dc92c673e0d8c7c7397cabe5c882227c4a1dd1b6f0748670bf390bb6b1f9d2
+Filename: libmbedtls21_3.6.7-r1_x86_64.ipk
+Size: 312042
+SHA256sum: 6caab152cdb1dec4dde1c5b4a1edc2cad90f7b0c1aa32a5c6f34e2f76c80f19c
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -198,7 +198,7 @@ SHA256sum: d3fb330318a0876bd0df522f59ac822526e5ea4ce490f8d3a71860455cfde9e3
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-afalg
-Version: 3.0.21-r1
+Version: 3.0.22-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 License: Apache-2.0
 Section: libs
@@ -206,9 +206,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libopenssl-afalg_3.0.21-r1_x86_64.ipk
-Size: 7979
-SHA256sum: aecabb8494d5d4cccab64c5b5d87edf203c0a3bb46f8393102c18a76f896940d
+Filename: libopenssl-afalg_3.0.22-r1_x86_64.ipk
+Size: 7983
+SHA256sum: 4f1269aa94ad68cbeea2ccb6b526af80ca4c18daa31a5d14e9bb1824f0bcbc61
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -216,7 +216,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "afalg"
 
 Package: libopenssl-conf
-Version: 3.0.21-r1
+Version: 3.0.22-r1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
@@ -224,9 +224,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 20480
-Filename: libopenssl-conf_3.0.21-r1_x86_64.ipk
-Size: 6488
-SHA256sum: ea15c5fe8bc9dc743378a7fdab52c96c106f64de2409466179027185c08a0543
+Filename: libopenssl-conf_3.0.22-r1_x86_64.ipk
+Size: 6489
+SHA256sum: e8bd1057d6c1eb3147ca495eaa2b4d0637b9f67ad8c76d33ce0aa027a70347dc
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -234,7 +234,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.21-r1
+Version: 3.0.22-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
@@ -242,9 +242,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libopenssl-devcrypto_3.0.21-r1_x86_64.ipk
-Size: 12479
-SHA256sum: e316e04d1826499299ebc69c5e55cd408740f5fb166697bd08e3d0d8b8426ed6
+Filename: libopenssl-devcrypto_3.0.22-r1_x86_64.ipk
+Size: 12484
+SHA256sum: 7a5baca67776b0d08aa15bf6666810f19667613a8067248aefdeaf2999aabb4b
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -252,7 +252,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.21-r1
+Version: 3.0.22-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
@@ -260,16 +260,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 133120
-Filename: libopenssl-legacy_3.0.21-r1_x86_64.ipk
-Size: 38538
-SHA256sum: dbf26bf170e9ab66ae61dcd2d64de50ece368ff8964c7b33fea41890be5c5361
+Filename: libopenssl-legacy_3.0.22-r1_x86_64.ipk
+Size: 38543
+SHA256sum: fa4f4882a46ae6bb8d6974c6dc04b33e0f56f66ac83accc05da55c36bb33a78c
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl-padlock
-Version: 3.0.21-r1
+Version: 3.0.22-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-hw-padlock
 License: Apache-2.0
 Section: libs
@@ -277,16 +277,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libopenssl-padlock_3.0.21-r1_x86_64.ipk
+Filename: libopenssl-padlock_3.0.22-r1_x86_64.ipk
 Size: 11343
-SHA256sum: a64798d6ea930f4d7c7f69f029fe62018227d73eb0b734f4efa6d2f805ce6e1a
+SHA256sum: c92eb80a9cc4f9bc61876c02819a239f07dd75041d149538be60ab2fe1a79a6b
 Description:  This package adds an engine that enables VIA Padlock hardware acceleration.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
  and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
  The engine_id is "padlock"
 
 Package: libopenssl3
-Version: 3.0.21-r1
+Version: 3.0.22-r1
 Depends: libc
 Provides: libopenssl
 License: Apache-2.0
@@ -296,9 +296,9 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 5109760
-Filename: libopenssl3_3.0.21-r1_x86_64.ipk
-Size: 2102419
-SHA256sum: 6c1e30b3388a4287c48edb5008fa757cd9f7ab0ff20b012475096468cfe4d567
+Filename: libopenssl3_3.0.22-r1_x86_64.ipk
+Size: 2103328
+SHA256sum: 161a3f05a543b7e7b0e976b51bc2bdc46d0b93c6f96bb7c8b3526478682cef9c
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -635,7 +635,7 @@ SHA256sum: 24c8b71c98e9dd1a0a622d2ff525beae5eb5d2bcca224b343c2fac8fc25d07f0
 Description:  Translation for luci-app-vector - 简体中文 (Simplified Chinese)
 
 Package: mbedtls-util
-Version: 3.6.6-r2
+Version: 3.6.7-r1
 Depends: libc, libmbedtls21
 License: GPL-2.0-or-later
 Section: utils
@@ -643,9 +643,9 @@ URL: https://www.trustedfirmware.org/projects/mbed-tls/
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 40960
-Filename: mbedtls-util_3.6.6-r2_x86_64.ipk
-Size: 9030
-SHA256sum: 24dfae5ac0116e49fbf38f16a139d342e760d10d230c7a2b87f98accf4c16f76
+Filename: mbedtls-util_3.6.7-r1_x86_64.ipk
+Size: 9035
+SHA256sum: 978fe4646fd10385d4307b3d9de0ef920cec1366323cb02998525a01a9671d2c
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -663,8 +663,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 50135040
 Filename: mihomo-alpha_2026.08.16_x86_64.ipk
-Size: 18594087
-SHA256sum: 1a01e770dcea08d496a1b2a872436b61a58fc1195e5b8406e9e7af86ef8cc997
+Size: 18594084
+SHA256sum: aa6429bd801530450b6b9ae91147ee93b118e738e326340128aac68f79967040
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -679,8 +679,8 @@ URL: https://wiki.metacubex.one
 Architecture: x86_64
 Installed-Size: 60979200
 Filename: mihomo-meta_1.19.31_x86_64.ipk
-Size: 22500380
-SHA256sum: e7f34204b6214b035baac43893adcb10884016f08a5b96eaa6508e0102812371
+Size: 22500339
+SHA256sum: 3af36b4e9229af13f9f7bf9b7fdca43142374176f35106929bbbde6acdfab8a2
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -710,7 +710,7 @@ SHA256sum: 37a2114a5ce16e72b47a71790690dc154fde55be63a3ee5e6ad376c15b53be6b
 Description:  Transparent Proxy with Mihomo on OpenWrt.
 
 Package: openssl-util
-Version: 3.0.21-r1
+Version: 3.0.22-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
@@ -718,9 +718,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 849920
-Filename: openssl-util_3.0.21-r1_x86_64.ipk
-Size: 344053
-SHA256sum: 1c638b6175231fba72197c1b57dd89f85b11edac87ba1cde28f9305159db5b2c
+Filename: openssl-util_3.0.22-r1_x86_64.ipk
+Size: 344145
+SHA256sum: 470998e54ed102c0632ae1455c0760aa7e8d26a98e8a6d99d17566925ad38ac2
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1020,29 +1020,29 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.10.02-r1
+Version: 2026.10.03-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 143360
-Filename: v2ray-geoip_2026.10.02-r1_all.ipk
-Size: 32147
-SHA256sum: 2d7d388518f267193dfc512dd371b82bae19d86cf6038e10ec12fe5700b17d89
+Filename: v2ray-geoip_2026.10.03-r1_all.ipk
+Size: 32148
+SHA256sum: 91dc88616251b1c284671fd0a52473a5d2fe90f5556057a71900347fc96990b5
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.10.02-r1
+Version: 2026.10.03-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 10997760
-Filename: v2ray-geosite_2026.10.02-r1_all.ipk
-Size: 3605241
-SHA256sum: 6760c8dbf790730bab051e17225f1b1f8c03775d78c487a0b0d3060c4fef54f3
+Installed-Size: 11008000
+Filename: v2ray-geosite_2026.10.03-r1_all.ipk
+Size: 3607751
+SHA256sum: fd1cd74811217b48331367be75d3082aef3a195cc457dd9d1184f1557b57f0ea
 Description:  Geosite List for V2Ray
 
 Package: vector
