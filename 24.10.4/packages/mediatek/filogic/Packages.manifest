@@ -837,8 +837,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 47134720
 Filename: mihomo-alpha_2026.08.16_aarch64_cortex-a53.ipk
-Size: 17032643
-SHA256sum: 25741032e803d02e4085bfd2ad95235eae2e0dd2820d487afdef7183bfeac7c1
+Size: 17032607
+SHA256sum: 690d41ae0164f9c693010f31fffdf0f0ed85097afc4872bc27ced43d032ef5df
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -857,8 +857,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 58030080
 Filename: mihomo-meta_1.19.32_aarch64_cortex-a53.ipk
-Size: 20869555
-SHA256sum: c20e445e8f757b5445b1d954d2917a99df5a3be16f5c4994a1daf859e7a5b6b9
+Size: 20869426
+SHA256sum: 1b6549b536a4c24b002bbf63ceb32a3ddb2bb5250c2286e3b18a4954e8627617
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1308,7 +1308,7 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.10.08-r1
+Version: 2026.10.09-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1320,13 +1320,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 143360
-Filename: v2ray-geoip_2026.10.08-r1_all.ipk
-Size: 31953
-SHA256sum: 90bf5680c73ca3b823296c3454d62df00737e3cb8c0f82eac74b8f76c4ee178b
+Filename: v2ray-geoip_2026.10.09-r1_all.ipk
+Size: 31954
+SHA256sum: 3acb93fe89e1c02b9a743520a2c318101a2aa7ea5aaf5f489132539493e1e7da
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.10.08-r1
+Version: 2026.10.09-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1337,10 +1337,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 11048960
-Filename: v2ray-geosite_2026.10.08-r1_all.ipk
-Size: 3624746
-SHA256sum: e88d61231b244078b98a4348e0ea926c4f7adc3aa865700cd6a668fcb767e8d4
+Installed-Size: 11069440
+Filename: v2ray-geosite_2026.10.09-r1_all.ipk
+Size: 3635354
+SHA256sum: 6d80e52f19a712a3af865572ffaded2dbf6d82d5138f51119deac731692757f3
 Description:  Geosite List for V2Ray
 
 Package: vector
