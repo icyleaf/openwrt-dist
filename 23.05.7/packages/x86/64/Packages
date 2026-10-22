@@ -592,8 +592,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 21292316
 Filename: mihomo-alpha_2026.08.16_x86_64.ipk
-Size: 21228591
-SHA256sum: 84046b11caabea78cf3dba8b7c2eeeb196998cf3cca80763d495affa815146f3
+Size: 21228553
+SHA256sum: c18b2a75b63533c424d909d2f87a974791b7104bab33538acbca2ef6aceef3ea
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -605,10 +605,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 25448425
+Installed-Size: 25448407
 Filename: mihomo-meta_1.19.32_x86_64.ipk
-Size: 25378895
-SHA256sum: faa6cbe648ca81ba6559529e155074af0cfaeab05b57e41a1a42a447a2e94c1a
+Size: 25379038
+SHA256sum: e50ee1ec666e03419c6daf590bfb6592af5a1b452aca3626b763635f81053595
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -931,27 +931,27 @@ SHA256sum: 3a3c4b0097b90ab52a739519a9b067b21f6516012898a565ba4a34878fd9730d
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.10.21-1
+Version: 2026.10.22-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 32723
-Filename: v2ray-geoip_2026.10.21-1_all.ipk
-Size: 33010
-SHA256sum: 329530ee92bc173b14b1ae5d5755b48b9486c608511406dde222f4c10b8ffede
+Filename: v2ray-geoip_2026.10.22-1_all.ipk
+Size: 33009
+SHA256sum: 3abee8e2bc35ff1dbbbcb403de61ca8cd0101dad1b5c2287ca76e2a8c4ae9755
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.10.21-1
+Version: 2026.10.22-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3731105
-Filename: v2ray-geosite_2026.10.21-1_all.ipk
-Size: 3731316
-SHA256sum: 1d0b2857f1bf834ba70fdd10243c951fc8954d60698137bc51abba0f65160e82
+Installed-Size: 3746522
+Filename: v2ray-geosite_2026.10.22-1_all.ipk
+Size: 3747028
+SHA256sum: 89139fb5fcd5f37bd786571b40481aadeb587ac2ca7feb905677837a19031596
 Description:  Geosite List for V2Ray
 
 Package: vector
