@@ -1,5 +1,5 @@
 Package: ca-bundle
-Version: 20260816-r1
+Version: 20260816-r2
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -7,16 +7,16 @@ SourceName: ca-certificates
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1790454122
+SourceDateEpoch: 1792570787
 Architecture: all
 Installed-Size: 194560
-Filename: ca-bundle_20260816-r1_all.ipk
-Size: 107420
-SHA256sum: 2a1f0df6cb3b6ef8ee88c9add5a1d23aa8ffdcee6bb814d891e4d8bbcc1c3eae
+Filename: ca-bundle_20260816-r2_all.ipk
+Size: 107077
+SHA256sum: 69d7151b917f256615560b181401b7e94c966efddef79873e2c7d7ae66d80998
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
-Version: 20260816-r1
+Version: 20260816-r2
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -24,12 +24,12 @@ SourceName: ca-certificates
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1790454122
+SourceDateEpoch: 1792570787
 Architecture: all
 Installed-Size: 337920
-Filename: ca-certificates_20260816-r1_all.ipk
-Size: 116213
-SHA256sum: 80c7881ffe8c3077ef0093e5c5e4e8fec2ccaa8cc9b3b26c63fb1927fb36b6b9
+Filename: ca-certificates_20260816-r2_all.ipk
+Size: 115875
+SHA256sum: 8ae0867bdce879a5571843b850c2ed20579cf54dece2a22a5e82dd388784b697
 Description:  System CA certificates
 
 Package: fastfetch
@@ -859,8 +859,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 50135040
 Filename: mihomo-alpha_2026.08.16_x86_64.ipk
-Size: 18593749
-SHA256sum: cea1416f1d82220a0fea7466b63faa2f72030dc0809a8a132aae6e4fb81383b4
+Size: 18593814
+SHA256sum: 75ef381bc7ffb0f24ce9ab42e7985ecd2aa8dea0a3cb00f59753aceb5e05f407
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -879,8 +879,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: x86_64
 Installed-Size: 61153280
 Filename: mihomo-meta_1.19.32_x86_64.ipk
-Size: 22555283
-SHA256sum: 5845e2b2f77bc22086c11e2e94b7387531fee249ea93696eaab0a5c9e3b2a797
+Size: 22555371
+SHA256sum: 82d3fff4e1d4403df697fac99ef050d0082fb50645d53806049158055c14aa17
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1330,7 +1330,7 @@ SHA256sum: dd460b0b2197593ddb14e85ef047709af2accad61628aeddcf181cba13af6106
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.10.23-r1
+Version: 2026.10.24-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1342,13 +1342,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 153600
-Filename: v2ray-geoip_2026.10.23-r1_all.ipk
-Size: 32978
-SHA256sum: acddecf01f45d674c215bfc841375e9a9e45be2f6a2bf6643066bab4b76c341e
+Filename: v2ray-geoip_2026.10.24-r1_all.ipk
+Size: 33121
+SHA256sum: 62531cc937c90d304d0d842b6dba0c1554522cdb19041acf47b9cc59789099b3
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.10.23-r1
+Version: 2026.10.24-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1359,10 +1359,10 @@ SourceDateEpoch: 1737793858
 URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 11386880
-Filename: v2ray-geosite_2026.10.23-r1_all.ipk
-Size: 3753595
-SHA256sum: f8a1bc4220d9110c7815ae66329e48a21f1d8ee1831e863d78c46bbfa4bb7d0e
+Installed-Size: 11397120
+Filename: v2ray-geosite_2026.10.24-r1_all.ipk
+Size: 3753015
+SHA256sum: 843a03c59bd3bde3304942b033d527990f8dbf9eacf521754610cee5007f141e
 Description:  Geosite List for V2Ray
 
 Package: vector
