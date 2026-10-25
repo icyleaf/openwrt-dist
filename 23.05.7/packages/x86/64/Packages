@@ -590,10 +590,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 21292316
+Installed-Size: 21292327
 Filename: mihomo-alpha_2026.08.16_x86_64.ipk
-Size: 21228621
-SHA256sum: 4cd6fa51b2c5eb0ca870bae05a9c91c8b7c360122b43ec24f08e9de42d490ba8
+Size: 21228384
+SHA256sum: 84faf8488d43ac7c9ff8208e5c60b7ee95d3bdfa486b1f91facd0c351ba5d80a
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -605,10 +605,10 @@ Alternatives: 300:/usr/bin/mihomo:/usr/libexec/mihomo
 License: GPL3.0+
 Section: net
 Architecture: x86_64
-Installed-Size: 25448407
+Installed-Size: 25448411
 Filename: mihomo-meta_1.19.32_x86_64.ipk
-Size: 25378836
-SHA256sum: 161084d9d9b53ccaf4e9ead3205a28185723f3fcd5b92bd63233805fb4d1f585
+Size: 25379070
+SHA256sum: 96d1ba621587736087b4b10241c05e0be145610e7ef019eac64a340e42c71a5c
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -948,10 +948,10 @@ Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 3752690
+Installed-Size: 3757831
 Filename: v2ray-geosite_2026.10.24-1_all.ipk
-Size: 3752987
-SHA256sum: 33549a6549b0cfacea87404e609602edea27fbc2aa6f8eef37a4ec7829a03283
+Size: 3758203
+SHA256sum: 4e763992a3ee52f7d027b3af210de8a61be97d79e2f43e6ec060e7f11a1ed5b5
 Description:  Geosite List for V2Ray
 
 Package: vector
