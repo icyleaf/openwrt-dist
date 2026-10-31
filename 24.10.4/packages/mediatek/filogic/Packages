@@ -367,7 +367,7 @@ SHA256sum: 26fe9683f4277682759825f7ae03d4af0df4967d6fe948b98a1a9d57080272d0
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libucode20230711
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, libjson-c5
 Provides: libucode
 License: ISC
@@ -375,9 +375,9 @@ Section: libs
 ABIVersion: 20230711
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
-Filename: libucode20230711_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 81060
-SHA256sum: 8d3c0005c6c143f96ea6af07768d6ca334e741a99e45329e5e5e95987cf413f6
+Filename: libucode20230711_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 81084
+SHA256sum: 5482485aae2c392ee740c6196c41e887a401bb0b94fd6648b1ad15bbe566e549
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: lua-examples
@@ -646,8 +646,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 47134720
 Filename: mihomo-alpha_2026.08.16_aarch64_cortex-a53.ipk
-Size: 17032477
-SHA256sum: 5c8c3e4f85c048fca53fc19f3032c77cd453c4a14ba4a0b68c972c8ec3776191
+Size: 17032513
+SHA256sum: 8c880ebff6f5df1933fd19e3225b775333c6cb14530a98041106820c1cf025b0
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -662,8 +662,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 58030080
 Filename: mihomo-meta_1.19.32_aarch64_cortex-a53.ipk
-Size: 20869868
-SHA256sum: dac9d5b7a91603d807914f6f8afc96555f5f46529a152925cc44b223cd6f49ad
+Size: 20870060
+SHA256sum: 37319a72a028976081a4570060f1f8768ef6a0adeeeb07fc4fd568c240654761
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -821,171 +821,171 @@ SHA256sum: ebd22de5a33c7c158c2de3a51bf19be7a63041c8b30f5f609944d630b95713b1
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: ucode-mod-debug
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode, libubox20240329, libucode20230711
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-debug_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 9373
-SHA256sum: bd2d2d9a96969e8925853a6aff787721107d28b556f9d0ff653101589cfbb6c6
+Filename: ucode-mod-debug_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 9377
+SHA256sum: 13f178fd7fd5b8a230035c6a3e864c3aca759c7eb17c8866c83d767af93f69db
 Description:  The debug plugin module provides runtime debugging and introspection facilities.
 
 Package: ucode-mod-digest
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-digest_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 17659
-SHA256sum: 4297e21d648710c17286d981eb2d5da7f4c82754b92f5d53634a3bce77bdc748
+Filename: ucode-mod-digest_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 17674
+SHA256sum: 8a55c9f6916e3e95d48cdad1662bd17242aaca5275b0f93a1d99b72e55bf0ef8
 Description:  The digest module allows ucode scripts to use libmd digests.
 
 Package: ucode-mod-fs
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-fs_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 12664
-SHA256sum: 4c7804a59d41a8432c13492e5a4b4efb00973ffae4264c8c02eb9af10b058115
+Filename: ucode-mod-fs_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 12666
+SHA256sum: 90632000b9a9275d6e90270386e7fb116fff32c4693d4abedead6194a8bfa5b1
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-log
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode, libubox20240329
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-log_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 5259
-SHA256sum: c8984fa59f8ec72a6958e4852d6e398dd808aa06de0846eab3ffcb2ad895f046
+Filename: ucode-mod-log_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 5258
+SHA256sum: 57216dc8a990b0af91e87033b96d9096fd25d3c286606e3e434e22a5081eccbd
 Description:  The log plugin module provides access to the syslog and libubox ulog APIs.
 
 Package: ucode-mod-math
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-math_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 3584
-SHA256sum: ed493b58701927a7dd79dabce0f709b1b9ff76604043904de0c51a027715e554
+Filename: ucode-mod-math_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 3583
+SHA256sum: 594ea34951edd65ed0fbd1f7d8b3e81851e102efe2061b754cf05c2aa96e482f
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode, libnl-tiny1, libubox20240329
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: ucode-mod-nl80211_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 23620
-SHA256sum: ef1163530c207f7af2ee5566dc2c50a91815337ae21074495104acd74db8db5a
+Filename: ucode-mod-nl80211_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 23627
+SHA256sum: 2485e15a5e88b913741f0285da1777ffb26d2c568c7c534690590a8a3bed5104
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-resolv
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-resolv_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 9061
-SHA256sum: edf75037a21798abad4536295eb1018ea9aac1d3fc8d07856126e5d0991af1d4
+Filename: ucode-mod-resolv_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 9070
+SHA256sum: 11a6887c02c6b7dcf02caf76253249a518e60787d70a8ca36be52e519f6e4b70
 Description:  The resolv plugin implements simple DNS resolving.
 
 Package: ucode-mod-rtnl
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode, libnl-tiny1, libubox20240329
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: ucode-mod-rtnl_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 28689
-SHA256sum: 9e9b3d346e76dc64cbb206d4edf38d3d5ddd11375dcb0dc3640498b150855f96
+Filename: ucode-mod-rtnl_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 28697
+SHA256sum: 863ceb4f4ee365b078b466ac1dd7968fc0c1c243aa664dbe53aecf9996c63af5
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-socket
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
-Filename: ucode-mod-socket_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 25474
-SHA256sum: 90e38929febf22f78af86cf985b0767d63605fd507e726c798e12a109469654f
+Filename: ucode-mod-socket_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 25480
+SHA256sum: ba207960edfc41ac2dd4acd999a85ef9634018220209a267b70bf9f84ba6531e
 Description:  The socket plugin provides access to IPv4
 
 Package: ucode-mod-struct
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-struct_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 12790
-SHA256sum: 8ca01bd843a83b2b6a878238554fb6506761309c64c071ae4625d2147c702258
+Filename: ucode-mod-struct_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 12798
+SHA256sum: 526f3055e4c3ebbd41fa2158b35c2b3f0607a3190fad6b41a3163cc0df0db7a5
 Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
 
 Package: ucode-mod-ubus
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode, libubus20250102, libblobmsg-json20240329
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-ubus_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 19040
-SHA256sum: 9ef55bdb346c6e1295c790c949a1ae563ca666995edeed2b863300c5c3c31f88
+Filename: ucode-mod-ubus_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 19035
+SHA256sum: f631e2217808057e3a92c8c060a5de19ad036fd6123418dfe660546f0e095041
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
 
 Package: ucode-mod-uci
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode, libuci20250120
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-uci_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 9215
-SHA256sum: de4423781b147f03e7260d6f7b3f9883fdea7dbabf44cca1a259e6decc97df8f
+Filename: ucode-mod-uci_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 9213
+SHA256sum: 78c4aa34d60f8a0b5cc663182b40e51989ec75889716779b2c090ed57adcdb0d
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, ucode, libubox20240329
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode-mod-uloop_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 10259
-SHA256sum: 2ee5554191e205aebe4e9033b686cb07c2e0b5ce16ee744554549a043af61c58
+Filename: ucode-mod-uloop_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 10263
+SHA256sum: ad57c1e418bbd47980c7716af695fedb1da78e981dba1d182891adbb11cb897a
 Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
 
 Package: ucode
-Version: 2025.07.18~3f64c808-r1
+Version: 2025.07.18~3f64c808-r2
 Depends: libc, libucode20230711
 License: ISC
 Section: lang
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: ucode_2025.07.18~3f64c808-r1_aarch64_cortex-a53.ipk
-Size: 7695
-SHA256sum: 18ddb13ab7bd5464b75afa2d8ca515957ffbb3e6cd0d5178596a297728666945
+Filename: ucode_2025.07.18~3f64c808-r2_aarch64_cortex-a53.ipk
+Size: 7696
+SHA256sum: 4524f457f9a413cc8d4a0f79150a92d204b7d77ccab802e6596ee7c3ab6ecd47
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -1003,29 +1003,29 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.10.30-r1
+Version: 2026.10.31-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 153600
-Filename: v2ray-geoip_2026.10.30-r1_all.ipk
+Filename: v2ray-geoip_2026.10.31-r1_all.ipk
 Size: 33070
-SHA256sum: ffe0123027038b13b51c186cecccce5c6a6e4e4e5bfd785d25dffd0916ce6cb6
+SHA256sum: 5a4bde1d56eb838507ba63a703a1d5b099240d1499b0c31b0e06eab97883a212
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.10.30-r1
+Version: 2026.10.31-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
 Installed-Size: 11315200
-Filename: v2ray-geosite_2026.10.30-r1_all.ipk
-Size: 3699265
-SHA256sum: 3e448bba1307e7c4dd31f3e856dbfc90a1001d1e8bfb1f91b51c8b66310dab8f
+Filename: v2ray-geosite_2026.10.31-r1_all.ipk
+Size: 3696480
+SHA256sum: a7a93e3d0e30f20f082cd9bebcb47062fab1d14544428dcf0af1e5358e3ff16a
 Description:  Geosite List for V2Ray
 
 Package: vector
