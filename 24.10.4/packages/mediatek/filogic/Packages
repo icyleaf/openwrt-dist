@@ -646,8 +646,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 47134720
 Filename: mihomo-alpha_2026.08.16_aarch64_cortex-a53.ipk
-Size: 17032583
-SHA256sum: 7326248ee85ff691aa0b9e411e763f4cd9d750996fd0c6a819a9d9dc7463cf89
+Size: 17032513
+SHA256sum: d90778d7e4b11907a630aa986e7c00b9832d12cb817653d4f06c98b0ee8999bf
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -662,8 +662,8 @@ URL: https://wiki.metacubex.one
 Architecture: aarch64_cortex-a53
 Installed-Size: 58030080
 Filename: mihomo-meta_1.19.32_aarch64_cortex-a53.ipk
-Size: 20869981
-SHA256sum: 98ac4d26d9857a5b799cd14eb2bb04ef0c4e98dd91add706a01d177637e4d7a1
+Size: 20869874
+SHA256sum: 97a5b056980d640449328a94b1796f07a14ea9de6449c4915dd99ca0dd019607
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1003,29 +1003,29 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.11.02-r1
+Version: 2026.11.03-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 153600
-Filename: v2ray-geoip_2026.11.02-r1_all.ipk
-Size: 33070
-SHA256sum: b05c5b28ac5897f8b9c0dde4ee2ff33e53f60511f80c224d88382fdec8c33356
+Installed-Size: 143360
+Filename: v2ray-geoip_2026.11.03-r1_all.ipk
+Size: 32172
+SHA256sum: be8325675654350d7a5fa356d20d21a4645c2c2915e66f801e253cce220cf51f
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.11.02-r1
+Version: 2026.11.03-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 11335680
-Filename: v2ray-geosite_2026.11.02-r1_all.ipk
-Size: 3707249
-SHA256sum: 29a905086f99f7eddafa1bb2904975310d5cf8bd84db17e8ab79d3594f584868
+Installed-Size: 11376640
+Filename: v2ray-geosite_2026.11.03-r1_all.ipk
+Size: 3719191
+SHA256sum: 30f973ebfd404c25bc8060339863c7f5de57af39a3481bab7a2a97fce95e742c
 Description:  Geosite List for V2Ray
 
 Package: vector
