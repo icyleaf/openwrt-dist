@@ -837,8 +837,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 47134720
 Filename: mihomo-alpha_2026.08.16_aarch64_cortex-a53.ipk
-Size: 17032584
-SHA256sum: 64c02409aabd1ee08e92d38bcae35ca4fd474e6d00b7b1581fd6d82dd4031d07
+Size: 17032653
+SHA256sum: 0718390aa9bd4c8e58fb5cf28486105e63df1f548b047e67e2840b754fe56ddb
 Description:  A rule based proxy in Go.
 
 Package: mihomo-meta
@@ -857,8 +857,8 @@ Maintainer: Joseph Mory <morytyann@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 58030080
 Filename: mihomo-meta_1.19.32_aarch64_cortex-a53.ipk
-Size: 20869800
-SHA256sum: f25ff22cbea87f71fd24fde8cb9af23e6f797051b0f33a24f8ab30d2b297393a
+Size: 20869910
+SHA256sum: e18c6679ced3d43156319cec1adaa792f01eda7cbf3007e508b7ae0d4c6dd515
 Description:  A rule based proxy in Go.
 
 Package: momo
@@ -1308,7 +1308,7 @@ SHA256sum: 8faefeb42590a6edf9166ace89ca4ec9d84586f76ef5b586f3caed55f6b8ae27
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2026.11.06-r1
+Version: 2026.11.07-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1320,13 +1320,13 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 143360
-Filename: v2ray-geoip_2026.11.06-r1_all.ipk
+Filename: v2ray-geoip_2026.11.07-r1_all.ipk
 Size: 32133
-SHA256sum: 59efe7c3fb47be5f5d12e6959f938847b0003f7bbd62cc08315d554e1f7e8ad1
+SHA256sum: d9dd796f1d5b0d73b954a8d4eef6309e6a54d761374f23f6171b046d6fbef74f
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2026.11.06-r1
+Version: 2026.11.07-r1
 Depends: libc
 Source: feeds/base/v2ray-geodata
 SourceName: v2ray-geodata
@@ -1338,9 +1338,9 @@ URL: https://www.v2fly.org
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 11427840
-Filename: v2ray-geosite_2026.11.06-r1_all.ipk
-Size: 3737415
-SHA256sum: 54d140036a953a09ac46708210c5e5d31c28c7206521a3238ba4fcb9c529bd01
+Filename: v2ray-geosite_2026.11.07-r1_all.ipk
+Size: 3746876
+SHA256sum: 5df0a8d7921d2697b3dd72adbfceb76c9b89d504644804b882062ee1587c86ec
 Description:  Geosite List for V2Ray
 
 Package: vector
